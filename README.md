@@ -9,22 +9,22 @@
 
 # To do:
 
--build product component
--build catalogue main page
--build navigation and filter options component
--build pagination component
--setup the logic to display products in a product component
--setup logic to filter products by category , price
--setup logic for the pagination , navigate to last , first page , next and previous page
--setup the logic to display current page number as well as all available pages .
--setup the logic to display 2 products per page .
--add abillity to swipe the products on mobile devices .
--add all CSS styling and media queries for mobile , tablet and desktop devices.
--add products to favourites with local storage .
+- build product component
+- build catalogue main page
+- build navigation and filter options component
+- build pagination component
+- setup the logic to display products in a product component
+- setup logic to filter products by category , price
+- setup logic for the pagination , navigate to last , first page , next and previous page
+- setup the logic to display current page number as well as all available pages .
+- setup the logic to display 2 products per page .
+- add abillity to swipe the products on mobile devices .
+- add all CSS styling and media queries for mobile , tablet and desktop devices.
+- add products to favourites with local storage .
 
 # Features implemented :
 
--Redux setup
+- Redux setup
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
