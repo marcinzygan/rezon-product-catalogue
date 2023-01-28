@@ -1,38 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+👋 Hi, I’m @marcinzygan
 
-## Getting Started
+# This is Next.js App an online product catalouge for Rezon.eu"
 
-First, run the development server:
+- I've been asked to prepare an online cataloge for my current employer.
+- The idea is to showcase about 200 products , including title , image , description , price and technology used .
+- This project will use redux as state managment .
+- The data for this project was taken from excel file and parsed to json object and saved in a file . In the future API will be built.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# To do:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-build product component
+-build catalogue main page
+-build navigation and filter options component
+-build pagination component
+-setup the logic to display products in a product component
+-setup logic to filter products by category , price
+-setup logic for the pagination , navigate to last , first page , next and previous page
+-setup the logic to display current page number as well as all available pages .
+-setup the logic to display 2 products per page .
+-add abillity to swipe the products on mobile devices .
+-add all CSS styling and media queries for mobile , tablet and desktop devices.
+-add products to favourites with local storage .
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Features implemented :
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+-Redux setup
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Have a nice day 🌞
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# This project is Live <a href="">NOT YET !</a> ! Enjoy .
