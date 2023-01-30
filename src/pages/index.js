@@ -1,7 +1,9 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
+
 import { useDispatch, useSelector } from "react-redux";
 import { nextPage } from "@/state/paginationSlice";
+import ProductCard from "@/components/productCard/ProductCard";
+
 export default function Home() {
   const dispatch = useDispatch();
   const pageNumber = useSelector((state) => state.page.currentPage);
@@ -13,10 +15,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main>
         <div>HELLO</div>
         <button onClick={() => dispatch(nextPage())}>+</button>
         <p>{pageNumber}</p>
+        <ProductCard />
       </main>
     </>
   );

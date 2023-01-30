@@ -9,6 +9,7 @@
 
 # To do:
 
+- Figma design for app layout
 - build product component
 - build catalogue main page
 - build navigation and filter options component
