@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import { useDispatch, useSelector } from "react-redux";
 import { nextPage } from "@/state/paginationSlice";
-import ProductCard from "@/components/ProductCard";
+import ProductCard from "@/components/productCard/ProductCard";
 
 export default function Home() {
   const dispatch = useDispatch();
