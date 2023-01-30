@@ -25,6 +25,7 @@
 # Features implemented :
 
 - Redux setup
+- Display products
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
