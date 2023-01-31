@@ -1,18 +1,25 @@
 import clasess from "./filterMenu.module.css";
 import React from "react";
+import { useDispatch } from "react-redux";
+import { filterProducts } from "@/state/productsDataSlice";
+import { setPage } from "@/state/paginationSlice";
 
 const FilterMenu = () => {
-  const handleCHange = function (e) {
+  const dispatch = useDispatch();
+  //FUNCTION TO FILTER CATEGORIES
+  const handleFilter = function (e) {
     e.preventDefault();
 
     const filterOption = e.target.value;
     console.log(filterOption);
+    dispatch(setPage(1));
+    dispatch(filterProducts(filterOption));
   };
 
   return (
     <div>
-      <select onChange={handleCHange}>
-        <option value="All">Wszystkie</option>
+      <select onChange={handleFilter}>
+        <option value="wszystkie">Wszystkie</option>
         <option value="magnesy">Magnesy</option>
         <option value="breloki">Breloki</option>
         <option value="otwieracze">Otwieracze</option>

@@ -8,6 +8,9 @@ const paginationSlice = createSlice({
   name: "page",
   initialState,
   reducers: {
+    setPage: (state, data) => {
+      state.currentPage = data.payload;
+    },
     nextPage: (state, data) => {
       if (state.currentPage >= data.payload) {
         return;
@@ -28,6 +31,6 @@ const paginationSlice = createSlice({
     },
   },
 });
-export const { nextPage, prevPage, firstPage, lastPage } =
+export const { nextPage, prevPage, firstPage, lastPage, setPage } =
   paginationSlice.actions;
 export default paginationSlice.reducer;
