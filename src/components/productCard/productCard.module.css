@@ -1,3 +1,18 @@
-.background {
+.cards__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
   background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

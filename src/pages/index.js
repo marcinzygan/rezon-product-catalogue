@@ -16,9 +16,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>HELLO</div>
-        <button onClick={() => dispatch(nextPage())}>+</button>
-        <p>{pageNumber}</p>
         <ProductCard />
       </main>
     </>
