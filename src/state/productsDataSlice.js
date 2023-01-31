@@ -3,6 +3,7 @@ import { productsData } from "../data/productsData.js";
 
 const initialState = {
   originalData: productsData,
+  productCards: productsData,
 };
 
 const productsDataSlice = createSlice({
