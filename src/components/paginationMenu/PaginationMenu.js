@@ -13,10 +13,11 @@ const PaginationMenu = (props) => {
   return (
     <div>
       <button onClick={() => dispatch(firstPage())}>first</button>
+      <button onClick={() => dispatch(prevPage())}>prev</button>
       <button onClick={() => dispatch(nextPage(props.numberOfPages))}>
         next
       </button>
-      <button onClick={() => dispatch(prevPage())}>prev</button>
+
       <button onClick={() => dispatch(lastPage(props.numberOfPages))}>
         last
       </button>

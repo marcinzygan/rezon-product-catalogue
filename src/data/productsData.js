@@ -467,12 +467,10 @@ export const productsData = [
     opis: "Barwny magnes wykonany w technologii full color. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
     cena: 2.5,
   },
-  {
-    Zdjęcie: "BRELOKI",
-  },
+
   {
     id: 53,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK39-EKO2",
     identyfikator: "BRELOK ECO",
@@ -481,7 +479,7 @@ export const productsData = [
   },
   {
     id: 54,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK18-014",
     identyfikator: "BRELOK METALOWY GRAWEROWANY",
@@ -490,7 +488,7 @@ export const productsData = [
   },
   {
     id: 55,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK28-016A",
     identyfikator: "BRELOK METALOWY Z DŻETAMI",
@@ -499,7 +497,7 @@ export const productsData = [
   },
   {
     id: 56,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK38-003AB",
     identyfikator: "BRELOK METALOWY Z IMITACJĄ SKÓRY",
@@ -508,7 +506,7 @@ export const productsData = [
   },
   {
     id: 57,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK41-031C",
     identyfikator: "BRELOK OBCINACZKI OTWIERACZ",
@@ -517,7 +515,7 @@ export const productsData = [
   },
   {
     id: 58,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OBROTOWY",
     identyfikator: "BRELOK OBROTOWY BECZKA",
@@ -526,7 +524,7 @@ export const productsData = [
   },
   {
     id: 59,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OBROTOWY",
     identyfikator: "BRELOK OBROTOWY KOŁO",
@@ -535,7 +533,7 @@ export const productsData = [
   },
   {
     id: 60,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OBROTOWY",
     identyfikator: "BRELOK OBROTOWY PROSTOKĄT",
@@ -544,7 +542,7 @@ export const productsData = [
   },
   {
     id: 61,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OBROTOWY",
     identyfikator: "BRELOK OBROTOWY SERCE",
@@ -553,7 +551,7 @@ export const productsData = [
   },
   {
     id: 62,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK29-054D",
     identyfikator: "BRELOK OTWIERACZ ALUMINIOWY",
@@ -562,7 +560,7 @@ export const productsData = [
   },
   {
     id: 63,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BR OTWIERACZ 1",
     identyfikator: "BRELOK OTWIERACZ METAL BUTELKA 1",
@@ -571,7 +569,7 @@ export const productsData = [
   },
   {
     id: 64,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OTWIERACZ-1",
     identyfikator: "BRELOK OTWIERACZ METAL BUTELKA 2",
@@ -580,7 +578,7 @@ export const productsData = [
   },
   {
     id: 65,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OTWIERACZ-3",
     identyfikator: "BRELOK OTWIERACZ METAL KAPSEL",
@@ -589,7 +587,7 @@ export const productsData = [
   },
   {
     id: 66,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK OTWIERACZ-2",
     identyfikator: "BRELOK OTWIERACZ METAL STOPA",
@@ -598,7 +596,7 @@ export const productsData = [
   },
   {
     id: 67,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK41-031D",
     identyfikator: "BRELOK OTWIERACZ SCYZORYK",
@@ -607,7 +605,7 @@ export const productsData = [
   },
   {
     id: 68,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BR OTWIERACZ 2",
     identyfikator: "BRELOK OTWIERACZ SZKŁO",
@@ -616,7 +614,7 @@ export const productsData = [
   },
   {
     id: 69,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK METAL",
     identyfikator: "BRELOK POTRÓJNY KARTKA",
@@ -625,7 +623,7 @@ export const productsData = [
   },
   {
     id: 70,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK METAL",
     identyfikator: "BRELOK POTRÓJNY SERCE",
@@ -634,7 +632,7 @@ export const productsData = [
   },
   {
     id: 71,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK30-BRELOK SERCE",
     identyfikator: "BRELOK SERCE AKRYL",
@@ -643,7 +641,7 @@ export const productsData = [
   },
   {
     id: 72,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "DK29-054E",
     identyfikator: "BRELOK SILIKONOWY",
@@ -652,7 +650,7 @@ export const productsData = [
   },
   {
     id: 73,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK SZKŁO",
     identyfikator: "BRELOK SZKŁO KOŁO",
@@ -661,7 +659,7 @@ export const productsData = [
   },
   {
     id: 74,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK SZKŁO",
     identyfikator: "BRELOK SZKŁO KOTWICA",
@@ -670,7 +668,7 @@ export const productsData = [
   },
   {
     id: 75,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK SZKŁO",
     identyfikator: "BRELOK SZKŁO STER",
@@ -679,7 +677,7 @@ export const productsData = [
   },
   {
     id: 76,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK TABLICA",
     identyfikator: "BRELOK TABLICA",
@@ -688,19 +686,17 @@ export const productsData = [
   },
   {
     id: 77,
-    category: "",
+    category: "breloki",
     image: "",
     indeks_pc: "BRELOK TAŚMA",
     identyfikator: "BRELOK TAŚMA",
     opis: "Brelok w formie elastycznej tasiemki z poliestru z metalowym zapięciem. Idealny przedmiot do plecaka, torby podróżnej,  kluczy lub jako wykończenie zamka błyskawicznego kurtki. Brelok posiada nadrukowane elementy z imieniem, hasłem,  grafiką lub nazwą miejscowości. Dostępne w 12 różnorodnych kolorach",
     cena: 4.5,
   },
-  {
-    Zdjęcie: "OTWIERACZE DO BUTELEK",
-  },
+
   {
     id: 78,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "KORKOCIĄG-1",
     identyfikator: "KORKOCIĄG BUTELKA",
@@ -709,7 +705,7 @@ export const productsData = [
   },
   {
     id: 79,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "KORKOCIĄG-2",
     identyfikator: "KORKOCIĄG OTWIERACZ",
@@ -718,7 +714,7 @@ export const productsData = [
   },
   {
     id: 80,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "MAGNES OTWIERACZ",
     identyfikator: "MAGNES OTWIERACZ BUTELKA",
@@ -727,7 +723,7 @@ export const productsData = [
   },
   {
     id: 81,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "DK32-KAPSEL CHROM",
     identyfikator: "OTWIERACZ KAPSEL CHROM",
@@ -736,7 +732,7 @@ export const productsData = [
   },
   {
     id: 82,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "CHROM-ŻYWICA",
     identyfikator: "OTWIERACZ KAPSEL CHROM",
@@ -745,7 +741,7 @@ export const productsData = [
   },
   {
     id: 83,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ METAL",
     identyfikator: "OTWIERACZ METAL KOŁO",
@@ -754,7 +750,7 @@ export const productsData = [
   },
   {
     id: 84,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ METAL",
     identyfikator: "OTWIERACZ METAL KOSZULKA",
@@ -763,7 +759,7 @@ export const productsData = [
   },
   {
     id: 85,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ METAL",
     identyfikator: "OTWIERACZ METAL KOTWICA",
@@ -772,7 +768,7 @@ export const productsData = [
   },
   {
     id: 86,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ METAL",
     identyfikator: "OTWIERACZ METAL MOSIĄDZ",
@@ -781,7 +777,7 @@ export const productsData = [
   },
   {
     id: 87,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ METAL",
     identyfikator: "OTWIERACZ METAL OWAL",
@@ -790,7 +786,7 @@ export const productsData = [
   },
   {
     id: 88,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ METAL",
     identyfikator: "OTWIERACZ METAL STER",
@@ -799,7 +795,7 @@ export const productsData = [
   },
   {
     id: 89,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ PLAST",
     identyfikator: "OTWIERACZ PLAST KOŁO",
@@ -808,7 +804,7 @@ export const productsData = [
   },
   {
     id: 90,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ ŻYWICA",
     identyfikator: "OTWIERACZ PLAST KOŁO ŻYWICA",
@@ -817,7 +813,7 @@ export const productsData = [
   },
   {
     id: 91,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ PLAST",
     identyfikator: "OTWIERACZ PLAST OWAL",
@@ -826,7 +822,7 @@ export const productsData = [
   },
   {
     id: 92,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ ŻYWICA",
     identyfikator: "OTWIERACZ PLAST OWAL ŻYWICA",
@@ -835,7 +831,7 @@ export const productsData = [
   },
   {
     id: 93,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ PLAST",
     identyfikator: "OTWIERACZ PLAST PROSTOKĄT",
@@ -844,7 +840,7 @@ export const productsData = [
   },
   {
     id: 94,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ ŻYWICA",
     identyfikator: "OTWIERACZ PLAST PROSTOKĄT ŻYWICA",
@@ -853,7 +849,7 @@ export const productsData = [
   },
   {
     id: 95,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ PLAST",
     identyfikator: "OTWIERACZ PLAST STOPA",
@@ -862,7 +858,7 @@ export const productsData = [
   },
   {
     id: 96,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ ŻYWICA",
     identyfikator: "OTWIERACZ PLAST STOPA ŻYWICA",
@@ -871,7 +867,7 @@ export const productsData = [
   },
   {
     id: 97,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ POLIRESING-1",
     identyfikator: "OTWIERACZ POLIRESING KAPSEL",
@@ -880,7 +876,7 @@ export const productsData = [
   },
   {
     id: 98,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ ŻYWICA",
     identyfikator: "OTWIERACZ POLIRESING KAPSEL ŻYWICA",
@@ -889,7 +885,7 @@ export const productsData = [
   },
   {
     id: 99,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ DREWNO",
     identyfikator: "OTWIERACZ DREWNO BUTELKA",
@@ -898,7 +894,7 @@ export const productsData = [
   },
   {
     id: 100,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "OTWIERACZ DREWNO",
     identyfikator: "OTWIERACZ DREWNO MUSZLA",
@@ -907,19 +903,17 @@ export const productsData = [
   },
   {
     id: 101,
-    category: "",
+    category: "otwieracze",
     image: "",
     indeks_pc: "DK41-079A",
     identyfikator: "OTWIERACZ METAL 1",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Produkt zapakowany w woreczek.",
     cena: 8,
   },
-  {
-    Zdjęcie: "KUBKI I PODKŁADKI",
-  },
+
   {
     id: 102,
-    category: "",
+    category: "kubki i podkładki",
     image: "",
     indeks_pc: "KIELISZEK ",
     identyfikator: "KIELISZEK ",
@@ -928,7 +922,7 @@ export const productsData = [
   },
   {
     id: 103,
-    category: "",
+    category: "kubki i podkładki",
     image: "",
     indeks_pc: "DK30-KUBEK",
     identyfikator: "KUBEK CERAMICZNY KOLOROWY",
@@ -937,7 +931,7 @@ export const productsData = [
   },
   {
     id: 104,
-    category: "",
+    category: "kubki i podkładki",
     image: "",
     indeks_pc: "DK40-KUBEK PRL",
     identyfikator: "KUBEK CERAMICZNY PRL",
@@ -946,7 +940,7 @@ export const productsData = [
   },
   {
     id: 105,
-    category: "",
+    category: "kubki i podkładki",
     image: "",
     indeks_pc: "DK37-001A",
     identyfikator: "KUBEK CERAMICZNY WIELOKOLOROWY",
@@ -955,7 +949,7 @@ export const productsData = [
   },
   {
     id: 106,
-    category: "",
+    category: "kubki i podkładki",
     image: "",
     indeks_pc: "PODKŁADKA KOREK",
     identyfikator: "PODKŁADKA Z KORKA",
@@ -965,7 +959,7 @@ export const productsData = [
 
   {
     id: 107,
-    category: "",
+    category: "kubki i podkładki",
     image: "",
     indeks_pc: "DK40-025C",
     identyfikator: "DŁUGopis KRYSZTAŁ Z GUMKĄ",
@@ -974,7 +968,7 @@ export const productsData = [
   },
   {
     id: 108,
-    category: "",
+    category: "długopisy",
     image: "",
     indeks_pc: "DK40-025D",
     identyfikator: "DŁUGopis KRYSZTAŁ Z OCZKIEM",
@@ -983,7 +977,7 @@ export const productsData = [
   },
   {
     id: 109,
-    category: "",
+    category: "długopisy",
     image: "",
     indeks_pc: "DK29-037A",
     identyfikator: "DŁUGopis METALOWY 2",
@@ -992,7 +986,7 @@ export const productsData = [
   },
   {
     id: 110,
-    category: "",
+    category: "długopisy",
     image: "",
     indeks_pc: "DK40-025A",
     identyfikator: "DŁUGopis METALOWY 3",
@@ -1001,7 +995,7 @@ export const productsData = [
   },
   {
     id: 111,
-    category: "",
+    category: "długopisy",
     image: "",
     indeks_pc: "DK40-025E",
     identyfikator: "DŁUGopis METALOWY 4",
@@ -1010,7 +1004,7 @@ export const productsData = [
   },
   {
     id: 112,
-    category: "",
+    category: "długopisy",
     image: "",
     indeks_pc: "DK40-025B",
     identyfikator: "DŁUGopis METALOWY CZARNY",
@@ -1019,19 +1013,17 @@ export const productsData = [
   },
   {
     id: 113,
-    category: "",
+    category: "długopisy",
     image: "",
     indeks_pc: "DŁ ZMAZYWALNY",
     identyfikator: "DŁUGopis ZMAZYWALNY",
     opis: "Długopis z wkładem który posiada specjalną gumkę umieszczoną na końcówce długopisu, która ściera nie pozostawiając śladu. Długopis występuje w 8 kolorach. Jakość wykonania nie odbiega od markowych długopisów, wielokrotnie droższych. Wkład najwyższej jakości z datą przydatności około rok od rozpoczęcia użytkowania. Produkt posiada trwały nadruk, zapakowany na kolorowej kartce.",
     cena: 4.5,
   },
-  {
-    Zdjęcie: "CZAPKI I NAKRYCIA GŁOWY",
-  },
+
   {
     id: 114,
-    category: "",
+    category: "czapki i nakrycia głowy",
     image: "",
     indeks_pc: "DK27-003",
     identyfikator: "CHUSTA NA GŁOWĘ Z APLIKACJĄ",
@@ -1040,7 +1032,7 @@ export const productsData = [
   },
   {
     id: 115,
-    category: "",
+    category: "czapki i nakrycia głowy",
     image: "",
     indeks_pc: "DK27-NAME B/G",
     identyfikator: "CZAPKA HIP HOP",
@@ -1049,7 +1041,7 @@ export const productsData = [
   },
   {
     id: 116,
-    category: "",
+    category: "czapki i nakrycia głowy",
     image: "",
     indeks_pc: "DK27-002 (CZAPKA)\n\nPASEK KAPITAN",
     identyfikator: "CZAPKA KAPITAŃSKA",
@@ -1058,19 +1050,17 @@ export const productsData = [
   },
   {
     id: 117,
-    category: "",
+    category: "czapki i nakrycia głowy",
     image: "",
     indeks_pc: "DK30-OPASKA",
     identyfikator: "OPASKA NA GŁOWĘ",
     opis: "Dziewczęca opaska na głowę + zestaw gumek do włosów. Oferujemy 4 kolory: fiolet, różowy, jasno różowy, jasny niebieski. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
   },
-  {
-    Zdjęcie: "BRANSOLETKI",
-  },
+
   {
     id: 118,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "BRANS MUSZLA D",
     identyfikator: "BRANSOLETKA MUSZLA DUŻA",
@@ -1079,7 +1069,7 @@ export const productsData = [
   },
   {
     id: 119,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "BRANS MUSZLA M",
     identyfikator: "BRANSOLETKA MUSZLA MAŁA",
@@ -1088,7 +1078,7 @@ export const productsData = [
   },
   {
     id: 120,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "DK29-054A",
     identyfikator: "BRANSOLETKA SILIKONOWA DUŻA",
@@ -1097,7 +1087,7 @@ export const productsData = [
   },
   {
     id: 121,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "DK29-054B",
     identyfikator: "BRANSOLETKA SILIKONOWA MAŁA",
@@ -1106,7 +1096,7 @@ export const productsData = [
   },
   {
     id: 122,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "DK30-052",
     identyfikator: "BRANSOLETKA SKÓRZANA",
@@ -1115,7 +1105,7 @@ export const productsData = [
   },
   {
     id: 123,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "BRANSOLETKA SZKŁO",
     identyfikator: "BRANSOLETKA SZKŁO IMIĘ 1",
@@ -1124,7 +1114,7 @@ export const productsData = [
   },
   {
     id: 124,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "BRANSOLETKA SZKŁO",
     identyfikator: "BRANSOLETKA SZKŁO IMIĘ 2",
@@ -1133,19 +1123,17 @@ export const productsData = [
   },
   {
     id: 125,
-    category: "",
+    category: "bransoletki",
     image: "",
     indeks_pc: "DK32-SZNUREK",
     identyfikator: "BRANSOLETKA SZNURKOWA",
     opis: "Bransoletka wykonana z miękkiego kolorowego sznurka z plastikowym elementem do graweru. Oferujemy 6 modnych kolorów po 3 dla dziewczynki i chłopca. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
   },
-  {
-    Zdjęcie: "TEKSTYLIA",
-  },
+
   {
     id: 126,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "CHUSTA MULTI",
     identyfikator: "CHUSTA WIELOFUNKCYJNA IMIENNA",
@@ -1154,7 +1142,7 @@ export const productsData = [
   },
   {
     id: 127,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "CHUSTA MULTI",
     identyfikator: "CHUSTA WIELOFUNKCYJNA Z APLIKACJĄ",
@@ -1163,7 +1151,7 @@ export const productsData = [
   },
   {
     id: 128,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "DK41-ECO PORTFEL 1",
     identyfikator: "PORTFEL /ETUI 1",
@@ -1172,7 +1160,7 @@ export const productsData = [
   },
   {
     id: 129,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "DK41-ECO PORTFEL 1",
     identyfikator: "PORTFEL /ETUI 2",
@@ -1181,7 +1169,7 @@ export const productsData = [
   },
   {
     id: 130,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "DK30-046CD (POSZEWKA)\n\nDK30-046E (WSAD)",
     identyfikator: "POSZEWKA MARYNISTYCZNA ",
@@ -1190,7 +1178,7 @@ export const productsData = [
   },
   {
     id: 131,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "KOSZULKA",
     identyfikator: "KOSZULKA DZIECIĘCA",
@@ -1199,7 +1187,7 @@ export const productsData = [
   },
   {
     id: 132,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "SKARPETA D",
     identyfikator: "SKARPETA DUŻA",
@@ -1208,7 +1196,7 @@ export const productsData = [
   },
   {
     id: 133,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "SKARPETA M",
     identyfikator: "SKARPETA MAŁA",
@@ -1217,7 +1205,7 @@ export const productsData = [
   },
   {
     id: 134,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "OP BUTELKA 3 - BAWEŁNA",
     identyfikator: "OPAKOWANIE NA BUTELKĘ BAWEŁNIANE",
@@ -1226,7 +1214,7 @@ export const productsData = [
   },
   {
     id: 135,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "OP BUTELKA 2 - LEN",
     identyfikator: "OPAKOWANIE NA BUTELKĘ LNIANE",
@@ -1235,7 +1223,7 @@ export const productsData = [
   },
   {
     id: 136,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "OP BUTELKA 1 - ORGANZA",
     identyfikator: "OPAKOWANIE NA BUTELKĘ Z ORGANZY",
@@ -1244,7 +1232,7 @@ export const productsData = [
   },
   {
     id: 137,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "DK41-TORBA ECO",
     identyfikator: "TORBA ECO",
@@ -1253,19 +1241,17 @@ export const productsData = [
   },
   {
     id: 138,
-    category: "",
+    category: "tekstylia",
     image: "",
     indeks_pc: "DK41-078AB (POSZEWKA)\n\nDK30-046B (WSAD)",
     identyfikator: "POSZEWKA MAŁA SUB",
     opis: "Poduszka (wsad i poszewka), produkt dostępny \nw wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
     cena: "10,00 zł (poszewka)\n\n2,00 zł (wsad)",
   },
-  {
-    Zdjęcie: "RAMKI DO ZDJĘĆ I TERMOMETRY",
-  },
+
   {
     id: 139,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA DUŻA 1",
@@ -1274,7 +1260,7 @@ export const productsData = [
   },
   {
     id: 140,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA DUŻA 2",
@@ -1283,7 +1269,7 @@ export const productsData = [
   },
   {
     id: 141,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA DUŻA 3",
@@ -1292,7 +1278,7 @@ export const productsData = [
   },
   {
     id: 142,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA DUŻA 4",
@@ -1301,7 +1287,7 @@ export const productsData = [
   },
   {
     id: 143,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA MAŁA 1",
@@ -1310,7 +1296,7 @@ export const productsData = [
   },
   {
     id: 144,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA MAŁA 2",
@@ -1319,7 +1305,7 @@ export const productsData = [
   },
   {
     id: 145,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA MAŁA 3",
@@ -1328,7 +1314,7 @@ export const productsData = [
   },
   {
     id: 146,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA MAŁA 4",
@@ -1337,19 +1323,17 @@ export const productsData = [
   },
   {
     id: 147,
-    category: "",
+    category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "DK41-TERMOMETR",
     identyfikator: "TERMOMETR MDF",
     opis: "Termometr wykonany z drewna dostępny w wielu ciekawych wzorach. Spora skala ułatwia odczytanie temperatury.",
     cena: 8,
   },
-  {
-    Zdjęcie: "AKCESORIA PODRÓŻNE",
-  },
+
   {
     id: 148,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "ETUI OKULARY",
     identyfikator: "ETUI NA OKULARY",
@@ -1358,7 +1342,7 @@ export const productsData = [
   },
   {
     id: 149,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK39-017A1",
     identyfikator: "KŁÓDKA DUŻA",
@@ -1367,7 +1351,7 @@ export const productsData = [
   },
   {
     id: 150,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK31-004A",
     identyfikator: "PORTFEL PUSZKA",
@@ -1376,7 +1360,7 @@ export const productsData = [
   },
   {
     id: 151,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK32-PORTFEL",
     identyfikator: "PORTFEL SPORTOWY",
@@ -1385,7 +1369,7 @@ export const productsData = [
   },
   {
     id: 152,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-031B",
     identyfikator: "PUDEŁKO NA LEKI KOŁO",
@@ -1394,7 +1378,7 @@ export const productsData = [
   },
   {
     id: 153,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-031B",
     identyfikator: "PUDEŁKO NA LEKI PROSTOKĄT",
@@ -1403,7 +1387,7 @@ export const productsData = [
   },
   {
     id: 154,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK32-SCYZORYK TURYSTYCZNY",
     identyfikator: "SCYZORYK WIELOFUNKCYJNY",
@@ -1412,7 +1396,7 @@ export const productsData = [
   },
   {
     id: 155,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-SCYZORYK",
     identyfikator: "SCYZORYK WIELOFUNKCYJNY XL",
@@ -1421,7 +1405,7 @@ export const productsData = [
   },
   {
     id: 156,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK39-EKO5",
     identyfikator: "ZAWIESZKA DO WALIZKI ECO",
@@ -1430,7 +1414,7 @@ export const productsData = [
   },
   {
     id: 157,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "ZAW WALIZKA",
     identyfikator: "ZAWIESZKA DO WALIZKI PLASTIK",
@@ -1439,7 +1423,7 @@ export const productsData = [
   },
   {
     id: 158,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "LUSTERKO",
     identyfikator: "LUSTERKO KIESZONKOWE KOŁO",
@@ -1448,7 +1432,7 @@ export const productsData = [
   },
   {
     id: 159,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "LUSTERKO",
     identyfikator: "LUSTERKO KIESZONKOWE KWADRAT",
@@ -1457,7 +1441,7 @@ export const productsData = [
   },
   {
     id: 160,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "LUSTERKO",
     identyfikator: "LUSTERKO KIESZONKOWE SERCE",
@@ -1466,7 +1450,7 @@ export const productsData = [
   },
   {
     id: 161,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-031A",
     identyfikator: "LUSTERKO METAL SERCE",
@@ -1475,7 +1459,7 @@ export const productsData = [
   },
   {
     id: 162,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-031A",
     identyfikator: "LUSTERKO METAL KWADRAT",
@@ -1484,7 +1468,7 @@ export const productsData = [
   },
   {
     id: 163,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-031A",
     identyfikator: "LUSTERKO METAL OWAL",
@@ -1493,7 +1477,7 @@ export const productsData = [
   },
   {
     id: 164,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "WACHLARZ DREWNO",
     identyfikator: "WACHLARZ DREWNO",
@@ -1502,7 +1486,7 @@ export const productsData = [
   },
   {
     id: 165,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK41-BIDON SZKŁO",
     identyfikator: "BIDON SZKLANY",
@@ -1512,7 +1496,7 @@ export const productsData = [
 
   {
     id: 166,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "GRA LABIRYNT",
     identyfikator: "GRA ZRĘCZNOŚCIOWA",
@@ -1521,7 +1505,7 @@ export const productsData = [
   },
   {
     id: 167,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "LINIJKA",
     identyfikator: "LINIJKA PUZZLE",
@@ -1530,7 +1514,7 @@ export const productsData = [
   },
   {
     id: 168,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "NAKLEJKI CG",
     identyfikator: "NAKLEJKI CG",
@@ -1539,7 +1523,7 @@ export const productsData = [
   },
   {
     id: 169,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK30-NASZYJNIK SERCE",
     identyfikator: "NASZYJNIK AKRYL SERCE",
@@ -1548,7 +1532,7 @@ export const productsData = [
   },
   {
     id: 170,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "DK27-063A",
     identyfikator: "NIEŚMIERTELNIK NA ŁAŃCUSZKU",
@@ -1557,7 +1541,7 @@ export const productsData = [
   },
   {
     id: 171,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "SKARBONKA MDF",
     identyfikator: "SKARBONKA",
@@ -1566,19 +1550,17 @@ export const productsData = [
   },
   {
     id: 172,
-    category: "",
+    category: "akcesoria podrozne",
     image: "",
     indeks_pc: "MAGNES PUZZLE",
     identyfikator: "UKŁADANKA PUZZLE",
     opis: "Wysokiej jakości układanka z tworzywa sztucznego na której możliwe jest wykonanie grafiki ze wzorem. Produkt zapakowany w stylowym woreczku. Wymiar 75 x75 mm.",
     cena: 4.5,
   },
-  {
-    Zdjęcie: "DO AUTA",
-  },
+
   {
     id: 173,
-    category: "",
+    category: "do auta",
     image: "",
     indeks_pc: "AUTO ZAPACH",
     identyfikator: "ZAPACH DO SAMOCHODU",
@@ -1587,19 +1569,17 @@ export const productsData = [
   },
   {
     id: 174,
-    category: "",
+    category: "do auta",
     image: "",
     indeks_pc: "ZAWIESZKA AUTO",
     identyfikator: "ZAWIESZKA DREWNIANA",
     opis: "Zawieszka wykonana z drewna. Naniesione grafiki drukiem UV z obu stron, będą efektowną ozdobą każdego samochodu. Nasz produkt to 6 kształtów, każda sztuka zapakowana na kartoniku.",
     cena: 4.5,
   },
-  {
-    Zdjęcie: "ZAPALNICZKI I POPIELNICZKI",
-  },
+
   {
     id: 175,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "POPIELNICZKA-3",
     identyfikator: "POPIELNICZKA CERAMICZNA",
@@ -1608,7 +1588,7 @@ export const productsData = [
   },
   {
     id: 176,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "POPIELNICZKA -2",
     identyfikator: "POPIELNICZKA KWADRAT",
@@ -1617,7 +1597,7 @@ export const productsData = [
   },
   {
     id: 177,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "POPIELNICZKA -1",
     identyfikator: "POPIELNICZKA OKRĄGŁA",
@@ -1626,7 +1606,7 @@ export const productsData = [
   },
   {
     id: 178,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "DK29-039",
     identyfikator: "ZAPALNICZKA BENZYNOWA",
@@ -1635,7 +1615,7 @@ export const productsData = [
   },
   {
     id: 179,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "DK29-039 ŻYWICA",
     identyfikator: "ZAPALNICZKA BENZYNOWA ŻYWICA",
@@ -1644,7 +1624,7 @@ export const productsData = [
   },
   {
     id: 180,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: " ZAPALNICZKA JET (KOLOR)",
     identyfikator: "ZAPALNICZKA GAZOWA DUŻA",
@@ -1653,7 +1633,7 @@ export const productsData = [
   },
   {
     id: 181,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: " ZAPALNICZKA MAŁA ",
     identyfikator: "ZAPALNICZKA GAZOWA MAŁA",
@@ -1662,19 +1642,17 @@ export const productsData = [
   },
   {
     id: 182,
-    category: "",
+    category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPALNICZKA PŁOMIEŃ",
     identyfikator: "ZAPALNICZKA GAZOWA PŁOMIEŃ",
     opis: "Zapalniczka gazowa z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 6 kolorach. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
     cena: 3,
   },
-  {
-    Zdjęcie: "UPOMINKI BIZNESOWE",
-  },
+
   {
     id: 183,
-    category: "",
+    category: "upominki biznesowe",
     image: "",
     indeks_pc: "DK38-008AB",
     identyfikator: "NOTATNIK",
@@ -1683,7 +1661,7 @@ export const productsData = [
   },
   {
     id: 184,
-    category: "",
+    category: "upominki biznesowe",
     image: "",
     indeks_pc: "DK38-008AB",
     identyfikator: "NOTATNIK ECO",
@@ -1692,7 +1670,7 @@ export const productsData = [
   },
   {
     id: 185,
-    category: "",
+    category: "upominki biznesowe",
     image: "",
     indeks_pc: "PIRAMIDA SZKŁO M",
     identyfikator: "PIRAMIDA SZKŁO",
@@ -1701,7 +1679,7 @@ export const productsData = [
   },
   {
     id: 186,
-    category: "",
+    category: "upominki biznesowe",
     image: "",
     indeks_pc: "PIRAMIDA SZKŁO D",
     identyfikator: "PIRAMIDA SZKŁO DUŻA",
@@ -1710,19 +1688,17 @@ export const productsData = [
   },
   {
     id: 187,
-    category: "",
+    category: "upominki biznesowe",
     image: "",
     indeks_pc: "DK39-EKO4",
     identyfikator: "ZESTAW UPOMINKOWY",
     opis: "Zestaw upominkowy (etui na karty, brelok) zapakowany w eleganckim kartoniku. Możliwość wykonania graweru z grafiką klienta, na brelokach możliwy grawer dwustronny. Produkt dostępny w 3 kolorach:  1 - Czarny ze srebrnym grawerem ; \n2 - Brązowy z czarnym grawerem ; 3 - Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
     cena: 17,
   },
-  {
-    Zdjęcie: "SUBLIMACJA",
-  },
+
   {
     id: 188,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB BIAŁY",
@@ -1731,7 +1707,7 @@ export const productsData = [
   },
   {
     id: 189,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB CZARNY",
@@ -1740,7 +1716,7 @@ export const productsData = [
   },
   {
     id: 190,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB CZERWONY",
@@ -1749,7 +1725,7 @@ export const productsData = [
   },
   {
     id: 191,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB NIEBIESKI",
@@ -1758,7 +1734,7 @@ export const productsData = [
   },
   {
     id: 192,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "FILIŻANKA SUB",
     identyfikator: "FILIŻANKA SUB",
@@ -1767,7 +1743,7 @@ export const productsData = [
   },
   {
     id: 193,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "SZKLANKA M SUB",
     identyfikator: "SZKLANKA M SUB",
@@ -1776,7 +1752,7 @@ export const productsData = [
   },
   {
     id: 194,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK M SUB",
     identyfikator: "KUBEK M SUB",
@@ -1785,7 +1761,7 @@ export const productsData = [
   },
   {
     id: 195,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KIELISZEK C SUB",
     identyfikator: "KIELISZEK C SUB",
@@ -1794,7 +1770,7 @@ export const productsData = [
   },
   {
     id: 196,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KIELISZEK M SUB",
     identyfikator: "KIELISZEK M SUB",
@@ -1803,7 +1779,7 @@ export const productsData = [
   },
   {
     id: 197,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "KUFEL SUB",
     identyfikator: "KUFEL SUB",
@@ -1812,7 +1788,7 @@ export const productsData = [
   },
   {
     id: 198,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "SKARBONKA SUB",
     identyfikator: "SKARBONKA SUB",
@@ -1821,7 +1797,7 @@ export const productsData = [
   },
   {
     id: 199,
-    category: "",
+    category: "sublimacja",
     image: "",
     indeks_pc: "NAPARSTEK SUB",
     identyfikator: "NAPARSTEK SUB",
