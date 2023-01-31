@@ -3,6 +3,7 @@ import classes from "../styles/index.module.css";
 import { useDispatch, useSelector } from "react-redux";
 
 import ProductCard from "@/components/productCard/ProductCard";
+import PaginationMenu from "@/components/paginationMenu/PaginationMenu";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -14,7 +15,6 @@ export default function Home() {
   const cardsPerPage = 2;
   // how many cards was shown to current page number
   const cardsSeen = pageNumber * cardsPerPage;
-  console.log(cardsSeen);
   // calculate amount of pages required
   const numberOfPages = Math.ceil(productCards.length / cardsPerPage);
   // display function to show only 2 cards per page
@@ -37,6 +37,7 @@ export default function Home() {
             <ProductCard key={card.id} {...card} />
           ))}
         </div>
+        <PaginationMenu numberOfPages={numberOfPages} />
       </main>
     </>
   );
