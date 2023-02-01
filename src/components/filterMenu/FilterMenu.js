@@ -17,7 +17,7 @@ const FilterMenu = () => {
   };
 
   return (
-    <div>
+    <div className={clasess.filterMenu}>
       <select onChange={handleFilter}>
         <option value="wszystkie">Wszystkie</option>
         <option value="magnesy">Magnesy</option>

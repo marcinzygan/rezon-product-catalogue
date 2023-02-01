@@ -5,7 +5,7 @@ const Layout = (props) => {
   return (
     <>
       <NavBar />
-      <main className="">{props.children}</main>
+      <main className="app__layout">{props.children}</main>
     </>
   );
 };

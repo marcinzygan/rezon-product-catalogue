@@ -5,3 +5,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --ff-regular: "Nunito", sans-serif;
+  --ff-heading: "Montserrat", sans-serif;
+  --fw-bold: 700;
+  --fw-regular: 400;
+  --clr-primary: #f4d9d2;
+  --clr-secondary: #323031;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(
+    139.68deg,
+    #f4d9d2 14.67%,
+    rgba(63, 75, 151, 0.58) 53.47%,
+    #f4d9d2 86.98%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img {
+  width: 100%;
+}
+.app__layout {
+  height: 100vh;
+}

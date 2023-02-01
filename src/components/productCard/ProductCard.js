@@ -6,15 +6,15 @@ const ProductCard = (card) => {
   return (
     <>
       <div className={classes.card}>
-        <div>{card.identyfikator}</div>
-        <Image
-          src={card.image}
-          alt="Picture of the author"
-          width={500}
-          height={500}
-        />
+        <div className={classes.card__header}>
+          <div className={classes.card__name}>{card.identyfikator}</div>
+          <img className={classes.img} src={card.image} />
+          <div className={classes.cena}>
+            Cena <span className={classes.cena__span}>{card.cena} zł</span>
+          </div>
+        </div>
         <div>{card.opis}</div>
-        <div>{card.cena}</div>
+
         <div>{card.id}</div>
       </div>
     </>
