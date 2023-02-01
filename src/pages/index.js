@@ -38,7 +38,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-
+      
       <div className={classes.cards__container}>
         {displayCards.map((card) => (
           <ProductCard key={card.id} {...card} />
