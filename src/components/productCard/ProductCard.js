@@ -13,9 +13,9 @@ const ProductCard = (card) => {
             Cena <span className={classes.cena__span}>{card.cena} zł</span>
           </div>
         </div>
-        <div>{card.opis}</div>
-
-        <div>{card.id}</div>
+        <div className={classes.opis}>{card.opis}</div>
+        <div className={classes.technologie}>Technologie</div>
+        {/* <div>{card.id}</div> */}
       </div>
     </>
   );

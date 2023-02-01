@@ -14,19 +14,11 @@
   --clr-secondary: #323031;
 }
 body {
-  height: 100vh;
-  background: linear-gradient(
-    139.68deg,
-    #f4d9d2 14.67%,
-    rgba(63, 75, 151, 0.58) 53.47%,
-    #f4d9d2 86.98%
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #75757a;
 }
 img {
   width: 100%;
 }
 .app__layout {
-  height: 100vh;
+  margin-top: 2rem;
 }

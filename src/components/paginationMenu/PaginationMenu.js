@@ -11,19 +11,18 @@ const PaginationMenu = (props) => {
   const dispatch = useDispatch();
   const currentPage = useSelector((state) => state.page.currentPage);
   return (
-    <div>
+    <div className={classes.paginate__container}>
       <button onClick={() => dispatch(firstPage())}>first</button>
-      <button onClick={() => dispatch(prevPage())}>prev</button>
-      <button onClick={() => dispatch(nextPage(props.numberOfPages))}>
-        next
-      </button>
-
-      <button onClick={() => dispatch(lastPage(props.numberOfPages))}>
-        last
-      </button>
+      <button onClick={() => dispatch(prevPage())}>prev</button>{" "}
       <p>
         {currentPage} z {props.numberOfPages}
       </p>
+      <button onClick={() => dispatch(nextPage(props.numberOfPages))}>
+        next
+      </button>
+      <button onClick={() => dispatch(lastPage(props.numberOfPages))}>
+        last
+      </button>
     </div>
   );
 };

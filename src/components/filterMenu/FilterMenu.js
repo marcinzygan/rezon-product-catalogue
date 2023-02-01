@@ -18,7 +18,8 @@ const FilterMenu = () => {
 
   return (
     <div className={clasess.filterMenu}>
-      <select onChange={handleFilter}>
+      <img src="/images/logo.png" className={clasess.logo} />
+      <select onChange={handleFilter} className={clasess.select}>
         <option value="wszystkie">Wszystkie</option>
         <option value="magnesy">Magnesy</option>
         <option value="breloki">Breloki</option>
