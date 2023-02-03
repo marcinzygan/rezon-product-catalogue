@@ -17,7 +17,7 @@ export default function Home() {
   const cardsSeen = pageNumber * cardsPerPage;
   // calculate amount of pages required
   const numberOfPages = Math.ceil(productCards.length / cardsPerPage);
-  // display function to show only 2 cards per page
+  // display function to show only 1 card per page
   const displayCards = productCards.slice(
     cardsSeen - 1,
     cardsPerPage - 1 + cardsSeen
@@ -31,14 +31,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className={classes.cards__container}>
-          {displayCards.map((card) => (
-            <ProductCard key={card.id} {...card} />
-          ))}
-        </div>
-        <PaginationMenu numberOfPages={numberOfPages} />
-      </main>
+
+      <div className={classes.cards__container}>
+        {displayCards.map((card) => (
+          <ProductCard key={card.id} {...card} />
+        ))}
+      </div>
+      <PaginationMenu numberOfPages={numberOfPages} />
     </>
   );
 }
