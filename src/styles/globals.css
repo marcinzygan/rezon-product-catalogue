@@ -16,8 +16,9 @@
   --ff-heading: "Montserrat", sans-serif;
   --fw-bold: 700;
   --fw-regular: 400;
-  --clr-primary: #161616;
-  --clr-secondary: #323031;
+  --clr-white: #ffffff;
+  --clr-black: #323031;
+  --clr-accent: #01549a;
 }
 body {
   background-color: #ffffff;

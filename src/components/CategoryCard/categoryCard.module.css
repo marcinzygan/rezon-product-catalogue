@@ -9,5 +9,11 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 0.5rem;
-  background-color: blue;
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+  font-size: 2rem;
+  padding: 1rem;
+}
+.category__name {
+  text-transform: uppercase;
 }

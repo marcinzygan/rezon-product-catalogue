@@ -36,7 +36,7 @@ export default function Home() {
       <div className={classes.cards__container}>
         {displayCards.map((card) => {
           if (card.displayCategory === true) {
-            return <CategoryCard />;
+            return <CategoryCard category={card.category} />;
           } else {
             return <ProductCard key={card.id} {...card} />;
           }
