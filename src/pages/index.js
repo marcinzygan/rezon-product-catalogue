@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import ProductCard from "@/components/productCard/ProductCard";
 import PaginationMenu from "@/components/paginationMenu/PaginationMenu";
+import CategoryCard from "@/components/CategoryCard/CategoryCard";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -33,9 +34,13 @@ export default function Home() {
       </Head>
 
       <div className={classes.cards__container}>
-        {displayCards.map((card) => (
-          <ProductCard key={card.id} {...card} />
-        ))}
+        {displayCards.map((card) => {
+          if (card.displayCategory === true) {
+            return <CategoryCard />;
+          } else {
+            return <ProductCard key={card.id} {...card} />;
+          }
+        })}
       </div>
       <PaginationMenu numberOfPages={numberOfPages} />
     </>

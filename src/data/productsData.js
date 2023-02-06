@@ -1,4 +1,5 @@
 export const productsData = [
+  { id: "K-01", displayCategory: true, category: "magnesy" },
   {
     id: 1,
     category: "magnesy",
