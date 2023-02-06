@@ -12,15 +12,15 @@ export default function Home() {
 
   //PAGINATION LOGIC
   // amount of productCards per page
-  const cardsPerPage = 1;
+  const cardsPerPage = 14;
   // how many cards was shown to current page number
   const cardsSeen = pageNumber * cardsPerPage;
   // calculate amount of pages required
   const numberOfPages = Math.ceil(productCards.length / cardsPerPage);
   // display function to show only 1 card per page
   const displayCards = productCards.slice(
-    cardsSeen - 1,
-    cardsPerPage - 1 + cardsSeen
+    cardsSeen - 14,
+    cardsPerPage - 14 + cardsSeen
   );
 
   return (
