@@ -1,0 +1,9 @@
+.modal {
+  visibility: hidden;
+  position: absolute;
+  background-color: blueviolet;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
