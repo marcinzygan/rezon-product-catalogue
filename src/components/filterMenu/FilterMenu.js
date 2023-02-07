@@ -32,6 +32,7 @@ const FilterMenu = () => {
           Ramki do Zdjec i Termometry
         </option>
         <option value="akcesoria podrozne">Akcesoria Podrozne</option>
+        <option value="dziecięce">Dziecięce</option>
         <option value="do auta">Do Auta</option>
         <option value="zapalniczki i popielniczki">
           Zapalniczki i Popielniczki
