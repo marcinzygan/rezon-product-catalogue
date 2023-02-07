@@ -38,6 +38,6 @@ img {
 .modal__open {
   visibility: visible !important;
 }
-.hide__cards {
+/* .hide__cards {
   display: none !important;
-}
+} */
