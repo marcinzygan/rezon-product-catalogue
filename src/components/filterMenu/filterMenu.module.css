@@ -1,15 +1,5 @@
-.filterMenu {
-  padding: 1rem;
-  height: 10vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.logo {
-  height: 30px;
-  width: 120px;
-}
 .select {
   width: 100px;
   height: 20px;
+  margin-top: 1rem;
 }

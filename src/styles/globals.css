@@ -8,19 +8,36 @@
   box-sizing: border-box;
 }
 :root {
+  --fs-h1: 1rem;
+  --fs-h2: 0.9rem;
+  --fs-h3: 0.8rem;
+
   --ff-regular: "Nunito", sans-serif;
   --ff-heading: "Montserrat", sans-serif;
   --fw-bold: 700;
   --fw-regular: 400;
-  --clr-primary: #f4d9d2;
-  --clr-secondary: #323031;
+  --clr-white: #ffffff;
+  --clr-black: #323031;
+  --clr-accent: #01549a;
 }
 body {
-  background-color: #75757a;
+  background-color: #ffffff;
 }
 img {
   width: 100%;
 }
 .app__layout {
   margin-top: 2rem;
+}
+.iconify {
+  color: rgb(247, 181, 0);
+}
+.hidden {
+  overflow: hidden;
+}
+.modal__open {
+  visibility: visible !important;
+}
+.hide__cards {
+  display: none !important;
 }

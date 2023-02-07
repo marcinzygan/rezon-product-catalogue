@@ -18,7 +18,6 @@ const FilterMenu = () => {
 
   return (
     <div className={clasess.filterMenu}>
-      <img src="/images/logo.png" className={clasess.logo} />
       <select onChange={handleFilter} className={clasess.select}>
         <option value="wszystkie">Wszystkie</option>
         <option value="magnesy">Magnesy</option>
@@ -33,6 +32,7 @@ const FilterMenu = () => {
           Ramki do Zdjec i Termometry
         </option>
         <option value="akcesoria podrozne">Akcesoria Podrozne</option>
+        <option value="dziecięce">Dziecięce</option>
         <option value="do auta">Do Auta</option>
         <option value="zapalniczki i popielniczki">
           Zapalniczki i Popielniczki
