@@ -11,18 +11,18 @@ export default function Home() {
   const pageNumber = useSelector((state) => state.page.currentPage);
   const productCards = useSelector((state) => state.data.productCards);
 
-  //PAGINATION LOGIC
-  // amount of productCards per page
-  const cardsPerPage = 14;
-  // how many cards was shown to current page number
-  const cardsSeen = pageNumber * cardsPerPage;
-  // calculate amount of pages required
-  const numberOfPages = Math.ceil(productCards.length / cardsPerPage);
-  // display function to show only 1 card per page
-  const displayCards = productCards.slice(
-    cardsSeen - 14,
-    cardsPerPage - 14 + cardsSeen
-  );
+  // //PAGINATION LOGIC
+  // // amount of productCards per page
+  // const cardsPerPage = 199;
+  // // how many cards was shown to current page number
+  // const cardsSeen = pageNumber * cardsPerPage;
+  // // calculate amount of pages required
+  // const numberOfPages = Math.ceil(productCards.length / cardsPerPage);
+  // // display function to show only 1 card per page
+  // const displayCards = productCards.slice(
+  //   cardsSeen - 199,
+  //   cardsPerPage - 199 + cardsSeen
+  // );
 
   return (
     <>
@@ -34,7 +34,7 @@ export default function Home() {
       </Head>
 
       <div className={classes.cards__container}>
-        {displayCards.map((card) => {
+        {productCards.map((card) => {
           if (card.displayCategory === true) {
             return <CategoryCard category={card.category} />;
           } else {
@@ -42,7 +42,8 @@ export default function Home() {
           }
         })}
       </div>
-      <PaginationMenu numberOfPages={numberOfPages} />
+
+      {/* <PaginationMenu numberOfPages={numberOfPages} /> */}
     </>
   );
 }

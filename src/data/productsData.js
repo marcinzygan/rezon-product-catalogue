@@ -468,7 +468,7 @@ export const productsData = [
     opis: "Barwny magnes wykonany w technologii full color. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
     cena: 2.5,
   },
-
+  { id: "K-02", displayCategory: true, category: "breloki" },
   {
     id: 53,
     category: "breloki",
@@ -694,7 +694,7 @@ export const productsData = [
     opis: "Brelok w formie elastycznej tasiemki z poliestru z metalowym zapięciem. Idealny przedmiot do plecaka, torby podróżnej,  kluczy lub jako wykończenie zamka błyskawicznego kurtki. Brelok posiada nadrukowane elementy z imieniem, hasłem,  grafiką lub nazwą miejscowości. Dostępne w 12 różnorodnych kolorach",
     cena: 4.5,
   },
-
+  { id: "K-03", displayCategory: true, category: "otwieracze" },
   {
     id: 78,
     category: "otwieracze",
@@ -911,7 +911,7 @@ export const productsData = [
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Produkt zapakowany w woreczek.",
     cena: 8,
   },
-
+  { id: "K-04", displayCategory: true, category: "Kubki i podkładki" },
   {
     id: 102,
     category: "kubki i podkładki",
@@ -967,6 +967,7 @@ export const productsData = [
     opis: "Metalowy długopis z ozdobnymi kryształkami, na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 4.5,
   },
+  { id: "K-05", displayCategory: true, category: "długopisy" },
   {
     id: 108,
     category: "długopisy",
@@ -1021,7 +1022,7 @@ export const productsData = [
     opis: "Długopis z wkładem który posiada specjalną gumkę umieszczoną na końcówce długopisu, która ściera nie pozostawiając śladu. Długopis występuje w 8 kolorach. Jakość wykonania nie odbiega od markowych długopisów, wielokrotnie droższych. Wkład najwyższej jakości z datą przydatności około rok od rozpoczęcia użytkowania. Produkt posiada trwały nadruk, zapakowany na kolorowej kartce.",
     cena: 4.5,
   },
-
+  { id: "K-06", displayCategory: true, category: "czapki i nakrycia głowy" },
   {
     id: 114,
     category: "czapki i nakrycia głowy",
@@ -1058,7 +1059,7 @@ export const productsData = [
     opis: "Dziewczęca opaska na głowę + zestaw gumek do włosów. Oferujemy 4 kolory: fiolet, różowy, jasno różowy, jasny niebieski. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
   },
-
+  { id: "K-07", displayCategory: true, category: "bransoletki" },
   {
     id: 118,
     category: "bransoletki",
@@ -1131,7 +1132,7 @@ export const productsData = [
     opis: "Bransoletka wykonana z miękkiego kolorowego sznurka z plastikowym elementem do graweru. Oferujemy 6 modnych kolorów po 3 dla dziewczynki i chłopca. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
   },
-
+  { id: "K-08", displayCategory: true, category: "tekstylia" },
   {
     id: 126,
     category: "tekstylia",
@@ -1249,7 +1250,7 @@ export const productsData = [
     opis: "Poduszka (wsad i poszewka), produkt dostępny \nw wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
     cena: "10,00 zł (poszewka)\n\n2,00 zł (wsad)",
   },
-
+  { id: "K-09", displayCategory: true, category: "ramki do zdjęć" },
   {
     id: 139,
     category: "ramki do zdjec i termometry",
@@ -1331,7 +1332,7 @@ export const productsData = [
     opis: "Termometr wykonany z drewna dostępny w wielu ciekawych wzorach. Spora skala ułatwia odczytanie temperatury.",
     cena: 8,
   },
-
+  { id: "K-10", displayCategory: true, category: "akcesoria podróżne" },
   {
     id: 148,
     category: "akcesoria podrozne",
@@ -1558,7 +1559,7 @@ export const productsData = [
     opis: "Wysokiej jakości układanka z tworzywa sztucznego na której możliwe jest wykonanie grafiki ze wzorem. Produkt zapakowany w stylowym woreczku. Wymiar 75 x75 mm.",
     cena: 4.5,
   },
-
+  { id: "K-11", displayCategory: true, category: "do auta" },
   {
     id: 173,
     category: "do auta",
@@ -1577,7 +1578,7 @@ export const productsData = [
     opis: "Zawieszka wykonana z drewna. Naniesione grafiki drukiem UV z obu stron, będą efektowną ozdobą każdego samochodu. Nasz produkt to 6 kształtów, każda sztuka zapakowana na kartoniku.",
     cena: 4.5,
   },
-
+  { id: "K-12", displayCategory: true, category: "zapalniczki i popielniczki" },
   {
     id: 175,
     category: "zapalniczki i popielniczki",
@@ -1650,7 +1651,7 @@ export const productsData = [
     opis: "Zapalniczka gazowa z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 6 kolorach. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
     cena: 3,
   },
-
+  { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
   {
     id: 183,
     category: "upominki biznesowe",
@@ -1696,7 +1697,7 @@ export const productsData = [
     opis: "Zestaw upominkowy (etui na karty, brelok) zapakowany w eleganckim kartoniku. Możliwość wykonania graweru z grafiką klienta, na brelokach możliwy grawer dwustronny. Produkt dostępny w 3 kolorach:  1 - Czarny ze srebrnym grawerem ; \n2 - Brązowy z czarnym grawerem ; 3 - Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
     cena: 17,
   },
-
+  { id: "K-14", displayCategory: true, category: "sublimacja" },
   {
     id: 188,
     category: "sublimacja",
