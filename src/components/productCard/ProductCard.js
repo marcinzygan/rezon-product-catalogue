@@ -1,11 +1,21 @@
 import classes from "./productCard.module.css";
 import React from "react";
-import Image from "next/image";
+import { useDispatch, useSelector } from "react-redux";
+import { openModal } from "@/state/modalSlice";
 const ProductCard = (card) => {
-  console.log(card.image);
+  const dispatch = useDispatch();
+
+  // const modalContentChange = (data) => {
+  //   setModalContent([data]);
+  //   setIsModalOpen(true);
+  // };
+  // const openModal = function () {
+  //   console.log(card);
+  // };
+
   return (
     <>
-      <div className={classes.card}>
+      <div className={classes.card} onClick={() => dispatch(openModal(card))}>
         <div className={classes.card__header}>
           <div className={classes.card__name}>{card.identyfikator}</div>
           <img className={classes.img} src={card.image} />

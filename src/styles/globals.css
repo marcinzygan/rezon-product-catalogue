@@ -30,5 +30,12 @@ img {
   margin-top: 2rem;
 }
 .iconify {
-  color: rgb(252, 207, 6);
+  color: rgb(247, 181, 0);
+}
+
+.modal__open {
+  visibility: visible !important;
+}
+.hide__cards {
+  display: none !important;
 }
