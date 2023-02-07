@@ -32,7 +32,9 @@ img {
 .iconify {
   color: rgb(247, 181, 0);
 }
-
+.hidden {
+  overflow: hidden;
+}
 .modal__open {
   visibility: visible !important;
 }

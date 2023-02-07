@@ -11,6 +11,7 @@ const modalSlice = createSlice({
   reducers: {
     openModal: (state, data) => {
       if ((state.isModalOpen = true)) {
+        document.querySelector("body").classList.add("hidden");
         document.querySelector("#cards").classList.add("hide__cards");
         document.querySelector("#modal").classList.add("modal__open");
       }
@@ -18,6 +19,7 @@ const modalSlice = createSlice({
       state.modalContent = data.payload;
     },
     closeModal: (state, data) => {
+      document.querySelector("body").classList.remove("hidden");
       document.querySelector("#cards").classList.remove("hide__cards");
       document.querySelector("#modal").classList.remove("modal__open");
       state.isModalOpen = false;
