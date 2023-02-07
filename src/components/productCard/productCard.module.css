@@ -5,7 +5,7 @@
   background: white;
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   /* border-radius: 25px; */
-  border: 0.5px solid var(--clr-black);
+  border: 1px solid var(--clr-accent);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
