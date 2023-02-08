@@ -8,6 +8,8 @@ export const productsData = [
     identyfikator: "AKRYL DOWOLNY KSZTAŁT",
     opis: "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 2,
@@ -17,6 +19,8 @@ export const productsData = [
     identyfikator: "MAGNES AKRYL POLSKA",
     opis: "Magnes wykonany z akrylu w kształcie mapy Polski z możliwością nadruku grafiki. Produkt w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
 
   {
@@ -27,6 +31,8 @@ export const productsData = [
     identyfikator: "MAGNES DREWNO ZNACZEK",
     opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
     cena: 3.5,
+    technologie: "UV",
+    wymiary: "",
   },
 
   {
@@ -37,6 +43,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL APARAT",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 5,
@@ -46,6 +54,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL MORSKI",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 6,
@@ -55,6 +65,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL KOTWICA",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 7,
@@ -64,6 +76,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL RAMKA",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 8,
@@ -73,6 +87,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL TELEFON",
     opis: "Magnes wykonany z polerowanego stopu metali \nz miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 9,
@@ -82,6 +98,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL SERCE",
     opis: "Magnes wykonany z polerowanego stopu metali \nz miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 10,
@@ -91,6 +109,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL STER",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienia w niej elementu ozdobnego. Produkt dostępny w dwóch kolorach: złoty i srebrny zapakowany \nw stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 11,
@@ -100,6 +120,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL KARTKA",
     opis: "Magnes wykonany z polerowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 12,
@@ -109,6 +131,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL LINA",
     opis: "Magnes wykonany z polerowanego stopu metali \nz miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 13,
@@ -118,6 +142,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL PAPIRUS",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 14,
@@ -127,6 +153,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL TALERZYK",
     opis: "Magnes wykonany ze szczotkowanego stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w stylowym woreczku.",
     cena: 6.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 15,
@@ -136,6 +164,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL KAPSEL",
     opis: "Metalowy kapsel z magnesem o średnicy 42 mm. Grafika wykonana na zadrukowanej folia i pokryta żywicą.  Produkt zapakowany  w woreczku.",
     cena: 3,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 16,
@@ -145,6 +175,8 @@ export const productsData = [
     identyfikator: "MAGNES METAL I LOVE",
     opis: "Metalowy magnes wykonany w wysokiej jakości. Sympatyczna pamiątka  i  praktyczna ozdoba. Możliwość wykonania dowolnej grafiki klienta.",
     cena: 4.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 17,
@@ -154,6 +186,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING KAMIENIE",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 18,
@@ -163,6 +197,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING STER",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 19,
@@ -172,6 +208,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING KOTWICA",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 20,
@@ -181,6 +219,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING MUSZLA",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 21,
@@ -190,6 +230,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING SERCE",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 22,
@@ -199,6 +241,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING ŻAGLÓWKA",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 23,
@@ -208,6 +252,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO KOŁO",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 24,
@@ -217,6 +263,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO OWAL",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 25,
@@ -226,6 +274,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO SERCE",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 26,
@@ -235,6 +285,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO MUSZLA",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 27,
@@ -244,6 +296,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO KOSZULKA",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 28,
@@ -253,6 +307,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO PROSTOKĄT OBŁY",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 29,
@@ -262,6 +318,8 @@ export const productsData = [
     identyfikator: "MAGNES SZKŁO PROSTOKĄT OSTRY",
     opis: "Magnes wykonane ze szkła z nadrukowaną grafiką. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 30,
@@ -271,6 +329,8 @@ export const productsData = [
     identyfikator: "MAGNES SKLEJKA MAZAK",
     opis: "Ozdobny magnes - kolorowanka wykonany ze sklejki. Możliwość wykonania dowolnej prostej grafiki w dowolnym kształcie. Do magnesu dołączony komplet 6 mazaków. Produkt zapakowany w woreczku.",
     cena: 6,
+    technologie: "LASER DREWNO",
+    wymiary: "",
   },
   {
     id: 31,
@@ -280,6 +340,8 @@ export const productsData = [
     identyfikator: "DEKORACJA ZE SKLEJKI",
     opis: "Ozdoba wykonana ze sklejki wyciętej laserowo. Istnieje możliwość wycięcia dowolnego kształtu \no wymiarach max 15 cm x 12 cm oraz wypalenie grafiki na powstałym elemencie.",
     cena: 2.5,
+    technologie: "LASER DREWNO",
+    wymiary: "",
   },
   {
     id: 32,
@@ -289,6 +351,8 @@ export const productsData = [
     identyfikator: "MAGNES SKLEJKA SZKŁO",
     opis: "Ozdobny magnes wykonany ze sklejki z doklejonym szklanym elementem. Możliwość wykonania dowolnej prostej grafiki w dowolnym kształcie na sklejce i dowolnej grafiki na szklanym elemencie. Produkt zapakowany w woreczku.",
     cena: 6.5,
+    technologie: "LASER DREWNO",
+    wymiary: "",
   },
   {
     id: 33,
@@ -298,6 +362,8 @@ export const productsData = [
     identyfikator: "MAGNES ECO KOŁO",
     opis: "Magnes wykonany z drewna z wypaloną grafiką. Możliwość wykonania dowolnej prostej grafiki.",
     cena: 3,
+    technologie: "LASER CO2",
+    wymiary: "",
   },
   {
     id: 34,
@@ -307,6 +373,8 @@ export const productsData = [
     identyfikator: "MAGNES ECO OWAL",
     opis: "Magnes wykonany z drewna z wypaloną grafiką. Możliwość wykonania dowolnej prostej grafiki.",
     cena: 3,
+    technologie: "LASER CO2",
+    wymiary: "",
   },
   {
     id: 35,
@@ -316,6 +384,8 @@ export const productsData = [
     identyfikator: "MAGNES ŻYWICA TOREBKA",
     opis: "Żywicowany magnes o wysokiej wartości estetycznej. Elegancka pamiątka okolicznościowa zapakowana \nw stylowym woreczku. Możliwość wykonania na produkcie grafiki klienta.",
     cena: 5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 36,
@@ -325,6 +395,8 @@ export const productsData = [
     identyfikator: "MAGNES ŻYWICA PROSTOKĄT",
     opis: "Żywicowany magnes o wysokiej wartości estetycznej. Elegancka pamiątka okolicznościowa zapakowana \nw stylowym woreczku. Możliwość wykonania na produkcie grafiki klienta.",
     cena: 4.5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 37,
@@ -334,6 +406,8 @@ export const productsData = [
     identyfikator: "MAGNES ŻYWICA IMIĘ",
     opis: "Żywicowany magnes o wysokiej wartości estetycznej. Elegancka pamiątka okolicznościowa zapakowana w stylowym woreczku. Możliwość wykonania na produkcie grafiki klienta. Planowane 6 oryginalnych wzorów ze zdjęciem miejscowości i imieniem.",
     cena: 5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 38,
@@ -343,6 +417,8 @@ export const productsData = [
     identyfikator: "MAGNES PROSTOKĄT PAPIEROWY",
     opis: "Prosty i elegancki magnes upominkowy wykonany ze specjalistycznego papieru. Możliwe wykonanie dowolnej grafiki na elemencie.",
     cena: 3,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 39,
@@ -352,6 +428,8 @@ export const productsData = [
     identyfikator: "MAGNES OBRAZ",
     opis: "Miniaturowy obraz będący jednocześnie magnesem. Stanowi estetyczną i praktyczną pamiątkę z możliwością umieszczenia dowolnej grafiki klienta. ",
     cena: 4.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 40,
@@ -361,15 +439,19 @@ export const productsData = [
     identyfikator: "MAGNES PIANKA",
     opis: "Magnesy wykonane z wytłaczanej pianki. Każdy magnes posiada miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 3.5,
+    technologie: "UV",
+    wymiary: "",
   },
   {
     id: 41,
     category: "magnesy",
     image: "/images/magnesy/044.jpg",
-    indeks_pc: "MAGNES DŁUGopis",
+    indeks_pc: "MAGNES DŁUGOPIS",
     identyfikator: "MAGNES DŁUGOPIS",
     opis: "Plastikowy magnes z funkcją długopisu. Możliwe wykonanie dowolnej grafiki na wierzchniej stronie przedmiotu. Do długopisu dołączony mały notes i samoprzylepne karteczki.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 42,
@@ -379,6 +461,8 @@ export const productsData = [
     identyfikator: "ZŁOTA RYBKA",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 43,
@@ -388,6 +472,8 @@ export const productsData = [
     identyfikator: "MAGNES NÓŻKI",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 5,
+    technologie: "ŻYWICOWANIE",
+    wymiary: "",
   },
   {
     id: 44,
@@ -397,6 +483,8 @@ export const productsData = [
     identyfikator: "MAGNES MDF",
     opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
     cena: 3.5,
+    technologie: "LASER DREWNO",
+    wymiary: "",
   },
   {
     id: 45,
@@ -406,6 +494,9 @@ export const productsData = [
     identyfikator: "MAGNES MDF IMIĘ",
     opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 46,
@@ -415,6 +506,8 @@ export const productsData = [
     identyfikator: "MAGNES WAKACJE",
     opis: "Drewniany magnes moje wakacje z nazwą miejscowości. Elegancki magnes wypełniony żywicą, wykonany w technologii full color.",
     cena: 6.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 47,
@@ -424,6 +517,8 @@ export const productsData = [
     identyfikator: "MAGNES FOLIA",
     opis: "Barwny magnes wykonany w technologii full color. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
     cena: 2.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 48,
@@ -433,6 +528,8 @@ export const productsData = [
     identyfikator: "MAGNES POLIRESING ZNAK",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 49,
@@ -442,6 +539,8 @@ export const productsData = [
     identyfikator: "MAGNES HDF",
     opis: "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 50,
@@ -451,6 +550,8 @@ export const productsData = [
     identyfikator: "MAGNES HDF GRAF",
     opis: "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 51,
@@ -460,6 +561,8 @@ export const productsData = [
     identyfikator: "MAGNES PIANKA 1",
     opis: "Magnes wykonany z lekkiej pianki z kolorową grafiką.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 52,
@@ -469,6 +572,8 @@ export const productsData = [
     identyfikator: "MAGNES PIANKA 2",
     opis: "Magnes wykonany z lekkiej pianki z kolorową grafiką.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   ////////////////////////BRELOKI //////////////////////////////////////////
   { id: "K-02", displayCategory: true, category: "breloki" },
@@ -480,6 +585,8 @@ export const productsData = [
     identyfikator: "BRELOK ECO",
     opis: "Elegancki brelok wykonany z imitacji skóry z grawerem laserowym który można wykonać na obu stronach breloka. Produkt dostępny w 3 kolorach: Czarny ze srebrnym grawerem, Brązowy z czarnym grawerem i Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 54,
@@ -489,6 +596,8 @@ export const productsData = [
     identyfikator: "BRELOK METALOWY GRAWEROWANY",
     opis: "Brelok metalowy z wygrawerowanym metodą laserową imieniem, znakiem zodiaku lub grupa krwi. Kolory breloków : czerwony, czarny. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 55,
@@ -498,6 +607,8 @@ export const productsData = [
     identyfikator: "BRELOK METALOWY Z DŻETAMI",
     opis: "Brelok metalowy z dżetami z wygrawerowanym metodą laserową imieniem. Oferujemy brelok  w kształcie serca. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 56,
@@ -507,6 +618,8 @@ export const productsData = [
     identyfikator: "BRELOK METALOWY Z IMITACJĄ SKÓRY",
     opis: "Elegancki brelok wykonany z metalu i imitacji skóry. Produkt dostępny w 2 kształtach: prostokąt i koło, posiada miejsce na grafikę. Możliwość wykonania dowolnej grafiki.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 57,
@@ -516,6 +629,8 @@ export const productsData = [
     identyfikator: "BRELOK OBCINACZKI OTWIERACZ",
     opis: "Brelok, otwieracz i obcinaczki do paznokci w jednym. Metalowe i solidne wykonanie. Na zewnątrz posiada miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 58,
@@ -525,6 +640,8 @@ export const productsData = [
     identyfikator: "BRELOK OBROTOWY BECZKA",
     opis: "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 59,
@@ -534,6 +651,8 @@ export const productsData = [
     identyfikator: "BRELOK OBROTOWY KOŁO",
     opis: "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 60,
@@ -543,6 +662,8 @@ export const productsData = [
     identyfikator: "BRELOK OBROTOWY PROSTOKĄT",
     opis: "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 61,
@@ -552,6 +673,8 @@ export const productsData = [
     identyfikator: "BRELOK OBROTOWY SERCE",
     opis: "Brelok metalowy z obrotowym i dwustronnie spersonalizowanym elementem. Na jednej stronie  logo z danego miasta, miejscowości (fotografia lub inny wzór), druga strona to  imię lub hasło. Każda sztuka zapakowana na kartoniku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 62,
@@ -561,6 +684,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ ALUMINIOWY",
     opis: "Kolorowy brelok z funkcją otwieracza wykonany \nz aluminium. Lekki produkt dostępny w 6 kolorach, możliwe wykonanie graweru.",
     cena: 3,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 63,
@@ -570,6 +695,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ METAL BUTELKA 1",
     opis: "Brelok metalowy w formie butelki z funkcją otwieracza na odwrocie. Logo wykonane na zadrukowanej folii \ni pokryte żywicą. Oferujemy 3 modele. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 64,
@@ -579,6 +706,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ METAL BUTELKA 2",
     opis: "Brelok  z funkcją otwieracza do butelek. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek \ni karteczkę",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 65,
@@ -588,6 +717,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ METAL KAPSEL",
     opis: "Brelok  z funkcją otwieracza do butelek w kształcie kapsla. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce. Produkt zapakowany w woreczek i karteczkę",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 66,
@@ -597,6 +728,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ METAL STOPA",
     opis: "Brelok  z funkcją otwieracza do butelek w kształcie stopy. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce. Produkt zapakowany w woreczek i karteczkę",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 67,
@@ -606,6 +739,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ SCYZORYK",
     opis: "Metalowy brelok ze scyzorykiem, otwieraczem do butelek i korkociągiem. Na zewnątrz posiada miejsce wypełnione żywicą/logo. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w woreczku.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 68,
@@ -615,6 +750,8 @@ export const productsData = [
     identyfikator: "BRELOK OTWIERACZ SZKŁO",
     opis: "Okrągły otwieracz na którym możliwe jest wykonanie grafiki ze wzorem wykonanym na szklanym elemencie. Produkt zapakowany w woreczku ze stylową karteczką.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 69,
@@ -624,6 +761,8 @@ export const productsData = [
     identyfikator: "BRELOK POTRÓJNY KARTKA",
     opis: "Brelok metalowy wykonany z polerowanej stali złożony z 3 elementów ozdobionych naklejką żywiczną. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 70,
@@ -633,6 +772,8 @@ export const productsData = [
     identyfikator: "BRELOK POTRÓJNY SERCE",
     opis: "Brelok metalowy wykonany z polerowanej stali złożony z 3 elementów ozdobionych naklejką żywiczną. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 71,
@@ -642,6 +783,8 @@ export const productsData = [
     identyfikator: "BRELOK SERCE AKRYL",
     opis: "Brelok z akrylu w kształcie serca z imieniem dziewczynki. Produkt dostępny w 3 kolorach, zapakowany na stylowej kartce w woreczku.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 72,
@@ -651,6 +794,8 @@ export const productsData = [
     identyfikator: "BRELOK SILIKONOWY",
     opis: "Brelok wykonany z elastycznego silikonu z miejscem na grawer. Produkt dostępny w 6 kolorach.",
     cena: 2.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 73,
@@ -660,6 +805,8 @@ export const productsData = [
     identyfikator: "BRELOK SZKŁO KOŁO",
     opis: "Brelok metalowy wykonany z polerowanej stali \nz grafiką w szklanym elemencie, produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 74,
@@ -669,6 +816,8 @@ export const productsData = [
     identyfikator: "BRELOK SZKŁO KOTWICA",
     opis: "Brelok metalowy wykonany z polerowanej stali \nz grafiką w szklanym elemencie, produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 75,
@@ -678,6 +827,8 @@ export const productsData = [
     identyfikator: "BRELOK SZKŁO STER",
     opis: "Brelok metalowy wykonany z polerowanej stali \nz grafiką w szklanym elemencie, produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 76,
@@ -687,6 +838,8 @@ export const productsData = [
     identyfikator: "BRELOK TABLICA",
     opis: "Prostokątny, metalowy brelok z możliwością wklejenia za żywicowanej grafiki. Możliwość wykonania produktu z dowolną grafiką klienta.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 77,
@@ -696,6 +849,8 @@ export const productsData = [
     identyfikator: "BRELOK TAŚMA",
     opis: "Brelok w formie elastycznej tasiemki z poliestru z metalowym zapięciem. Idealny przedmiot do plecaka, torby podróżnej,  kluczy lub jako wykończenie zamka błyskawicznego kurtki. Brelok posiada nadrukowane elementy z imieniem, hasłem,  grafiką lub nazwą miejscowości. Dostępne w 12 różnorodnych kolorach",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   ///////////////////////////// OTWIERACZE ///////////////
   { id: "K-03", displayCategory: true, category: "otwieracze" },
@@ -707,6 +862,8 @@ export const productsData = [
     identyfikator: "KORKOCIĄG BUTELKA",
     opis: "Plastikowy korkociąg w kształcie butelki z winem. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w stylowym woreczku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 79,
@@ -715,6 +872,7 @@ export const productsData = [
     indeks_pc: "KORKOCIĄG-2",
     identyfikator: "KORKOCIĄG OTWIERACZ",
     opis: "Plastikowy korkociąg  z otwieraczem do butelek. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w stylowym woreczk",
+    cena: "",
   },
   {
     id: 80,
@@ -724,6 +882,8 @@ export const productsData = [
     identyfikator: "MAGNES OTWIERACZ BUTELKA",
     opis: "Otwieracz w formie butelki stylizowanej na butelkę alkoholu, dodatkowo posiada magnes. Oferujemy 8 wzorów butelek. Produkt zapakowany w woreczek i karteczkę",
     cena: 5.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 81,
@@ -733,6 +893,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ KAPSEL CHROM",
     opis: "Otwieracz i zatyczka do butelek w kształcie kapsla z funkcją magnesu na lodówkę. Wykonany z wysokiej jakości tworzywa sztucznego, pokryty powłoką imitującą chrom. ",
     cena: 6.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 82,
@@ -742,6 +904,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ KAPSEL CHROM",
     opis: "Otwieracz i zatyczka do butelek w kształcie kapsla z funkcją magnesu na lodówkę. Wykonany z wysokiej jakości tworzywa sztucznego, pokryty powłoką imitującą chrom.",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 83,
@@ -751,6 +915,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL KOŁO",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 84,
@@ -760,6 +926,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL KOSZULKA",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 85,
@@ -769,6 +937,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL KOTWICA",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 86,
@@ -778,6 +948,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL MOSIĄDZ",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 87,
@@ -787,6 +959,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL OWAL",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 88,
@@ -796,6 +970,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL STER",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Możliwość wykonania dowolnej grafiki na naklejce oraz zatopienie w niej elementu ozdobnego. Produkt zapakowany w woreczek.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 89,
@@ -805,6 +981,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST KOŁO",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 90,
@@ -814,6 +992,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST KOŁO ŻYWICA",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 91,
@@ -823,6 +1003,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST OWAL",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 92,
@@ -832,6 +1014,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST OWAL ŻYWICA",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 93,
@@ -841,6 +1025,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST PROSTOKĄT",
     opis: "Otwieracz do butelek w kształcie prostokąta posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 94,
@@ -850,6 +1036,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST PROSTOKĄT ŻYWICA",
     opis: "Otwieracz do butelek w kształcie prostokąta posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 95,
@@ -859,6 +1047,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST STOPA",
     opis: "Otwieracz do butelek w kształcie stopy posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 96,
@@ -868,6 +1058,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ PLAST STOPA ŻYWICA",
     opis: "Otwieracz do butelek w kształcie stopy posiadający magnes. Produkt wykonany z plastiku, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 97,
@@ -877,6 +1069,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ POLIRESING KAPSEL",
     opis: "Otwieracz wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt posiada magnes na rewersie, zapakowany w woreczku.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 98,
@@ -886,6 +1080,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ POLIRESING KAPSEL ŻYWICA",
     opis: "Otwieracz wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt posiada magnes na rewersie, zapakowany w woreczku.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 99,
@@ -895,6 +1091,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ DREWNO BUTELKA",
     opis: "Otwieracz do butelek w kształcie butelki posiadający magnes. Produkt wykonany z płyty MDF, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 100,
@@ -904,6 +1102,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ DREWNO MUSZLA",
     opis: "Otwieracz do butelek w kształcie muszli posiadający magnes. Produkt wykonany z płyty MDF, możliwe jest nadrukowanie dowolnej grafiki.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 101,
@@ -913,6 +1113,8 @@ export const productsData = [
     identyfikator: "OTWIERACZ METAL 1",
     opis: "Otwieracz do butelek posiadający magnes. Produkt wykonany ze stopu metali z miejscem na naklejkę żywiczną. Produkt zapakowany w woreczek.",
     cena: 8,
+    technologie: "",
+    wymiary: "",
   },
   ////////////////// KUBKI I PODKŁADKI ///////////
   { id: "K-04", displayCategory: true, category: "Kubki i podkładki" },
@@ -924,6 +1126,8 @@ export const productsData = [
     identyfikator: "KIELISZEK ",
     opis: "Kwadratowy kieliszek wykonany z grubego szkła pojemności 80 ml. Możliwe wykonane grafiki na dowolnej zewnętrznej ścianie kieliszka.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 103,
@@ -933,6 +1137,8 @@ export const productsData = [
     identyfikator: "KUBEK CERAMICZNY KOLOROWY",
     opis: "Kubek ceramiczny z wygrawerowanym metodą laserową imieniem lub hasłem. Dostępne kolory: biało-czarny, \nczerwono-biały, biało-czerwony, czarno-biały, niebiesko-biały, biało-niebieski. Pierwszy człon koloru dotyczy zewnętrznej powierzchni kubka.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 104,
@@ -942,6 +1148,8 @@ export const productsData = [
     identyfikator: "KUBEK CERAMICZNY PRL",
     opis: "Kubek ceramiczny z wygrawerowanym metodą laserową imieniem lub hasłem. Ciekawy produkt w sympatycznym kształcie. Grawer w kolorze białym",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 105,
@@ -951,6 +1159,8 @@ export const productsData = [
     identyfikator: "KUBEK CERAMICZNY WIELOKOLOROWY",
     opis: "Kubek ceramiczny z wygrawerowanym metodą laserową nazwą miejscowości lub hasłem. Produkt dostępny w 6 kolorach: jasno fioletowy - niebieski, ciemno fioletowy - różowy, czarno - czerwony, czarno - ciemno niebieski, jasno niebieski - czerwony, czarno - grafitowo szary. Kolor graweru: biały.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 106,
@@ -971,6 +1181,8 @@ export const productsData = [
     identyfikator: "DŁUGopis KRYSZTAŁ Z GUMKĄ",
     opis: "Metalowy długopis z ozdobnymi kryształkami, na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 108,
@@ -980,6 +1192,8 @@ export const productsData = [
     identyfikator: "DŁUGopis KRYSZTAŁ Z OCZKIEM",
     opis: "Metalowy długopis z ozdobnymi kryształkami, na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 109,
@@ -989,6 +1203,8 @@ export const productsData = [
     identyfikator: "DŁUGopis METALOWY 2",
     opis: "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 2 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 110,
@@ -998,6 +1214,8 @@ export const productsData = [
     identyfikator: "DŁUGopis METALOWY 3",
     opis: "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 5 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 111,
@@ -1007,6 +1225,8 @@ export const productsData = [
     identyfikator: "DŁUGopis METALOWY 4",
     opis: "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 6 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 3,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 112,
@@ -1016,6 +1236,8 @@ export const productsData = [
     identyfikator: "DŁUGopis METALOWY CZARNY",
     opis: "Metalowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. Produkt dostępny w 3 kolorach, zapakowany na  kartce i wytłoczce dopasowanej do kształtu długopisu.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 113,
@@ -1025,6 +1247,8 @@ export const productsData = [
     identyfikator: "DŁUGopis ZMAZYWALNY",
     opis: "Długopis z wkładem który posiada specjalną gumkę umieszczoną na końcówce długopisu, która ściera nie pozostawiając śladu. Długopis występuje w 8 kolorach. Jakość wykonania nie odbiega od markowych długopisów, wielokrotnie droższych. Wkład najwyższej jakości z datą przydatności około rok od rozpoczęcia użytkowania. Produkt posiada trwały nadruk, zapakowany na kolorowej kartce.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   { id: "K-06", displayCategory: true, category: "czapki i nakrycia głowy" },
   ///////////////// CZAPKI I NAKRYCIA GŁOWY ///////////////
@@ -1036,6 +1260,8 @@ export const productsData = [
     identyfikator: "CHUSTA NA GŁOWĘ Z APLIKACJĄ",
     opis: "Chusta bawełniana z imieniem dziecka, boczki chusty kolorowe z 3 motywami (obrazkami), środek biały. Oferujemy  6 kolorów produktu, produkt zapakowany w woreczku.",
     cena: 6,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 115,
@@ -1045,6 +1271,9 @@ export const productsData = [
     identyfikator: "CZAPKA HIP HOP",
     opis: "Czapka hip hop z imieniem dziecka, rozmiar dziecięcy XS z regulowanym paskiem z tyłu głowy. Dostępne w 6 kolorach.",
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 116,
@@ -1054,6 +1283,8 @@ export const productsData = [
     identyfikator: "CZAPKA KAPITAŃSKA",
     opis: "Czapka kapitańska z imieniem dziewczynki lub chłopca.  Imiona na paskach, klient kupuje czapkę i doczepiany zostaje pasek z odpowiednim imieniem lub napisem „KAPITAN”. Możliwe wykonanie dowolnego \nnapisu / białej grafiki na pasku.",
     cena: "12,50 zł (czapka) 2,50zł (pasek)",
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 117,
@@ -1063,6 +1294,8 @@ export const productsData = [
     identyfikator: "OPASKA NA GŁOWĘ",
     opis: "Dziewczęca opaska na głowę + zestaw gumek do włosów. Oferujemy 4 kolory: fiolet, różowy, jasno różowy, jasny niebieski. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   { id: "K-07", displayCategory: true, category: "bransoletki" },
   /////////////// BRANSOLETKI ///////
@@ -1074,6 +1307,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA MUSZLA DUŻA",
     opis: "Bransoletka wykonana z miękkiego plecionego kolorowego sznurka z elementem pod grawer i naturalnymi muszelkami. Produkt personalizowany imionami damskimi. Niepowtarzalny upominek z wakacyjnego wyjazdu. Oferujemy produkt w 3 modnych kolorach.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 119,
@@ -1083,6 +1318,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA MUSZLA MAŁA",
     opis: "Bransoletka wykonana z miękkiego plecionego kolorowego sznurka z elementem pod grawer i naturalnymi muszelkami. Produkt personalizowany imionami dziecięcymi. Niepowtarzalny upominek z wakacyjnego wyjazdu. Oferujemy produkt w 3 modnych kolorach.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 120,
@@ -1092,6 +1329,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA SILIKONOWA DUŻA",
     opis: "Bransoletka wykonana z elastycznego silikonu z miejscem na grawer. Produkt dostępny w kolorze czerwonym, obwód 20mm.",
     cena: 2.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 121,
@@ -1101,6 +1340,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA SILIKONOWA MAŁA",
     opis: "Bransoletka wykonana z elastycznego silikonu z miejscem na grawer. Produkt dostępny w 6 kolorach, obwód 18mm.",
     cena: 2.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 122,
@@ -1110,6 +1351,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA SKÓRZANA",
     opis: "Bransoletka wykonana ze skóry i sznurka z metalowym elementem na którym wygrawerowane zostało imię dziecka. Oferowana w 4 kolorach, produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 123,
@@ -1119,6 +1362,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA SZKŁO IMIĘ 1",
     opis: "Bransoletka wykonana ze skóry, sznurka i elementów metalowych oraz szklanego elementu na którym wykonano grafikę. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 124,
@@ -1128,6 +1373,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA SZKŁO IMIĘ 2",
     opis: "Bransoletka wykonana ze skóry, sznurka i elementów metalowych oraz szklanego elementu na którym wykonano grafikę. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 125,
@@ -1137,6 +1384,8 @@ export const productsData = [
     identyfikator: "BRANSOLETKA SZNURKOWA",
     opis: "Bransoletka wykonana z miękkiego kolorowego sznurka z plastikowym elementem do graweru. Oferujemy 6 modnych kolorów po 3 dla dziewczynki i chłopca. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   { id: "K-08", displayCategory: true, category: "tekstylia" },
   ///////////// TEKSTYLIA //////////////////
@@ -1148,6 +1397,9 @@ export const productsData = [
     identyfikator: "CHUSTA WIELOFUNKCYJNA IMIENNA",
     opis: "Chusty wielofunkcyjna w formie komina z możliwością wykonania dowolnej grafiki. Brak niewygodnych szwów, wykonana z elastycznego poliestru. Idealna na codzienne spacery, oraz aktywnego spędzania czasu, dla dorosłych jak i dzieci.(WERSJA Z IMIONAMI DZIECI)",
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 127,
@@ -1157,6 +1409,9 @@ export const productsData = [
     identyfikator: "CHUSTA WIELOFUNKCYJNA Z APLIKACJĄ",
     opis: "Chusty wielofunkcyjna w formie komina z możliwością wykonania dowolnej grafiki. Brak niewygodnych szwów, wykonana z elastycznego poliestru. Idealna na codzienne spacery, oraz aktywnego spędzania czasu, dla dorosłych jak i dzieci.",
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 128,
@@ -1166,6 +1421,8 @@ export const productsData = [
     identyfikator: "PORTFEL /ETUI 1",
     opis: 'Portfel/etui z zamkiem wykonany z bawełny wymiar 7,5 x 11 cm, dostępne kolory czarny \ni naturalany"eco",dodatkowo zawieszka, nadruk pełny kolor 1 stronny wliczony w cenę.',
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 129,
@@ -1175,6 +1432,9 @@ export const productsData = [
     identyfikator: "PORTFEL /ETUI 2",
     opis: 'Portfel / etui z zamkiem wykonany z bawełny, wymiar 9,5  x 18 cm. Produkt dostępny w 2 kolorach: czarny i naturalny "eco", dodatkowo zawieszka. Możliwe wykonanie nadruku w pełnym kolorze wierzchniej strony wliczone w cenę.',
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 130,
@@ -1184,6 +1444,8 @@ export const productsData = [
     identyfikator: "POSZEWKA MARYNISTYCZNA ",
     opis: "Poduszka (wsad i poszewka), produkt dostępny w wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
     cena: "12,00 zł (poszewka) 3,00 zł (wsad)",
+    technologie: "",
+    wymiary: "",
   },
 
   {
@@ -1194,6 +1456,8 @@ export const productsData = [
     identyfikator: "SKARPETA DUŻA",
     opis: "Skarpetki - stopki dla młodzieży i dorosłych, wykonane z bawełny i domieszki poliestru. W regularnej ofercie posiadamy 240 wzorów. Wzory zostały opracowane przez naszych grafików pod kątem najnowszych trendów i oczekiwań rynkowych. Każda sztuka zapakowana na kartoniku w woreczek foliowy. ",
     cena: 5.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 132,
@@ -1203,6 +1467,8 @@ export const productsData = [
     identyfikator: "SKARPETA MAŁA",
     opis: "Skarpetki - stopki dla dzieci, wykonane z bawełny \ni domieszki poliestru. Dla dziewczynek i chłopców po 3 wzory. Każda para skarpetek poza oryginalnym wzorem posiada dodatkowo imię. Każda sztuka zapakowana na kartoniku w woreczek foliowy.",
     cena: 5.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 133,
@@ -1212,6 +1478,9 @@ export const productsData = [
     identyfikator: "OPAKOWANIE NA BUTELKĘ BAWEŁNIANE",
     opis: "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z bawełny z aplikacją.",
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 134,
@@ -1221,6 +1490,8 @@ export const productsData = [
     identyfikator: "OPAKOWANIE NA BUTELKĘ LNIANE",
     opis: "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z lnu z aplikacją.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 135,
@@ -1230,6 +1501,8 @@ export const productsData = [
     identyfikator: "OPAKOWANIE NA BUTELKĘ Z ORGANZY",
     opis: "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z organzy z aplikacją, dostępny w 4 kolorach.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 136,
@@ -1239,6 +1512,9 @@ export const productsData = [
     identyfikator: "TORBA ECO",
     opis: "Torba bawełniana, 2 kolory, naturalny i czarny. Wymiar torby 40*41 cm+uszy 33 cm, dno pełne, mocna gramatura materiału 350 gr, wzmocnione szycia, zadruk logo 1 stronny w cenie, dowolna grafika, możliwy pełny kolor",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 137,
@@ -1248,6 +1524,8 @@ export const productsData = [
     identyfikator: "POSZEWKA MAŁA SUB",
     opis: "Poduszka (wsad i poszewka), produkt dostępny w wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
     cena: "10,00 zł (poszewka) 2,00 zł (wsad)",
+    technologie: "",
+    wymiary: "",
   },
   ////////// RAMKI DO ZDJĘĆ //////////////
   { id: "K-09", displayCategory: true, category: "ramki do zdjęć" },
@@ -1259,6 +1537,9 @@ export const productsData = [
     identyfikator: "RAMKA DUŻA 1",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 10 x 15 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 139,
@@ -1268,6 +1549,9 @@ export const productsData = [
     identyfikator: "RAMKA DUŻA 2",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 10 x 15 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 140,
@@ -1277,6 +1561,9 @@ export const productsData = [
     identyfikator: "RAMKA DUŻA 3",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 10 x 15 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 141,
@@ -1286,6 +1573,9 @@ export const productsData = [
     identyfikator: "RAMKA DUŻA 4",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 10 x 15 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 142,
@@ -1295,6 +1585,9 @@ export const productsData = [
     identyfikator: "RAMKA MAŁA 1",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 9 x 13 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 143,
@@ -1304,6 +1597,9 @@ export const productsData = [
     identyfikator: "RAMKA MAŁA 2",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 9 x 13 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 144,
@@ -1313,6 +1609,9 @@ export const productsData = [
     identyfikator: "RAMKA MAŁA 3",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 9 x 13 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 145,
@@ -1322,6 +1621,9 @@ export const productsData = [
     identyfikator: "RAMKA MAŁA 4",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 9 x 13 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
     cena: 12,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 146,
@@ -1331,6 +1633,9 @@ export const productsData = [
     identyfikator: "TERMOMETR MDF",
     opis: "Termometr wykonany z drewna dostępny w wielu ciekawych wzorach. Spora skala ułatwia odczytanie temperatury.",
     cena: 8,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 147,
@@ -1340,6 +1645,9 @@ export const productsData = [
     identyfikator: "ZAW SERCE",
     opis: "Zawieszka wykonana z drewna w kształcie eleganckiego serca. Wiele dostępnych wzorów efektyeni pomoże w zdobie domu.",
     cena: 5,
+
+    technologie: "",
+    wymiary: "",
   },
   //// AKCESORIA PODRÓŻNE /////
   { id: "K-10", displayCategory: true, category: "akcesoria podróżne" },
@@ -1351,6 +1659,8 @@ export const productsData = [
     identyfikator: "ETUI NA OKULARY",
     opis: "Kolorowe etui na okulary wykonane z twardego materiału. Możliwość nadrukowania dowolnej grafiki na wierzchniej stronie pokrowca.",
     cena: 8.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 149,
@@ -1360,6 +1670,9 @@ export const productsData = [
     identyfikator: "KŁÓDKA DUŻA",
     opis: "Pamiątkowa kłódeczka z miejscem na wykonanie grafiki. Możliwe wykonanie dowolnej grafiki, wymiar 33mm.",
     cena: 6,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 150,
@@ -1369,6 +1682,8 @@ export const productsData = [
     identyfikator: "PORTFEL PUSZKA",
     opis: "Niewielki jednokomorowy portfel wykonany \nz twardego materiału. Praktyczna pamiątka z miejscem na grawer z prostą grafiką.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 151,
@@ -1378,6 +1693,8 @@ export const productsData = [
     identyfikator: "PORTFEL SPORTOWY",
     opis: "Portfele wykonane z wodoodpornego materiału i wysokiej jakość nadruku typu „hot sticker”. Każdy portfel posiada sznurek umożliwiający zamocowanie do szlufki  spodni lub na szyi, praktyczne 2 kieszenie na zamek do przechowywania banknotów oraz monet. Oferujemy 6 modnych kolorów. Produkt zapakowany na stylowej kartce.",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 152,
@@ -1387,6 +1704,9 @@ export const productsData = [
     identyfikator: "PUDEŁKO NA LEKI KOŁO",
     opis: "Pudełko kieszonkowe zawierające przegródki wewnętrzne na leki. Pudełko na zewnątrz posiada miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
     cena: 7,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 153,
@@ -1396,6 +1716,9 @@ export const productsData = [
     identyfikator: "PUDEŁKO NA LEKI PROSTOKĄT",
     opis: "Pudełko kieszonkowe zawierające przegródki wewnętrzne na leki. Pudełko na zewnątrz posiada miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
     cena: 7,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 154,
@@ -1405,6 +1728,9 @@ export const productsData = [
     identyfikator: "SCYZORYK WIELOFUNKCYJNY",
     opis: "Scyzoryk turystyczny, metalowy, posiada 5 funkcji: nóż, otwieracz do butelek, otwieracz do puszek, korkociąg, śrubokręt Oferujemy 3 kolory: czarny, niebieski, bordowy. Produkt zapakowany w estetycznym i trwałym opakowaniu z tworzywa i kartonika.",
     cena: 7,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 155,
@@ -1414,6 +1740,9 @@ export const productsData = [
     identyfikator: "SCYZORYK WIELOFUNKCYJNY XL",
     opis: "Scyzoryk turystyczny, metalowy, posiada 11 funkcji. Oferujemy 3 kolory: czarny, niebieski, bordowy. Produkt zapakowany w estetycznym i trwałym opakowaniu z tworzywa i kartonika.",
     cena: 10,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 156,
@@ -1423,6 +1752,8 @@ export const productsData = [
     identyfikator: "ZAWIESZKA DO WALIZKI ECO",
     opis: "Praktyczna i funkcjonalna pamiątka z grawerem wykonanym laserowo. Skutecznie pomaga w oznakowaniu bagażu w każdej podróży. Dostępne kolory:  Czarny ze srebrnym grawerem, Brązowy z czarnym grawerem i Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 157,
@@ -1432,6 +1763,9 @@ export const productsData = [
     identyfikator: "ZAWIESZKA DO WALIZKI PLASTIK",
     opis: "Praktyczna i funkcjonalna pamiątka z możliwością wykonania dowolnej grafiki.  Skutecznie pomaga w oznakowaniu bagażu w każdej podróży.",
     cena: 4,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 158,
@@ -1441,6 +1775,9 @@ export const productsData = [
     identyfikator: "LUSTERKO KIESZONKOWE KOŁO",
     opis: " Lusterko kieszonkowe otwierane z zewnątrz pokryte materiałem. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
     cena: 7,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 159,
@@ -1450,6 +1787,9 @@ export const productsData = [
     identyfikator: "LUSTERKO KIESZONKOWE KWADRAT",
     opis: " Lusterko kieszonkowe otwierane z zewnątrz pokryte materiałem. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
     cena: 7,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 160,
@@ -1459,6 +1799,9 @@ export const productsData = [
     identyfikator: "LUSTERKO KIESZONKOWE SERCE",
     opis: " Lusterko kieszonkowe otwierane z zewnątrz pokryte materiałem. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
     cena: 7,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 161,
@@ -1468,6 +1811,8 @@ export const productsData = [
     identyfikator: "LUSTERKO METAL SERCE",
     opis: "Lusterko kieszonkowe oferowane w 3 kształtach: serce, owal, kwadrat. Lusterko metalowe z zewnątrz miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 162,
@@ -1477,6 +1822,8 @@ export const productsData = [
     identyfikator: "LUSTERKO METAL KWADRAT",
     opis: "Lusterko kieszonkowe oferowane w 3 kształtach: serce, owal, kwadrat. Lusterko metalowe z zewnątrz miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 163,
@@ -1486,6 +1833,8 @@ export const productsData = [
     identyfikator: "LUSTERKO METAL OWAL",
     opis: "Lusterko kieszonkowe oferowane w 3 kształtach: serce, owal, kwadrat. Lusterko metalowe z zewnątrz miejsce wypełnione żywicą/logo. Produkt zapakowany w woreczek.",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 164,
@@ -1495,6 +1844,9 @@ export const productsData = [
     identyfikator: "WACHLARZ DREWNO",
     opis: "Wachlarz wykonany z cienkiej sklejki. Możliwe jest wykonanie graweru laserowego z prostą grafiką.",
     cena: 6,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 165,
@@ -1504,6 +1856,8 @@ export const productsData = [
     identyfikator: "BIDON SZKLANY",
     opis: "Szklana butelka 500ml z pokrowcem. Pokrowiec z neoprenu zapewnia komfort w przypadku bardzo zimnych napojów oraz wygodny chwyt. Bezpieczna zakrętka z uszczelką silikonową zapobiega wyciekaniu napoju. Na każdym pokrowcu znajduję się wysokiej jakości, nowoczesna grafika. Zawartość zestawu: 1 butelka szklana, 1 pokrowiec neoprenowy",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   ////////////////// DZIECIĘCE //////////////////////
   { id: "K-15", displayCategory: true, category: "dziecięce" },
@@ -1515,6 +1869,8 @@ export const productsData = [
     identyfikator: "GRA ZRĘCZNOŚCIOWA",
     opis: "Gra zręcznościowa przeznaczona dla dzieci wykonana\n z plastiku i metalowych elementów. Możliwe wykonanie dowolnej grafiki pod labiryntem.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 167,
@@ -1524,6 +1880,8 @@ export const productsData = [
     identyfikator: "LINIJKA PUZZLE",
     opis: "Linijka z tworzywa sztucznego na której możliwe jest wykonanie grafiki ze wzorem. Linijka wmontowane ma także puzzle stanowiące przyjemną rozrywkę. Produkt zapakowany w stylowym woreczku. Długość linijki to 15,5 cm.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 168,
@@ -1533,6 +1891,9 @@ export const productsData = [
     identyfikator: "NAKLEJKI CG",
     opis: "Kolorowe naklejki dla dzieci z możliwością wykonania dowolnej grafiki. Prosty sposób na oznaczenie \ni upiększenie przedmiotów codziennego użytku. Produkt zapakowany w stylowy woreczek. ",
     cena: 3,
+
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 169,
@@ -1542,6 +1903,8 @@ export const productsData = [
     identyfikator: "NASZYJNIK AKRYL SERCE",
     opis: "Naszyjnik z akrylu w kształcie serca z imieniem dziewczynki, dostępne w 3 kolorach. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 170,
@@ -1551,6 +1914,8 @@ export const productsData = [
     identyfikator: "NIEŚMIERTELNIK NA ŁAŃCUSZKU",
     opis: "Naszyjnik nieśmiertelnik wykonany ze stali nierdzewnej z imieniem chłopięcym. Oferujemy 60 imion chłopięcych \ni znaki zodiaku, możliwe wykonanie dowolnego graweru. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 171,
@@ -1560,6 +1925,8 @@ export const productsData = [
     identyfikator: "SKARBONKA",
     opis: "Skarbonka w formie kostki o wymiarach 9 x 9 cm, wykonana z płyty MDF, możliwy dowolny zadruk wg wzoru klienta. Posiadamy 56 wzorów ze śmiesznymi hasłami.",
     cena: 9.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 172,
@@ -1569,6 +1936,8 @@ export const productsData = [
     identyfikator: "UKŁADANKA PUZZLE",
     opis: "Wysokiej jakości układanka z tworzywa sztucznego na której możliwe jest wykonanie grafiki ze wzorem. Produkt zapakowany w stylowym woreczku. Wymiar 75 x75 mm.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   ///////////// DO AUTA ////////////////
   { id: "K-11", displayCategory: true, category: "do auta" },
@@ -1580,6 +1949,8 @@ export const productsData = [
     identyfikator: "ZAPACH DO SAMOCHODU",
     opis: " Woreczek z materiału organzy z granulkami polimerowymi nasączonymi w perfumach. Kompozycji 6 zapachów: Black, Ocean, New Car, Truskawka, Wanilia i Guma Balonowa. Każdy zapach został zapakowany w foliowy szczelnie zgrzany woreczek barierowy zabezpieczający przed zwietrzeniem zapachu, oraz kartkę dedykowaną z opisem.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 174,
@@ -1589,6 +1960,8 @@ export const productsData = [
     identyfikator: "ZAWIESZKA DREWNIANA",
     opis: "Zawieszka wykonana z drewna. Naniesione grafiki drukiem UV z obu stron, będą efektowną ozdobą każdego samochodu. Nasz produkt to 6 kształtów, każda sztuka zapakowana na kartoniku.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   //////////// ZAPALNICZKI POPIELNICZKI ////////////
   { id: "K-12", displayCategory: true, category: "zapalniczki i popielniczki" },
@@ -1600,6 +1973,8 @@ export const productsData = [
     identyfikator: "POPIELNICZKA CERAMICZNA",
     opis: "Popielniczki w kształcie otwartej paczki papierosów wykonane z białej ceramiki. Ciekawy przedmiot użytkowy z możliwością wykonania dowolnej grafiki na frontowej części produktu.",
     cena: 8,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 176,
@@ -1609,6 +1984,8 @@ export const productsData = [
     identyfikator: "POPIELNICZKA KWADRAT",
     opis: "Kwadratowa popielniczka wykonana z grubego szkła posiadająca grafikę nadrukowaną na podstawie. Możliwe wykonanie dowolnej grafiki.",
     cena: 8,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 177,
@@ -1618,6 +1995,8 @@ export const productsData = [
     identyfikator: "POPIELNICZKA OKRĄGŁA",
     opis: "Okrągła popielniczka wykonana z grubego szkła posiadająca grafikę nadrukowaną na podstawie. Możliwe wykonanie dowolnej grafiki.",
     cena: 8,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 178,
@@ -1627,6 +2006,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA BENZYNOWA",
     opis: "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
     cena: 10,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 179,
@@ -1636,6 +2017,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA BENZYNOWA ŻYWICA",
     opis: "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 180,
@@ -1645,6 +2028,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA GAZOWA DUŻA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 4 kolorach. Produkt zapakowany \nw kartonik i wypraskę z tworzywa sztucznego.",
     cena: 10,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 181,
@@ -1654,6 +2039,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA GAZOWA MAŁA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 4 kolorach. Produkt zapakowany \nw kartonik i wypraskę z tworzywa sztucznego.",
     cena: 4.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 182,
@@ -1663,6 +2050,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA GAZOWA PŁOMIEŃ",
     opis: "Zapalniczka gazowa z możliwością wielokrotnego napełnienia. Zapalniczka występuje w 6 kolorach. Produkt zapakowany w kartonik i wypraskę z tworzywa sztucznego.",
     cena: 3,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 183,
@@ -1672,6 +2061,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA BENZYNA KOLOR",
     opis: "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
     cena: 10,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 184,
@@ -1681,6 +2072,8 @@ export const productsData = [
     identyfikator: "ZAPAL ZL-12 BIAŁA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Produkt dostępny w kolorze białym.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 185,
@@ -1690,6 +2083,8 @@ export const productsData = [
     identyfikator: "ZAPAL ZL-12 CZARNA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Produkt dostępny w kolorze czarnym.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 186,
@@ -1699,6 +2094,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA ŻYWICA",
     opis: "Zapalniczka gazowa z możliwością wykonania dowolnej grafiki w pełnym kolorze.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 187,
@@ -1708,6 +2105,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA GUMA CZARNA",
     opis: "Zapalniczka gazowa z możliwością wielokrotnego napełnienia.",
     cena: 3.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 188,
@@ -1717,6 +2116,8 @@ export const productsData = [
     identyfikator: "ZAPALNICZKA JET MIX GUMA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia.",
     cena: 10,
+    technologie: "",
+    wymiary: "",
   },
   ///////// UPOMINKI BIZNESOWE //////////////
   { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
@@ -1728,6 +2129,8 @@ export const productsData = [
     identyfikator: "NOTATNIK",
     opis: "Funkcjonalny notes wykonany z komponentów biodegradowalnych. Możliwe jest wykonanie grafiki ze wzorem w technologii laserowej, dolna część okładki wykonana z korka. Produkt wyposażony w długopis umożliwiający natychmiastowe użycie notesu.",
     cena: 6.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 190,
@@ -1737,6 +2140,8 @@ export const productsData = [
     identyfikator: "NOTATNIK ECO",
     opis: "Funkcjonalny notes wykonany z komponentów biodegradowalnych. Możliwe jest wykonanie grafiki ze wzorem w technologii laserowej. Produkt dostępny w 3 kolorach wyposażony w długopis umożliwiający natychmiastowe użycie notesu.",
     cena: 6.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 191,
@@ -1746,6 +2151,8 @@ export const productsData = [
     identyfikator: "PIRAMIDA SZKŁO",
     opis: "Ozdoba z bezbarwnego szkła w kształcie piramidy, posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w kartoniku ochronnym.",
     cena: 7,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 192,
@@ -1755,6 +2162,8 @@ export const productsData = [
     identyfikator: "PIRAMIDA SZKŁO DUŻA",
     opis: "Ozdoba z bezbarwnego szkła w kształcie piramidy, posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w kartoniku ochronnym.",
     cena: 9,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 193,
@@ -1764,6 +2173,8 @@ export const productsData = [
     identyfikator: "ZESTAW UPOMINKOWY",
     opis: "Zestaw upominkowy (etui na karty, brelok) zapakowany w eleganckim kartoniku. Możliwość wykonania graweru z grafiką klienta, na brelokach możliwy grawer dwustronny. Produkt dostępny w 3 kolorach:  1 - Czarny ze srebrnym grawerem ; \n2 - Brązowy z czarnym grawerem ; 3 - Beżowy z czarnym grawerem. Brak możliwości zmiany koloru graweru.",
     cena: 17,
+    technologie: "",
+    wymiary: "",
   },
   /////////////// SUBLIMACJA ////////////////
   { id: "K-14", displayCategory: true, category: "sublimacja" },
@@ -1775,6 +2186,8 @@ export const productsData = [
     identyfikator: "KUBEK SUB BIAŁY",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 195,
@@ -1784,6 +2197,8 @@ export const productsData = [
     identyfikator: "KUBEK SUB CZARNY",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z czarnym uchem oraz wnętrzem kubka.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 196,
@@ -1793,6 +2208,8 @@ export const productsData = [
     identyfikator: "KUBEK SUB CZERWONY",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z czerwonym uchem oraz wnętrzem kubka.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 197,
@@ -1802,6 +2219,8 @@ export const productsData = [
     identyfikator: "KUBEK SUB NIEBIESKI",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z niebieskim uchem oraz wnętrzem kubka.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 198,
@@ -1811,6 +2230,8 @@ export const productsData = [
     identyfikator: "FILIŻANKA SUB",
     opis: "Stylowa i elegancka ceramiczna filiżanka. Możliwość wykonania dowolnej grafiki w pełnym kolorze. Zestaw zawiera filiżankę i spodek.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 199,
@@ -1820,6 +2241,8 @@ export const productsData = [
     identyfikator: "SZKLANKA M SUB",
     opis: "Szklanka wykonana ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
     cena: 9,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 200,
@@ -1829,6 +2252,8 @@ export const productsData = [
     identyfikator: "KUBEK M SUB",
     opis: "Szklanka z uchem wykonana ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
     cena: 9,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 201,
@@ -1838,6 +2263,8 @@ export const productsData = [
     identyfikator: "KIELISZEK C SUB",
     opis: "Kieliszek wykonany z białej ceramiki z możliwością wykonania dowolnej grafiki.  Produkt dostępny w wielu ciekawych wzorach ",
     cena: 5.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 202,
@@ -1847,6 +2274,8 @@ export const productsData = [
     identyfikator: "KIELISZEK M SUB",
     opis: "Kieliszek wykonany ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
     cena: 5.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 203,
@@ -1856,6 +2285,8 @@ export const productsData = [
     identyfikator: "KUFEL SUB",
     opis: "Kufel wykonany ze szkła mrożonego z możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach ",
     cena: 17.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 204,
@@ -1865,6 +2296,8 @@ export const productsData = [
     identyfikator: "SKARBONKA SUB",
     opis: "Skarbonka w formie walca wykonana z wytrzymałej ceramiki. Możliwe jest nałożenie dowolnej grafiki w pełnym kolorze. Idealny prezent dla dziecka dostępny w wielu wzorach.",
     cena: 12,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 205,
@@ -1874,6 +2307,8 @@ export const productsData = [
     identyfikator: "NAPARSTEK SUB",
     opis: "Naparstek wykonany z twardej ceramiki z możliwością wykonania dowolnej grafiki w pełnym kolorze. Ciekawy i funkcjonalny upominek.",
     cena: 5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 206,
@@ -1883,6 +2318,8 @@ export const productsData = [
     identyfikator: "PODKŁADKA SUB",
     opis: "Podkładka pod myszkę z barwnym wydrukiem wykonanym w technice sublimacyjnej. Wymiary podkładki 24cm x 20cm",
     cena: 7.5,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 207,
@@ -1892,6 +2329,8 @@ export const productsData = [
     identyfikator: "SZKLANKA KWADRAT SUB",
     opis: "Szklanka kwadratowa możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach .",
     cena: 9,
+    technologie: "",
+    wymiary: "",
   },
   {
     id: 208,
@@ -1901,5 +2340,7 @@ export const productsData = [
     identyfikator: "KIELISZEK KWADRAT SUB",
     opis: "Kieliszek wykonany z białej ceramiki z możliwością wykonania dowolnej grafiki.  Produkt dostępny w wielu ciekawych wzorach ",
     cena: 5.5,
+    technologie: "",
+    wymiary: "",
   },
 ];

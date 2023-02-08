@@ -71,6 +71,7 @@ const ProductModal = () => {
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         <p className={classes.technologie}>technologie:</p>
+        {modalData.technologie}
       </div>
     </div>
   );
