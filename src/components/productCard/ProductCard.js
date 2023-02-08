@@ -1,27 +1,18 @@
 import classes from "./productCard.module.css";
 import React from "react";
+import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "@/state/modalSlice";
 const ProductCard = (card) => {
   const dispatch = useDispatch();
 
-  // const modalContentChange = (data) => {
-  //   setModalContent([data]);
-  //   setIsModalOpen(true);
-  // };
-  // const openModal = function () {
-  //   console.log(card);
-  // };
-
   return (
     <>
+      {/* Send modal data to modalSlice */}
       <div className={classes.card} onClick={() => dispatch(openModal(card))}>
         <div className={classes.card__header}>
           <div className={classes.card__name}>{card.identyfikator}</div>
           <img className={classes.img} src={card.image} />
-          {/* <div className={classes.cena}>
-            Cena <span className={classes.cena__span}>{card.cena} zł</span>
-          </div> */}
         </div>
         <div className={classes.card__details}>
           Kod Produktu:{" "}
@@ -31,9 +22,13 @@ const ProductCard = (card) => {
           Wymiary:{" "}
           <span className={classes.card__details_span}>05 cm x 1cm x 2cm</span>
         </div>
-        {/* <div className={classes.opis}>{card.opis}</div> */}
-        {/* <div className={classes.technologie}>Technologie</div> */}
-        {/* <div>{card.id}</div> */}
+        <div className={classes.image__overlay}>
+          <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
+          <Icon
+            icon="ph:magnifying-glass-bold"
+            className={classes.overlay__icon}
+          />
+        </div>
       </div>
     </>
   );

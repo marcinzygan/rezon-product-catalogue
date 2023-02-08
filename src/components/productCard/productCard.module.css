@@ -3,15 +3,16 @@
   height: 100%;
   margin: 0 auto;
   background: rgb(255, 255, 255);
-  border: 1px solid rgba(100, 99, 99, 0.123);
+  border: 1px solid rgba(171, 184, 196, 0.295);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-}
-.card__header {
+  cursor: pointer;
   position: relative;
+}
 
+.card__header {
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -27,57 +28,65 @@
 }
 .card__details {
   font-family: var(--ff-regular);
-  font-weight: var(--ff-regular);
+  font-weight: var(--fw-regular);
   font-size: var(--fs-h3);
-  background-color: #aebcca;
+  background-color: #81a2e9;
   width: 100%;
   margin-top: 0.5rem;
-  padding: 0 1rem 0 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 .card__details_span {
   font-weight: var(--fw-bold);
+  font-family: var(--ff-regular);
 }
 .img {
   height: 200px;
   width: 200px;
   object-fit: contain;
 }
-/* .cena {
-  color: var(--clr-primary);
-  font-family: var(--ff-regular);
-  padding: 1rem;
-  font-size: 0.8rem;
-} */
-/* .cena__span {
-  color: white;
-}
-.cena::after {
-  content: "";
-  display: block;
-  margin-top: 0.25rem;
-  height: 1px;
-  width: 50px;
-  background-color: var(--clr-primary);
-} */
-/* .opis {
-  margin-top: 2rem;
-  font-family: var(--ff-regular);
-  color: white;
-  font-size: 0.7rem;
-  padding: 1rem;
-}
-.technologie {
-  color: var(--clr-primary);
-  font-family: var(--ff-regular);
-  padding: 1rem;
-  font-size: 0.8rem;
+
+.image__overlay {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
   width: 100%;
+  height: 100%;
+  background: #1a4aa8b4;
+  /* color: var(--clr-primary);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+  text-transform: capitalize; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.85s;
 }
-.technologie::after {
-  content: "";
-  display: block;
-  margin-top: 0.25rem;
-  height: 1px;
-  width: 50px;
-  background-color: var(--clr-primary);
-} */
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.75s;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+.overlay__icon {
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+}
+.overlay__read_more {
+  font-family: var(--ff-regular);
+  /* font-weight: var(--fw-bold); */
+  font-size: var(--fs-h2);
+  color: white;
+  padding: 1rem 0;
+}

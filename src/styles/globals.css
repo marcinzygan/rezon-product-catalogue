@@ -11,6 +11,8 @@
   --fs-h1: 1rem;
   --fs-h2: 0.9rem;
   --fs-h3: 0.8rem;
+  --fs-opis: 0.9rem;
+  --fs-text: 0.7rem;
 
   --ff-regular: "Nunito", sans-serif;
   --ff-heading: "Montserrat", sans-serif;
@@ -19,6 +21,44 @@
   --clr-white: #ffffff;
   --clr-black: #323031;
   --clr-accent: #01549a;
+}
+
+/* FONT SIZE MEDIA  */
+/* 500px */
+@media (min-width: 500px) {
+  :root {
+    --fs-h1: 1.2rem;
+    --fs-h2: 1rem;
+    --fs-h3: 0.9rem;
+    --fs-text: 0.8rem;
+    --fs-opis: 1rem;
+  }
+}
+/* 800px */
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 1.3rem;
+    --fs-h2: 1.1rem;
+    /* --fs-h3: 1rem; */
+    --fs-text: 0.9rem;
+    --fs-opis: 1.1rem;
+  }
+}
+@media (min-width: 1000px) {
+  :root {
+    --fs-h1: 1.4rem;
+    --fs-h2: 1.2rem;
+    --fs-text: 1rem;
+    --fs-opis: 1.2rem;
+  }
+}
+@media (min-width: 1600px) {
+  :root {
+    --fs-h1: 1.6rem;
+    --fs-h2: 1.2rem;
+    --fs-text: 1.2rem;
+    --fs-opis: 1.3rem;
+  }
 }
 body {
   background-color: #ffffff;
@@ -38,6 +78,6 @@ img {
 .modal__open {
   visibility: visible !important;
 }
-/* .hide__cards {
+.hide__cards {
   display: none !important;
-} */
+}
