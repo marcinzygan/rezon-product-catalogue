@@ -18,44 +18,9 @@ export const productsData = [
     opis: "Magnes wykonany z akrylu w kształcie mapy Polski z możliwością nadruku grafiki. Produkt w woreczku.",
     cena: 4.5,
   },
-  // {
-  //   id: 3,
-  //   category: "magnesy",
-  //   image: "/images/img.png",
-  //   indeks_pc: "MAGNES DREWNO",
-  //   identyfikator: "MAGNES DREWNO STER",
-  //   opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
-  //   cena: 3.5,
-  // },
-  // {
-  //   id: 4,
-  //   category: "magnesy",
-  //   image: "/images/img.png",
-  //   indeks_pc: "MAGNES DREWNO",
-  //   identyfikator: "MAGNES DREWNO KOTWICA",
-  //   opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
-  //   cena: 3.5,
-  // },
-  // {
-  //   id: 5,
-  //   category: "magnesy",
-  //   image: "/images/img.png",
-  //   indeks_pc: "MAGNES DREWNO",
-  //   identyfikator: "MAGNES DREWNO OKULARY",
-  //   opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
-  //   cena: 3.5,
-  // },
-  // {
-  //   id: 6,
-  //   category: "magnesy",
-  //   image: "/images/img.png",
-  //   indeks_pc: "MAGNES DREWNO",
-  //   identyfikator: "MAGNES DREWNO LINA",
-  //   opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
-  //   cena: 3.5,
-  // },
+
   {
-    id: 7,
+    id: 3,
     category: "magnesy",
     image: "/images/magnesy/07.jpg",
     indeks_pc: "MAGNES DREWNO",
@@ -63,17 +28,9 @@ export const productsData = [
     opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
     cena: 3.5,
   },
-  // {
-  //   id: 8,
-  //   category: "magnesy",
-  //   image: "/images/img.png",
-  //   indeks_pc: "MAGNES DREWNO",
-  //   identyfikator: "MAGNES DREWNO PROSTOKĄT",
-  //   opis: "Drewniany magnes posiadający miejsce na wykonanie grafiki ze wzorem. Produkt w woreczku.",
-  //   cena: 3.5,
-  // },
+
   {
-    id: 9,
+    id: 4,
     category: "magnesy",
     image: "/images/magnesy/09.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -82,7 +39,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 10,
+    id: 5,
     category: "magnesy",
     image: "/images/magnesy/010.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -91,7 +48,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 11,
+    id: 6,
     category: "magnesy",
     image: "/images/magnesy/011.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -100,7 +57,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 12,
+    id: 7,
     category: "magnesy",
     image: "/images/magnesy/012.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -109,7 +66,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 13,
+    id: 8,
     category: "magnesy",
     image: "/images/magnesy/013.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -118,7 +75,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 14,
+    id: 9,
     category: "magnesy",
     image: "/images/magnesy/014.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -127,7 +84,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 15,
+    id: 10,
     category: "magnesy",
     image: "/images/magnesy/015.jpg",
     indeks_pc: "MAGNES METAL1",
@@ -136,7 +93,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 16,
+    id: 11,
     category: "magnesy",
     image: "/images/magnesy/016.jpg",
     indeks_pc: "MAGNES METAL",
@@ -145,7 +102,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 17,
+    id: 12,
     category: "magnesy",
     image: "/images/magnesy/017.jpg",
     indeks_pc: "MAGNES METAL",
@@ -154,7 +111,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 18,
+    id: 13,
     category: "magnesy",
     image: "/images/magnesy/018.jpg",
     indeks_pc: "MAGNES METAL",
@@ -163,7 +120,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 19,
+    id: 14,
     category: "magnesy",
     image: "/images/magnesy/019.jpg",
     indeks_pc: "MAGNES METAL",
@@ -172,7 +129,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 20,
+    id: 15,
     category: "magnesy",
     image: "/images/magnesy/020.jpg",
     indeks_pc: "DK32-KAPSEL METAL",
@@ -181,7 +138,7 @@ export const productsData = [
     cena: 3,
   },
   {
-    id: 21,
+    id: 16,
     category: "magnesy",
     image: "/images/magnesy/021.jpg",
     indeks_pc: "MAGNES I LOVE",
@@ -190,7 +147,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 22,
+    id: 17,
     category: "magnesy",
     image: "/images/magnesy/022.jpg",
     indeks_pc: "MAGNES POLIRESING",
@@ -199,7 +156,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 23,
+    id: 18,
     category: "magnesy",
     image: "/images/magnesy/023.jpg",
     indeks_pc: "MAGNES POLIRESING",
@@ -208,7 +165,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 24,
+    id: 19,
     category: "magnesy",
     image: "/images/magnesy/024.jpg",
     indeks_pc: "MAGNES POLIRESING",
@@ -217,7 +174,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 25,
+    id: 20,
     category: "magnesy",
     image: "/images/magnesy/025.jpg",
     indeks_pc: "MAGNES POLIRESING",
@@ -226,7 +183,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 26,
+    id: 21,
     category: "magnesy",
     image: "/images/magnesy/026.jpg",
     indeks_pc: "MAGNES POLIRESING",
@@ -235,7 +192,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 27,
+    id: 22,
     category: "magnesy",
     image: "/images/magnesy/027.jpg",
     indeks_pc: "MAGNES POLIRESING",
@@ -244,7 +201,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 28,
+    id: 23,
     category: "magnesy",
     image: "/images/magnesy/028.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -253,7 +210,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 29,
+    id: 24,
     category: "magnesy",
     image: "/images/magnesy/029.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -262,7 +219,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 30,
+    id: 25,
     category: "magnesy",
     image: "/images/magnesy/030.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -271,7 +228,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 31,
+    id: 26,
     category: "magnesy",
     image: "/images/magnesy/031.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -280,7 +237,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 32,
+    id: 27,
     category: "magnesy",
     image: "/images/magnesy/032.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -289,7 +246,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 33,
+    id: 28,
     category: "magnesy",
     image: "/images/magnesy/033.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -298,7 +255,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 34,
+    id: 29,
     category: "magnesy",
     image: "/images/magnesy/034.jpg",
     indeks_pc: "MAGNES SZKŁO",
@@ -307,7 +264,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 35,
+    id: 30,
     category: "magnesy",
     image: "/images/magnesy/035.jpg",
     indeks_pc: "SKLEJKA MAZAK",
@@ -316,7 +273,7 @@ export const productsData = [
     cena: 6,
   },
   {
-    id: 36,
+    id: 31,
     category: "magnesy",
     image: "",
     indeks_pc: "DK38-007A  (wymiary 15x12)",
@@ -325,7 +282,7 @@ export const productsData = [
     cena: 2.5,
   },
   {
-    id: 37,
+    id: 32,
     category: "magnesy",
     image: "/images/magnesy/036.jpg",
     indeks_pc: "SKLEJKA SZKŁO",
@@ -334,7 +291,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 38,
+    id: 33,
     category: "magnesy",
     image: "/images/magnesy/037.jpg",
     indeks_pc: "DK38-007B",
@@ -343,7 +300,7 @@ export const productsData = [
     cena: 3,
   },
   {
-    id: 39,
+    id: 34,
     category: "magnesy",
     image: "/images/magnesy/038.jpg",
     indeks_pc: "DK38-007C",
@@ -352,7 +309,7 @@ export const productsData = [
     cena: 3,
   },
   {
-    id: 40,
+    id: 35,
     category: "magnesy",
     image: "/images/magnesy/039.jpg",
     indeks_pc: "MAGNES ŻYWICA-1",
@@ -361,7 +318,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 41,
+    id: 36,
     category: "magnesy",
     image: "/images/magnesy/040.jpg",
     indeks_pc: "MAGNES ŻYWICA-2",
@@ -370,7 +327,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 42,
+    id: 37,
     category: "magnesy",
     image: "/images/magnesy/041.jpg",
     indeks_pc: "MAGNES ŻYWICA IMIĘ",
@@ -379,16 +336,16 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 43,
+    id: 38,
     category: "magnesy",
-    image: "/images/img.png",
+    image: "",
     indeks_pc: "MAGNES",
     identyfikator: "MAGNES PROSTOKĄT PAPIEROWY",
     opis: "Prosty i elegancki magnes upominkowy wykonany ze specjalistycznego papieru. Możliwe wykonanie dowolnej grafiki na elemencie.",
     cena: 3,
   },
   {
-    id: 44,
+    id: 39,
     category: "magnesy",
     image: "/images/magnesy/042.jpg",
     indeks_pc: "MAGNES OBRAZ",
@@ -397,7 +354,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 45,
+    id: 40,
     category: "magnesy",
     image: "/images/magnesy/043.jpg",
     indeks_pc: "MAGNES 3D",
@@ -406,7 +363,7 @@ export const productsData = [
     cena: 3.5,
   },
   {
-    id: 46,
+    id: 41,
     category: "magnesy",
     image: "/images/magnesy/044.jpg",
     indeks_pc: "MAGNES DŁUGopis",
@@ -415,7 +372,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 47,
+    id: 42,
     category: "magnesy",
     image: "/images/magnesy/045.jpg",
     indeks_pc: "DK41-077B",
@@ -424,7 +381,7 @@ export const productsData = [
     cena: 4,
   },
   {
-    id: 48,
+    id: 43,
     category: "magnesy",
     image: "/images/magnesy/046.jpg",
     indeks_pc: "DK41-077A",
@@ -433,7 +390,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 49,
+    id: 44,
     category: "magnesy",
     image: "/images/magnesy/047.jpg",
     indeks_pc: "MAGNES MDF",
@@ -442,7 +399,7 @@ export const productsData = [
     cena: 3.5,
   },
   {
-    id: 50,
+    id: 45,
     category: "magnesy",
     image: "/images/magnesy/048.jpg",
     indeks_pc: "MAGNES MDF IMIĘ",
@@ -451,7 +408,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 51,
+    id: 46,
     category: "magnesy",
     image: "/images/magnesy/049.jpg",
     indeks_pc: "MAGNES WAKACJE",
@@ -460,7 +417,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 52,
+    id: 47,
     category: "magnesy",
     image: "/images/magnesy/050.jpg",
     indeks_pc: "MAGNES FOLIA",
@@ -469,7 +426,7 @@ export const productsData = [
     cena: 2.5,
   },
   {
-    id: 200,
+    id: 48,
     category: "magnesy",
     image: "",
     indeks_pc: "MAGNES POLIRESING",
@@ -478,7 +435,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 201,
+    id: 49,
     category: "magnesy",
     image: "",
     indeks_pc: "MAGNES HDF",
@@ -487,7 +444,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 202,
+    id: 50,
     category: "magnesy",
     image: "",
     indeks_pc: "MAGNES HDF GRAF",
@@ -496,7 +453,7 @@ export const productsData = [
     cena: 6,
   },
   {
-    id: 203,
+    id: 51,
     category: "magnesy",
     image: "",
     indeks_pc: "MAGNES PIANKA 1",
@@ -505,7 +462,7 @@ export const productsData = [
     cena: 3.5,
   },
   {
-    id: 204,
+    id: 52,
     category: "magnesy",
     image: "",
     indeks_pc: "MAGNES PIANKA 2",
@@ -1228,17 +1185,9 @@ export const productsData = [
     opis: "Poduszka (wsad i poszewka), produkt dostępny w wielu wzorach z motywem morskim. Produkt zapakowany w woreczku.",
     cena: "12,00 zł (poszewka) 3,00 zł (wsad)",
   },
-  // {
-  //   id: 131,
-  //   category: "tekstylia",
-  //   image: "/images/img.png",
-  //   indeks_pc: "KOSZULKA",
-  //   identyfikator: "KOSZULKA DZIECIĘCA",
-  //   opis: "Koszulka bawełniana dziecięca, rozmiary od 110 do 152 wzrostu, 7 kolorów: biała, czarna, szara, czerwona, błękitna, niebieska, różowa. Nadruk pełny kolor w cenie, zapakowana w woreczku i kartce usztywniającej. Oryginalne specjalnie zaprojektowane grafiki ze zwierzętami i motywami morskimi, górskimi...(ok 30 motywów).Możliwy dowolny nadruk klienta, logo, zdjęcie.",
-  //   cena: 15,
-  // },
+
   {
-    id: 132,
+    id: 131,
     category: "tekstylia",
     image: "/images/Tekstylia/08.jpg",
     indeks_pc: "SKARPETA D",
@@ -1247,7 +1196,7 @@ export const productsData = [
     cena: 5.5,
   },
   {
-    id: 133,
+    id: 132,
     category: "tekstylia",
     image: "/images/Tekstylia/09.jpg",
     indeks_pc: "SKARPETA M",
@@ -1256,7 +1205,7 @@ export const productsData = [
     cena: 5.5,
   },
   {
-    id: 134,
+    id: 133,
     category: "tekstylia",
     image: "/images/Tekstylia/010.jpg",
     indeks_pc: "OP BUTELKA 3 - BAWEŁNA",
@@ -1265,7 +1214,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 135,
+    id: 134,
     category: "tekstylia",
     image: "/images/Tekstylia/011.jpg",
     indeks_pc: "OP BUTELKA 2 - LEN",
@@ -1274,7 +1223,7 @@ export const productsData = [
     cena: 4.5,
   },
   {
-    id: 136,
+    id: 135,
     category: "tekstylia",
     image: "/images/Tekstylia/012.jpg",
     indeks_pc: "OP BUTELKA 1 - ORGANZA",
@@ -1283,7 +1232,7 @@ export const productsData = [
     cena: 3.5,
   },
   {
-    id: 137,
+    id: 136,
     category: "tekstylia",
     image: "/images/Tekstylia/013.jpg",
     indeks_pc: "DK41-TORBA ECO",
@@ -1292,7 +1241,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 138,
+    id: 137,
     category: "tekstylia",
     image: "/images/Tekstylia/014.jpg",
     indeks_pc: "DK41-078AB (POSZEWKA) DK30-046B (WSAD)",
@@ -1303,7 +1252,7 @@ export const productsData = [
   ////////// RAMKI DO ZDJĘĆ //////////////
   { id: "K-09", displayCategory: true, category: "ramki do zdjęć" },
   {
-    id: 139,
+    id: 138,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/01.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1312,7 +1261,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 140,
+    id: 139,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/03.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1321,7 +1270,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 141,
+    id: 140,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/04.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1330,7 +1279,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 142,
+    id: 141,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/02.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1339,7 +1288,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 143,
+    id: 142,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/05.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1348,7 +1297,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 144,
+    id: 143,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/06.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1357,7 +1306,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 145,
+    id: 144,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/07.jpg",
     indeks_pc: "RAMKA FOTO",
@@ -1366,7 +1315,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 146,
+    id: 145,
     category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "RAMKA FOTO",
@@ -1375,7 +1324,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 147,
+    id: 146,
     category: "ramki do zdjec i termometry",
     image: "/images/Ramki na zdjęcia/08.jpg",
     indeks_pc: "DK41-TERMOMETR",
@@ -1384,7 +1333,7 @@ export const productsData = [
     cena: 8,
   },
   {
-    id: 205,
+    id: 147,
     category: "ramki do zdjec i termometry",
     image: "",
     indeks_pc: "ZAW SERCE",
@@ -1716,7 +1665,7 @@ export const productsData = [
     cena: 3,
   },
   {
-    id: 206,
+    id: 183,
     category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPALNICZKA BENZYNA KOLOR",
@@ -1725,7 +1674,7 @@ export const productsData = [
     cena: 10,
   },
   {
-    id: 207,
+    id: 184,
     category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPAL ZL-12 BIAŁA",
@@ -1734,7 +1683,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 208,
+    id: 185,
     category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPAL ZL-12 CZARNA",
@@ -1743,7 +1692,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 209,
+    id: 186,
     category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPALNICZKA ŻYWICA",
@@ -1752,7 +1701,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 210,
+    id: 187,
     category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPALNICZKA GUMA CZARNA",
@@ -1761,7 +1710,7 @@ export const productsData = [
     cena: 3.5,
   },
   {
-    id: 211,
+    id: 188,
     category: "zapalniczki i popielniczki",
     image: "",
     indeks_pc: "ZAPALNICZKA JET MIX GUMA",
@@ -1772,7 +1721,7 @@ export const productsData = [
   ///////// UPOMINKI BIZNESOWE //////////////
   { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
   {
-    id: 183,
+    id: 189,
     category: "upominki biznesowe",
     image: "/images/Upominki biznesowe/01.jpg",
     indeks_pc: "DK38-008AB",
@@ -1781,7 +1730,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 184,
+    id: 190,
     category: "upominki biznesowe",
     image: "/images/Upominki biznesowe/02.jpg",
     indeks_pc: "DK38-008AB",
@@ -1790,7 +1739,7 @@ export const productsData = [
     cena: 6.5,
   },
   {
-    id: 185,
+    id: 191,
     category: "upominki biznesowe",
     image: "/images/Upominki biznesowe/03.jpg",
     indeks_pc: "PIRAMIDA SZKŁO M",
@@ -1799,7 +1748,7 @@ export const productsData = [
     cena: 7,
   },
   {
-    id: 186,
+    id: 192,
     category: "upominki biznesowe",
     image: "/images/Upominki biznesowe/04.jpg",
     indeks_pc: "PIRAMIDA SZKŁO D",
@@ -1808,7 +1757,7 @@ export const productsData = [
     cena: 9,
   },
   {
-    id: 187,
+    id: 193,
     category: "upominki biznesowe",
     image: "/images/Upominki biznesowe/05.jpg",
     indeks_pc: "DK39-EKO4",
@@ -1819,7 +1768,7 @@ export const productsData = [
   /////////////// SUBLIMACJA ////////////////
   { id: "K-14", displayCategory: true, category: "sublimacja" },
   {
-    id: 188,
+    id: 194,
     category: "sublimacja",
     image: "/images/Sublimacja/01.jpg",
     indeks_pc: "KUBEK SUB",
@@ -1828,7 +1777,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 189,
+    id: 195,
     category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
@@ -1837,7 +1786,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 190,
+    id: 196,
     category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
@@ -1846,7 +1795,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 191,
+    id: 197,
     category: "sublimacja",
     image: "",
     indeks_pc: "KUBEK SUB",
@@ -1855,7 +1804,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 192,
+    id: 198,
     category: "sublimacja",
     image: "/images/Sublimacja/02.jpg",
     indeks_pc: "FILIŻANKA SUB",
@@ -1864,7 +1813,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 193,
+    id: 199,
     category: "sublimacja",
     image: "/images/Sublimacja/03.jpg",
     indeks_pc: "SZKLANKA M SUB",
@@ -1873,7 +1822,7 @@ export const productsData = [
     cena: 9,
   },
   {
-    id: 194,
+    id: 200,
     category: "sublimacja",
     image: "/images/Sublimacja/04.jpg",
     indeks_pc: "KUBEK M SUB",
@@ -1882,7 +1831,7 @@ export const productsData = [
     cena: 9,
   },
   {
-    id: 195,
+    id: 201,
     category: "sublimacja",
     image: "/images/Sublimacja/05.jpg",
     indeks_pc: "KIELISZEK C SUB",
@@ -1891,7 +1840,7 @@ export const productsData = [
     cena: 5.5,
   },
   {
-    id: 196,
+    id: 202,
     category: "sublimacja",
     image: "/images/Sublimacja/06.jpg",
     indeks_pc: "KIELISZEK M SUB",
@@ -1900,7 +1849,7 @@ export const productsData = [
     cena: 5.5,
   },
   {
-    id: 197,
+    id: 203,
     category: "sublimacja",
     image: "/images/Sublimacja/07.jpg",
     indeks_pc: "KUFEL SUB",
@@ -1909,7 +1858,7 @@ export const productsData = [
     cena: 17.5,
   },
   {
-    id: 198,
+    id: 204,
     category: "sublimacja",
     image: "/images/Sublimacja/08.jpg",
     indeks_pc: "SKARBONKA SUB",
@@ -1918,7 +1867,7 @@ export const productsData = [
     cena: 12,
   },
   {
-    id: 199,
+    id: 205,
     category: "sublimacja",
     image: "/images/Sublimacja/09.jpg",
     indeks_pc: "NAPARSTEK SUB",
@@ -1927,7 +1876,7 @@ export const productsData = [
     cena: 5,
   },
   {
-    id: 212,
+    id: 206,
     category: "sublimacja",
     image: "",
     indeks_pc: "PODKŁADKA SUB",
@@ -1936,7 +1885,7 @@ export const productsData = [
     cena: 7.5,
   },
   {
-    id: 213,
+    id: 207,
     category: "sublimacja",
     image: "",
     indeks_pc: "SZKLANKA KWADRAT SUB",
@@ -1945,7 +1894,7 @@ export const productsData = [
     cena: 9,
   },
   {
-    id: 214,
+    id: 208,
     category: "sublimacja",
     image: "",
     indeks_pc: "KIELISZEK KWADRAT SUB",
