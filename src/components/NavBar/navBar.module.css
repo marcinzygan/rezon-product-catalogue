@@ -34,20 +34,30 @@
   flex-direction: column;
   gap: 0.6rem;
 }
+.company__name {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h2);
+}
 .adress {
   gap: 0.4rem;
   display: flex;
   flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
 }
 .nip {
   gap: 0.4rem;
   display: flex;
   flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
 }
 .phone {
   gap: 0.4rem;
   display: flex;
   flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
 }
 
 @media (min-width: 500px) {

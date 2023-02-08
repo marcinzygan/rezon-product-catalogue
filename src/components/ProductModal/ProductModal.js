@@ -35,33 +35,39 @@ const ProductModal = () => {
       </div>
       {/* PRODUCT INFO */}
       <div className={classes.details__container}>
-        {/* Product Name */}
-        <div className={classes.modal__name}>{modalData.identyfikator}</div>
-        {/* Product code */}
-        <div className={classes.modal__kod}>
-          Kod Produktu:{" "}
-          <span className={classes.modal__span}>{modalData.indeks_pc}</span>
+        <div className={classes.modal__info_container}>
+          {/* Product Name */}
+          <div className={classes.modal__name}>{modalData.identyfikator}</div>
+          {/* Product code */}
+          <div className={classes.modal__kod}>
+            Kod Produktu:{" "}
+            <span className={classes.modal__span}>{modalData.indeks_pc}</span>
+          </div>
+          {/* Product price */}
+          <div className={classes.cena}>
+            Cena brutto:{" "}
+            <span className={classes.modal__span}>
+              {modalData.cena} zł / sztukę
+            </span>
+          </div>
+          <div className={classes.cena}>
+            Cena netto:{" "}
+            <span className={classes.modal__span}>
+              {" "}
+              {(modalData.cena - (modalData.cena * 23) / 100).toFixed(1)} zł /
+              sztukę
+            </span>
+          </div>{" "}
+          {/* PRODUCT TXT */}
+          <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
         </div>
-        {/* Product price */}
-        <div className={classes.cena}>
-          Cena brutto:{" "}
-          <span className={classes.modal__span}>
-            {modalData.cena} zł / sztukę
-          </span>
-        </div>
-        <div className={classes.cena}>
-          Cena netto:{" "}
-          <span className={classes.modal__span}>
-            {" "}
-            {(modalData.cena - (modalData.cena * 23) / 100).toFixed(1)} zł /
-            sztukę
-          </span>
-        </div>
-        {/* PRODUCT TXT */}
-        <div className={classes.modal__opis}>{modalData.opis}</div>
+
+        <img src={modalData.image} className={classes.modal__img}></img>
       </div>
-      <img src={modalData.image} className={classes.modal__img}></img>
-      <p className={classes.modal__wymiary}>Wymiary: 12cm x 4cm</p>
+
+      <p className={classes.modal__wymiary}>
+        Wymiary: <span className={classes.modal__span}>00cm x 00cm</span>
+      </p>
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         <p className={classes.technologie}>technologie:</p>

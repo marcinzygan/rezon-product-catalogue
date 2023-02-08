@@ -3,7 +3,7 @@
   height: 100%;
   margin: 0 auto;
   background: rgb(255, 255, 255);
-  border: 1px solid rgba(100, 99, 99, 0.123);
+  border: 1px solid rgba(171, 184, 196, 0.295);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -28,15 +28,16 @@
 }
 .card__details {
   font-family: var(--ff-regular);
-  font-weight: var(--ff-regular);
+  font-weight: var(--fw-regular);
   font-size: var(--fs-h3);
-  background-color: #aebcca;
+  background-color: #85acff;
   width: 100%;
   margin-top: 0.5rem;
-  padding: 0 1rem 0 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 .card__details_span {
   font-weight: var(--fw-bold);
+  font-family: var(--ff-regular);
 }
 .img {
   height: 200px;
