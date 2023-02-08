@@ -14,6 +14,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 .modal__header_line::before {
   display: block;
@@ -37,13 +38,39 @@
   width: 30px;
   height: 30px;
 }
-.modal__footer::before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: var(--clr-accent);
+
+.company__details_container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 0;
 }
+.company__name {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h2);
+}
+.adress {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+}
+.nip {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+}
+.phone {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+}
+
 .modal__name {
   font-family: var(--ff-heading);
   font-weight: var(--fw-bold);
@@ -52,9 +79,43 @@
 }
 .modal__kod {
   font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+}
+.cena {
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+}
+.modal__span {
+  font-weight: var(--fw-bold);
   font-size: var(--fs-h2);
+}
+.modal__opis {
+  padding-top: 2rem;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-text);
+  line-height: 1.3;
 }
 .modal__img {
   display: block;
   margin: 0 auto;
+}
+.modal__wymiary {
+  padding: 1rem 0;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+  text-align: center;
+}
+.modal__footer::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: var(--clr-accent);
+}
+.technologie {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+  padding: 1rem 0;
 }

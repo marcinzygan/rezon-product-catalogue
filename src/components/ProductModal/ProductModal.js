@@ -12,32 +12,60 @@ const ProductModal = () => {
       {/* Modal Header */}
       <div className={classes.modal__header_line}></div>
       <div className={classes.modal__header}>
-        <img src="/images/logo.png" className={classes.logo}></img>
+        <img src="/images/logo4.jpg" className={classes.logo}></img>
+
         <div onClick={() => dispatch(closeModal())}>
           <Icon icon="ion:close-circle" className={classes.modal__icon} />
         </div>
       </div>
-
-      <div className={classes.details__container}>
-        {" "}
-        <div className={classes.modal__name}>{modalData.identyfikator}</div>
-        <div className={classes.modal__kod}>
-          Kod Produktu: {modalData.indeks_pc}
+      <div className={classes.company__details_container}>
+        <p className={classes.company__name}>Rezon Sp. z o.o</p>
+        <div className={classes.adress}>
+          <Icon icon="ic:round-location-on" />{" "}
+          <p>Adres: ul. Ketlinga 1 , 78-100 Kołobrzeg</p>
         </div>
+        <div className={classes.nip}>
+          <Icon icon="material-symbols:folder-open" />
+          <p>Nip: 6711400398</p>
+        </div>
+        <div className={classes.phone}>
+          <Icon icon="material-symbols:phone-in-talk-watchface-indicator" />
+          <p>Telefon: 94 355 14 50</p>
+        </div>
+      </div>
+      {/* PRODUCT INFO */}
+      <div className={classes.details__container}>
+        {/* Product Name */}
+        <div className={classes.modal__name}>{modalData.identyfikator}</div>
+        {/* Product code */}
+        <div className={classes.modal__kod}>
+          Kod Produktu:{" "}
+          <span className={classes.modal__span}>{modalData.indeks_pc}</span>
+        </div>
+        {/* Product price */}
         <div className={classes.cena}>
-          Cena brutto: {modalData.cena} zł / sztukę{" "}
+          Cena brutto:{" "}
+          <span className={classes.modal__span}>
+            {modalData.cena} zł / sztukę
+          </span>
         </div>
         <div className={classes.cena}>
           Cena netto:{" "}
-          {(modalData.cena - (modalData.cena * 23) / 100).toFixed(1)} zł /
-          sztukę{" "}
+          <span className={classes.modal__span}>
+            {" "}
+            {(modalData.cena - (modalData.cena * 23) / 100).toFixed(1)} zł /
+            sztukę
+          </span>
         </div>
-        <div>{modalData.opis}</div>
+        {/* PRODUCT TXT */}
+        <div className={classes.modal__opis}>{modalData.opis}</div>
       </div>
       <img src={modalData.image} className={classes.modal__img}></img>
-      <p>Wymiary: 12cm x 4cm</p>
+      <p className={classes.modal__wymiary}>Wymiary: 12cm x 4cm</p>
       {/* Modal Footer */}
-      <div className={classes.modal__footer}>TECHNOLOGIE</div>
+      <div className={classes.modal__footer}>
+        <p className={classes.technologie}>technologie:</p>
+      </div>
     </div>
   );
 };
