@@ -66,7 +66,8 @@ const ProductModal = () => {
       </div>
 
       <p className={classes.modal__wymiary}>
-        Wymiary: <span className={classes.modal__span}>00cm x 00cm</span>
+        Wymiary:{" "}
+        <span className={classes.modal__span}>{modalData.wymiary}</span>
       </p>
       {/* Modal Footer */}
       <div className={classes.modal__footer}>

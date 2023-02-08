@@ -9,7 +9,7 @@ export const productsData = [
     opis: "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
     cena: 4.5,
     technologie: "UV",
-    wymiary: "",
+    wymiary: "0 x 1cm",
   },
   {
     id: 2,

@@ -20,7 +20,7 @@ const ProductCard = (card) => {
         </div>
         <div className={classes.card__details}>
           Wymiary:{" "}
-          <span className={classes.card__details_span}>05 cm x 1cm x 2cm</span>
+          <span className={classes.card__details_span}>{card.wymiary}</span>
         </div>
         <div className={classes.image__overlay}>
           <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
