@@ -121,6 +121,10 @@
   text-transform: uppercase;
   padding: 1rem 0;
 }
+.tech__img {
+  width: 100px;
+  height: 100px;
+}
 
 @media (min-width: 500px) {
   .modal {

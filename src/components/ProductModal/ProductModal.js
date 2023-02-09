@@ -73,6 +73,10 @@ const ProductModal = () => {
       <div className={classes.modal__footer}>
         <p className={classes.technologie}>technologie:</p>
         {modalData.technologie}
+        <img
+          className={classes.tech__img}
+          src="/images/Technologie/cmyk.webp"
+        ></img>
       </div>
     </div>
   );
