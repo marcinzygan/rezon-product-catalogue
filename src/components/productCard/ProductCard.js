@@ -9,11 +9,22 @@ const ProductCard = (card) => {
   return (
     <>
       {/* Send modal data to modalSlice */}
-      <div className={classes.card} onClick={() => dispatch(openModal(card))}>
-        <div className={classes.card__header}>
-          <div className={classes.card__name}>{card.identyfikator}</div>
+      <div className={classes.card}>
+        <div
+          className={classes.card__header}
+          onClick={() => dispatch(openModal(card))}
+        >
           <img className={classes.img} src={card.image} />
+
+          <div className={classes.image__overlay}>
+            <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
+            <Icon
+              icon="ph:magnifying-glass-bold"
+              className={classes.overlay__icon}
+            />
+          </div>
         </div>
+        <div className={classes.card__name}>{card.identyfikator}</div>
         <div className={classes.card__details}>
           Kod Produktu:{" "}
           <span className={classes.card__details_span}>{card.indeks_pc}</span>
@@ -21,13 +32,6 @@ const ProductCard = (card) => {
         <div className={classes.card__details}>
           Wymiary:{" "}
           <span className={classes.card__details_span}>{card.wymiary}</span>
-        </div>
-        <div className={classes.image__overlay}>
-          <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
-          <Icon
-            icon="ph:magnifying-glass-bold"
-            className={classes.overlay__icon}
-          />
         </div>
       </div>
     </>
