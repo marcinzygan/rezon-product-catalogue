@@ -115,6 +115,10 @@ const ProductModal = () => {
             ></img>
             <img
               className={classes.tech__img}
+              src="/images/Technologie/zamowienia.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
               src="/images/Technologie/grafika.webp"
             ></img>
           </div>

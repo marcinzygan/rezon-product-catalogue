@@ -122,8 +122,13 @@
   padding: 1rem 0;
 }
 .tech__img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+}
+.technologie__container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 500px) {
@@ -159,6 +164,10 @@
   .modal__icon {
     width: 40px;
     height: 40px;
+  }
+  .tech__img {
+    width: 140px;
+    height: 140px;
   }
 }
 @media (min-width: 1000px) {
