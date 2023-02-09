@@ -90,3 +90,16 @@
   color: white;
   padding: 1rem 0;
 }
+
+@media (min-width: 1300px) {
+  .img {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 1600px) {
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+}

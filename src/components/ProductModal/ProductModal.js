@@ -72,7 +72,163 @@ const ProductModal = () => {
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         <p className={classes.technologie}>technologie:</p>
-        {modalData.technologie}
+        {/* TECHNOLOGIA 1 */}
+        {modalData.technologie === "1" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/uv.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 2 */}
+        {modalData.technologie === "2" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/zywica.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 3 */}
+        {modalData.technologie === "3" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/laser.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 4 */}
+        {modalData.technologie === "4" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/prasa.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 5 */}
+        {modalData.technologie === "5" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/uv.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/laser.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 6 */}
+        {modalData.technologie === "6" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/laser.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 7  */}
+        {modalData.technologie === "7" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/prasa.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/rozmiary.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 8 */}
+        {modalData.technologie === "8" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/prasa.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/rozmiary.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
+        {/* TECHNOLOGIA 10 */}
+        {modalData.technologie === "10" && (
+          <div className={classes.technologie__container}>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/cmyk.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/kartonik.webp"
+            ></img>
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/grafika.webp"
+            ></img>
+          </div>
+        )}
       </div>
     </div>
   );
