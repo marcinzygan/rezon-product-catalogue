@@ -1,15 +1,15 @@
 import Head from "next/head";
 import classes from "../styles/index.module.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import ProductCard from "@/components/productCard/ProductCard";
 import PaginationMenu from "@/components/paginationMenu/PaginationMenu";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 import Footer from "@/components/Footer/Footer";
+import { useEffect } from "react";
 
 export default function Home() {
-  const dispatch = useDispatch();
   const pageNumber = useSelector((state) => state.page.currentPage);
   const productCards = useSelector((state) => state.data.productCards);
 
@@ -25,7 +25,25 @@ export default function Home() {
   //   cardsSeen - 199,
   //   cardsPerPage - 199 + cardsSeen
   // );
+  const handler = (e) => console.log(e, "here");
 
+  useEffect(() => {
+    if (document.readyState === "complete") {
+      window.addEventListener("scroll", function () {
+        const scrollPosition = window.pageYOffset;
+        console.log(scrollPosition);
+        const arrow = document.querySelector("#arrow");
+        console.log(arrow);
+        if (scrollPosition > 500) {
+          arrow.classList.add("show__arrow");
+        } else {
+          arrow.classList.remove("show__arrow");
+        }
+      });
+    } else {
+      // return () => document.removeEventListener("scroll", handler);
+    }
+  }, []);
   return (
     <>
       <Head>

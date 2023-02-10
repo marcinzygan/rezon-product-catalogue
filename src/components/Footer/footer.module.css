@@ -1,6 +1,6 @@
 .footer {
   height: 300px;
-  background-color: aquamarine;
+  background-color: white;
   margin-top: 2rem;
 }
 .footer__logo {
@@ -15,12 +15,10 @@
   bottom: 1rem;
   right: 0.5rem;
   animation: bounce 2s ease-in-out infinite;
-  visibility: visible;
+  visibility: hidden;
   cursor: pointer;
 }
-.show__arrow {
-  visibility: visible;
-}
+
 .arrow__icon {
   width: 30px;
   height: 30px;

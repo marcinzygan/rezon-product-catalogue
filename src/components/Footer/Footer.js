@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={classes.footer}>
       <img className={classes.footer__logo} src="/images/logo4.jpg"></img>
 
-      <a class={classes.top__arrow} href="#home">
+      <a id="arrow" class={classes.top__arrow} href="#home">
         <Icon icon="mdi:arrow-top-bold-box" className={classes.arrow__icon} />
       </a>
     </footer>

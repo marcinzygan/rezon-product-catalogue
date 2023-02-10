@@ -84,3 +84,6 @@ img {
 .hide__cards {
   display: none !important;
 }
+.show__arrow {
+  visibility: visible !important;
+}
