@@ -54,8 +54,7 @@ const ProductModal = () => {
             Cena netto:{" "}
             <span className={classes.modal__span}>
               {" "}
-              {(modalData.cena - (modalData.cena * 23) / 100).toFixed(1)} zł /
-              sztukę
+              {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
           </div>{" "}
           {/* PRODUCT TXT */}
