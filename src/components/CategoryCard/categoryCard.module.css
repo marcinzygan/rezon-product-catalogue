@@ -20,3 +20,8 @@
   text-transform: uppercase;
   text-align: center;
 }
+.category__svg {
+  width: 150px;
+  height: 150px;
+  opacity: 0.2;
+}
