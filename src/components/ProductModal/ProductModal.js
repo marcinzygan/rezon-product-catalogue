@@ -32,6 +32,10 @@ const ProductModal = () => {
           <Icon icon="material-symbols:phone-in-talk-watchface-indicator" />
           <p>Telefon: 94 355 14 50</p>
         </div>
+        <div className={classes.email}>
+          <Icon icon="ic:baseline-email" />
+          <p>Email: hurtownia@rezon.eu</p>
+        </div>
       </div>
       {/* PRODUCT INFO */}
       <div className={classes.details__container}>

@@ -59,6 +59,13 @@
   font-family: var(--ff-regular);
   font-size: var(--fs-text);
 }
+.email {
+  gap: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+}
 
 @media (min-width: 500px) {
   .menuDetails__wrapper {
