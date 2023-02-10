@@ -1,0 +1,12 @@
+.footer {
+  height: 300px;
+  background-color: aquamarine;
+  margin-top: 2rem;
+}
+.footer__logo {
+  display: block;
+  height: 60x;
+  width: 120px;
+  object-fit: cover;
+  margin: 0 auto;
+}
