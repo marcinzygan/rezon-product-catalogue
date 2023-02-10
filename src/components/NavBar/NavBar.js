@@ -5,7 +5,7 @@ import classes from "./navBar.module.css";
 
 const NavBar = () => {
   return (
-    <nav className={classes.nav__container}>
+    <nav className={classes.nav__container} id="home">
       <div className={classes.nav}>
         <div className={classes.logo__container}>
           <img className={classes.logo} src="/images/logo1.jpg"></img>
@@ -27,6 +27,10 @@ const NavBar = () => {
             <div className={classes.phone}>
               <Icon icon="material-symbols:phone-in-talk-watchface-indicator" />
               <p>Telefon: 94 355 14 50</p>
+            </div>
+            <div className={classes.email}>
+              <Icon icon="ic:baseline-email" />
+              <p>Email: hurtownia@rezon.eu</p>
             </div>
           </div>
           <FilterMenu />

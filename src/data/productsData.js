@@ -1320,7 +1320,7 @@ export const productsData = [
     wymiary: "10,50 cm x 8,00 cm",
   },
   ////////////////// KUBKI I PODKŁADKI ///////////
-  { id: "K-04", displayCategory: true, category: "Kubki i podkładki" },
+  { id: "K-04", displayCategory: true, category: "kubki i podkładki" },
   {
     id: 102,
     category: "kubki i podkładki",
@@ -1949,7 +1949,7 @@ export const productsData = [
     image: "",
     indeks_pc: "ZAW SERCE",
     identyfikator: "ZAW SERCE",
-    opis: "Zawieszka wykonana z drewna w kształcie eleganckiego serca. Wiele dostępnych wzorów efektyeni pomoże w zdobie domu.",
+    opis: "Zawieszka wykonana z drewna w kształcie eleganckiego serca. Wiele dostępnych wzorów efektywnie pomoże w ozdobie domu.",
     cena: 5,
     technologie: "1",
     ilość_opakowanie: "",
@@ -1957,7 +1957,7 @@ export const productsData = [
     wymiary: "",
   },
   //// AKCESORIA PODRÓŻNE /////
-  { id: "K-10", displayCategory: true, category: "akcesoria podróżne" },
+  { id: "K-10", displayCategory: true, category: "akcesoria podrozne" },
   {
     id: 148,
     category: "akcesoria podrozne",
