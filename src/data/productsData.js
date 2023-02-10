@@ -483,19 +483,19 @@ export const productsData = [
     ilość_karton: "",
     wymiary: "9,50 cm x 7,00 cm",
   },
-  {
-    id: 38,
-    category: "magnesy",
-    image: "",
-    indeks_pc: "MAGNES",
-    identyfikator: "MAGNES PROSTOKĄT PAPIEROWY",
-    opis: "Prosty i elegancki magnes upominkowy wykonany ze specjalistycznego papieru. Możliwe wykonanie dowolnej grafiki na elemencie.",
-    cena: 3,
-    technologie: "",
-    ilość_opakowanie: "",
-    ilość_karton: "",
-    wymiary: "",
-  },
+  // {
+  //   id: 38,
+  //   category: "magnesy",
+  //   image: "",
+  //   indeks_pc: "MAGNES",
+  //   identyfikator: "MAGNES PROSTOKĄT PAPIEROWY",
+  //   opis: "Prosty i elegancki magnes upominkowy wykonany ze specjalistycznego papieru. Możliwe wykonanie dowolnej grafiki na elemencie.",
+  //   cena: 3,
+  //   technologie: "",
+  //   ilość_opakowanie: "",
+  //   ilość_karton: "",
+  //   wymiary: "",
+  // },
   {
     id: 39,
     category: "magnesy",
@@ -616,7 +616,7 @@ export const productsData = [
   {
     id: 48,
     category: "magnesy",
-    image: "",
+    image: "/images/magnesy/magnes_polirezing.webp",
     indeks_pc: "MAGNES POLIRESING",
     identyfikator: "MAGNES POLIRESING ZNAK",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
@@ -655,7 +655,7 @@ export const productsData = [
   {
     id: 51,
     category: "magnesy",
-    image: "",
+    image: "/images/magnesy/pianka1.webp",
     indeks_pc: "MAGNES PIANKA 1",
     identyfikator: "MAGNES PIANKA 1",
     opis: "Magnes wykonany z lekkiej pianki z kolorową grafiką.",
@@ -668,7 +668,7 @@ export const productsData = [
   {
     id: 52,
     category: "magnesy",
-    image: "",
+    image: "/images/magnesy/pianka2.webp",
     indeks_pc: "MAGNES PIANKA 2",
     identyfikator: "MAGNES PIANKA 2",
     opis: "Magnes wykonany z lekkiej pianki z kolorową grafiką.",
@@ -2422,7 +2422,7 @@ export const productsData = [
   {
     id: 183,
     category: "zapalniczki i popielniczki",
-    image: "",
+    image: "/images/Zapalniczki i Popielniczki/zapaliczka_benzyna_kolor.webp",
     indeks_pc: "ZAPALNICZKA BENZYNA KOLOR",
     identyfikator: "ZAPALNICZKA BENZYNA KOLOR",
     opis: "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
@@ -2435,7 +2435,7 @@ export const productsData = [
   {
     id: 184,
     category: "zapalniczki i popielniczki",
-    image: "",
+    image: "/images/Zapalniczki i Popielniczki/zl12-biala.webp",
     indeks_pc: "ZAPAL ZL-12 BIAŁA",
     identyfikator: "ZAPAL ZL-12 BIAŁA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Produkt dostępny w kolorze białym.",
@@ -2448,7 +2448,7 @@ export const productsData = [
   {
     id: 185,
     category: "zapalniczki i popielniczki",
-    image: "",
+    image: "/images/Zapalniczki i Popielniczki/zl12-czarna.webp",
     indeks_pc: "ZAPAL ZL-12 CZARNA",
     identyfikator: "ZAPAL ZL-12 CZARNA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Produkt dostępny w kolorze czarnym.",
@@ -2487,7 +2487,7 @@ export const productsData = [
   {
     id: 188,
     category: "zapalniczki i popielniczki",
-    image: "",
+    image: "/images/Zapalniczki i Popielniczki/jet.webp",
     indeks_pc: "ZAPALNICZKA JET MIX GUMA",
     identyfikator: "ZAPALNICZKA JET MIX GUMA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia.",
@@ -2582,7 +2582,7 @@ export const productsData = [
   {
     id: 195,
     category: "sublimacja",
-    image: "",
+    image: "/images/Sublimacja/kubek_sub_czarny.webp",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB CZARNY",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z czarnym uchem oraz wnętrzem kubka.",
@@ -2595,7 +2595,7 @@ export const productsData = [
   {
     id: 196,
     category: "sublimacja",
-    image: "",
+    image: "/images/Sublimacja/kubek_sub_czerwony.webp",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB CZERWONY",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z czerwonym uchem oraz wnętrzem kubka.",
@@ -2608,7 +2608,7 @@ export const productsData = [
   {
     id: 197,
     category: "sublimacja",
-    image: "",
+    image: "/images/Sublimacja/kubek_sub_niebieski.webp",
     indeks_pc: "KUBEK SUB",
     identyfikator: "KUBEK SUB NIEBIESKI",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym, z niebieskim uchem oraz wnętrzem kubka.",
@@ -2726,7 +2726,7 @@ export const productsData = [
   {
     id: 206,
     category: "sublimacja",
-    image: "",
+    image: "/images/Sublimacja/podkladka_sub.webp",
     indeks_pc: "PODKŁADKA SUB",
     identyfikator: "PODKŁADKA SUB",
     opis: "Podkładka pod myszkę z barwnym wydrukiem wykonanym w technice sublimacyjnej. Wymiary podkładki 24cm x 20cm",
