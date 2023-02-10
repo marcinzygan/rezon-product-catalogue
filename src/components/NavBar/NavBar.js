@@ -5,7 +5,7 @@ import classes from "./navBar.module.css";
 
 const NavBar = () => {
   return (
-    <nav className={classes.nav__container}>
+    <nav className={classes.nav__container} id="home">
       <div className={classes.nav}>
         <div className={classes.logo__container}>
           <img className={classes.logo} src="/images/logo1.jpg"></img>
