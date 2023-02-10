@@ -1320,7 +1320,7 @@ export const productsData = [
     wymiary: "10,50 cm x 8,00 cm",
   },
   ////////////////// KUBKI I PODKŁADKI ///////////
-  { id: "K-04", displayCategory: true, category: "Kubki i podkładki" },
+  { id: "K-04", displayCategory: true, category: "kubki i podkładki" },
   {
     id: 102,
     category: "kubki i podkładki",
@@ -1957,7 +1957,7 @@ export const productsData = [
     wymiary: "",
   },
   //// AKCESORIA PODRÓŻNE /////
-  { id: "K-10", displayCategory: true, category: "akcesoria podróżne" },
+  { id: "K-10", displayCategory: true, category: "akcesoria podrozne" },
   {
     id: 148,
     category: "akcesoria podrozne",
