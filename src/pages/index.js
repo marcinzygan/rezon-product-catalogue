@@ -27,21 +27,19 @@ export default function Home() {
   // );
 
   useEffect(() => {
-    if (document.readyState === "complete") {
-      window.addEventListener("scroll", function () {
-        const scrollPosition = window.pageYOffset;
-        console.log(scrollPosition);
-        const arrow = document.querySelector("#arrow");
-        console.log(arrow);
-        if (scrollPosition > 500) {
-          arrow.classList.add("show__arrow");
-        } else {
-          arrow.classList.remove("show__arrow");
-        }
-      });
-    } else {
-      // return () => document.removeEventListener("scroll", handler);
-    }
+    window.addEventListener("scroll", function () {
+      const scrollPosition = window.pageYOffset;
+      console.log(scrollPosition);
+      const arrow = document.querySelector("#arrow");
+      console.log(arrow);
+      if (scrollPosition > 500) {
+        arrow.classList.add("show__arrow");
+      } else {
+        arrow.classList.remove("show__arrow");
+      }
+    });
+
+    // return () => document.removeEventListener("scroll", handler);
   }, []);
   return (
     <>
