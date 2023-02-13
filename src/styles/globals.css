@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 :root {
-  --fs-h1: 1rem;
+  --fs-h1: 1.1rem;
   --fs-h2: 0.9rem;
   --fs-h3: 0.8rem;
   --fs-opis: 0.9rem;
@@ -84,4 +84,7 @@ img {
 }
 .show__arrow {
   visibility: visible !important;
+}
+.nav__open {
+  transform: translateX(0%) !important;
 }

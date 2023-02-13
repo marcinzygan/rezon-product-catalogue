@@ -1,0 +1,63 @@
+.handlowcy__main {
+  padding: 3.5rem;
+}
+.handlowcy__h1 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h1);
+  color: var(--clr-black);
+  text-align: center;
+}
+.handlowcy__h2 {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h2);
+  color: var(--clr-black);
+  font-weight: var(--fw-bold);
+  padding-top: 8rem;
+}
+.handlowcy__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.personal__details_container {
+  font-family: var(--ff-regular);
+  font-size: var(--fs-text);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+.name {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h3);
+  color: var(--clr-black);
+  padding-bottom: 0.5rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 1000px) {
+  .handlowcy__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 4rem;
+  }
+  .icon__container {
+    max-width: 500px;
+  }
+}
+@media (min-width: 1300px) {
+  .handlowcy__main {
+    padding: 5rem;
+  }
+}
+@media (min-width: 1600px) {
+  .handlowcy__main {
+    padding: 5rem 10rem 10rem 10rem;
+  }
+}

@@ -4,7 +4,12 @@
   gap: 1rem;
   padding: 1rem;
 }
-
+.filter__menu {
+  display: flex;
+  padding: 0 3.5rem;
+  justify-content: flex-end;
+  align-items: center;
+}
 @media (min-width: 400px) {
   .cards__container {
     padding: 3rem;
