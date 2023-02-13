@@ -1,9 +1,13 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import FilterMenu from "../filterMenu/FilterMenu";
+
 import classes from "./navBar.module.css";
 
 const NavBar = () => {
+  const openNav = function () {
+    const nav = document.querySelector("#nav");
+    nav.classList.add("nav__open");
+  };
   return (
     <nav className={classes.nav__container} id="home">
       <div className={classes.nav}>
@@ -33,8 +37,20 @@ const NavBar = () => {
               <p>Email: hurtownia@rezon.eu</p>
             </div>
           </div>
-          <FilterMenu />
         </div>
+        <div id="nav" className={classes.nav__list}>
+          <ul>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+            <li>HOME</li>
+          </ul>
+        </div>
+        <Icon
+          icon="pajamas:hamburger"
+          className={classes.nav__button}
+          onClick={openNav}
+        />
       </div>
     </nav>
   );

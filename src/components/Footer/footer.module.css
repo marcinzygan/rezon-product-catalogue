@@ -66,12 +66,12 @@
 .h4__txt {
   font-family: var(--ff-heading);
   font-size: var(--fs-h2);
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-bold);
   padding-bottom: 1rem;
 }
 .footer__link {
   font-family: var(--ff-regular);
-  text-decoration: none;
+  /* text-decoration: none; */
   cursor: pointer;
   color: var(--clr-black);
 }

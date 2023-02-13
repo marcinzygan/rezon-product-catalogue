@@ -6,8 +6,9 @@ import ProductCard from "@/components/productCard/ProductCard";
 import PaginationMenu from "@/components/paginationMenu/PaginationMenu";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
-import Footer from "@/components/Footer/Footer";
+
 import { useEffect } from "react";
+import FilterMenu from "@/components/filterMenu/FilterMenu";
 
 export default function Home() {
   const pageNumber = useSelector((state) => state.page.currentPage);
@@ -49,7 +50,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <div className={classes.filter__menu}>
+        <FilterMenu />
+      </div>
       <div className={classes.cards__container} id="cards">
         {productCards.map((card) => {
           if (card.displayCategory === true) {
@@ -62,7 +65,6 @@ export default function Home() {
 
       {/* <PaginationMenu numberOfPages={numberOfPages} /> */}
       <ProductModal />
-      <Footer />
     </>
   );
 }

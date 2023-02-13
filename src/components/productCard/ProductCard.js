@@ -3,6 +3,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "@/state/modalSlice";
+
 const ProductCard = (card) => {
   const dispatch = useDispatch();
 

@@ -18,8 +18,8 @@ const Footer = () => {
           <div className={classes.nip}>
             <Icon icon="material-symbols:folder-open" />
             <p>
-              NIP: 6711400398<br></br>REGON: 330420620 <br></br>
-              KRS: 0000947122
+              Nip: 6711400398<br></br>Regon: 330420620 <br></br>
+              Krs: 0000947122
             </p>
           </div>
           <div className={classes.phone}>
@@ -44,8 +44,8 @@ const Footer = () => {
           <div className={classes.nip}>
             <Icon icon="material-symbols:folder-open" />
             <p>
-              NIP: 6711849218 <br></br>REGON: 520953559<br></br>
-              KRS: 0000924148
+              Nip: 6711849218 <br></br>Regon: 520953559<br></br>
+              Krs: 0000924148
             </p>
           </div>
           <div className={classes.phone}>
