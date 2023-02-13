@@ -29,9 +29,9 @@ export default function Home() {
   useEffect(() => {
     window.addEventListener("scroll", function () {
       const scrollPosition = window.pageYOffset;
-      console.log(scrollPosition);
+
       const arrow = document.querySelector("#arrow");
-      console.log(arrow);
+
       if (scrollPosition > 500) {
         arrow.classList.add("show__arrow");
       } else {

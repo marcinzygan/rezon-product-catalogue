@@ -2,6 +2,9 @@ import { Icon } from "@iconify/react";
 import React from "react";
 import classes from "./footer.module.css";
 const Footer = () => {
+  // Dynamic date Display
+  const date = new Date().getFullYear();
+  //  Component
   return (
     <footer className={classes.footer}>
       <div className={classes.details__wrapper}>
@@ -86,11 +89,11 @@ const Footer = () => {
         <img className={classes.footer__logo} src="/images/logo4.jpg"></img>
       </div> */}
       <div className={classes.footer__date_container}>
-        <p className={classes.footer__date}>2023</p>
+        <p className={classes.footer__date}>{date}</p>
         <p className={classes.footer__copy_name}>© Rezon.eu</p>
       </div>
 
-      <a id="arrow" class={classes.top__arrow} href="#home">
+      <a id="arrow" className={classes.top__arrow} href="#home">
         <Icon icon="mdi:arrow-top-bold-box" className={classes.arrow__icon} />
       </a>
     </footer>
