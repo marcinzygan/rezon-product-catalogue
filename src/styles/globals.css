@@ -60,9 +60,7 @@
     --fs-opis: 1.3rem;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
+
 body {
   background-color: #ffffff;
 }
