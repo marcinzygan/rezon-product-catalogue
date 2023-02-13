@@ -25,7 +25,6 @@ export default function Home() {
   //   cardsSeen - 199,
   //   cardsPerPage - 199 + cardsSeen
   // );
-  const handler = (e) => console.log(e, "here");
 
   useEffect(() => {
     if (document.readyState === "complete") {
