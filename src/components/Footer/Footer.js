@@ -82,12 +82,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <div className={classes.logo__container}>
-        <img className={classes.footer__logo} src="/images/logo1.jpg"></img>
-        <img className={classes.footer__logo} src="/images/logo2.jpg"></img>
-        <img className={classes.footer__logo} src="/images/logo3.jpg"></img>
-        <img className={classes.footer__logo} src="/images/logo4.jpg"></img>
-      </div> */}
+
       <div className={classes.footer__date_container}>
         <p className={classes.footer__date}>{date}</p>
         <p className={classes.footer__copy_name}>© Rezon.eu</p>
