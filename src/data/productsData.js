@@ -395,7 +395,7 @@ export const productsData = [
   {
     id: 31,
     category: "magnesy",
-    image: "",
+    image: "/images/magnesy/dekoaracja_sklejka.webp",
     indeks_pc: "DK38-007A  (wymiary 15x12)",
     identyfikator: "DEKORACJA ZE SKLEJKI",
     opis: "Ozdoba wykonana ze sklejki wyciętej laserowo. Istnieje możliwość wycięcia dowolnego kształtu \no wymiarach max 15 cm x 12 cm oraz wypalenie grafiki na powstałym elemencie.",
@@ -629,7 +629,7 @@ export const productsData = [
   {
     id: 49,
     category: "magnesy",
-    image: "",
+    image: "/images/magnesy/hdf.webp",
     indeks_pc: "MAGNES HDF",
     identyfikator: "MAGNES HDF",
     opis: "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color.",
@@ -642,7 +642,7 @@ export const productsData = [
   {
     id: 50,
     category: "magnesy",
-    image: "",
+    image: "/images/magnesy/hdf_graf.webp",
     indeks_pc: "MAGNES HDF GRAF",
     identyfikator: "MAGNES HDF GRAF",
     opis: "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color.",
@@ -1482,7 +1482,7 @@ export const productsData = [
   {
     id: 209,
     category: "długopisy",
-    image: "",
+    image: "/images/Długopisy/bambus.webp",
     indeks_pc: "DK41-094",
     identyfikator: "DŁUGOPIS BAMBUS",
     opis: "Bambusowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. ",
@@ -1495,7 +1495,7 @@ export const productsData = [
   {
     id: 210,
     category: "długopisy",
-    image: "",
+    image: "/images/Długopisy/bambus_gumka.webp",
     indeks_pc: "DK41-095",
     identyfikator: "DŁUGOPIS BAMBUS GUMKA",
     opis: "Bambusowy długopis na którym można wygrawerować metodą laserową małą grafikę ze wzorem. ",
@@ -1920,7 +1920,7 @@ export const productsData = [
   {
     id: 145,
     category: "ramki do zdjec i termometry",
-    image: "",
+    image: "/images/Ramki na zdjęcia/ramka_mala_4.webp",
     indeks_pc: "RAMKA FOTO",
     identyfikator: "RAMKA MAŁA 4",
     opis: "Ramka do zdjęć o wymiarze zdjęcia 9 x 13 cm, możliwość ustawienia w pionie lub poziomie. Zadruk ramki oraz pola pod wypełnienie żywicą. Dostępne około 10 wzorów, lub wg. wzoru klienta. Ramka wykonana z Materiału drewnopochodnego MDF.",
@@ -1946,7 +1946,7 @@ export const productsData = [
   {
     id: 147,
     category: "ramki do zdjec i termometry",
-    image: "",
+    image: "/images/Ramki na zdjęcia/zaw_serce.webp",
     indeks_pc: "ZAW SERCE",
     identyfikator: "ZAW SERCE",
     opis: "Zawieszka wykonana z drewna w kształcie eleganckiego serca. Wiele dostępnych wzorów efektywnie pomoże w ozdobie domu.",
@@ -2461,7 +2461,7 @@ export const productsData = [
   {
     id: 186,
     category: "zapalniczki i popielniczki",
-    image: "",
+    image: "/images/Zapalniczki i Popielniczki/zapalniczka_zywica.webp",
     indeks_pc: "ZAPALNICZKA ŻYWICA",
     identyfikator: "ZAPALNICZKA ŻYWICA",
     opis: "Zapalniczka gazowa z możliwością wykonania dowolnej grafiki w pełnym kolorze.",
@@ -2474,7 +2474,7 @@ export const productsData = [
   {
     id: 187,
     category: "zapalniczki i popielniczki",
-    image: "",
+    image: "/images/Zapalniczki i Popielniczki/guma_czarna.webp",
     indeks_pc: "ZAPALNICZKA GUMA CZARNA",
     identyfikator: "ZAPALNICZKA GUMA CZARNA",
     opis: "Zapalniczka gazowa z możliwością wielokrotnego napełnienia.",
@@ -2739,7 +2739,7 @@ export const productsData = [
   {
     id: 207,
     category: "sublimacja",
-    image: "",
+    image: "/images/Sublimacja/szklanka_kwadrat_sub.webp",
     indeks_pc: "SZKLANKA KWADRAT SUB",
     identyfikator: "SZKLANKA KWADRAT SUB",
     opis: "Szklanka kwadratowa możliwością wykonania dowolnej grafiki. Produkt dostępny w wielu ciekawych wzorach .",
@@ -2752,7 +2752,7 @@ export const productsData = [
   {
     id: 208,
     category: "sublimacja",
-    image: "",
+    image: "/images/Sublimacja/kieliszek_kwadrat_sub.webp",
     indeks_pc: "KIELISZEK KWADRAT SUB",
     identyfikator: "KIELISZEK KWADRAT SUB",
     opis: "Kieliszek wykonany z białej ceramiki z możliwością wykonania dowolnej grafiki.  Produkt dostępny w wielu ciekawych wzorach ",
