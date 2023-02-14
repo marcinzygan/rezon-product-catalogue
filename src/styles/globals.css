@@ -12,7 +12,7 @@
   --fs-h2: 0.9rem;
   --fs-h3: 0.8rem;
   --fs-opis: 0.9rem;
-  --fs-text: 0.7rem;
+  --fs-text: 0.9rem;
 
   --ff-regular: "Nunito", sans-serif;
   --ff-heading: "Montserrat", sans-serif;
@@ -30,7 +30,7 @@
     --fs-h1: 1.2rem;
     --fs-h2: 1rem;
     --fs-h3: 0.9rem;
-    --fs-text: 0.8rem;
+    /* --fs-text: 0.8rem; */
     --fs-opis: 1rem;
   }
 }
@@ -40,7 +40,7 @@
     --fs-h1: 1.3rem;
     --fs-h2: 1.1rem;
     /* --fs-h3: 1rem; */
-    --fs-text: 0.9rem;
+    /* --fs-text: 0.9rem; */
     --fs-opis: 1.1rem;
   }
 }

@@ -35,7 +35,7 @@ const NavBar = () => {
 
         <ul id="nav__list" className={classes.nav__list}>
           <li>
-            <a className={classes.nav__link} href="/#home">
+            <a className={classes.nav__link} href="/">
               Strona Główna
             </a>
           </li>
