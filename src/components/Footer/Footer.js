@@ -61,7 +61,7 @@ const Footer = () => {
         <div className={classes.sitemap__wrapper}>
           <div className={classes.footer__links_container}>
             <h4 className={classes.h4__txt}>Mapa strony .</h4>
-            <a href="/#home" className={classes.footer__link}>
+            <a href="/" className={classes.footer__link}>
               Strona Główna
             </a>
             <a href="/o_nas" className={classes.footer__link}>
@@ -76,6 +76,24 @@ const Footer = () => {
             </a>
             <a className={classes.footer__link} href="/polityka_prywatnosci">
               Polityka prywatności
+            </a>
+          </div>
+        </div>
+        {/* SOCIAL MEDIA */}
+        <div className={classes.sitemap__wrapper}>
+          <div className={classes.footer__links_container}>
+            <h4 className={classes.h4__txt}>Social Media .</h4>
+            <a
+              href="https://www.facebook.com/rezon.eu"
+              className={classes.footer__link}
+            >
+              Facebook
+            </a>
+            <a
+              href="https://www.instagram.com/trendygift.eu/"
+              className={classes.footer__link}
+            >
+              Instagram
             </a>
           </div>
         </div>
