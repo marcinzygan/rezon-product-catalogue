@@ -7,7 +7,6 @@ import PaginationMenu from "@/components/paginationMenu/PaginationMenu";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 
-import { useEffect } from "react";
 import FilterMenu from "@/components/filterMenu/FilterMenu";
 
 export default function Home() {
@@ -27,21 +26,6 @@ export default function Home() {
   //   cardsPerPage - 199 + cardsSeen
   // );
 
-  useEffect(() => {
-    window.addEventListener("scroll", function () {
-      const scrollPosition = window.pageYOffset;
-
-      const arrow = document.querySelector("#arrow");
-
-      if (scrollPosition > 500) {
-        arrow.classList.add("show__arrow");
-      } else {
-        arrow.classList.remove("show__arrow");
-      }
-    });
-
-    // return () => document.removeEventListener("scroll", handler);
-  }, []);
   return (
     <>
       <Head>

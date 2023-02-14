@@ -3,9 +3,10 @@ import classes from "./productModal.module.css";
 import { closeModal } from "@/state/modalSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Icon } from "@iconify/react";
+
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
-  console.log(modalData);
+
   const dispatch = useDispatch();
   return (
     <div className={classes.modal} id="modal">

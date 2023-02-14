@@ -65,16 +65,14 @@ const Footer = () => {
               Strona Główna
             </a>
             <a href="/o_nas" className={classes.footer__link}>
-              Kim Jesteśmy ?
+              O Nas
             </a>
-            {/* <a href="/oferta" className={classes.footer__link} >
-              Nasza Oferta
-            </a> */}
+
+            <a className={classes.footer__link} href="/handlowcy">
+              Przedstawiciele
+            </a>
             <a href="/kontakt" className={classes.footer__link}>
               Kontakt
-            </a>
-            <a className={classes.footer__link} href="/handlowcy">
-              Handlowcy
             </a>
             <a className={classes.footer__link} href="/polityka_prywatnosci">
               Polityka prywatności
