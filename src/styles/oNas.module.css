@@ -1,0 +1,44 @@
+.main {
+  padding: 3.5rem;
+}
+.h1 {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  color: var(--clr-black);
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.text {
+  font-family: var(--ff-rebular);
+  font-size: var(--fs-text);
+  color: var(--clr-black);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+.text__span {
+  font-weight: var(--fw-bold);
+}
+@media (min-width: 1000px) {
+  .main {
+    padding: 5rem;
+  }
+  .text {
+    padding-bottom: 3rem;
+  }
+}
+@media (min-width: 1300px) {
+  .main {
+    padding: 5rem 10rem;
+  }
+}
+@media (min-width: 1600px) {
+  .main {
+    padding: 5rem 15rem;
+  }
+}
+@media (min-width: 1800px) {
+  .main {
+    padding: 5rem 25rem;
+  }
+}
