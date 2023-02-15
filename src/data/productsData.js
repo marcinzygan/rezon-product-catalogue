@@ -1951,7 +1951,7 @@ export const productsData = [
     identyfikator: "ZAW SERCE",
     opis: "Zawieszka wykonana z drewna w kształcie eleganckiego serca. Wiele dostępnych wzorów efektywnie pomoże w ozdobie domu.",
     cena: 5,
-    technologie: "1",
+    technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
     wymiary: "",

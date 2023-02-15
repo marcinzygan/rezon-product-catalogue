@@ -3,7 +3,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "@/state/modalSlice";
-
+import Image from "next/image";
 const ProductCard = (card) => {
   const dispatch = useDispatch();
 
@@ -15,7 +15,17 @@ const ProductCard = (card) => {
           className={classes.card__header}
           onClick={() => dispatch(openModal(card))}
         >
-          <img className={classes.img} src={card.image} />
+          <div className={classes.img__wrapper}>
+            <Image
+              fill
+              className={classes.img}
+              src={card.image}
+              alt={card.identyfikator}
+              sizes="(max-width: 768px) 200vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+            />
+          </div>
 
           <div className={classes.image__overlay}>
             <p className={classes.overlay__read_more}>Czytaj Więcej: </p>

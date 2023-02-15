@@ -42,9 +42,15 @@
   font-weight: var(--fw-bold);
   font-family: var(--ff-regular);
 }
-.img {
+.img__wrapper {
+  position: relative;
   height: 200px;
-  width: 200px;
+
+  width: 100%;
+}
+.img {
+  /* height: 200px;
+  width: 200px; */
   object-fit: contain;
 }
 
@@ -90,15 +96,18 @@
   padding: 1rem 0;
 }
 
-@media (min-width: 1300px) {
-  .img {
+@media (min-width: 300px) {
+  .img__wrapper {
     height: 250px;
-    width: 250px;
   }
 }
-@media (min-width: 1600px) {
-  .img {
+@media (min-width: 400px) {
+  .img__wrapper {
     height: 300px;
-    width: 300px;
+  }
+}
+@media (min-width: 500px) {
+  .img__wrapper {
+    height: 400px;
   }
 }
