@@ -30,8 +30,11 @@ const imageSliderSlice = createSlice({
         state.currentSlide = state.currentSlide - 1;
       }
     },
+    moveToSlide: (state, data) => {
+      state.currentSlide = data.payload;
+    },
   },
 });
-export const { closeSlider, openSlider, nextSlide, prevSlide } =
+export const { closeSlider, openSlider, nextSlide, prevSlide, moveToSlide } =
   imageSliderSlice.actions;
 export default imageSliderSlice.reducer;

@@ -77,7 +77,8 @@ const ProductModal = () => {
 
         <img src={modalData.image} className={classes.modal__img}></img>
       </div>
-      <ImageSlider images={modalData.slider_images} />
+      {/* IMAGE SLIDER */}
+      {/* <ImageSlider images={modalData.slider_images} /> */}
       <p className={classes.modal__wymiary}>
         Wymiary:{" "}
         <span className={classes.modal__span}>{modalData.wymiary}</span>
