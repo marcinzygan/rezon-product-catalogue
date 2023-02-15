@@ -3,11 +3,20 @@ import classes from "./productModal.module.css";
 import { closeModal } from "@/state/modalSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { Icon } from "@iconify/react";
+import ImageSlider from "../ImageSlider/ImageSlider";
+import { closeSlider } from "@/state/imageSliderSlice";
 
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
 
   const dispatch = useDispatch();
+  // FUNCTION TO DISPATCH MULTIPLE ACTIONS
+  function closeModalAction() {
+    return (dispatch) => {
+      dispatch(closeModal());
+      dispatch(closeSlider());
+    };
+  }
   return (
     <div className={classes.modal} id="modal">
       {/* Modal Header */}
@@ -15,7 +24,7 @@ const ProductModal = () => {
       <div className={classes.modal__header}>
         <img src="/images/logo4.jpg" className={classes.logo}></img>
 
-        <div onClick={() => dispatch(closeModal())}>
+        <div onClick={() => dispatch(closeModalAction())}>
           <Icon icon="ion:close-circle" className={classes.modal__icon} />
         </div>
       </div>
@@ -68,7 +77,8 @@ const ProductModal = () => {
 
         <img src={modalData.image} className={classes.modal__img}></img>
       </div>
-
+      {/* IMAGE SLIDER */}
+      {/* <ImageSlider images={modalData.slider_images} /> */}
       <p className={classes.modal__wymiary}>
         Wymiary:{" "}
         <span className={classes.modal__span}>{modalData.wymiary}</span>
@@ -238,6 +248,20 @@ const ProductModal = () => {
               ></img>
             </>
           )}
+          {/* TECHNOLOGIA 11 */}
+          {modalData.technologie === "11" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
           {/* CHECK FOR PLOMIEN PROPERTIES */}
           {modalData.plomien === "1" && (
             <img
@@ -251,10 +275,16 @@ const ProductModal = () => {
               src="/images/Technologie/plomien2.webp"
             ></img>
           )}
-          {modalData.plomien_regulowany === true && (
+          {modalData.plomien_regulowany === "1" && (
             <img
               className={classes.tech__img}
-              src="/images/Technologie/regulowany.webp"
+              src="/images/Technologie/regulowany1.webp"
+            ></img>
+          )}
+          {modalData.plomien_regulowany === "2" && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/regulowany2.webp"
             ></img>
           )}
           {/* CHECK FOR CUSTOM SIZE*/}

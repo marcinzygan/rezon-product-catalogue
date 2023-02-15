@@ -22,6 +22,15 @@ const modalSlice = createSlice({
       }
       state.isModalOpen = true;
       state.modalContent = data.payload;
+      // set slider length after opening modal
+
+      if (data.payload.slider_images) {
+        state.sliderLength = data.payload.slider_images.length;
+        console.log(data.payload.slider_images.length);
+      } else {
+        return;
+      }
+      // state.sliderLength = data.payload.slider_images.length;
     },
     closeModal: (state, data) => {
       document.querySelector("body").classList.remove("hidden");

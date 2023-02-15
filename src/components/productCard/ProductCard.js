@@ -3,17 +3,25 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "@/state/modalSlice";
+import { openSlider } from "@/state/imageSliderSlice";
 import Image from "next/image";
 const ProductCard = (card) => {
   const dispatch = useDispatch();
 
+  // FUNCTION TO DISPATCH MULTIPLE ACTIONS
+  function openModalAction(card) {
+    return (dispatch) => {
+      dispatch(openModal(card));
+      dispatch(openSlider(card));
+    };
+  }
   return (
     <>
       {/* Send modal data to modalSlice */}
       <div className={classes.card}>
         <div
           className={classes.card__header}
-          onClick={() => dispatch(openModal(card))}
+          onClick={() => dispatch(openModalAction(card))}
         >
           <div className={classes.img__wrapper}>
             <Image
