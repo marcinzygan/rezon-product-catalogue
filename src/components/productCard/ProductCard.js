@@ -35,14 +35,18 @@ const ProductCard = (card) => {
             />
           </div>
         </div>
-        <div className={classes.card__name}>{card.identyfikator}</div>
         <div className={classes.card__details}>
-          Kod Produktu:{" "}
-          <span className={classes.card__details_span}>{card.indeks_pc}</span>
+          <div className={classes.card__name}>{card.identyfikator}</div>
         </div>
-        <div className={classes.card__details}>
-          Wymiary:{" "}
-          <span className={classes.card__details_span}>{card.wymiary}</span>
+
+        <div
+          className={`${classes.card__details} ${classes.card__details_light}`}
+        >
+          <div>
+            Kod:{" "}
+            <span className={classes.card__details_span}>{card.indeks_pc}</span>
+          </div>
+          <span className={classes.card__details_wymiary}>{card.wymiary}</span>
         </div>
       </div>
     </>

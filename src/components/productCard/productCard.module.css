@@ -3,7 +3,7 @@
   height: 100%;
   margin: 0 auto;
   background: rgb(255, 255, 255);
-  border: 1px solid rgba(171, 184, 196, 0.295);
+  border: 1px solid rgba(171, 184, 196, 0.075);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -26,7 +26,7 @@
   font-weight: var(--fw-bold);
   color: var(--clr-primary);
   /* text-align: left; */
-  padding: 1rem;
+  /* padding: 1rem; */
   font-size: var(--fs-h2);
 }
 .card__details {
@@ -37,6 +37,16 @@
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__details_light {
+  background-color: #ebf0fc;
+}
+.card__details_wymiary {
+  font-family: var(--ff-heading);
 }
 .card__details_span {
   font-weight: var(--fw-bold);
