@@ -238,6 +238,20 @@ const ProductModal = () => {
               ></img>
             </>
           )}
+          {/* TECHNOLOGIA 11 */}
+          {modalData.technologie === "11" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
           {/* CHECK FOR PLOMIEN PROPERTIES */}
           {modalData.plomien === "1" && (
             <img
@@ -251,10 +265,16 @@ const ProductModal = () => {
               src="/images/Technologie/plomien2.webp"
             ></img>
           )}
-          {modalData.plomien_regulowany === true && (
+          {modalData.plomien_regulowany === "1" && (
             <img
               className={classes.tech__img}
-              src="/images/Technologie/regulowany.webp"
+              src="/images/Technologie/regulowany1.webp"
+            ></img>
+          )}
+          {modalData.plomien_regulowany === "2" && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/regulowany2.webp"
             ></img>
           )}
           {/* CHECK FOR CUSTOM SIZE*/}
