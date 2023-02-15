@@ -1,0 +1,32 @@
+.slider__img {
+  height: 150px;
+  object-fit: cover;
+}
+.sliderButtons__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.slider__arrow {
+  cursor: pointer;
+}
+.slider__arrow.left {
+  margin-right: auto;
+  color: var(--clr-grayLight);
+  transition: transform 0.5s ease-in;
+}
+.slider__arrow.right {
+  margin-left: auto;
+  color: var(--clr-grayLight);
+  transition: transform 0.5s ease-in;
+}
+.slider__arrow:hover {
+  transform: scale(1.2);
+}
+.slide {
+  opacity: 0.15;
+}
+.slide__active {
+  padding: 2rem 0;
+}
