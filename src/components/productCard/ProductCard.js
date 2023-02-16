@@ -9,6 +9,7 @@ const ProductCard = (card) => {
   const dispatch = useDispatch();
 
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
+
   function openModalAction(card) {
     return (dispatch) => {
       dispatch(openModal(card));
