@@ -8,7 +8,7 @@ import { closeSlider } from "@/state/imageSliderSlice";
 
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
-
+  const sliderLength = useSelector((state) => state.slider.sliderLength);
   const dispatch = useDispatch();
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
   function closeModalAction() {
@@ -28,25 +28,7 @@ const ProductModal = () => {
           <Icon icon="ion:close-circle" className={classes.modal__icon} />
         </div>
       </div>
-      <div className={classes.company__details_container}>
-        <p className={classes.company__name}>Rezon Sp. z o.o</p>
-        <div className={classes.adress}>
-          <Icon icon="ic:round-location-on" />{" "}
-          <p>Adres: ul. Ketlinga 1 , 78-100 Kołobrzeg</p>
-        </div>
-        <div className={classes.nip}>
-          <Icon icon="material-symbols:folder-open" />
-          <p>Nip: 6711400398</p>
-        </div>
-        <div className={classes.phone}>
-          <Icon icon="material-symbols:phone-in-talk-watchface-indicator" />
-          <p>Telefon: 94 355 14 50</p>
-        </div>
-        <div className={classes.email}>
-          <Icon icon="ic:baseline-email" />
-          <p>Email: hurtownia@rezon.eu</p>
-        </div>
-      </div>
+
       {/* PRODUCT INFO */}
       <div className={classes.details__container}>
         <div className={classes.modal__info_container}>
@@ -74,17 +56,21 @@ const ProductModal = () => {
           {/* PRODUCT TXT */}
           <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
         </div>
-
-        <img src={modalData.image} className={classes.modal__img}></img>
+        {/* IMAGE SLIDER */}
+        {/* IF there is any images in slider_images display slider if not display image */}
+        <div className={classes.slider__container}>
+          {sliderLength > 0 ? (
+            <ImageSlider images={modalData.slider_images} />
+          ) : (
+            <img src={modalData.image} className={classes.modal__img}></img>
+          )}{" "}
+          <p className={classes.modal__wymiary}>
+            Wymiary:{" "}
+            <span className={classes.modal__span}>{modalData.wymiary}</span>
+          </p>
+        </div>
       </div>
-      {/* IMAGE SLIDER */}
-      <ImageSlider images={modalData.slider_images} />
-      <p className={classes.modal__wymiary}>
-        Wymiary:{" "}
-        <span className={classes.modal__span}>{modalData.wymiary}</span>
-      </p>
-      {/* Modal Footer */}
-      <div className={classes.modal__footer}>
+      <div className={classes.technologie__wrapper}>
         <p className={classes.technologie}>technologie:</p>
         <div className={classes.technologie__container}>
           {/* TECHNOLOGIA 1 */}
@@ -294,6 +280,29 @@ const ProductModal = () => {
               src="/images/Technologie/dowolny.webp"
             ></img>
           )}
+        </div>
+      </div>
+      {/* Modal Footer */}
+      <div className={classes.modal__footer}>
+        {" "}
+        <div className={classes.company__details_container}>
+          <p className={classes.company__name}>Rezon Sp. z o.o</p>
+          <div className={classes.adress}>
+            <Icon icon="ic:round-location-on" />{" "}
+            <p>Adres: ul. Ketlinga 1 , 78-100 Kołobrzeg</p>
+          </div>
+          <div className={classes.nip}>
+            <Icon icon="material-symbols:folder-open" />
+            <p>Nip: 6711400398</p>
+          </div>
+          <div className={classes.phone}>
+            <Icon icon="material-symbols:phone-in-talk-watchface-indicator" />
+            <p>Telefon: 94 355 14 50</p>
+          </div>
+          <div className={classes.email}>
+            <Icon icon="ic:baseline-email" />
+            <p>Email: hurtownia@rezon.eu</p>
+          </div>
         </div>
       </div>
     </div>

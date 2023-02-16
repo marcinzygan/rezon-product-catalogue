@@ -79,27 +79,29 @@ const ImageSlider = (props) => {
       );
     });
     // DISPLAY SLIDER
-    return (
-      <div className={classes.slider}>
-        <div className={classes.slider__main}>{allImages}</div>
-        <div>
-          {" "}
-          <Icon
-            icon="ic:round-keyboard-arrow-left"
-            className={classes.slider__icon}
-            onClick={() => dispatch(prevPageAction(numberOfMiniPages))}
-          />
-          {displayMiniImages}{" "}
-          <Icon
-            icon="ic:round-keyboard-arrow-right"
-            className={classes.slider__icon}
-            onClick={() => dispatch(nextPageAction(miniImagesSeen))}
-          />
+    if (sliderLength == 1) {
+      return <div className={classes.slider__main}>{allImages}</div>;
+    } else {
+      return (
+        <div className={classes.slider}>
+          <div className={classes.slider__main}>{allImages}</div>
+          <div className={classes.minSliderContainer}>
+            {" "}
+            <Icon
+              icon="ic:round-keyboard-arrow-left"
+              className={classes.slider__icon}
+              onClick={() => dispatch(prevPageAction(numberOfMiniPages))}
+            />
+            {displayMiniImages}{" "}
+            <Icon
+              icon="ic:round-keyboard-arrow-right"
+              className={classes.slider__icon}
+              onClick={() => dispatch(nextPageAction(miniImagesSeen))}
+            />
+          </div>
         </div>
-      </div>
-    );
-  } else {
-    return <></>;
+      );
+    }
   }
 };
 
