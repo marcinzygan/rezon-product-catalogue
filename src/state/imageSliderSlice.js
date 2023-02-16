@@ -4,6 +4,7 @@ const initialState = {
   currentSlide: 0,
   sliderLength: 0,
   miniSliderPage: 1,
+  miniImagesSeen: 0,
 };
 
 const imageSliderSlice = createSlice({
@@ -34,6 +35,9 @@ const imageSliderSlice = createSlice({
     moveToSlide: (state, data) => {
       state.currentSlide = data.payload;
     },
+    setNumOfMiniImagesSeen: (state, data) => {
+      state.setNumOfMiniImagesSeen = data.payload;
+    },
     nextMiniSlide: (state, data) => {
       console.log(data.payload);
       if (state.currentSlide === data.payload) {
@@ -44,10 +48,11 @@ const imageSliderSlice = createSlice({
       }
     },
     prevMiniSlide: (state, data) => {
+      console.log(data.payload);
       if (state.currentSlide === state.sliderLength - 1) {
         state.miniSliderPage = data.payload;
       }
-      if (state.currentSlide + 1 === data.payload - 3) {
+      if (state.currentSlide === state.sliderLength - 4) {
         state.miniSliderPage = state.miniSliderPage - 1;
       }
     },
@@ -61,5 +66,6 @@ export const {
   moveToSlide,
   nextMiniSlide,
   prevMiniSlide,
+  setNumOfMiniImagesSeen,
 } = imageSliderSlice.actions;
 export default imageSliderSlice.reducer;

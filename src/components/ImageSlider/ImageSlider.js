@@ -8,6 +8,7 @@ import {
   moveToSlide,
   nextMiniSlide,
   prevMiniSlide,
+  setNumOfMiniImagesSeen,
 } from "@/state/imageSliderSlice";
 
 const ImageSlider = (props) => {
@@ -35,15 +36,15 @@ const ImageSlider = (props) => {
     });
     // LOGIC TO DISPLAY 5 MINI IMAGES ONLY
 
-    const miniImagesPerPage = 3;
+    const miniImagesPerPage = 4;
     const miniImagesSeen = miniSliderPage * miniImagesPerPage;
 
     console.log("miniimagesseen ", miniImagesSeen);
     const numberOfMiniPages = Math.ceil(minImages.length / miniImagesPerPage);
     console.log("numOFpAGES", numberOfMiniPages);
     const displayMiniImages = minImages.slice(
-      miniImagesSeen - 3,
-      miniImagesPerPage - 3 + miniImagesSeen
+      miniImagesSeen - 4,
+      miniImagesPerPage - 4 + miniImagesSeen
     );
 
     // FUNCTION TO DISPATCH TWO ACTIONS
@@ -57,6 +58,7 @@ const ImageSlider = (props) => {
       return (dispatch) => {
         dispatch(prevSlide());
         dispatch(prevMiniSlide(data));
+        dispatch(setNumOfMiniImagesSeen(miniImagesSeen));
       };
     }
     // MAIN SLIDER IMAGE
@@ -76,27 +78,16 @@ const ImageSlider = (props) => {
         </div>
       );
     });
+    // DISPLAY SLIDER
     return (
       <div className={classes.slider}>
-        <div className={classes.slider__main}>
-          {/* <Icon
-            icon="ic:round-keyboard-arrow-left"
-            className={classes.slider__icon}
-            onClick={() => dispatch(prevSlide())}
-          /> */}
-          {allImages}
-          {/* <Icon
-            icon="ic:round-keyboard-arrow-right"
-            className={classes.slider__icon}
-            onClick={() => dispatch(nextSlide())}
-          />{" "} */}
-        </div>
+        <div className={classes.slider__main}>{allImages}</div>
         <div>
           {" "}
           <Icon
             icon="ic:round-keyboard-arrow-left"
             className={classes.slider__icon}
-            onClick={() => dispatch(prevPageAction(miniImagesSeen))}
+            onClick={() => dispatch(prevPageAction(numberOfMiniPages))}
           />
           {displayMiniImages}{" "}
           <Icon
