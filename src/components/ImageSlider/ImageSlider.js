@@ -84,20 +84,23 @@ const ImageSlider = (props) => {
     } else {
       return (
         <div className={classes.slider}>
-          <div className={classes.slider__main}>{allImages}</div>
-          <div className={classes.minSliderContainer}>
-            {" "}
+          <div className={classes.slider__main}>
             <Icon
               icon="ic:round-keyboard-arrow-left"
               className={classes.slider__icon}
               onClick={() => dispatch(prevPageAction(numberOfMiniPages))}
             />
-            {displayMiniImages}{" "}
+
+            {allImages}
             <Icon
               icon="ic:round-keyboard-arrow-right"
               className={classes.slider__icon}
               onClick={() => dispatch(nextPageAction(miniImagesSeen))}
             />
+          </div>
+          <div className={classes.minSliderContainer}>
+            {" "}
+            {displayMiniImages}{" "}
           </div>
         </div>
       );
