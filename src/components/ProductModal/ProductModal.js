@@ -56,13 +56,11 @@ const ProductModal = () => {
           <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
         </div>
         {/* IMAGE SLIDER */}
-        {/* IF there is any images in slider_images display slider if not display image */}
+
         <div className={classes.slider__container}>
-          {sliderLength > 0 ? (
-            <ImageSlider images={modalData.slider_images} />
-          ) : (
-            <img src={modalData.image} className={classes.modal__img}></img>
-          )}{" "}
+          {/* IF there is any images in data display slider  */}
+          {sliderLength > 0 && <ImageSlider images={modalData.slider_images} />}
+
           <div className={classes.modal__wymiary}>
             Wymiary:{" "}
             <span className={classes.modal__span}>{modalData.wymiary}</span>

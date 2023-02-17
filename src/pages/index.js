@@ -10,7 +10,7 @@ import ProductModal from "@/components/ProductModal/ProductModal";
 import FilterMenu from "@/components/filterMenu/FilterMenu";
 
 export default function Home() {
-  const pageNumber = useSelector((state) => state.page.currentPage);
+  // const pageNumber = useSelector((state) => state.page.currentPage);
   const productCards = useSelector((state) => state.data.productCards);
 
   // //PAGINATION LOGIC
