@@ -4,6 +4,7 @@ import productsDataReducer from "@/state/productsDataSlice";
 import modalReducer from "@/state/modalSlice";
 import navigationReducer from "../navigationSlice";
 import imageSliderReducer from "../imageSliderSlice";
+import productSearchReducer from "../productSearchSlice";
 export const store = configureStore({
   reducer: {
     page: paginationReducer,
@@ -11,5 +12,6 @@ export const store = configureStore({
     modal: modalReducer,
     nav: navigationReducer,
     slider: imageSliderReducer,
+    search: productSearchReducer,
   },
 });
