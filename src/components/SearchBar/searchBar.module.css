@@ -13,11 +13,11 @@
 .searchBar {
   outline: none;
   border: none;
-  height: 25px;
+  height: 40px;
   width: 250px;
   border-radius: 49px;
-  background-color: #d3e0fc;
-  padding: 1.2rem;
+  background-color: #ebf0fc;
+  padding-left: 1rem;
   color: var(--clr-black);
   font-family: var(--ff-regular);
 }
