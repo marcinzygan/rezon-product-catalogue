@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./searchBar.module.css";
 import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchInput, clearInput } from "@/state/productSearchSlice";
@@ -22,17 +23,21 @@ const SearchBar = () => {
   };
 
   return (
-    <form className="search__container" onSubmit={getSearch}>
-      <div className="searchbar__container">
+    <form className={classes.search__container} onSubmit={getSearch}>
+      <div className={classes.searchbar__container}>
         <input
-          className="searchBar"
+          className={classes.searchBar}
           type="text"
           value={searchInput.search}
           onChange={inputChange}
           name="search"
           placeholder="Szukaj Produktu"
         ></input>
-        <Icon icon="fa:search" className="searchIcon" onClick={getSearch} />
+        <Icon
+          icon="fa:search"
+          className={classes.searchIcon}
+          onClick={getSearch}
+        />
       </div>
     </form>
   );
