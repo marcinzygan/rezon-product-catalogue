@@ -19,6 +19,9 @@ const FilterMenu = () => {
   return (
     <div className={clasess.filterMenu}>
       <select onChange={handleFilter} className={clasess.select}>
+        <option value="" disabled selected hidden>
+          Wybierz Kategorię
+        </option>
         <option value="wszystkie">Wszystkie</option>
         <option value="magnesy">Magnesy</option>
         <option value="breloki">Breloki</option>

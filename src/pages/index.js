@@ -8,6 +8,7 @@ import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 
 import FilterMenu from "@/components/filterMenu/FilterMenu";
+import SearchBar from "@/components/SearchBar/SearchBar";
 
 export default function Home() {
   // const pageNumber = useSelector((state) => state.page.currentPage);
@@ -35,6 +36,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={classes.filter__menu}>
+        <SearchBar />
         <FilterMenu />
       </div>
       <div className={classes.cards__container} id="cards">

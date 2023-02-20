@@ -1,5 +1,20 @@
+/* .filterMenu {
+  padding: 1.2rem;
+} */
 .select {
-  width: 100px;
-  height: 20px;
-  margin-top: 1rem;
+  /* width: 100px;
+  height: 20px; */
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 250px;
+  border-radius: 49px;
+  background-color: #ebf0fc;
+  padding-left: 1rem;
+  color: var(--clr-black);
+  font-family: var(--ff-regular);
 }
+/* .select > * {
+    color: var(--clr-black);
+    font-family: var(--ff-regular);
+  } */

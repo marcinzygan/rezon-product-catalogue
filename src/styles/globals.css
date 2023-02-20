@@ -60,6 +60,11 @@
     --fs-opis: 1.3rem;
   }
 }
+@media (min-width: 1800px) {
+  :root {
+    --fs-h1: 2rem;
+  }
+}
 
 body {
   background-color: #ffffff;
