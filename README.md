@@ -32,4 +32,4 @@
 
 - Have a nice day 🌞
 
-# This project is Live <a href="">NOT YET !</a> ! Enjoy .
+# This project is Live <a href="https://rezon-katalog.netlify.app/">HERE !</a> ! Enjoy .
