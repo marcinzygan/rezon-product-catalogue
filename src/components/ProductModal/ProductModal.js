@@ -303,7 +303,12 @@ const ProductModal = () => {
               <p>Email: hurtownia@rezon.eu</p>
             </div>
           </div>
-          <img src="/images/logo4.jpg" className={classes.logo}></img>
+          <div className={classes.modal__logo_container}>
+            <img src="/images/logo4.jpg" className={classes.logo}></img>
+            <img src="/images/logo3.jpg" className={classes.logo}></img>
+            <img src="/images/logo2.jpg" className={classes.logo}></img>
+            <img src="/images/logo1.jpg" className={classes.logo}></img>
+          </div>
         </div>
       </div>
     </div>
