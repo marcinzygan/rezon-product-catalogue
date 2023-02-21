@@ -9,27 +9,34 @@
 
 # To do:
 
-- Figma design for app layout
-- build product component
-- build catalogue main page
-- build navigation and filter options component
-- build pagination component
-- setup the logic to display products in a product component
-- setup logic to filter products by category , price
-- setup logic for the pagination , navigate to last , first page , next and previous page
-- setup the logic to display current page number as well as all available pages .
-- setup the logic to display 2 products per page .
-- add abillity to swipe the products on mobile devices .
-- add all CSS styling and media queries for mobile , tablet and desktop devices.
+- fix slider bug when moving to prevSlide
+- add abillity to swipe the slider images on mobile devices .
 - add products to favourites with local storage .
 
 # Features implemented :
 
+- Figma design for app layout
 - Redux setup
-- Display products
+- added ProductCard component for each product.
+- build catalogue main page
+- build navigation and filter options component
+- build pagination component
+- added navbar component styles and logic to display hamburger icon on mobile devices
+- added the logic to display products in a product component
+- added logic to filter products by category
+- added logic for the pagination , navigate to last , first page , next and previous page
+- added the logic to display current page number as well as all available pages .
+- added productModal component to display it after product is clicked
+- Dynamically render all modal data , depending on selected product id .
+- added slider component , and mini slider to display 4 images .
+- added logic for mainSlider and miniSlider.
+- added pages o_nas , poityka_prywatnosci , handlowcy , kontakt .
+- added logic for searchBar to get input value .
+- add all CSS styling and media queries for mobile , tablet and desktop devices.
+- added logic to search all products by entered value.
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
 - Have a nice day 🌞
 
-# This project is Live <a href="">NOT YET !</a> ! Enjoy .
+# This project is Live <a href="https://rezon-katalog.netlify.app/">HERE !</a> ! Enjoy .

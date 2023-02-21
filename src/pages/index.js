@@ -13,7 +13,22 @@ import SearchBar from "@/components/SearchBar/SearchBar";
 export default function Home() {
   // const pageNumber = useSelector((state) => state.page.currentPage);
   const productCards = useSelector((state) => state.data.productCards);
-
+  const displaySearchProducts = useSelector(
+    (state) => state.search.displaySearchProducts
+  );
+  const isSearchActive = useSelector((state) => state.search.isSearchActive);
+  // console.log(productCards);
+  //Our search filter function
+  // const searchFilter = (data) => {
+  //   const dataArray = data.map((product) => {
+  //     return product.identyfikator ? product.identyfikator : "";
+  //   });
+  //   console.log(dataArray);
+  //   return dataArray.filter((identyfiaktor) =>
+  //     identyfiaktor.includes("otwieracz".toUpperCase())
+  //   );
+  // };
+  // console.log(searchFilter(productCards));
   // //PAGINATION LOGIC
   // // amount of productCards per page
   // const cardsPerPage = 199;
@@ -27,6 +42,25 @@ export default function Home() {
   //   cardsPerPage - 199 + cardsSeen
   // );
 
+  // DISPLAY ALL PRODUCTS
+  const allProducts = productCards.map((card) => {
+    if (card.displayCategory === true) {
+      return <CategoryCard key={card.id} category={card.category} />;
+    } else {
+      return <ProductCard key={card.id} {...card} />;
+    }
+  });
+
+  // DISPLAY FILTER BY SEARCH PRODUCTS
+  const searchProducts = displaySearchProducts.map((card) => {
+    if (card.displayCategory === true) {
+      return <CategoryCard key={card.id} category={card.category} />;
+    } else {
+      return <ProductCard key={card.id} {...card} />;
+    }
+  });
+
+  //  RETURN JSX
   return (
     <>
       <Head>
@@ -40,13 +74,17 @@ export default function Home() {
         <FilterMenu />
       </div>
       <div className={classes.cards__container} id="cards">
-        {productCards.map((card) => {
+        {isSearchActive ? searchProducts : allProducts}
+        {/* {displaySearchProducts.map((card) => {
+          return card.identyfikator && <ProductCard key={card.id} {...card} />;
+        })} */}
+        {/* {productCards.map((card) => {
           if (card.displayCategory === true) {
             return <CategoryCard key={card.id} category={card.category} />;
           } else {
             return <ProductCard key={card.id} {...card} />;
           }
-        })}
+        })} */}
       </div>
 
       {/* <PaginationMenu numberOfPages={numberOfPages} /> */}
