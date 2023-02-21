@@ -13,7 +13,7 @@ import SearchBar from "@/components/SearchBar/SearchBar";
 export default function Home() {
   // const pageNumber = useSelector((state) => state.page.currentPage);
   const productCards = useSelector((state) => state.data.productCards);
-
+  console.log(productCards);
   // //PAGINATION LOGIC
   // // amount of productCards per page
   // const cardsPerPage = 199;

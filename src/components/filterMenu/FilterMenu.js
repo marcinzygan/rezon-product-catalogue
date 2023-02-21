@@ -18,8 +18,12 @@ const FilterMenu = () => {
 
   return (
     <div className={clasess.filterMenu}>
-      <select onChange={handleFilter} className={clasess.select}>
-        <option value="" disabled selected hidden>
+      <select
+        onChange={handleFilter}
+        className={clasess.select}
+        defaultValue="DEFAULT"
+      >
+        <option value="DEFAULT" disabled hidden>
           Wybierz Kategorię
         </option>
         <option value="wszystkie">Wszystkie</option>
