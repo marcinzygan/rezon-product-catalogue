@@ -3,17 +3,24 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { filterProducts } from "@/state/productsDataSlice";
 import { setPage } from "@/state/paginationSlice";
+import { setIsSearchActive } from "@/state/productSearchSlice";
 
 const FilterMenu = () => {
   const dispatch = useDispatch();
+
   //FUNCTION TO FILTER CATEGORIES
   const handleFilter = function (e) {
     e.preventDefault();
 
     const filterOption = e.target.value;
     console.log(filterOption);
-    dispatch(setPage(1));
+    // dispatch(setPage(1));
     dispatch(filterProducts(filterOption));
+    dispatch(setIsSearchActive());
+    // CHANGE SELECT OPTION TO DEFAULT AFTER 2 SEC
+    setTimeout(() => {
+      e.target.value = "DEFAULT";
+    }, 2000);
   };
 
   return (
