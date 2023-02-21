@@ -9,7 +9,7 @@
 
 # To do:
 
-- finish productSearch logic .
+- fix slider bug when moving to prevSlide
 - add abillity to swipe the slider images on mobile devices .
 - add products to favourites with local storage .
 
@@ -33,6 +33,7 @@
 - added pages o_nas , poityka_prywatnosci , handlowcy , kontakt .
 - added logic for searchBar to get input value .
 - add all CSS styling and media queries for mobile , tablet and desktop devices.
+- added logic to search all products by entered value.
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
