@@ -63,7 +63,17 @@
   width: 200px; */
   object-fit: contain;
 }
-
+.nowosc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(5%, -4%);
+  display: block;
+  z-index: 1000 !important;
+  width: 100px !important;
+  height: 100px !important;
+  margin-left: auto;
+}
 .image__overlay {
   position: absolute;
   margin: 0;
