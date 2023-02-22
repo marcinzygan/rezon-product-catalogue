@@ -6,9 +6,11 @@
 }
 .filter__menu {
   display: flex;
-  padding: 0 3.5rem;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  padding: 3.5rem 0;
+  padding-right: 1rem;
+  justify-content: center;
+  align-items: flex-end;
   gap: 1rem;
 }
 @media (min-width: 400px) {
@@ -16,11 +18,25 @@
     padding: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  .filter__menu {
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 600px) {
+  .filter__menu {
+    flex-direction: row;
+    padding-right: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
 @media (min-width: 1000px) {
   .cards__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     padding: 3.5rem;
+  }
+  .filter__menu {
+    padding-right: 3.5rem;
   }
 }
