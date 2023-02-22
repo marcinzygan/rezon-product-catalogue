@@ -8,6 +8,7 @@ export const productsData = [
     indeks_pc: "AKRYL 1",
     identyfikator: "AKRYL DOWOLNY KSZTAŁT",
     opis: "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
+    nowosc: true,
     dowolny_ksztalt: true,
     cena: 4.5,
     technologie: "1",

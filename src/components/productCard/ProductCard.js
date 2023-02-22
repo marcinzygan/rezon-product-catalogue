@@ -25,6 +25,14 @@ const ProductCard = (card) => {
           onClick={() => dispatch(openModalAction(card))}
         >
           <div className={classes.img__wrapper}>
+            {card.nowosc === true && (
+              <img
+                fill
+                className={classes.nowosc}
+                src="/images/nowosc.png"
+                alt={card.identyfikator}
+              />
+            )}
             <Image
               fill
               className={classes.img}
