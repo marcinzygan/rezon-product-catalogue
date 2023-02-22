@@ -36,7 +36,7 @@ const imageSliderSlice = createSlice({
       state.currentSlide = data.payload;
     },
     setNumOfMiniImagesSeen: (state, data) => {
-      state.setNumOfMiniImagesSeen = data.payload;
+      state.miniImagesSeen = data.payload;
     },
     nextMiniSlide: (state, data) => {
       console.log(data.payload);
@@ -52,7 +52,10 @@ const imageSliderSlice = createSlice({
       if (state.currentSlide === state.sliderLength - 1) {
         state.miniSliderPage = data.payload;
       }
-      if (state.currentSlide === state.sliderLength - 4) {
+      if (
+        state.currentSlide ===
+        state.sliderLength - state.currentSlide - state.miniSliderPage
+      ) {
         state.miniSliderPage = state.miniSliderPage - 1;
       }
     },
