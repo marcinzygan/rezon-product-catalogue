@@ -9,6 +9,7 @@ import ProductModal from "@/components/ProductModal/ProductModal";
 
 import FilterMenu from "@/components/filterMenu/FilterMenu";
 import SearchBar from "@/components/SearchBar/SearchBar";
+import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
 
 export default function Home() {
   // const pageNumber = useSelector((state) => state.page.currentPage);
@@ -69,10 +70,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={classes.filter__menu}>
+      <SearchNavigation />
+      {/* <div className={classes.filter__menu}>
         <SearchBar />
         <FilterMenu />
-      </div>
+      </div> */}
       <div className={classes.cards__container} id="cards">
         {isSearchActive ? searchProducts : allProducts}
         {/* {displaySearchProducts.map((card) => {

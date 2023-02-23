@@ -1965,7 +1965,11 @@ export const productsData = [
     wymiary: "30,50 cm x 30,50 cm",
   },
   ////////// RAMKI DO ZDJĘĆ //////////////
-  { id: "K-09", displayCategory: true, category: "ramki do zdjęć" },
+  {
+    id: "K-09",
+    displayCategory: true,
+    category: "ramki do zdjec i termometry",
+  },
   {
     id: 138,
     category: "ramki do zdjec i termometry",

@@ -45,10 +45,14 @@ const SearchBar = () => {
           placeholder="Szukaj Produktu"
         ></input>
         <Icon
-          icon="fa:search"
           className={classes.searchIcon}
           onClick={getSearch}
+          icon="ph:magnifying-glass"
         />
+        {/* <Icon
+          icon="fa:search"
+         
+        /> */}
       </div>
     </form>
   );

@@ -10,7 +10,7 @@
   padding: 3.5rem 0;
   padding-right: 1rem;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 1rem;
 }
 @media (min-width: 400px) {

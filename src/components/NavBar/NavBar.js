@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openNav } from "@/state/navigationSlice";
 import classes from "./navBar.module.css";
+import Image from "next/image";
 
 const NavBar = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,15 @@ const NavBar = () => {
   return (
     <nav className={classes.nav__container} id="home">
       <div className={classes.nav}>
-        <div className={classes.menuDetails__wrapper}>
+        <div className={classes.next__img}>
+          <Image
+            fill
+            className={classes.next__logo}
+            src={"/logo.png"}
+            alt={"rezon company logo"}
+          />
+        </div>
+        {/* <div className={classes.menuDetails__wrapper}>
           <div className={classes.company__details_container}>
             <p className={classes.company__name}>Rezon Sp. z o.o</p>
             <div className={classes.adress}>
@@ -31,8 +40,7 @@ const NavBar = () => {
               <p>Email: hurtownia@rezon.eu</p>
             </div>
           </div>
-        </div>
-
+        </div> */}
         <ul id="nav__list" className={classes.nav__list}>
           <li>
             <a className={classes.nav__link} href="/">
@@ -59,14 +67,21 @@ const NavBar = () => {
           icon="pajamas:hamburger"
           className={classes.nav__button}
           onClick={() => dispatch(openNav(isNavOpen))}
-        />
-      </div>{" "}
-      <div className={classes.logo__container}>
+        />{" "}
+        <div className={classes.icons__container}>
+          <Icon icon="jam:facebook-circle" className={classes.social__icon} />
+
+          <Icon icon="jam:twitter-circle" className={classes.social__icon} />
+          <Icon icon="jam:linkedin-circle" className={classes.social__icon} />
+        </div>
+      </div>
+
+      {/* <div className={classes.logo__container}>
         <img className={classes.logo} src="/images/logo1.jpg"></img>
         <img className={classes.logo} src="/images/logo2.jpg"></img>
         <img className={classes.logo} src="/images/logo3.jpg"></img>
         <img className={classes.logo} src="/images/logo4.jpg"></img>
-      </div>
+      </div> */}
     </nav>
   );
 };

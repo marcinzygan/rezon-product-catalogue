@@ -27,7 +27,6 @@ const ProductCard = (card) => {
           <div className={classes.img__wrapper}>
             {card.nowosc === true && (
               <img
-                fill
                 className={classes.nowosc}
                 src="/images/nowosc.png"
                 alt={card.identyfikator}
