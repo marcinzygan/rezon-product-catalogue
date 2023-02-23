@@ -56,7 +56,7 @@
   :root {
     --fs-h1: 1.6rem;
     --fs-h2: 1.2rem;
-    --fs-text: 1.2rem;
+    /* --fs-text: 1.2rem; */
     --fs-opis: 1.3rem;
   }
 }
