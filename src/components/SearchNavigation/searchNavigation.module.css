@@ -99,6 +99,9 @@
   .adres__phone_container {
     flex-direction: row;
   }
+  .filterMenu__container {
+    gap: 2rem;
+  }
 }
 @media (min-width: 1200px) {
   .adres__phone_container {
