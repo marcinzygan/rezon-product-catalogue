@@ -5,13 +5,13 @@
   z-index: 50;
   background-color: white;
 }
-.search__nav_wrapper::after {
+/* .search__nav_wrapper::after {
   display: block;
   content: "";
   width: 100%;
   height: 2px;
   background-color: var(--clr-accent);
-}
+} */
 
 .search__nav {
   padding: 1rem;
@@ -76,7 +76,7 @@
 }
 @media (min-width: 400px) {
   .search__nav {
-    padding: 3rem;
+    padding: 0 3rem;
     gap: 1.5rem;
   }
 }
@@ -111,7 +111,21 @@
   }
 }
 @media (min-width: 1800px) {
+  .search__nav_wrapper {
+    position: sticky;
+    top: 0;
+  }
+  /* .search__nav_wrapper::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--clr-black);
+  } */
   .search__nav {
     gap: 10rem;
+  }
+  .adres__phone_container {
+    gap: 4rem;
   }
 }

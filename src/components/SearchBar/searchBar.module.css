@@ -23,6 +23,7 @@
   color: var(--clr-black);
   font-family: var(--ff-regular);
   font-size: var(--fs-text);
+  opacity: 0.5;
 }
 .searchIcon {
   position: absolute;
