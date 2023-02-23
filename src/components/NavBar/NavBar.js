@@ -42,22 +42,22 @@ const NavBar = () => {
           </div>
         </div> */}
         <ul id="nav__list" className={classes.nav__list}>
-          <li>
+          <li className={classes.nav__li}>
             <a className={classes.nav__link} href="/">
               Strona Główna
             </a>
           </li>
-          <li>
+          <li className={classes.nav__li}>
             <a className={classes.nav__link} href="/o_nas">
               O Nas
             </a>
           </li>
-          <li>
+          <li className={classes.nav__li}>
             <a className={classes.nav__link} href="/handlowcy">
               Przedstawiciele
             </a>
           </li>
-          <li>
+          <li className={classes.nav__li}>
             <a className={classes.nav__link} href="/kontakt">
               Kontakt
             </a>

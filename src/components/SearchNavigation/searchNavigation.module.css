@@ -99,6 +99,9 @@
   .adres__phone_container {
     flex-direction: row;
   }
+  .filterMenu__container {
+    gap: 2rem;
+  }
 }
 @media (min-width: 1200px) {
   .adres__phone_container {
@@ -115,13 +118,14 @@
     position: sticky;
     top: 0;
   }
-  /* .search__nav_wrapper::after {
+  .search__nav_wrapper::after {
     display: block;
     content: "";
     width: 100%;
     height: 1px;
     background-color: var(--clr-black);
-  } */
+    opacity: 0.1;
+  }
   .search__nav {
     gap: 10rem;
   }

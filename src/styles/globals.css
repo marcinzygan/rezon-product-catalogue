@@ -11,6 +11,7 @@
   --fs-h1: 1.1rem;
   --fs-h2: 0.9rem;
   --fs-h3: 0.8rem;
+  --fs-nav: 0.9rem;
   --fs-opis: 0.9rem;
   --fs-text: 0.9rem;
 
@@ -29,6 +30,7 @@
   :root {
     --fs-h1: 1.2rem;
     --fs-h2: 1rem;
+    --fs-nav: 1rem;
     --fs-h3: 0.9rem;
     /* --fs-text: 0.8rem; */
     --fs-opis: 1rem;
@@ -55,8 +57,8 @@
 @media (min-width: 1600px) {
   :root {
     --fs-h1: 1.6rem;
-    --fs-h2: 1.2rem;
-    --fs-text: 1.2rem;
+    /* --fs-h2: 1.2rem; */
+    /* --fs-text: 1.2rem; */
     --fs-opis: 1.3rem;
   }
 }
