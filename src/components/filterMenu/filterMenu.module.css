@@ -6,10 +6,11 @@
   height: 20px; */
   outline: none;
   border: none;
-  height: 40px;
-  width: 250px;
+  height: 30px;
+  width: 165px;
   border-radius: 49px;
-  background-color: #ebf0fc;
+  /* background-color: #ebf0fc; */
+  border: 1px solid var(--clr-black);
   padding-left: 1rem;
   color: var(--clr-black);
   font-family: var(--ff-regular);
