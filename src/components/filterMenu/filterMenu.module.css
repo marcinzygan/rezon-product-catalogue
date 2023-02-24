@@ -16,6 +16,7 @@
   color: var(--clr-black);
   font-family: var(--ff-regular);
   opacity: 0.5;
+  cursor: pointer;
 }
 /* .select > * {
     color: var(--clr-black);

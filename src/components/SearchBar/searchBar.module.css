@@ -31,7 +31,7 @@
   right: 5%;
   transform: translate(5%, -50%);
   margin-left: 0.5rem;
-  color: var(--clr-black);
+  color: var(--clr-gray);
   height: 20px;
   width: 20px;
   cursor: pointer;
