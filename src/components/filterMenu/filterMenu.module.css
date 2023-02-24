@@ -10,11 +10,13 @@
   width: 165px;
   border-radius: 49px;
   /* background-color: #ebf0fc; */
+  background: none;
   border: 1px solid var(--clr-black);
   padding-left: 1rem;
   color: var(--clr-black);
   font-family: var(--ff-regular);
   opacity: 0.5;
+  cursor: pointer;
 }
 /* .select > * {
     color: var(--clr-black);

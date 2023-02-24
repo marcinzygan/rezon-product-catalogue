@@ -69,10 +69,15 @@ const NavBar = () => {
           onClick={() => dispatch(openNav(isNavOpen))}
         />{" "}
         <div className={classes.icons__container}>
-          <Icon icon="jam:facebook-circle" className={classes.social__icon} />
-
-          <Icon icon="jam:twitter-circle" className={classes.social__icon} />
-          <Icon icon="jam:linkedin-circle" className={classes.social__icon} />
+          <a href="https://www.facebook.com/rezon.eu">
+            <Icon icon="jam:facebook-circle" className={classes.social__icon} />
+          </a>
+          <a href="https://twitter.com/RezonTrendygift">
+            <Icon icon="jam:twitter-circle" className={classes.social__icon} />
+          </a>
+          <a href="https://www.linkedin.com/company/90961880">
+            <Icon icon="jam:linkedin-circle" className={classes.social__icon} />
+          </a>
         </div>
       </div>
 

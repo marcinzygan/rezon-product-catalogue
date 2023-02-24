@@ -15,12 +15,13 @@ const SearchNavigation = () => {
               className={classes.icon}
             />
             <p className={classes.adres}>
-              Ketlinga 1 <br></br>
+              Rezon.eu<br></br>
+              ul.Ketlinga 1 <br></br>
               78-100 Kołobrzeg
             </p>
           </div>
           <div className={classes.phone__container}>
-            <p className={classes.text}>Zadzwoń do Nas</p>
+            <p className={classes.text}>Zadzwoń do Nas !</p>
             <p className={classes.phone}>+48 355 14 50</p>
           </div>
         </div>
@@ -30,8 +31,8 @@ const SearchNavigation = () => {
         <div className={classes.filterMenu__container}>
           <FilterMenu />
           <div className={classes.favorite__icon_container}>
-            <Icon icon="mdi:cards-heart-outline" className={classes.icon} />
-            <p>0</p>
+            <Icon icon="mdi:cards-heart" className={classes.icon} />
+            <p className={classes.favorites__count}>0</p>
           </div>
         </div>
       </div>

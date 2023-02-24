@@ -35,12 +35,11 @@
   margin-right: auto;
 }
 .icons__container {
-  display: flex;
-  gap: 0.5rem;
+  display: none;
 }
 .social__icon {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   color: rgb(117, 117, 117);
 }
 .social__icon:hover {
@@ -207,10 +206,14 @@
   }
 }
 @media (min-width: 1300px) {
-  /* .next__img {
+  .next__img {
     height: 50px;
     width: 350px;
-  } */
+  }
+  .icons__container {
+    display: flex;
+    gap: 0.5rem;
+  }
   .nav {
     padding: 3rem 3.5rem;
   }
