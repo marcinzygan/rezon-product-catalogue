@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 .adres__phone_container {
@@ -41,7 +41,10 @@
 .icon {
   width: 20px;
   height: 20px;
-  color: var(--clr-black);
+  color: var(--clr-gray);
+}
+.favorites__count {
+  color: var(--clr-gray);
 }
 .adres {
   font-family: var(--ff-regular);
