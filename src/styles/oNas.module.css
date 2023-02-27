@@ -1,6 +1,6 @@
-.main {
+/* .main {
   padding: 3.5rem;
-}
+} */
 .h1 {
   font-family: var(--ff-heading);
   font-size: var(--fs-h1);
@@ -20,14 +20,14 @@
   font-weight: var(--fw-bold);
 }
 @media (min-width: 1000px) {
-  .main {
+  /* .main {
     padding: 5rem;
-  }
+  } */
   .text {
     padding-bottom: 3rem;
   }
 }
-@media (min-width: 1300px) {
+/* @media (min-width: 1300px) {
   .main {
     padding: 5rem 10rem;
   }
@@ -41,4 +41,4 @@
   .main {
     padding: 5rem 25rem;
   }
-}
+} */

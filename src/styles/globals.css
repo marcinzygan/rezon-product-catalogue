@@ -75,9 +75,9 @@ body {
 img {
   width: 100%;
 }
-/* .app__layout {
-  margin-top: 2rem;
-} */
+main {
+  padding: 3.5rem;
+}
 .iconify {
   color: rgb(247, 181, 0);
 }
@@ -95,4 +95,15 @@ img {
 }
 .nav__open {
   transform: translateX(0%) !important;
+}
+
+@media (min-width: 1300px) {
+  main {
+    padding: 5rem;
+  }
+}
+@media (min-width: 1600px) {
+  main {
+    padding: 5rem 10rem 10rem 10rem;
+  }
 }

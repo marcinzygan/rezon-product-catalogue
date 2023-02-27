@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .filter__menu {
   display: flex;
@@ -15,7 +15,7 @@
 }
 @media (min-width: 400px) {
   .cards__container {
-    padding: 3rem;
+    /* padding: 3rem; */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   .filter__menu {
@@ -34,7 +34,7 @@
   .cards__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    padding: 3.5rem;
+    /* padding: 3.5rem; */
   }
   .filter__menu {
     padding-right: 3.5rem;

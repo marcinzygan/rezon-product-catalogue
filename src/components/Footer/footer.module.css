@@ -13,6 +13,7 @@
 .company__name {
   font-family: var(--ff-heading);
   font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
   padding-bottom: 1rem;
 }
 .details__wrapper {
@@ -35,6 +36,7 @@
   flex-direction: row;
   font-family: var(--ff-regular);
   font-size: var(--fs-text);
+  padding-bottom: 0.5rem;
 }
 .nip {
   gap: 0.4rem;
@@ -42,6 +44,7 @@
   flex-direction: row;
   font-family: var(--ff-regular);
   font-size: var(--fs-text);
+  padding-bottom: 0.5rem;
 }
 .phone {
   gap: 0.4rem;
@@ -49,6 +52,7 @@
   flex-direction: row;
   font-family: var(--ff-regular);
   font-size: var(--fs-text);
+  padding-bottom: 0.5rem;
 }
 .email {
   gap: 0.4rem;
@@ -56,6 +60,7 @@
   flex-direction: row;
   font-family: var(--ff-regular);
   font-size: var(--fs-text);
+  padding-bottom: 0.5rem;
 }
 .footer__links_container {
   display: flex;
