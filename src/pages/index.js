@@ -75,7 +75,7 @@ export default function Home() {
         <SearchBar />
         <FilterMenu />
       </div> */}
-      <div className={classes.cards__container} id="cards">
+      <main className={classes.cards__container} id="cards">
         {isSearchActive ? searchProducts : allProducts}
         {/* {displaySearchProducts.map((card) => {
           return card.identyfikator && <ProductCard key={card.id} {...card} />;
@@ -87,7 +87,7 @@ export default function Home() {
             return <ProductCard key={card.id} {...card} />;
           }
         })} */}
-      </div>
+      </main>
 
       {/* <PaginationMenu numberOfPages={numberOfPages} /> */}
       <ProductModal />

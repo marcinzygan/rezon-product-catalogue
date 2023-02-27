@@ -4,10 +4,10 @@ import React from "react";
 
 const kontakt = () => {
   return (
-    <div>
+    <main>
       <PageHeading heading={"Kontakt"} subHeading={"Jak możemy pomóc ?"} />
       <GoogleMap />
-    </div>
+    </main>
   );
 };
 
