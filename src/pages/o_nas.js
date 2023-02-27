@@ -2,7 +2,7 @@ import React from "react";
 import classes from "../styles/oNas.module.css";
 const o_nas = () => {
   return (
-    <main className={classes.main}>
+    <div className={classes.main}>
       <h1 className={classes.h1}>O nas</h1>
       <p className={classes.text}>
         Nasza firma rozpoczęła swoją działalność w 1996 roku, zajmując się
@@ -38,7 +38,7 @@ const o_nas = () => {
         satysfakcję z zakupów. Zapraszamy do zapoznania się z naszą ofertą i do
         kontaktu z nami w razie jakichkolwiek pytań lub wątpliwości.
       </p>
-    </main>
+    </div>
   );
 };
 

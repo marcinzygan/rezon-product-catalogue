@@ -5,7 +5,7 @@ const PageHeading = (props) => {
   return (
     <div>
       <h2 className={classes.heading}>{props.heading}</h2>
-      <p className={classes.subHeading}>{props.subHeading}</p>
+      <div className={classes.subHeading}>{props.subHeading}</div>
     </div>
   );
 };

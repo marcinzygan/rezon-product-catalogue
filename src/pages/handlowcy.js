@@ -3,7 +3,7 @@ import classes from "../styles/handlowcy.module.css";
 import { Icon } from "@iconify/react";
 const handlowcy = () => {
   return (
-    <main className={classes.handlowcy__main}>
+    <div className={classes.handlowcy__main}>
       <h1 className={classes.handlowcy__h1}>Nasi Przedstawiciele Handlowi</h1>
       <h2 className={classes.handlowcy__h2}>
         PRZEDSTAWICIELE HANDLOWI (POMORZE):
@@ -175,7 +175,7 @@ const handlowcy = () => {
           </p>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

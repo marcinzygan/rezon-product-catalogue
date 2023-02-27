@@ -1,6 +1,6 @@
-.handlowcy__main {
+/* .handlowcy__main {
   padding: 3.5rem;
-}
+} */
 .handlowcy__h1 {
   font-family: var(--ff-heading);
   font-weight: var(--fw-bold);
@@ -51,7 +51,7 @@
     max-width: 500px;
   }
 }
-@media (min-width: 1300px) {
+/* @media (min-width: 1300px) {
   .handlowcy__main {
     padding: 5rem;
   }
@@ -60,4 +60,4 @@
   .handlowcy__main {
     padding: 5rem 10rem 10rem 10rem;
   }
-}
+} */
