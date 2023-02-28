@@ -26,7 +26,7 @@ const modalSlice = createSlice({
 
       if (data.payload.slider_images) {
         state.sliderLength = data.payload.slider_images.length;
-        console.log(data.payload.slider_images.length);
+        // console.log(data.payload.slider_images.length);
       } else {
         return;
       }
