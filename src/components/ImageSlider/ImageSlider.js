@@ -39,9 +39,9 @@ const ImageSlider = (props) => {
     const miniImagesPerPage = 4;
     const miniImagesSeen = miniSliderPage * miniImagesPerPage;
 
-    console.log("miniimagesseen ", miniImagesSeen);
+    // console.log("miniimagesseen ", miniImagesSeen);
     const numberOfMiniPages = Math.ceil(minImages.length / miniImagesPerPage);
-    console.log("numOFpAGES", numberOfMiniPages);
+    // console.log("numOFpAGES", numberOfMiniPages);
     const displayMiniImages = minImages.slice(
       miniImagesSeen - 4,
       miniImagesPerPage - 4 + miniImagesSeen

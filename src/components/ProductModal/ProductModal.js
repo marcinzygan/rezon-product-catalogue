@@ -5,11 +5,36 @@ import { useDispatch, useSelector } from "react-redux";
 import { Icon } from "@iconify/react";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import { closeSlider } from "@/state/imageSliderSlice";
+import {
+  addToFavorites,
+  setFavProducts,
+  removeFromFavorites,
+} from "@/state/productsDataSlice";
 
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
   const sliderLength = useSelector((state) => state.slider.sliderLength);
   const dispatch = useDispatch();
+
+  // // SET LOCAL STORAGE WHEN ITEM IS ADDED TO FAV
+  // const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
+
+  // // console.log(favoriteProducts);
+  // React.useEffect(() => {
+  //   localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
+  // }, [favoriteProducts]);
+
+  // Function to add Product to Favorites
+  // const addFavorites = function (id) {
+  //   dispatch(addToFavorites(id));
+
+  //   console.log("added to favList");
+  // };
+
+  // const favId = favoriteProducts.map((product) => {
+  //   return product.id;
+  // });
+
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
   function closeModalAction() {
     return (dispatch) => {
@@ -32,7 +57,10 @@ const ProductModal = () => {
         {/* <div className={classes.details__container}> */}
         <div className={classes.modal__info_container}>
           {/* Product Name */}
-          <div className={classes.modal__name}>{modalData.identyfikator}</div>
+          <div className={classes.modal__name}>
+            {modalData.identyfikator}{" "}
+            <div className={classes.favorite__icon_container}></div>
+          </div>
           {/* Product code */}
           <div className={classes.modal__kod}>
             Kod Produktu:{" "}
