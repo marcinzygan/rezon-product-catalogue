@@ -12,32 +12,29 @@ export default function Home() {
   const dispatch = useDispatch();
 
   // USE EFFECT TO FETCH LOCAL STORAGE
-  // React.useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     try {
-  //       const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
-  //       // console.log(favorites);
-  //       dispatch(setFavProducts(favorites));
-  //       // console.log("useEffec");
-  //     } catch (e) {}
-  //   }
-  // }, [dispatch]);
+  if (typeof window !== "undefined") {
+    React.useEffect(() => {
+      try {
+        const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
+        // console.log(favorites);
+        dispatch(setFavProducts(favorites));
+        // console.log("useEffec");
+      } catch (e) {}
+    }, [dispatch]);
+  }
   // SET LOCAL STORAGE WHEN ITEM IS ADDED TO FAV
   const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
 
-  // React.useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
-  //   }
-  // }, [favoriteProducts]);
-
-  //
-
-  // React.useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     dispatch(setData());
-  //   }
-  // }, [dispatch]);
+  if (typeof window !== "undefined") {
+    React.useEffect(() => {
+      localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
+    }, [favoriteProducts]);
+  }
+  if (typeof window !== "undefined") {
+    React.useEffect(() => {
+      dispatch(setData());
+    }, [dispatch]);
+  }
 
   //
   const productCards = useSelector((state) => state.data.productCards);

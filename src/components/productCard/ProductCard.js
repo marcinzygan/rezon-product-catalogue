@@ -25,19 +25,19 @@ const ProductCard = (card) => {
     };
   }
   // add favorites action
-  // function addFavAction(card) {
-  //   return (dispatch) => {
-  //     dispatch(setFavId(card.id));
-  //     dispatch(addToFavorites(card.id));
-  //   };
-  // }
-  // // remove favorites action
-  // function removeFavAction(card) {
-  //   return (dispatch) => {
-  //     dispatch(removeFavId(card.id));
-  //     dispatch(removeFromFavorites(card.id));
-  //   };
-  // }
+  function addFavAction(card) {
+    return (dispatch) => {
+      dispatch(setFavId(card.id));
+      dispatch(addToFavorites(card.id));
+    };
+  }
+  // remove favorites action
+  function removeFavAction(card) {
+    return (dispatch) => {
+      dispatch(removeFavId(card.id));
+      dispatch(removeFromFavorites(card.id));
+    };
+  }
   return (
     <>
       {/* Send modal data to modalSlice */}
@@ -76,7 +76,7 @@ const ProductCard = (card) => {
         <div className={classes.card__details}>
           <div className={classes.card__name}>{card.identyfikator}</div>
 
-          {/* {!favId.includes(card.id) ? (
+          {!favId.includes(card.id) ? (
             <Icon
               icon="fa6-solid:heart-circle-plus"
               className={classes.icon}
@@ -88,7 +88,7 @@ const ProductCard = (card) => {
               className={classes.icon + " " + classes.icon__remove}
               onClick={() => dispatch(removeFavAction(card))}
             />
-          )} */}
+          )}
         </div>
 
         <div
