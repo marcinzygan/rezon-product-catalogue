@@ -27,14 +27,18 @@ export default function Home() {
 
   // console.log(favoriteProducts);
   React.useEffect(() => {
-    localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
+    if (typeof window !== "undefined") {
+      localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
+    }
   }, [favoriteProducts]);
 
   //
 
-  // React.useEffect(() => {
-  //   dispatch(setData());
-  // }, []);
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      dispatch(setData());
+    }
+  }, [dispatch]);
 
   //
   const productCards = useSelector((state) => state.data.productCards);

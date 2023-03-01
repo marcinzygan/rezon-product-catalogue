@@ -6,7 +6,9 @@ import FilterMenu from "../filterMenu/FilterMenu";
 import { useSelector } from "react-redux";
 const SearchNavigation = () => {
   // FavoriteProducts STATE
-  const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
+  const numberOfFavorites = useSelector(
+    (state) => state.data.numberOfFavorites
+  );
 
   return (
     <div className={classes.search__nav_wrapper}>
@@ -35,9 +37,8 @@ const SearchNavigation = () => {
           <FilterMenu />
           <div className={classes.favorite__icon_container}>
             <Icon icon="mdi:cards-heart" className={classes.icon} />
-            <p className={classes.favorites__count}>
-              {favoriteProducts ? favoriteProducts.length : 0}
-            </p>
+            <p className={classes.favorites__count}></p>
+            {numberOfFavorites ? numberOfFavorites : 0}
           </div>
         </div>
       </div>
