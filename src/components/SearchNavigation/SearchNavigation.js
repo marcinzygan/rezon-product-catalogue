@@ -38,7 +38,7 @@ const SearchNavigation = () => {
           <div className={classes.favorite__icon_container}>
             <Icon icon="mdi:cards-heart" className={classes.icon} />
             <p className={classes.favorites__count}></p>
-            {numberOfFavorites ? numberOfFavorites : 0}
+            {/* {numberOfFavorites ? numberOfFavorites : 0} */}
           </div>
         </div>
       </div>
