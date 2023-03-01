@@ -6,10 +6,10 @@ const initialState = {
   productCards: productsData,
   numberOfFavorites: 0,
   favId: [],
-  favoriteProducts:
-    typeof window !== "undefined"
-      ? JSON.parse(localStorage.getItem("Favorites")) || []
-      : [],
+  // favoriteProducts:
+  //   typeof window !== "undefined"
+  //     ? JSON.parse(localStorage.getItem("Favorites")) || []
+  //     : [],
   //   typeof window !== "undefined" && localStorage.getItem("Favorites")
   //     ? JSON.parse(localStorage.getItem("Favorites"))
   //     : [],
