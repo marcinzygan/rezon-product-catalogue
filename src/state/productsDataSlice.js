@@ -37,38 +37,39 @@ const productsDataSlice = createSlice({
     },
     // LOCAL STORAGE AND FAV LIST
     setFavProducts: (state, data) => {
-      // console.log(data.payload);
       state.favoriteProducts = data.payload;
     },
+    // ADD FAVORITES ACTION
     addToFavorites: (state, data) => {
       //Add Product to Favorites State
       const currentProduct = state.productCards.find(
         (card) => card.id === data.payload
       );
       const newProduct = { ...currentProduct, isFav: true };
-      // console.log(newProduct);
+
       state.favoriteProducts.push(newProduct);
+      //update number of favorite items
       state.numberOfFavorites = state.favoriteProducts.length;
     },
+    // REMOVE FAVORITES ACTION
     removeFromFavorites: (state, data) => {
       const newFavList = state.favoriteProducts.filter(
         (item) => item.id !== data.payload
       );
       state.favoriteProducts = newFavList;
+      //update number of favorite items
       state.numberOfFavorites = state.favoriteProducts.length;
     },
+    //REMOVE FAVORITE ITEM ID ACTION
     removeFavId: (state, data) => {
       const index = state.favId.indexOf(data.payload);
-      console.log(index);
       state.favId.splice(index, 1);
-      // state.favId = newState;
-      // state.favId.map((item) => console.log(item));
-      // state.favId.filter((item) => item !== data.payload);
-      console.log(data.payload);
     },
+    // SET FAVORITES ITEM ID ACTION
     setFavId: (state, data) => {
       state.favId.push(data.payload);
     },
+    //SET DATA ON APP LOAD
     setData: (state, data) => {
       // Update isFav property on productCards
 

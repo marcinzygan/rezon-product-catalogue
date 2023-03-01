@@ -14,38 +14,28 @@ import {
 } from "@/state/productsDataSlice";
 const ProductCard = (card) => {
   const dispatch = useDispatch();
-
+  // State for id's of Favorite items
   const favId = useSelector((state) => state.data.favId);
-  // React.useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     dispatch(setFavId());
-  //   }
-  // }, []);
-  function addFavAction(card) {
-    return (dispatch) => {
-      dispatch(setFavId(card.id));
-      dispatch(addToFavorites(card.id));
-      console.log("added to fav");
-    };
-  }
-  function removeFavAction(card) {
-    return (dispatch) => {
-      dispatch(removeFavId(card.id));
-      dispatch(removeFromFavorites(card.id));
-    };
-  }
-  // const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
-  // if (typeof window !== "undefined") {
-  //   const favId = favoriteProducts.map((product) => {
-  //     return product.id;
-  //   });
-  //   return favId;
-  // }
+
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
   function openModalAction(card) {
     return (dispatch) => {
       dispatch(openModal(card));
       dispatch(openSlider(card));
+    };
+  }
+  // add favorites action
+  function addFavAction(card) {
+    return (dispatch) => {
+      dispatch(setFavId(card.id));
+      dispatch(addToFavorites(card.id));
+    };
+  }
+  // remove favorites action
+  function removeFavAction(card) {
+    return (dispatch) => {
+      dispatch(removeFavId(card.id));
+      dispatch(removeFromFavorites(card.id));
     };
   }
   return (

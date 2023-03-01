@@ -13,31 +13,25 @@ export default function Home() {
 
   // USE EFFECT TO FETCH LOCAL STORAGE
   React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      try {
-        const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
-        // console.log(favorites);
-        dispatch(setFavProducts(favorites));
-        // console.log("useEffec");
-      } catch (e) {}
-    }
+    try {
+      const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
+      // console.log(favorites);
+      dispatch(setFavProducts(favorites));
+      // console.log("useEffec");
+    } catch (e) {}
   }, [dispatch]);
   // SET LOCAL STORAGE WHEN ITEM IS ADDED TO FAV
   const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
 
   // console.log(favoriteProducts);
   React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
-    }
+    localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
   }, [favoriteProducts]);
 
   //
 
   React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      dispatch(setData());
-    }
+    dispatch(setData());
   }, [dispatch]);
 
   //
