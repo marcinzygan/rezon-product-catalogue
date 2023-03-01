@@ -6,20 +6,36 @@ import { openModal } from "@/state/modalSlice";
 import { openSlider } from "@/state/imageSliderSlice";
 
 import Image from "next/image";
-import { addToFavorites, removeFromFavorites } from "@/state/productsDataSlice";
+import {
+  addToFavorites,
+  removeFromFavorites,
+  setFavId,
+  removeFavId,
+} from "@/state/productsDataSlice";
 const ProductCard = (card) => {
   const dispatch = useDispatch();
+  // State for id's of Favorite items
+  const favId = useSelector((state) => state.data.favId);
 
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
-  const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
-  // const favId = favoriteProducts.map((product) => {
-  //   return product.id;
-  // });
-
   function openModalAction(card) {
     return (dispatch) => {
       dispatch(openModal(card));
       dispatch(openSlider(card));
+    };
+  }
+  // add favorites action
+  function addFavAction(card) {
+    return (dispatch) => {
+      dispatch(setFavId(card.id));
+      dispatch(addToFavorites(card.id));
+    };
+  }
+  // remove favorites action
+  function removeFavAction(card) {
+    return (dispatch) => {
+      dispatch(removeFavId(card.id));
+      dispatch(removeFromFavorites(card.id));
     };
   }
   return (
@@ -59,19 +75,20 @@ const ProductCard = (card) => {
         </div>
         <div className={classes.card__details}>
           <div className={classes.card__name}>{card.identyfikator}</div>
-          {/* {!favId.includes(card.id) ? (
+
+          {!favId.includes(card.id) ? (
             <Icon
               icon="fa6-solid:heart-circle-plus"
               className={classes.icon}
-              onClick={() => dispatch(addToFavorites(card.id))}
+              onClick={() => dispatch(addFavAction(card))}
             />
           ) : (
             <Icon
               icon="fa:heart"
               className={classes.icon + " " + classes.icon__remove}
-              onClick={() => dispatch(removeFromFavorites(card.id))}
+              onClick={() => dispatch(removeFavAction(card))}
             />
-          )} */}
+          )}
         </div>
 
         <div
