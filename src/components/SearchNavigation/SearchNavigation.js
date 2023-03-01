@@ -3,8 +3,11 @@ import classes from "./searchNavigation.module.css";
 import { Icon } from "@iconify/react";
 import SearchBar from "../SearchBar/SearchBar";
 import FilterMenu from "../filterMenu/FilterMenu";
-
+import { useSelector } from "react-redux";
 const SearchNavigation = () => {
+  // FavoriteProducts STATE
+  const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
+
   return (
     <div className={classes.search__nav_wrapper}>
       <div className={classes.search__nav}>
@@ -32,7 +35,9 @@ const SearchNavigation = () => {
           <FilterMenu />
           <div className={classes.favorite__icon_container}>
             <Icon icon="mdi:cards-heart" className={classes.icon} />
-            <p className={classes.favorites__count}>0</p>
+            <p className={classes.favorites__count}>
+              {favoriteProducts ? favoriteProducts.length : 0}
+            </p>
           </div>
         </div>
       </div>

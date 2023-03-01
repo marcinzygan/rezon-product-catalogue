@@ -29,6 +29,15 @@
   /* padding: 1rem; */
   font-size: var(--fs-h2);
 }
+.icon {
+  width: 25px;
+  height: 25px;
+  color: var(--clr-gray);
+  cursor: pointer;
+}
+.icon__remove {
+  color: rgb(243, 75, 75);
+}
 .card__details {
   font-family: var(--ff-regular);
   font-weight: var(--fw-regular);

@@ -1,47 +1,47 @@
+import React from "react";
 import Head from "next/head";
 import classes from "../styles/index.module.css";
-import { useSelector } from "react-redux";
-
+import { useSelector, useDispatch } from "react-redux";
 import ProductCard from "@/components/productCard/ProductCard";
-import PaginationMenu from "@/components/paginationMenu/PaginationMenu";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
-
-import FilterMenu from "@/components/filterMenu/FilterMenu";
-import SearchBar from "@/components/SearchBar/SearchBar";
 import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
+import { setData } from "@/state/productsDataSlice";
 
 export default function Home() {
-  // const pageNumber = useSelector((state) => state.page.currentPage);
+  const dispatch = useDispatch();
+
+  // USE EFFECT TO FETCH LOCAL STORAGE
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      try {
+        const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
+        // console.log(favorites);
+        dispatch(setFavProducts(favorites));
+        // console.log("useEffec");
+      } catch (e) {}
+    }
+  }, [dispatch]);
+  // SET LOCAL STORAGE WHEN ITEM IS ADDED TO FAV
+  const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
+
+  // console.log(favoriteProducts);
+  React.useEffect(() => {
+    localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
+  }, [favoriteProducts]);
+
+  //
+
+  // React.useEffect(() => {
+  //   dispatch(setData());
+  // }, []);
+
+  //
   const productCards = useSelector((state) => state.data.productCards);
   const displaySearchProducts = useSelector(
     (state) => state.search.displaySearchProducts
   );
   const isSearchActive = useSelector((state) => state.search.isSearchActive);
-  // console.log(productCards);
-  //Our search filter function
-  // const searchFilter = (data) => {
-  //   const dataArray = data.map((product) => {
-  //     return product.identyfikator ? product.identyfikator : "";
-  //   });
-  //   console.log(dataArray);
-  //   return dataArray.filter((identyfiaktor) =>
-  //     identyfiaktor.includes("otwieracz".toUpperCase())
-  //   );
-  // };
-  // console.log(searchFilter(productCards));
-  // //PAGINATION LOGIC
-  // // amount of productCards per page
-  // const cardsPerPage = 199;
-  // // how many cards was shown to current page number
-  // const cardsSeen = pageNumber * cardsPerPage;
-  // // calculate amount of pages required
-  // const numberOfPages = Math.ceil(productCards.length / cardsPerPage);
-  // // display function to show only 1 card per page
-  // const displayCards = productCards.slice(
-  //   cardsSeen - 199,
-  //   cardsPerPage - 199 + cardsSeen
-  // );
 
   // DISPLAY ALL PRODUCTS
   const allProducts = productCards.map((card) => {

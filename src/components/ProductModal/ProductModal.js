@@ -5,36 +5,35 @@ import { useDispatch, useSelector } from "react-redux";
 import { Icon } from "@iconify/react";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import { closeSlider } from "@/state/imageSliderSlice";
-import { addToFavorites, setFavProducts } from "@/state/productsDataSlice";
+import {
+  addToFavorites,
+  setFavProducts,
+  removeFromFavorites,
+} from "@/state/productsDataSlice";
 
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
   const sliderLength = useSelector((state) => state.slider.sliderLength);
   const dispatch = useDispatch();
 
-  // USE EFFECT TO FETCH LOCAL STORAGE
-  React.useEffect(() => {
-    try {
-      const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
-      console.log(favorites);
-      dispatch(setFavProducts(favorites));
-      console.log("useEffec");
-    } catch (e) {}
-  }, [dispatch]);
+  // // SET LOCAL STORAGE WHEN ITEM IS ADDED TO FAV
+  // const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
 
-  // SET LOCAL STORAGE WHEN ITEM IS ADDED TO FAV
-  const favoriteProducts = useSelector((state) => state.data.favoriteProducts);
-  console.log(favoriteProducts);
-  React.useEffect(() => {
-    localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
-  }, [favoriteProducts]);
+  // // console.log(favoriteProducts);
+  // React.useEffect(() => {
+  //   localStorage.setItem("Favorites", JSON.stringify(favoriteProducts));
+  // }, [favoriteProducts]);
 
   // Function to add Product to Favorites
-  const addFavorites = function (id) {
-    dispatch(addToFavorites(id));
+  // const addFavorites = function (id) {
+  //   dispatch(addToFavorites(id));
 
-    console.log("added to favList");
-  };
+  //   console.log("added to favList");
+  // };
+
+  // const favId = favoriteProducts.map((product) => {
+  //   return product.id;
+  // });
 
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
   function closeModalAction() {
@@ -60,14 +59,7 @@ const ProductModal = () => {
           {/* Product Name */}
           <div className={classes.modal__name}>
             {modalData.identyfikator}{" "}
-            <div className={classes.favorite__icon_container}>
-              <Icon
-                icon="mdi:cards-heart"
-                className={classes.icon}
-                onClick={() => addFavorites(modalData.id)}
-              />
-              <p className={classes.favorites__count}>0</p>
-            </div>
+            <div className={classes.favorite__icon_container}></div>
           </div>
           {/* Product code */}
           <div className={classes.modal__kod}>

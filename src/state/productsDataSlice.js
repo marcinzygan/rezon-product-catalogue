@@ -1,10 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { productsData } from "../data/productsData.js";
-
+import React from "react";
 const initialState = {
   originalData: productsData,
   productCards: productsData,
-  // favoriteProducts: JSON.parse(localStorage.getItem("Favorites")) || [],
+
+  //   typeof window !== "undefined" && localStorage.getItem("Favorites")
+  //     ? JSON.parse(localStorage.getItem("Favorites"))
+  //     : [],
+  // favoriteProducts:
+  //   typeof window !== "undefined"
+  //     ? JSON.parse(localStorage.getItem("Favorites")) || {}
+  //     : [],
 };
 
 const productsDataSlice = createSlice({
@@ -25,7 +32,7 @@ const productsDataSlice = createSlice({
     },
     // LOCAL STORAGE AND FAV LIST
     setFavProducts: (state, data) => {
-      console.log(data.payload);
+      // console.log(data.payload);
       state.favoriteProducts = data.payload;
     },
     addToFavorites: (state, data) => {
@@ -34,13 +41,34 @@ const productsDataSlice = createSlice({
         (card) => card.id === data.payload
       );
       const newProduct = { ...currentProduct, isFav: true };
-      console.log(newProduct);
+      // console.log(newProduct);
       state.favoriteProducts.push(newProduct);
-
-      // Update isFav property on OriginalData
     },
+    removeFromFavorites: (state, data) => {
+      const newFavList = state.favoriteProducts.filter(
+        (item) => item.id !== data.payload
+      );
+      state.favoriteProducts = newFavList;
+    },
+    // setData: (state, data) => {
+    //   // Update isFav property on productCards
+
+    //   //Check if there is any Favourites products and update the isFav to true
+    //   const findFavState = state.originalData.map((item) =>
+    //     state.favoriteProducts.find((card) => card.id === item.id)
+    //       ? { ...item, isFav: true }
+    //       : item
+    //   );
+    //   // console.log(findFavState);
+    //   state.productCards = findFavState;
+    // },
   },
 });
-export const { filterProducts, addToFavorites, setFavProducts } =
-  productsDataSlice.actions;
+export const {
+  filterProducts,
+  addToFavorites,
+  removeFromFavorites,
+  setFavProducts,
+  setData,
+} = productsDataSlice.actions;
 export default productsDataSlice.reducer;
