@@ -251,6 +251,9 @@
   .modal__info_container {
     padding-right: 4rem;
   }
+  .technologie__container {
+    flex-wrap: nowrap;
+  }
 }
 @media (min-width: 1600px) {
   .modal__opis {
