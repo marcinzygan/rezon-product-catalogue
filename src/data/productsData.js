@@ -878,7 +878,7 @@ export const productsData = [
     dowolny_ksztalt: true,
     ilość_opakowanie: "",
     ilość_karton: "",
-    stan_magazynowy: 1000,
+    stan_magazynowy: 10000,
     stan_optymalny: 10000,
     stan_zamowiony: 0,
     wymiary: "",
