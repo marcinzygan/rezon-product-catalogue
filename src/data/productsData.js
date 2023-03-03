@@ -13,7 +13,7 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
-    stan_magazynowy: 100,
+    stan_magazynowy: 120,
     stan_optymalny: 100,
     stan_zamowiony: "",
     wymiary: "dowolny",
@@ -232,7 +232,7 @@ export const productsData = [
     ilość_karton: "",
     stan_magazynowy: 12000,
     stan_optymalny: 10000,
-    stan_zamowiony: "",
+    stan_zamowiony: 0,
     wymiary: "4,50 cm x 6,50 cm",
   },
   {

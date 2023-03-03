@@ -41,7 +41,7 @@ const ProductCard = (card) => {
   //function for High storage levels
   function highQuantity() {
     if (
-      card.stan_magazynowy <= card.stan_optymalny &&
+      card.stan_magazynowy >= card.stan_optymalny &&
       card.stan_magazynowy >= (card.stan_optymalny * 80) / 100
     ) {
       return (
@@ -159,6 +159,10 @@ const ProductCard = (card) => {
           </div>
           <span className={classes.card__details_wymiary}>{card.wymiary}</span>
         </div>
+        {/* STORAGE LEVELS */}
+        <div
+          className={`${classes.card__details} ${classes.card__details_light}`}
+        ></div>
       </div>
     </>
   );
