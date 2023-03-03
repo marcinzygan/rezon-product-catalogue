@@ -83,6 +83,21 @@
   height: 100px !important;
   margin-left: auto;
 }
+.dostepnosc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10 !important;
+  width: 100px;
+  height: 100px;
+}
+.brak__produktu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10 !important;
+  color: red;
+}
 .image__overlay {
   position: absolute;
   margin: 0;

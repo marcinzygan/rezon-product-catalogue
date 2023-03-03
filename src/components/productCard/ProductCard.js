@@ -38,6 +38,52 @@ const ProductCard = (card) => {
       dispatch(removeFromFavorites(card.id));
     };
   }
+  //function for High storage levels
+  function highQuantity() {
+    if (
+      card.stan_magazynowy <= card.stan_optymalny &&
+      card.stan_magazynowy >= (card.stan_optymalny * 80) / 100
+    ) {
+      return (
+        <img
+          src="/images/duza_dostepnosc.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
+    }
+    return null;
+  }
+  // function for Mid storage levels
+  function midQuantity() {
+    if (
+      card.stan_magazynowy < (card.stan_optymalny * 80) / 100 &&
+      card.stan_magazynowy >= (card.stan_optymalny * 50) / 100
+    ) {
+      return (
+        <img
+          src="/images/srednia_dostepnosc.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
+    }
+    return null;
+  }
+  // function for low storage levels
+  function lowQuantity() {
+    if (card.stan_magazynowy === 0) {
+      return <div className={classes.brak__produktu}>BRAK PRODUKTU</div>;
+    } else if (card.stan_magazynowy < (card.stan_optymalny * 50) / 100) {
+      return (
+        <img
+          src="/images/mala_dostepnosc.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
+    }
+    return null;
+  }
+
+  // JSX RETURN
   return (
     <>
       {/* Send modal data to modalSlice */}
@@ -47,6 +93,17 @@ const ProductCard = (card) => {
           onClick={() => dispatch(openModalAction(card))}
         >
           <div className={classes.img__wrapper}>
+            {/* PRODUKT STAN MAGAZYNOWY */}
+            {/* brak danych */}
+            {card.stan_magazynowy === null && ""}
+            {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
+            {highQuantity()}
+            {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
+            {midQuantity()}
+            {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
+            {lowQuantity()}
+
+            {/* PRODUKT NOWOSC */}
             {card.nowosc === true && (
               <img
                 className={classes.nowosc}

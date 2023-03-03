@@ -13,10 +13,11 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
-    stan_magazynowy: 10000,
-    stan_optymalny: 10000,
+    stan_magazynowy: 100,
+    stan_optymalny: 100,
     stan_zamowiony: "",
     wymiary: "dowolny",
+    nowosc: true,
   },
   {
     id: 2,
