@@ -8,13 +8,15 @@ export const productsData = [
     indeks_pc: "AKRYL 1",
     identyfikator: "AKRYL DOWOLNY KSZTAŁT",
     opis: "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
-    nowosc: true,
     dowolny_ksztalt: true,
     cena: 4.5,
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
-    wymiary: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
+    wymiary: "dowolny",
   },
   {
     id: 2,
@@ -38,6 +40,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "8,50 cm x 8,00 cm",
   },
 
@@ -53,6 +58,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "5,50 cm x 8,50 cm",
   },
 
@@ -68,6 +76,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 800,
+    stan_optymalny: 10000,
+    stan_zamowiony: 4000,
     wymiary: "6,00 cm x 9,00 cm",
   },
   {
@@ -82,6 +93,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 4000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 4800,
     wymiary: "5,50 cm x 8,00 cm",
   },
   {
@@ -96,6 +110,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 4000,
     wymiary: "9,00 cm x 7,00 cm",
   },
   {
@@ -110,6 +127,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "6,00 cm x 7,50 cm",
   },
   {
@@ -124,6 +144,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 400,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "10,80 cm x 5,00 cm",
   },
   {
@@ -138,6 +161,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2500,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "8,00 cm x 9,00 cm",
   },
   {
@@ -152,6 +178,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 4000,
     wymiary: "8,00 cm x 8,00 cm",
   },
   {
@@ -166,6 +195,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 51000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 4000,
     wymiary: "5,50 cm x 9,00 cm",
   },
   {
@@ -180,6 +212,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 400,
+    stan_optymalny: 10000,
+    stan_zamowiony: 9000,
     wymiary: "9,00 cm x 6,00 cm",
   },
   {
@@ -194,6 +229,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 12000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "4,50 cm x 6,50 cm",
   },
   {
@@ -208,6 +246,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "7,00 cm x 7,00 cm",
   },
   {
@@ -222,6 +263,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "4,50 cm x 4,50 cm",
   },
   {
@@ -236,6 +280,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "2,00cm 8,50 cm",
   },
   {
@@ -250,6 +297,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 4300,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "5,80 cm x 7,50 cm",
   },
   {
@@ -264,6 +314,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3600,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "7,50 cm x 7,50 cm",
   },
   {
@@ -278,6 +331,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3000,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "7,80cm x 6,00 cm",
   },
   {
@@ -292,6 +348,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 7900,
+    stan_optymalny: 1000,
+    stan_zamowiony: "",
     wymiary: "7,00 cm x 6,50 cm",
   },
   {
@@ -306,6 +365,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 4300,
+    stan_optymalny: 10000,
+    stan_zamowiony: "",
     wymiary: "6,50 cm x 7,00 cm",
   },
   {
@@ -320,6 +382,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "7,00 cm x 6,00 cm",
   },
   {
@@ -334,6 +399,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 5000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 5000,
     wymiary: "5,00 cm x 5,00 cm",
   },
   {
@@ -348,6 +416,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 4500,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,00 cm x 6,00 cm",
   },
   {
@@ -362,6 +433,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 4500,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,50 cm x 6,30 cm",
   },
   {
@@ -376,6 +450,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8300,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,00 cm x 5,50 cm",
   },
   {
@@ -390,6 +467,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,00 cm x 5,50 cm",
   },
   {
@@ -404,6 +484,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "4,50 cm x 6,70 cm",
   },
   {
@@ -418,6 +501,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,00 cm x 8,00 cm",
   },
   {
@@ -432,6 +518,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "7,00 cm x 9,00 cm",
   },
   {
@@ -446,6 +535,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -460,6 +552,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "7,50 cm x 11,00 cm",
   },
   {
@@ -474,6 +569,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 400,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 8,00 cm",
   },
   {
@@ -488,6 +586,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 400,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,00 cm x 13,00 cm",
   },
   {
@@ -502,6 +603,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 24000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 8,50 cm",
   },
   {
@@ -516,6 +620,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 30000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "5,50 cm x 8,00 cm",
   },
   {
@@ -530,6 +637,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 7,00 cm",
   },
 
@@ -545,7 +655,9 @@ export const productsData = [
   //   technologie: "1",
   //   ilość_opakowanie: "",
   //   ilość_karton: "",
-  //   wymiary: "6,00 cm x 8,00 cm",
+  //stan_magazynowy:"",//
+  //stan_optymalny:"",//
+  // wymiary: "6,00 cm x 8,00 cm",
   // },
   {
     id: 40,
@@ -559,6 +671,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "6,00 cm x 8,00 cm",
   },
   {
@@ -573,6 +688,9 @@ export const productsData = [
     technologie: "",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "Notes 16,00 cm x 5,00 cm / Długopis 14,50 cm x 2,50 cm",
   },
   {
@@ -587,6 +705,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 8,00 cm",
   },
   {
@@ -601,6 +722,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "14,00 cm x 6,00 cm",
   },
   {
@@ -615,6 +739,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 7,00 cm",
   },
   {
@@ -629,6 +756,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 7,00 cm",
   },
   {
@@ -643,6 +773,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "15,00 cm x 6,00 cm",
   },
   {
@@ -657,6 +790,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 5,50 cm",
   },
   {
@@ -671,6 +807,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3600,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -685,6 +824,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -699,6 +841,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -714,6 +859,9 @@ export const productsData = [
     dowolny_ksztalt: true,
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -729,6 +877,9 @@ export const productsData = [
     dowolny_ksztalt: true,
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   ////////////////////////BRELOKI //////////////////////////////////////////
@@ -745,6 +896,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 3,50 cm",
   },
   {
@@ -759,6 +913,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 30000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "8,50 cm x 2,20 cm",
   },
   {
@@ -773,6 +930,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 3,00 cm",
   },
   {
@@ -787,6 +947,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "8,50 cm x 4,00 cm",
   },
   {
@@ -801,6 +964,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 3,50 cm",
   },
   {
@@ -815,6 +981,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 3,20cm",
   },
   {
@@ -829,6 +998,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "7,50 cm x 4,10 cm",
   },
   {
@@ -843,6 +1015,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "7,80 cm x 3,20 cm",
   },
   {
@@ -857,6 +1032,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 8000,
+    stan_zamowiony: 0,
     wymiary: "7,50 cm x 4,30 cm",
   },
   {
@@ -871,6 +1049,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 4,00 cm",
   },
   {
@@ -885,6 +1066,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 2,00 cm",
   },
   {
@@ -899,6 +1083,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "11,00 cm x 3,00 cm",
   },
   {
@@ -913,6 +1100,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "11,00 cm x 3,50 cm",
   },
   {
@@ -927,6 +1117,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 4,00 cm",
   },
   {
@@ -941,6 +1134,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 7000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "11,50 cm x 3,50 cm",
   },
   {
@@ -955,6 +1151,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 18000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 3,00 cm",
   },
   {
@@ -969,6 +1168,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "8,50 cm x 2,00 cm",
   },
   {
@@ -983,6 +1185,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 5000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "8,50 cm x 2,00 cm",
   },
   {
@@ -997,6 +1202,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 5000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 4,0 cm",
   },
   {
@@ -1011,6 +1219,8 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: "",
+    stan_optymalny: "",
     wymiary: "11,50 cm x 1,00 cm",
   },
   {
@@ -1025,6 +1235,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,50 x 2,50 cm",
   },
   {
@@ -1039,6 +1252,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 3,50 cm",
   },
   {
@@ -1053,6 +1269,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 3,50 cm",
   },
   {
@@ -1067,6 +1286,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 1,50 cm",
   },
   {
@@ -1081,6 +1303,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "16,00 cm x 2,50 cm",
   },
   ///////////////////////////// OTWIERACZE ///////////////
@@ -1097,6 +1322,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1800,
+    stan_optymalny: 2000,
+    stan_zamowiony: 0,
     wymiary: "11,3 cm x 2,00 cm",
   },
   {
@@ -1111,6 +1339,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 4500,
+    stan_optymalny: 4000,
+    stan_zamowiony: 0,
     wymiary: "13,5 cm x 4,00 cm",
   },
   {
@@ -1125,6 +1356,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 0,
+    stan_zamowiony: 0,
     wymiary: "13,50 cm x 2,50 cm",
   },
   {
@@ -1139,6 +1373,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3900,
+    stan_optymalny: 9000,
+    stan_zamowiony: 9000,
     wymiary: "7,50 cm x 7,50 cm",
   },
   {
@@ -1153,6 +1390,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "7,50 cm x 7,50 cm",
   },
   {
@@ -1167,6 +1407,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 4000,
+    stan_zamowiony: 0,
     wymiary: "7,00 cm x 4,50 cm",
   },
   {
@@ -1181,6 +1424,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2000,
+    stan_optymalny: 4000,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 5,50 cm",
   },
   {
@@ -1195,6 +1441,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 9000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 5000,
     wymiary: "10,00 cm x 4,00 cm",
   },
   {
@@ -1209,6 +1458,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 16000,
+    stan_zamowiony: 0,
     wymiary: "3,40 cm x 9,80 cm",
   },
   {
@@ -1223,6 +1475,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 10000,
     wymiary: "9,00 cm x 4,50 cm",
   },
   {
@@ -1237,6 +1492,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 10000,
+    stan_zamowiony: 10000,
     wymiary: "8,00 cm x 6,00 cm",
   },
   {
@@ -1251,6 +1509,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 5,00 cm",
   },
   {
@@ -1265,6 +1526,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 5,00 cm",
   },
   {
@@ -1279,6 +1543,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 5,50 cm",
   },
   {
@@ -1293,6 +1560,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 5,50 cm",
   },
   {
@@ -1307,6 +1577,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 5,70 cm",
   },
   {
@@ -1321,6 +1594,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 5,70 cm",
   },
   {
@@ -1335,6 +1611,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 5,00 cm",
   },
   {
@@ -1349,6 +1628,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1500,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 5,00 cm",
   },
   // {
@@ -1363,7 +1645,9 @@ export const productsData = [
   //   technologie: "1",
   //   ilość_opakowanie: "",
   //   ilość_karton: "",
-  //   wymiary: "9,00 cm x 6,00 cm",
+  // stan_magazynowy:"",//
+  // stan_optymalny:"",//
+  // wymiary: "9,00 cm x 6,00 cm",
   // },
   // {
   //   id: 98,
@@ -1377,7 +1661,9 @@ export const productsData = [
   //   technologie: "2",
   //   ilość_opakowanie: "",
   //   ilość_karton: "",
-  //   wymiary: "9,00 cm x 6,00 cm",
+  //stan_magazynowy:"",//
+  //stan_optymalny:"",//
+  //wymiary: "9,00 cm x 6,00 cm",
   // },
   {
     id: 99,
@@ -1391,6 +1677,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 5000,
+    stan_zamowiony: 0,
     wymiary: "15,25 cm x 5,20 cm",
   },
   {
@@ -1405,6 +1694,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 0,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "15,30 cm x 6,80 cm",
   },
   {
@@ -1419,6 +1711,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "10,50 cm x 8,00 cm",
   },
   ////////////////// KUBKI I PODKŁADKI ///////////
@@ -1435,6 +1730,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "6,00 cm x 6,00 cm",
   },
   {
@@ -1449,6 +1747,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 8,00 cm",
   },
   {
@@ -1463,6 +1764,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "8,50 cm x 9,00 cm",
   },
   {
@@ -1477,6 +1781,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 8,50 cm",
   },
   {
@@ -1491,6 +1798,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2700,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 9,50 cm",
   },
   //////////////// DŁUGOPISY ////////////////
@@ -1507,6 +1817,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "14,50 cm x 0,90 cm",
   },
   {
@@ -1521,6 +1834,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "14,00 cm x 0,90 cm",
   },
   {
@@ -1535,6 +1851,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "13,50 cm x 1,30 cm",
   },
   {
@@ -1549,6 +1868,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "14,30 cm x 0,90 cm",
   },
   {
@@ -1563,6 +1885,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "14,30 cm x 0,90 cm",
   },
   {
@@ -1577,6 +1902,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "14,30 cm x 0,90 cm",
   },
   {
@@ -1591,6 +1919,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 6000,
+    stan_optymalny: 6000,
+    stan_zamowiony: 0,
     wymiary: "14,50 cm x 1,20 cm",
   },
   {
@@ -1605,7 +1936,11 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1200,
+    stan_optymalny: 1000,
+    stan_zamowiony: 0,
     wymiary: "",
+    nowosc: true,
   },
   {
     id: 210,
@@ -1619,7 +1954,11 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 300,
+    stan_optymalny: 1000,
+    stan_zamowiony: 0,
     wymiary: "",
+    nowosc: true,
   },
   { id: "K-06", displayCategory: true, category: "czapki i nakrycia głowy" },
   ///////////////// CZAPKI I NAKRYCIA GŁOWY ///////////////
@@ -1635,6 +1974,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "23,00 cm x 12,00 cm",
   },
   {
@@ -1649,6 +1991,9 @@ export const productsData = [
     technologie: "7",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "25,0 cm x 19,00 cm x 10,00 cm",
   },
   {
@@ -1663,6 +2008,9 @@ export const productsData = [
     technologie: "7",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "25,00 cm x 20,00 cm x 13,00 cm",
   },
   {
@@ -1677,6 +2025,9 @@ export const productsData = [
     technologie: "7",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 20,50 cm",
   },
   { id: "K-07", displayCategory: true, category: "bransoletki" },
@@ -1693,6 +2044,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  min. 5,50 cm Średnica  max. 10,00 cm ",
   },
   {
@@ -1707,6 +2061,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  min. 5,50 cm Średnica  max. 9,50 cm ",
   },
   {
@@ -1721,6 +2078,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  7,00 cm",
   },
   {
@@ -1735,6 +2095,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica   6,00 cm",
   },
   {
@@ -1749,6 +2112,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  min. 6,50 cm Średnica  max. 7,50 cm ",
   },
   {
@@ -1763,6 +2129,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  min. 5,50 cm Średnica  max. 7,00cm ",
   },
   {
@@ -1777,6 +2146,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  min. 5,50 cm Średnica  max. 7,00cm ",
   },
   {
@@ -1791,6 +2163,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Średnica  min. 5,50 cm Średnica  max. 10,00 cm",
   },
   { id: "K-08", displayCategory: true, category: "tekstylia" },
@@ -1807,6 +2182,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "37,50 cm x 23,50 cm",
   },
   {
@@ -1821,6 +2199,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "37,50 cm x 23,50 cm",
   },
   {
@@ -1835,6 +2216,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 500,
+    stan_optymalny: 500,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 11,50 cm",
   },
   {
@@ -1849,6 +2233,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 500,
+    stan_optymalny: 500,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 19,50 cm",
   },
   {
@@ -1863,6 +2250,9 @@ export const productsData = [
     technologie: "7",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "38,00 cm x 38,00 cm",
   },
 
@@ -1878,6 +2268,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "19,50 cm x 7,70 cm ",
   },
   {
@@ -1892,6 +2285,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "16,00 cm x 7,70 cm",
   },
   {
@@ -1906,6 +2302,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2000,
+    stan_optymalny: 2000,
+    stan_zamowiony: 0,
     wymiary: "37,50 cm x 15,00 cm",
   },
   {
@@ -1920,6 +2319,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2000,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "37,50 cm x 15,00 cm",
   },
   {
@@ -1934,6 +2336,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "37,50 cm x 15,00 cm",
   },
   {
@@ -1948,6 +2353,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "40,00 cm x 41,00 cm - ucho 33,00 cm",
   },
   {
@@ -1962,6 +2370,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "30,50 cm x 30,50 cm",
   },
   ////////// RAMKI DO ZDJĘĆ //////////////
@@ -1982,6 +2393,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 15,00 cm",
   },
   {
@@ -1996,6 +2410,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 15,00 cm",
   },
   {
@@ -2010,6 +2427,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 15,00 cm",
   },
   {
@@ -2024,6 +2444,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 15,00 cm",
   },
   {
@@ -2038,6 +2461,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 13,00 cm",
   },
   {
@@ -2052,6 +2478,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 13,00 cm",
   },
   {
@@ -2066,6 +2495,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 13,00 cm",
   },
   {
@@ -2080,6 +2512,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 13,00 cm",
   },
   {
@@ -2094,6 +2529,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1700,
+    stan_optymalny: 2000,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 13,00 cm",
   },
   {
@@ -2108,6 +2546,9 @@ export const productsData = [
     technologie: "5",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 5000,
+    stan_optymalny: 5000,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   //// AKCESORIA PODRÓŻNE /////
@@ -2124,6 +2565,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "16,00 cm x 8,50 cm x 5,50 cm",
   },
   {
@@ -2138,6 +2582,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "4,20 cm x 3,30 cm",
   },
   {
@@ -2152,6 +2599,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 600,
+    stan_optymalny: 700,
+    stan_zamowiony: 0,
     wymiary: "7,00 cm x 7,00 cm x 7,00 cm",
   },
   {
@@ -2166,6 +2616,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,00 cm x 12,50 cm",
   },
   {
@@ -2180,6 +2633,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3500,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "5,30 cm x 5,00 cm",
   },
   {
@@ -2194,6 +2650,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3500,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "4,50 cm x 5,50 cm",
   },
   {
@@ -2208,6 +2667,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "8,70 cm x 2,40 cm",
   },
   {
@@ -2222,6 +2684,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "8,70 cm x 2,40 cm",
   },
   {
@@ -2236,6 +2701,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "16,00 cm x 7,00 cm",
   },
   {
@@ -2250,6 +2718,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "11,00 cm x 6,00 cm",
   },
   {
@@ -2264,6 +2735,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 600,
+    stan_optymalny: 1000,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 6,30 cm",
   },
   {
@@ -2278,6 +2752,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2500,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 6,80 cm",
   },
   {
@@ -2292,6 +2769,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 400,
+    stan_optymalny: 500,
+    stan_zamowiony: 0,
     wymiary: "6,00 cm x 6,70 cm",
   },
   {
@@ -2306,6 +2786,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3500,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "7,00cm x 7,20 cm",
   },
   {
@@ -2320,6 +2803,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 5000,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "7,40 cm x 7,70 cm",
   },
   {
@@ -2334,6 +2820,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3000,
+    stan_optymalny: 3000,
+    stan_zamowiony: 0,
     wymiary: "6,30 cm x 7,20 cm",
   },
   {
@@ -2348,6 +2837,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "22,00 cm x 38,00 cm",
   },
   {
@@ -2362,6 +2854,9 @@ export const productsData = [
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "22,00 cm x 6,50 cm",
   },
   ////////////////// DZIECIĘCE //////////////////////
@@ -2378,6 +2873,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "8,00 cm x 8,00 cm",
   },
   {
@@ -2392,6 +2890,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 3600,
+    stan_optymalny: 2000,
+    stan_zamowiony: 0,
     wymiary: "15,50 cm x 6,50 cm",
   },
   {
@@ -2406,6 +2907,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "17,50 cm x 18,50 cm",
   },
   {
@@ -2420,6 +2924,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "3,00 cm x 2,70 cm Łańcuszek 30,00 cm",
   },
   {
@@ -2434,6 +2941,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "4,00 cm x 2,30 cm ",
   },
   {
@@ -2448,6 +2958,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 8000,
+    stan_optymalny: 1000,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 9,50 cm x 9,50 cm",
   },
   {
@@ -2462,6 +2975,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2000,
+    stan_optymalny: 1500,
+    stan_zamowiony: 0,
     wymiary: "7,3 cm x 7,3 cm",
   },
   ///////////// DO AUTA ////////////////
@@ -2478,6 +2994,9 @@ export const productsData = [
     technologie: "7",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 6,50 cm",
   },
   {
@@ -2492,6 +3011,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "7,50 cm x 7,50 cm",
   },
   //////////// ZAPALNICZKI POPIELNICZKI ////////////
@@ -2508,7 +3030,9 @@ export const productsData = [
   //   technologie: "1",
   //   ilość_opakowanie: "",
   //   ilość_karton: "",
-  //   wymiary: "10,00 cm x 5,50 cm",
+  // stan_magazynowy:"",//
+  // stan_optymalny:"",//
+  // wymiary: "10,00 cm x 5,50 cm",
   // },
   {
     id: 176,
@@ -2520,9 +3044,11 @@ export const productsData = [
     opis: "Kwadratowa popielniczka wykonana z grubego szkła posiadająca grafikę nadrukowaną na podstawie. Możliwe wykonanie dowolnej grafiki.",
     cena: 8,
     technologie: "1",
-
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 1000,
+    stan_optymalny: 8000,
+    stan_zamowiony: 0,
     wymiary: "8,70 cm x 8,70 cm x 2,40 cm",
   },
   {
@@ -2537,6 +3063,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: 2800,
+    stan_optymalny: 2500,
+    stan_zamowiony: 0,
     wymiary: "8,50 cm x 8,50 cm x 3,50 cm",
   },
   {
@@ -2552,6 +3081,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "5,70 cm x 3,50 cm",
   },
   {
@@ -2567,6 +3099,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "5,70 cm x 3,50 cm",
   },
   {
@@ -2583,6 +3118,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "6,70 cm x 4,00 cm",
   },
   {
@@ -2599,6 +3137,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "7,80 cm x 2,40 cm",
   },
   {
@@ -2615,6 +3156,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "8,20 cm x 2,50 cm",
   },
   {
@@ -2632,6 +3176,9 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2648,6 +3195,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2664,6 +3214,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2682,6 +3235,9 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2698,6 +3254,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2714,6 +3273,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   ///////// UPOMINKI BIZNESOWE //////////////
@@ -2730,6 +3292,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "18,00 cm x 14,50 cm ",
   },
   {
@@ -2744,6 +3309,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "18,00 cm x 14,50 cm",
   },
   {
@@ -2758,6 +3326,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "5,00 cm x 5,00 cm x 5,00 cm",
   },
   {
@@ -2772,6 +3343,9 @@ export const productsData = [
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "5,50 cm x 5,50 cm x 6,50 cm",
   },
   {
@@ -2786,6 +3360,9 @@ export const productsData = [
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "Etui 8,00 cm x 11,50 cm Brelok 9,50 cm x 4,00 cm",
   },
   /////////////// SUBLIMACJA ////////////////
@@ -2802,6 +3379,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 12,00 cm",
   },
   {
@@ -2816,6 +3396,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 12,00 cm",
   },
   {
@@ -2830,6 +3413,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 12,00 cm",
   },
   {
@@ -2844,6 +3430,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "10,00 cm x 12,00 cm",
   },
   {
@@ -2858,6 +3447,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary:
       "Filiżanka 5,50 cm x 10,00 cm Talerzyk 2,00 cm x 13,00 cm Łyżeczka 13,00 cm x 2,50 cm",
   },
@@ -2873,6 +3465,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,30 cm x 7,80 cm",
   },
   {
@@ -2887,6 +3482,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "9,50 cm x 11,50 cm",
   },
   {
@@ -2901,6 +3499,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 5,00 cm",
   },
   {
@@ -2915,6 +3516,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "6,50 cm x 5,00 cm",
   },
   {
@@ -2929,6 +3533,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "15,00 cm x 12,00 cm",
   },
   {
@@ -2943,6 +3550,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2957,6 +3567,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2971,6 +3584,9 @@ export const productsData = [
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2985,6 +3601,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
   {
@@ -2999,6 +3618,9 @@ export const productsData = [
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
     wymiary: "",
   },
 ];
