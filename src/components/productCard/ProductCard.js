@@ -88,11 +88,23 @@ const ProductCard = (card) => {
     <>
       {/* Send modal data to modalSlice */}
       <div className={classes.card}>
+        {/* PRODUKT NOWOSC */}
+        {card.nowosc === true && (
+          <img
+            className={classes.nowosc}
+            src="/images/nowosc.png"
+            alt={card.identyfikator}
+          />
+        )}
+
         <div
           className={classes.card__header}
           onClick={() => dispatch(openModalAction(card))}
         >
-          <div className={classes.img__wrapper}>
+          {/* STORAGE LEVELS */}
+          <div
+          // className={`${classes.card__details} ${classes.card__details_light}`}
+          >
             {/* PRODUKT STAN MAGAZYNOWY */}
             {/* brak danych */}
             {card.stan_magazynowy === null && ""}
@@ -102,15 +114,8 @@ const ProductCard = (card) => {
             {midQuantity()}
             {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
             {lowQuantity()}
-
-            {/* PRODUKT NOWOSC */}
-            {card.nowosc === true && (
-              <img
-                className={classes.nowosc}
-                src="/images/nowosc.png"
-                alt={card.identyfikator}
-              />
-            )}
+          </div>
+          <div className={classes.img__wrapper}>
             <Image
               fill
               className={classes.img}
@@ -159,10 +164,6 @@ const ProductCard = (card) => {
           </div>
           <span className={classes.card__details_wymiary}>{card.wymiary}</span>
         </div>
-        {/* STORAGE LEVELS */}
-        <div
-          className={`${classes.card__details} ${classes.card__details_light}`}
-        ></div>
       </div>
     </>
   );

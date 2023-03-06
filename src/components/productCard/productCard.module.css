@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  position: relative;
 
   /* position: relative; */
 }
@@ -18,7 +19,7 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   cursor: pointer;
 }
 .card__name {
@@ -84,12 +85,14 @@
   margin-left: auto;
 }
 .dostepnosc {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
+  margin-left: 1rem;
+  margin-top: 1rem;
   z-index: 10 !important;
   width: 80px;
-  height: 80px;
+  height: 30px;
 }
 .brak__produktu {
   position: absolute;
