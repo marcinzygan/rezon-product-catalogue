@@ -88,6 +88,14 @@ const ProductCard = (card) => {
     <>
       {/* Send modal data to modalSlice */}
       <div className={classes.card}>
+        {/* PRODUKT NOWOSC */}
+        {card.nowosc === true && (
+          <img
+            className={classes.nowosc}
+            src="/images/nowosc.png"
+            alt={card.identyfikator}
+          />
+        )}
         {/* STORAGE LEVELS */}
         <div
         // className={`${classes.card__details} ${classes.card__details_light}`}
@@ -107,14 +115,6 @@ const ProductCard = (card) => {
           onClick={() => dispatch(openModalAction(card))}
         >
           <div className={classes.img__wrapper}>
-            {/* PRODUKT NOWOSC */}
-            {card.nowosc === true && (
-              <img
-                className={classes.nowosc}
-                src="/images/nowosc.png"
-                alt={card.identyfikator}
-              />
-            )}
             <Image
               fill
               className={classes.img}
