@@ -88,21 +88,25 @@ const ProductCard = (card) => {
     <>
       {/* Send modal data to modalSlice */}
       <div className={classes.card}>
+        {/* STORAGE LEVELS */}
+        <div
+        // className={`${classes.card__details} ${classes.card__details_light}`}
+        >
+          {/* PRODUKT STAN MAGAZYNOWY */}
+          {/* brak danych */}
+          {card.stan_magazynowy === null && ""}
+          {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
+          {highQuantity()}
+          {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
+          {midQuantity()}
+          {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
+          {lowQuantity()}
+        </div>
         <div
           className={classes.card__header}
           onClick={() => dispatch(openModalAction(card))}
         >
           <div className={classes.img__wrapper}>
-            {/* PRODUKT STAN MAGAZYNOWY */}
-            {/* brak danych */}
-            {card.stan_magazynowy === null && ""}
-            {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
-            {highQuantity()}
-            {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
-            {midQuantity()}
-            {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
-            {lowQuantity()}
-
             {/* PRODUKT NOWOSC */}
             {card.nowosc === true && (
               <img
@@ -159,10 +163,6 @@ const ProductCard = (card) => {
           </div>
           <span className={classes.card__details_wymiary}>{card.wymiary}</span>
         </div>
-        {/* STORAGE LEVELS */}
-        <div
-          className={`${classes.card__details} ${classes.card__details_light}`}
-        ></div>
       </div>
     </>
   );
