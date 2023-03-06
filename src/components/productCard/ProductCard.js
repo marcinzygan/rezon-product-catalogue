@@ -96,24 +96,25 @@ const ProductCard = (card) => {
             alt={card.identyfikator}
           />
         )}
-        {/* STORAGE LEVELS */}
-        <div
-        // className={`${classes.card__details} ${classes.card__details_light}`}
-        >
-          {/* PRODUKT STAN MAGAZYNOWY */}
-          {/* brak danych */}
-          {card.stan_magazynowy === null && ""}
-          {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
-          {highQuantity()}
-          {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
-          {midQuantity()}
-          {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
-          {lowQuantity()}
-        </div>
+
         <div
           className={classes.card__header}
           onClick={() => dispatch(openModalAction(card))}
         >
+          {/* STORAGE LEVELS */}
+          <div
+          // className={`${classes.card__details} ${classes.card__details_light}`}
+          >
+            {/* PRODUKT STAN MAGAZYNOWY */}
+            {/* brak danych */}
+            {card.stan_magazynowy === null && ""}
+            {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
+            {highQuantity()}
+            {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
+            {midQuantity()}
+            {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
+            {lowQuantity()}
+          </div>
           <div className={classes.img__wrapper}>
             <Image
               fill
