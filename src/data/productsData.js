@@ -719,7 +719,7 @@ export const productsData = [
     indeks_pc: "DK41-077A",
     identyfikator: "MAGNES NÓŻKI",
     opis: "Magnes wykonany z tworzywa ceramicznego posiadający miejsce na wykonanie grafiki ze wzorem. Produkt zapakowany w woreczku.",
-    cena: 5,
+    cena: 6,
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
