@@ -41,7 +41,7 @@ const ProductCard = (card) => {
   //function for High storage levels
   function highQuantity() {
     if (
-      card.stan_magazynowy >= card.stan_optymalny &&
+      card.stan_magazynowy >= card.stan_optymalny ||
       card.stan_magazynowy >= (card.stan_optymalny * 80) / 100
     ) {
       return (
@@ -68,10 +68,19 @@ const ProductCard = (card) => {
     }
     return null;
   }
+  function noQuantity() {
+    if (card.stan_magazynowy === null) {
+      return <div className={classes.dostepnosc}></div>;
+    }
+  }
   // function for low storage levels
   function lowQuantity() {
     if (card.stan_magazynowy === 0) {
-      return <div className={classes.brak__produktu}>BRAK PRODUKTU</div>;
+      return (
+        <div className={classes.dostepnosc}>
+          <div className={classes.brak__produktu}>BRAK PRODUKTU</div>
+        </div>
+      );
     } else if (card.stan_magazynowy < (card.stan_optymalny * 50) / 100) {
       return (
         <img
@@ -88,34 +97,44 @@ const ProductCard = (card) => {
     <>
       {/* Send modal data to modalSlice */}
       <div className={classes.card}>
-        {/* PRODUKT NOWOSC */}
-        {card.nowosc === true && (
-          <img
-            className={classes.nowosc}
-            src="/images/nowosc.png"
-            alt={card.identyfikator}
-          />
-        )}
-
         <div
           className={classes.card__header}
           onClick={() => dispatch(openModalAction(card))}
         >
-          {/* STORAGE LEVELS */}
+          {/* STORAGE LEVELS */} {/* PRODUKT NOWOSC */}
+          {card.nowosc === true && (
+            <img
+              className={classes.nowosc}
+              src="/images/nowosc.png"
+              alt={card.identyfikator}
+            />
+          )}
+          {/* {card.stan_magazynowy === 0 && (
+          <img
+            className={classes.brak__produktu}
+            src="/images/brak_produktu.svg"
+            alt={card.identyfikator}
+          />
+        )} */}
+          {/* PRODUKT STAN MAGAZYNOWY */}
+          {/* brak danych */}
+          {noQuantity()}
+          {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
+          {highQuantity()}
+          {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
+          {midQuantity()}
+          {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
+          {lowQuantity()}
           <div
           // className={`${classes.card__details} ${classes.card__details_light}`}
+          ></div>
+          <div
+            className={
+              card.stan_magazynowy === 0
+                ? classes.img__wrapper + " " + classes.brak__produktu_img
+                : classes.img__wrapper
+            }
           >
-            {/* PRODUKT STAN MAGAZYNOWY */}
-            {/* brak danych */}
-            {card.stan_magazynowy === null && ""}
-            {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
-            {highQuantity()}
-            {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
-            {midQuantity()}
-            {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
-            {lowQuantity()}
-          </div>
-          <div className={classes.img__wrapper}>
             <Image
               fill
               className={classes.img}
@@ -126,7 +145,6 @@ const ProductCard = (card) => {
               33vw"
             />
           </div>
-
           <div className={classes.image__overlay}>
             <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
             <Icon
