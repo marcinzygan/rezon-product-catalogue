@@ -77,3 +77,13 @@
     transform: scale(1);
   }
 }
+@media print {
+  .modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: visible !important; /* Remove scrollbar for printing. */
+  }
+}
