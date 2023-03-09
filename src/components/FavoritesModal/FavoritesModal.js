@@ -5,14 +5,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { closeFavorites } from "@/state/modalSlice";
 import ProductCard from "@/components/productCard/ProductCard";
 import PageHeading from "../PageHeading/PageHeading";
+import { setIsSSR } from "@/state/productsDataSlice";
 const FavoritesModal = () => {
   const modalFavorites = useSelector((state) => state.data.favoriteProducts);
-
+  const isSSR = useSelector((state) => state.data.isSSR);
   const dispatch = useDispatch();
-  const [isSSR, setIsSSR] = React.useState(true);
-
+  // SET isSSR to false to avoid Hydration Error
   React.useEffect(() => {
-    setIsSSR(false);
+    dispatch(setIsSSR());
   }, []);
 
   {
@@ -29,7 +29,6 @@ const FavoritesModal = () => {
               heading={"Twoje Ulubione Produkty."}
               subHeading={"przeglądaj i zarządzaj swoją listą"}
             />
-            {/* <h1 className={classes.h1}>Twoje Ulubione Produkty.</h1> */}
 
             <div className={classes.favorites__container}>
               {modalFavorites.map((item) => (
@@ -45,17 +44,6 @@ const FavoritesModal = () => {
         )}
       </div>
     );
-    // !isSSR && (
-    //   <>
-    //     <div className={classes.modal} id="favorites">
-    //       <button onClick={() => dispatch(closeFavorites())}>CLICK HERE</button>
-
-    //       {modalFavorites.map((item) => (
-    //         <div key={item.id}>{item.identyfikator}</div>
-    //       ))}
-    //     </div>
-    //   </>
-    // );
   }
 };
 

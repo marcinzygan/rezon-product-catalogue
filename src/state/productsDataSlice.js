@@ -1,11 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { productsData } from "../data/productsData.js";
-import React from "react";
+
 const initialState = {
   originalData: productsData,
   productCards: productsData,
   numberOfFavorites: 0,
   favId: [],
+  isSSR: true,
   favoriteProducts:
     typeof window !== "undefined"
       ? JSON.parse(localStorage.getItem("Favorites")) || []
@@ -89,6 +90,9 @@ const productsDataSlice = createSlice({
       //set Num of Favorites
       state.numberOfFavorites = state.favoriteProducts.length;
     },
+    setIsSSR: (state, data) => {
+      state.isSSR = false;
+    },
   },
 });
 export const {
@@ -99,5 +103,6 @@ export const {
   setData,
   setFavId,
   removeFavId,
+  setIsSSR,
 } = productsDataSlice.actions;
 export default productsDataSlice.reducer;
