@@ -2986,8 +2986,8 @@ export const productsData = [
   {
     id: 173,
     category: "do auta",
-    image: "/images/Do auta/01.jpg",
-    slider_images: ["/images/Do auta/01.jpg"],
+    image: "/images/Do_auta/01.jpg",
+    slider_images: ["/images/Do_auta/01.jpg"],
     indeks_pc: "AUTO ZAPACH",
     identyfikator: "ZAPACH DO SAMOCHODU",
     opis: " Woreczek z materiału organzy z granulkami polimerowymi nasączonymi w perfumach. Kompozycji 6 zapachów: Black, Ocean, New Car, Truskawka, Wanilia i Guma Balonowa. Każdy zapach został zapakowany w foliowy szczelnie zgrzany woreczek barierowy zabezpieczający przed zwietrzeniem zapachu, oraz kartkę dedykowaną z opisem.",
@@ -3003,8 +3003,8 @@ export const productsData = [
   {
     id: 174,
     category: "do auta",
-    image: "/images/Do auta/02.jpg",
-    slider_images: ["/images/Do auta/02.jpg"],
+    image: "/images/Do_auta/02.jpg",
+    slider_images: ["/images/Do_auta/02.jpg"],
     indeks_pc: "ZAWIESZKA AUTO",
     identyfikator: "ZAWIESZKA DREWNIANA",
     opis: "Zawieszka wykonana z drewna. Naniesione grafiki drukiem UV z obu stron, będą efektowną ozdobą każdego samochodu. Nasz produkt to 6 kształtów, każda sztuka zapakowana na kartoniku.",
