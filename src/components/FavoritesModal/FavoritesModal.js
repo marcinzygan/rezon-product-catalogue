@@ -3,7 +3,7 @@ import classes from "./favoritesModal.module.css";
 import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { closeFavorites } from "@/state/modalSlice";
-import ProductCard from "@/components/productCard/ProductCard";
+import FavoritesCard from "@/components/FavoritesCard/FavoritesCard";
 import PageHeading from "../PageHeading/PageHeading";
 import { setIsSSR } from "@/state/productsDataSlice";
 const FavoritesModal = () => {
@@ -32,7 +32,7 @@ const FavoritesModal = () => {
 
             <div className={classes.favorites__container}>
               {modalFavorites.map((item) => (
-                <ProductCard key={item.id} {...item} />
+                <FavoritesCard key={item.id} {...item} />
               ))}
             </div>
             <Icon

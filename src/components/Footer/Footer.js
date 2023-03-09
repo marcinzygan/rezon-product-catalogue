@@ -6,7 +6,7 @@ const Footer = () => {
   const date = new Date().getFullYear();
   //  Component
   return (
-    <footer className={classes.footer}>
+    <footer className={classes.footer} id="footer">
       <div className={classes.details__wrapper}>
         {/* REZON */}
         <div className={classes.company__details_container}>
