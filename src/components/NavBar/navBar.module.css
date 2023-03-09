@@ -25,7 +25,7 @@
   cursor: pointer;
   position: fixed;
   right: 0;
-  z-index: 1020;
+  z-index: 1001;
   color: var(--clr-accent);
 }
 .next__img {
@@ -62,7 +62,7 @@
     transition: all 0.5s ease-in-out;
     background-color: var(--clr-white);
     opacity: 0.999;
-    z-index: 1010;
+    z-index: 1000;
     transform: translateX(+150%);
   }
 }
