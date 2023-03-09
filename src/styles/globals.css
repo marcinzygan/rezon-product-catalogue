@@ -98,7 +98,7 @@ main {
 }
 @media (min-width: 400px) {
   main {
-    padding: 3.5rem;
+    padding: 3rem;
   }
 }
 @media (min-width: 1300px) {

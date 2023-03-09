@@ -692,7 +692,7 @@ export const productsData = [
     stan_magazynowy: 0,
     stan_optymalny: 10000,
     stan_zamowiony: 0,
-    wymiary: "Notes 16,00 cm x 5,00 cm / Długopis 14,50 cm x 2,50 cm",
+    wymiary: "16,00 cm x 5,00 cm / 14,50 cm x 2,50 cm",
   },
   {
     id: 42,

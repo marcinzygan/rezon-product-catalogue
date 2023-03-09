@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   isModalOpen: false,
   modalContent: [],
+  favoritesContent: [],
   scrollPosition: 0,
 };
 
@@ -10,6 +11,24 @@ const modalSlice = createSlice({
   name: "modal",
   initialState,
   reducers: {
+    openFavorites: (state, data) => {
+      state.isModalOpen = true;
+      state.favoritesContent = data.payload;
+      // Open modal add CSS classes
+      if ((state.isModalOpen = true)) {
+        document.querySelector("body").classList.add("hidden");
+        document.querySelector("#cards").classList.add("hide__cards");
+        document.querySelector("#favorites").classList.add("modal__open");
+      }
+    },
+    closeFavorites: (state, data) => {
+      // Close modal add CSS classes
+      document.querySelector("body").classList.remove("hidden");
+      document.querySelector("#cards").classList.remove("hide__cards");
+      document.querySelector("#favorites").classList.remove("modal__open");
+      state.isModalOpen = false;
+      state.favoritesContent = [];
+    },
     openModal: (state, data) => {
       //Set state for current scroll position
       const scrollPosition = document.body.getBoundingClientRect().top;
@@ -46,4 +65,5 @@ const modalSlice = createSlice({
 
 export default modalSlice.reducer;
 
-export const { openModal, closeModal } = modalSlice.actions;
+export const { openModal, closeModal, openFavorites, closeFavorites } =
+  modalSlice.actions;
