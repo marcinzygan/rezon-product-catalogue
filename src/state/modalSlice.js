@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   isModalOpen: false,
+  isFavoritesOpen: false,
   modalContent: [],
   favoritesContent: [],
   scrollPosition: 0,
@@ -13,6 +14,7 @@ const modalSlice = createSlice({
   reducers: {
     openFavorites: (state, data) => {
       state.isModalOpen = true;
+      state.isFavoritesOpen = true;
       state.favoritesContent = data.payload;
       // Open modal add CSS classes
       if ((state.isModalOpen = true)) {
@@ -27,6 +29,7 @@ const modalSlice = createSlice({
       document.querySelector("#cards").classList.remove("hide__cards");
       document.querySelector("#favorites").classList.remove("modal__open");
       state.isModalOpen = false;
+      state.isFavoritesOpen = false;
       state.favoritesContent = [];
     },
     openModal: (state, data) => {
@@ -52,9 +55,14 @@ const modalSlice = createSlice({
       // state.sliderLength = data.payload.slider_images.length;
     },
     closeModal: (state, data) => {
-      document.querySelector("body").classList.remove("hidden");
-      document.querySelector("#cards").classList.remove("hide__cards");
-      document.querySelector("#modal").classList.remove("modal__open");
+      if (state.isFavoritesOpen === true) {
+        document.querySelector("#modal").classList.remove("modal__open");
+      } else {
+        document.querySelector("#modal").classList.remove("modal__open");
+        document.querySelector("body").classList.remove("hidden");
+        document.querySelector("#cards").classList.remove("hide__cards");
+      }
+
       state.isModalOpen = false;
       state.modalContent = [];
       // Move back to same position scrolled.
