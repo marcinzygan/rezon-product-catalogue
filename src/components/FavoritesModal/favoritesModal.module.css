@@ -7,6 +7,7 @@
   height: 100%;
   visibility: hidden;
   overflow-x: auto;
+  /* overflow: visible !important; */
   /* padding: 2rem; */
   z-index: 1002;
 }
