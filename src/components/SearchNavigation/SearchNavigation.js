@@ -3,13 +3,17 @@ import classes from "./searchNavigation.module.css";
 import { Icon } from "@iconify/react";
 import SearchBar from "../SearchBar/SearchBar";
 import FilterMenu from "../filterMenu/FilterMenu";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { openFavorites } from "@/state/modalSlice";
+
 const SearchNavigation = () => {
+  const dispatch = useDispatch();
   // FavoriteProducts STATE
+  const favorites = useSelector((state) => state.data.favoriteProducts);
   const numberOfFavorites = useSelector(
     (state) => state.data.numberOfFavorites
   );
-
+  console.log(favorites);
   return (
     <div className={classes.search__nav_wrapper}>
       <div className={classes.search__nav}>
@@ -35,7 +39,10 @@ const SearchNavigation = () => {
 
         <div className={classes.filterMenu__container}>
           <FilterMenu />
-          <div className={classes.favorite__icon_container}>
+          <div
+            className={classes.favorite__icon_container}
+            onClick={() => dispatch(openFavorites(favorites))}
+          >
             <Icon icon="mdi:cards-heart" className={classes.icon} />
             <p className={classes.favorites__count}></p>
             {numberOfFavorites ? numberOfFavorites : 0}

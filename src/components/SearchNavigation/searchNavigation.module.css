@@ -42,6 +42,7 @@
   width: 20px;
   height: 20px;
   color: var(--clr-gray);
+  cursor: pointer;
 }
 .favorites__count {
   color: var(--clr-gray);

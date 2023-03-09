@@ -8,7 +8,7 @@
   visibility: hidden;
   overflow-x: auto;
   padding: 2rem;
-  z-index: 1000;
+  z-index: 1003;
 }
 .modal__header {
   display: flex;

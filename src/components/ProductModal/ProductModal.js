@@ -18,6 +18,7 @@ const ProductModal = () => {
       dispatch(closeSlider());
     };
   }
+
   return (
     <div className={classes.modal} id="modal">
       {/* Modal Header */}
@@ -28,8 +29,9 @@ const ProductModal = () => {
         </div>
       </div>
 
-      {/* PRODUCT INFO */}
       <div className={classes.moddal__grid_container}>
+        {/* PRODUCT INFO */}
+
         {/* <div className={classes.details__container}> */}
         <div className={classes.modal__info_container}>
           {/* Product Name */}
@@ -284,6 +286,7 @@ const ProductModal = () => {
           </div>
         </div>
       </div>
+
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         {" "}

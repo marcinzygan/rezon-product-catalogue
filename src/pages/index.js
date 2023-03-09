@@ -7,6 +7,7 @@ import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
 import { setData } from "@/state/productsDataSlice";
+import FavoritesModal from "@/components/FavoritesModal/FavoritesModal";
 
 export default function Home() {
   const dispatch = useDispatch();
@@ -90,7 +91,9 @@ export default function Home() {
       </main>
 
       {/* <PaginationMenu numberOfPages={numberOfPages} /> */}
+
       <ProductModal />
+      <FavoritesModal />
     </>
   );
 }
