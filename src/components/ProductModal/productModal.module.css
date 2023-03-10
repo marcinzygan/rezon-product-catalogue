@@ -156,7 +156,11 @@
   flex-wrap: wrap;
   padding-bottom: 2rem;
 }
-
+.stan__display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 500px) {
   .modal {
     padding: 2rem 4rem;

@@ -1,10 +1,15 @@
 import React from "react";
 import classes from "../styles/handlowcy.module.css";
 import { Icon } from "@iconify/react";
+import PageHeading from "@/components/PageHeading/PageHeading";
 const handlowcy = () => {
   return (
     <main className={classes.handlowcy__main}>
-      <h1 className={classes.handlowcy__h1}>Nasi Przedstawiciele Handlowi</h1>
+      <PageHeading
+        heading={"Przedstawiciele Handlowi"}
+        subHeading={"zapraszamy do kontaktu"}
+      />
+
       <h2 className={classes.handlowcy__h2}>
         PRZEDSTAWICIELE HANDLOWI (POMORZE):
       </h2>

@@ -18,7 +18,52 @@ const ProductModal = () => {
       dispatch(closeSlider());
     };
   }
+  // FUNCTION TO CHECK ALL STORAGE LEVELS
+  function checkQuantity(stan_magazynowy) {
+    // check for HighQuantity
+    if (
+      (stan_magazynowy !== 0 &&
+        stan_magazynowy !== null &&
+        stan_magazynowy >= modalData.stan_optymalny) ||
+      (stan_magazynowy !== 0 &&
+        stan_magazynowy !== null &&
+        stan_magazynowy >= (modalData.stan_optymalny * 80) / 100)
+    ) {
+      return (
+        <img
+          src="/images/duza_dostepnosc.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
+      // check for MidQuantity
+    } else if (
+      stan_magazynowy < (modalData.stan_optymalny * 80) / 100 &&
+      stan_magazynowy >= (modalData.stan_optymalny * 50) / 100
+    ) {
+      return (
+        <img
+          src="/images/srednia_dostepnosc.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
+      // check for LowQuantity
+    } else if (
+      stan_magazynowy < (modalData.stan_optymalny * 50) / 100 &&
+      stan_magazynowy !== 0
+    ) {
+      return (
+        <img
+          src="/images/mala_dostepnosc.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
+      //check for noQuantity
+    } else if (stan_magazynowy === 0) {
+      return <>BRAK PRODUKTU</>;
+    }
+  }
 
+  // JSX RETURN
   return (
     <div className={classes.modal} id="modal">
       {/* Modal Header */}
@@ -73,6 +118,62 @@ const ProductModal = () => {
           </div>
         </div>
         {/* </div> */}
+        {/* DODATKOWE STANY MAGAZYNOWE  */}
+        {/* MAGNES OTWIERACZ BUTELKA*/}
+        {/* malibu */}
+        {modalData.stan_malibu ? (
+          <div>
+            {" "}
+            <p>Malibu: {modalData.stan_malibu} sztuk</p>{" "}
+            {checkQuantity(modalData.stan_malibu)}
+          </div>
+        ) : null}
+        {/* cream*/}
+        {modalData.stan_crem ? (
+          <div className={classes.stan__display}>
+            {" "}
+            <p>Cream: {modalData.stan_crem} sztuk</p>{" "}
+            {checkQuantity(modalData.stan_crem)}
+          </div>
+        ) : null}
+        {/* wino*/}
+        {modalData.stan_wino ? (
+          <div className={classes.stan__display}>
+            <p>Wino: {modalData.stan_wino} sztuk</p>
+            {checkQuantity(modalData.stan_wino)}{" "}
+          </div>
+        ) : null}
+        {/* jw*/}
+        {modalData.stan_jw ? (
+          <div className={classes.stan__display}>
+            {" "}
+            <p>Jw: {modalData.stan_jw} sztuk</p>
+            {checkQuantity(modalData.stan_jw)}{" "}
+          </div>
+        ) : null}
+        {/* jd*/}
+        {modalData.stan_jd >= 0 && (
+          <div className={classes.stan__display}>
+            <p>Jd: {modalData.stan_jd} sztuk</p>{" "}
+            {checkQuantity(modalData.stan_jd)}
+          </div>
+        )}
+
+        {/* haineken*/}
+        {modalData.stan_haineken ? (
+          <div className={classes.stan__display}>
+            <p>Haineken: {modalData.stan_haineken} sztuk</p>{" "}
+            {checkQuantity(modalData.stan_haineken)}
+          </div>
+        ) : null}
+        {/* tyskie*/}
+        {modalData.stan_tyskie ? (
+          <div className={classes.stan__display}>
+            <p>Tyskie: {modalData.stan_tyskie} sztuk</p>{" "}
+            {checkQuantity(modalData.stan_tyskie)}
+          </div>
+        ) : null}
+        {/* TECHNOLOGIE */}
         <div className={classes.technologie__wrapper}>
           <p className={classes.technologie}>technologie:</p>
           <div className={classes.technologie__container}>
