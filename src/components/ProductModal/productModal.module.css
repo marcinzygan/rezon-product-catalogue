@@ -160,15 +160,23 @@
 .stan__display {
   width: 250px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+}
+.stan__img {
+  height: 100px;
+  width: 50px;
+  object-fit: contain;
 }
 .dodatkowyStan__container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  /* justify-content: center; */
+  flex-wrap: wrap;
   align-items: flex-start;
+  gap: 1rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .dostepnosc {
   height: 20px;
@@ -257,6 +265,10 @@
   .technologie__wrapper {
     grid-column: 1/4;
     grid-row: 3/-1;
+  }
+  .dodatkowyStan__container {
+    /* grid-row: 5/6; */
+    grid-column: 1/-1;
   }
 }
 @media (min-width: 1300px) {

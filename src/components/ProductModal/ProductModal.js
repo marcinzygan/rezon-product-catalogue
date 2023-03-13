@@ -59,7 +59,12 @@ const ProductModal = () => {
       );
       //check for noQuantity
     } else if (stan_magazynowy === 0) {
-      return <>BRAK PRODUKTU</>;
+      return (
+        <img
+          src="/images/brak_dostepnosci.svg"
+          className={classes.dostepnosc}
+        ></img>
+      );
     }
   }
 
@@ -123,48 +128,72 @@ const ProductModal = () => {
           {/* malibu */}
           {modalData.stan_malibu >= 0 && (
             <div className={classes.stan__display}>
-              <p>Malibu:</p> {checkQuantity(modalData.stan_malibu)}
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/rum_biały.jpg"
+                className={classes.stan__img}
+              ></img>
+              {checkQuantity(modalData.stan_malibu)}
             </div>
           )}
           {/* cream*/}
           {modalData.stan_crem >= 0 && (
             <div className={classes.stan__display}>
-              {" "}
-              <p>Crem:</p> {checkQuantity(modalData.stan_crem)}
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/advocat_mire.jpg"
+                className={classes.stan__img}
+              ></img>
+              {checkQuantity(modalData.stan_crem)}
             </div>
           )}
           {/* wino*/}
           {modalData.stan_wino >= 0 && (
             <div className={classes.stan__display}>
-              <p>Wino:</p>
-              {checkQuantity(modalData.stan_wino)}{" "}
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/wino.jpg"
+                className={classes.stan__img}
+              ></img>
+              {checkQuantity(modalData.stan_wino)}
             </div>
           )}
           {/* jw*/}
           {modalData.stan_jw >= 0 && (
             <div className={classes.stan__display}>
-              {" "}
-              <p>Jw:</p>
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/whiskey_retro.jpg"
+                className={classes.stan__img}
+              ></img>
               {checkQuantity(modalData.stan_jw)}{" "}
             </div>
           )}
           {/* jd*/}
           {modalData.stan_jd >= 0 && (
             <div className={classes.stan__display}>
-              <p>Jd: </p> {checkQuantity(modalData.stan_jd)}
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/whiskey_gold.jpg"
+                className={classes.stan__img}
+              ></img>
+              {checkQuantity(modalData.stan_jd)}
             </div>
           )}
 
           {/* haineken*/}
           {modalData.stan_haineken >= 0 && (
             <div className={classes.stan__display}>
-              <p>Hain: </p> {checkQuantity(modalData.stan_haineken)}
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/piwo_zielone.jpg"
+                className={classes.stan__img}
+              ></img>
+              {checkQuantity(modalData.stan_haineken)}
             </div>
           )}
           {/* tyskie*/}
           {modalData.stan_tyskie >= 0 && (
             <div className={classes.stan__display}>
-              <p>Tys:</p> {checkQuantity(modalData.stan_tyskie)}
+              <img
+                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/piwo_brazowe.jpg"
+                className={classes.stan__img}
+              ></img>{" "}
+              {checkQuantity(modalData.stan_tyskie)}
             </div>
           )}
         </div>
