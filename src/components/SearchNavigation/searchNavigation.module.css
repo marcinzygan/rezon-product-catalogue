@@ -2,7 +2,7 @@
   /* position: sticky;
   top: 0; */
   width: 100%;
-  z-index: 50;
+  z-index: 1000;
   background-color: white;
 }
 /* .search__nav_wrapper::after {
@@ -119,7 +119,7 @@
 }
 @media (min-width: 1800px) {
   .search__nav_wrapper {
-    position: sticky;
+    position: sticky !important;
     top: 0;
   }
   .search__nav_wrapper::after {

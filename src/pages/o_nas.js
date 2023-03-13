@@ -1,9 +1,14 @@
+import PageHeading from "@/components/PageHeading/PageHeading";
 import React from "react";
 import classes from "../styles/oNas.module.css";
 const o_nas = () => {
   return (
     <main className={classes.main}>
-      <h1 className={classes.h1}>O nas</h1>
+      <PageHeading
+        heading={"O nas"}
+        subHeading={"Krótka historia naszej firmy"}
+      />
+
       <p className={classes.text}>
         Nasza firma rozpoczęła swoją działalność w 1996 roku, zajmując się
         bezpośrednim importem towarów z Chin. Przez 20 lat nasza specjalność
