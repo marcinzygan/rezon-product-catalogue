@@ -117,62 +117,57 @@ const ProductModal = () => {
             <span className={classes.modal__span}>{modalData.wymiary}</span>
           </div>
         </div>
-        {/* </div> */}
-        {/* DODATKOWE STANY MAGAZYNOWE  */}
-        {/* MAGNES OTWIERACZ BUTELKA*/}
-        {/* malibu */}
-        {modalData.stan_malibu ? (
-          <div>
-            {" "}
-            <p>Malibu: {modalData.stan_malibu} sztuk</p>{" "}
-            {checkQuantity(modalData.stan_malibu)}
-          </div>
-        ) : null}
-        {/* cream*/}
-        {modalData.stan_crem ? (
-          <div className={classes.stan__display}>
-            {" "}
-            <p>Cream: {modalData.stan_crem} sztuk</p>{" "}
-            {checkQuantity(modalData.stan_crem)}
-          </div>
-        ) : null}
-        {/* wino*/}
-        {modalData.stan_wino ? (
-          <div className={classes.stan__display}>
-            <p>Wino: {modalData.stan_wino} sztuk</p>
-            {checkQuantity(modalData.stan_wino)}{" "}
-          </div>
-        ) : null}
-        {/* jw*/}
-        {modalData.stan_jw ? (
-          <div className={classes.stan__display}>
-            {" "}
-            <p>Jw: {modalData.stan_jw} sztuk</p>
-            {checkQuantity(modalData.stan_jw)}{" "}
-          </div>
-        ) : null}
-        {/* jd*/}
-        {modalData.stan_jd >= 0 && (
-          <div className={classes.stan__display}>
-            <p>Jd: {modalData.stan_jd} sztuk</p>{" "}
-            {checkQuantity(modalData.stan_jd)}
-          </div>
-        )}
+        <div className={classes.dodatkowyStan__container}>
+          {/* DODATKOWE STANY MAGAZYNOWE  */}
+          {/* MAGNES OTWIERACZ BUTELKA*/}
+          {/* malibu */}
+          {modalData.stan_malibu >= 0 && (
+            <div className={classes.stan__display}>
+              <p>Malibu:</p> {checkQuantity(modalData.stan_malibu)}
+            </div>
+          )}
+          {/* cream*/}
+          {modalData.stan_crem >= 0 && (
+            <div className={classes.stan__display}>
+              {" "}
+              <p>Crem:</p> {checkQuantity(modalData.stan_crem)}
+            </div>
+          )}
+          {/* wino*/}
+          {modalData.stan_wino >= 0 && (
+            <div className={classes.stan__display}>
+              <p>Wino:</p>
+              {checkQuantity(modalData.stan_wino)}{" "}
+            </div>
+          )}
+          {/* jw*/}
+          {modalData.stan_jw >= 0 && (
+            <div className={classes.stan__display}>
+              {" "}
+              <p>Jw:</p>
+              {checkQuantity(modalData.stan_jw)}{" "}
+            </div>
+          )}
+          {/* jd*/}
+          {modalData.stan_jd >= 0 && (
+            <div className={classes.stan__display}>
+              <p>Jd: </p> {checkQuantity(modalData.stan_jd)}
+            </div>
+          )}
 
-        {/* haineken*/}
-        {modalData.stan_haineken ? (
-          <div className={classes.stan__display}>
-            <p>Haineken: {modalData.stan_haineken} sztuk</p>{" "}
-            {checkQuantity(modalData.stan_haineken)}
-          </div>
-        ) : null}
-        {/* tyskie*/}
-        {modalData.stan_tyskie ? (
-          <div className={classes.stan__display}>
-            <p>Tyskie: {modalData.stan_tyskie} sztuk</p>{" "}
-            {checkQuantity(modalData.stan_tyskie)}
-          </div>
-        ) : null}
+          {/* haineken*/}
+          {modalData.stan_haineken >= 0 && (
+            <div className={classes.stan__display}>
+              <p>Hain: </p> {checkQuantity(modalData.stan_haineken)}
+            </div>
+          )}
+          {/* tyskie*/}
+          {modalData.stan_tyskie >= 0 && (
+            <div className={classes.stan__display}>
+              <p>Tys:</p> {checkQuantity(modalData.stan_tyskie)}
+            </div>
+          )}
+        </div>
         {/* TECHNOLOGIE */}
         <div className={classes.technologie__wrapper}>
           <p className={classes.technologie}>technologie:</p>

@@ -26,7 +26,8 @@
 }
 .modal__logo_container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
@@ -157,9 +158,21 @@
   padding-bottom: 2rem;
 }
 .stan__display {
+  width: 250px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+.dodatkowyStan__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+}
+.dostepnosc {
+  height: 20px;
+  width: 100px;
 }
 @media (min-width: 500px) {
   .modal {
