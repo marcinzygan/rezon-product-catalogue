@@ -114,8 +114,23 @@ const ProductModal = () => {
         {/* IMAGE SLIDER */}
 
         <div className={classes.slider__container}>
+          {/* IF storage lvl of product === 0 display overlay on image  */}
+          {modalData.stan_magazynowy === 0 && (
+            <div className={classes.brak__produktu}>BRAK PRODUKTU</div>
+          )}
           {/* IF there is any images in data display slider  */}
-          {sliderLength > 0 && <ImageSlider images={modalData.slider_images} />}
+          {sliderLength > 0 && (
+            <div
+              className={
+                modalData.stan_magazynowy === 0
+                  ? classes.noProduct__overlay
+                  : ""
+              }
+            >
+              {" "}
+              <ImageSlider images={modalData.slider_images} />
+            </div>
+          )}
 
           <div className={classes.modal__wymiary}>
             Wymiary:{" "}
