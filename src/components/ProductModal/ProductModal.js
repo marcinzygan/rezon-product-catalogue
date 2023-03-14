@@ -108,14 +108,36 @@ const ProductModal = () => {
               {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
           </div>{" "}
+          {/* STAN MAGAZYNOWY PRODUKTU  */}
+          {modalData.stan_magazynowy >= 0 && (
+            <div className={classes.stan__display}>
+              {checkQuantity(modalData.stan_magazynowy)}
+            </div>
+          )}
           {/* PRODUCT TXT */}
           <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
         </div>
         {/* IMAGE SLIDER */}
 
         <div className={classes.slider__container}>
+          {/* IF storage lvl of product === 0 display overlay on image  */}
+          {modalData.stan_magazynowy === 0 && (
+            <div className={classes.brak__produktu}>BRAK PRODUKTU</div>
+          )}
           {/* IF there is any images in data display slider  */}
-          {sliderLength > 0 && <ImageSlider images={modalData.slider_images} />}
+          {sliderLength > 0 && (
+            // display noProduct class if storage lvl === 0
+            <div
+              className={
+                modalData.stan_magazynowy === 0
+                  ? classes.noProduct__overlay
+                  : ""
+              }
+            >
+              {" "}
+              <ImageSlider images={modalData.slider_images} />
+            </div>
+          )}
 
           <div className={classes.modal__wymiary}>
             Wymiary:{" "}
