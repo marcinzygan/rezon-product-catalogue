@@ -108,6 +108,12 @@ const ProductModal = () => {
               {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
           </div>{" "}
+          {/* STAN MAGAZYNOWY PRODUKTU  */}
+          {modalData.stan_magazynowy >= 0 && (
+            <div className={classes.stan__display}>
+              {checkQuantity(modalData.stan_magazynowy)}
+            </div>
+          )}
           {/* PRODUCT TXT */}
           <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
         </div>
@@ -120,6 +126,7 @@ const ProductModal = () => {
           )}
           {/* IF there is any images in data display slider  */}
           {sliderLength > 0 && (
+            // display noProduct class if storage lvl === 0
             <div
               className={
                 modalData.stan_magazynowy === 0

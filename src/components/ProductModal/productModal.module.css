@@ -180,8 +180,9 @@
   padding-top: 2rem;
 }
 .dostepnosc {
-  height: 20px;
+  /* height: 20px; */
   width: 100px;
+  padding: 1rem 0;
 }
 .slider__container {
   position: relative;
