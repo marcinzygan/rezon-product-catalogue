@@ -104,10 +104,17 @@ const ProductModal = () => {
           <div className={classes.cena}>
             Cena netto:{" "}
             <span className={classes.modal__span}>
-              {" "}
               {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
-          </div>{" "}
+          </div>
+          {modalData.zestaw && (
+            <div className={classes.cena}>
+              Cena za zestaw:{" "}
+              <span className={classes.modal__span}>
+                {modalData.cena_zestaw} zł brutto .
+              </span>
+            </div>
+          )}
           {/* STAN MAGAZYNOWY PRODUKTU  */}
           {modalData.stan_magazynowy >= 0 && (
             <div className={classes.stan__display}>
@@ -116,6 +123,32 @@ const ProductModal = () => {
           )}
           {/* PRODUCT TXT */}
           <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
+          {/* CHECK IF PRODUCT IS SOLD IN SET */}
+          {modalData.zestaw && (
+            <>
+              <div className={classes.modal__opis}>
+                <p className={classes.zestaw__opis_span}>
+                  Produkt dostępny w zestawie :
+                </p>{" "}
+                {modalData.opis_zestaw} {"="}{" "}
+                <span className={classes.zestaw__opis_span}>
+                  {modalData.zestaw_total} sztuki.
+                </span>
+                <p>Do zestawu dołączamy stojak / ekspozytor.</p>
+              </div>
+              <div className={classes.zestaw__opis}>
+                <p className={classes.uwaga}>
+                  <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
+                  Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
+                  sprzedawanym towarem, są własnością sprzedawcy. W przypadku
+                  umieszczenia na firmowym stojaku innego towaru niż zakupiony w
+                  firmie Rezon, stojak należy zwrócić do sprzedawcy, lub
+                  zapłacić jego równowartość w wysokości 500 zł netto, a także
+                  za każdy haczyk 1,5 zł netto.
+                </p>
+              </div>
+            </>
+          )}
         </div>
         {/* IMAGE SLIDER */}
 
