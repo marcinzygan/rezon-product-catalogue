@@ -103,9 +103,22 @@ main {
     padding: 3rem;
   }
 }
+@media (min-width: 800px) {
+  .main__page_layout {
+    padding: 3rem 6rem !important;
+  }
+}
 @media (min-width: 1300px) {
   main {
     padding: 5rem;
+  }
+  .main__page_layout {
+    padding: 5rem 10rem !important;
+  }
+}
+@media (min-width: 1600px) {
+  .main__page_layout {
+    padding: 5rem 15rem !important;
   }
 }
 @media print {

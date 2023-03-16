@@ -4,10 +4,10 @@ import { Icon } from "@iconify/react";
 import PageHeading from "@/components/PageHeading/PageHeading";
 const handlowcy = () => {
   return (
-    <main className={classes.handlowcy__main}>
+    <main className="main__page_layout">
       <PageHeading
         heading={"Przedstawiciele Handlowi"}
-        subHeading={"zapraszamy do kontaktu"}
+        subHeading={"Zapraszamy do kontaktu"}
       />
 
       <h2 className={classes.handlowcy__h2}>

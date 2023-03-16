@@ -4,7 +4,7 @@ import React from "react";
 
 const kontakt = () => {
   return (
-    <main>
+    <main className="main__page_layout">
       <PageHeading heading={"Kontakt"} subHeading={"Jak możemy pomóc ?"} />
       <GoogleMap />
       <div>

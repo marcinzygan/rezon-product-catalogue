@@ -390,6 +390,13 @@ const ProductModal = () => {
               src="/images/Technologie/dowolny.webp"
             ></img>
           )}
+          {/* CHECK IF PRODUCT IS SOLD IN SET (ZESTAW)*/}
+          {modalData.zestaw === true && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/zestaw.webp"
+            ></img>
+          )}
         </div>
       </div>
       <div className={classes.dodatkowyStan__container}>
