@@ -14,6 +14,7 @@
   --fs-nav: 0.9rem;
   --fs-opis: 0.9rem;
   --fs-text: 0.9rem;
+  --fs-uwaga: 0.7rem;
 
   --ff-regular: "Nunito", sans-serif;
   --ff-heading: "Montserrat", sans-serif;
@@ -45,6 +46,7 @@
     /* --fs-h3: 1rem; */
     /* --fs-text: 0.9rem; */
     --fs-opis: 1.1rem;
+    --fs-uwaga: 0.9rem;
   }
 }
 @media (min-width: 1000px) {
@@ -101,9 +103,22 @@ main {
     padding: 3rem;
   }
 }
+@media (min-width: 800px) {
+  .main__page_layout {
+    padding: 3rem 6rem !important;
+  }
+}
 @media (min-width: 1300px) {
   main {
     padding: 5rem;
+  }
+  .main__page_layout {
+    padding: 5rem 10rem !important;
+  }
+}
+@media (min-width: 1600px) {
+  .main__page_layout {
+    padding: 5rem 15rem !important;
   }
 }
 @media print {

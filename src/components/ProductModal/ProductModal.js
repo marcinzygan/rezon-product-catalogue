@@ -104,10 +104,17 @@ const ProductModal = () => {
           <div className={classes.cena}>
             Cena netto:{" "}
             <span className={classes.modal__span}>
-              {" "}
               {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
-          </div>{" "}
+          </div>
+          {modalData.zestaw && (
+            <div className={classes.cena}>
+              Cena za zestaw:{" "}
+              <span className={classes.modal__span}>
+                {modalData.cena_zestaw} zł brutto .
+              </span>
+            </div>
+          )}
           {/* STAN MAGAZYNOWY PRODUKTU  */}
           {modalData.stan_magazynowy >= 0 && (
             <div className={classes.stan__display}>
@@ -116,6 +123,32 @@ const ProductModal = () => {
           )}
           {/* PRODUCT TXT */}
           <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
+          {/* CHECK IF PRODUCT IS SOLD IN SET */}
+          {modalData.zestaw && (
+            <>
+              <div className={classes.modal__opis}>
+                <p className={classes.zestaw__opis_span}>
+                  Produkt dostępny również w zestawie :
+                </p>{" "}
+                {modalData.opis_zestaw} {"="}{" "}
+                <span className={classes.zestaw__opis_span}>
+                  {modalData.zestaw_total} sztuki.
+                </span>
+                <p>Do zestawu dołączamy stojak / ekspozytor.</p>
+              </div>
+              <div className={classes.zestaw__opis}>
+                <p className={classes.uwaga}>
+                  <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
+                  Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
+                  sprzedawanym towarem, są własnością sprzedawcy. W przypadku
+                  umieszczenia na firmowym stojaku innego towaru niż zakupiony w
+                  firmie Rezon, stojak należy zwrócić do sprzedawcy, lub
+                  zapłacić jego równowartość w wysokości 500 zł netto, a także
+                  za każdy haczyk 1,5 zł netto.
+                </p>
+              </div>
+            </>
+          )}
         </div>
         {/* IMAGE SLIDER */}
 
@@ -144,296 +177,303 @@ const ProductModal = () => {
             <span className={classes.modal__span}>{modalData.wymiary}</span>
           </div>
         </div>
-        <div className={classes.dodatkowyStan__container}>
-          {/* DODATKOWE STANY MAGAZYNOWE  */}
-          {/* MAGNES OTWIERACZ BUTELKA*/}
-          {/* malibu */}
-          {modalData.stan_malibu >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/rum_biały.jpg"
-                className={classes.stan__img}
-              ></img>
-              {checkQuantity(modalData.stan_malibu)}
-            </div>
-          )}
-          {/* cream*/}
-          {modalData.stan_crem >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/advocat_mire.jpg"
-                className={classes.stan__img}
-              ></img>
-              {checkQuantity(modalData.stan_crem)}
-            </div>
-          )}
-          {/* wino*/}
-          {modalData.stan_wino >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/wino.jpg"
-                className={classes.stan__img}
-              ></img>
-              {checkQuantity(modalData.stan_wino)}
-            </div>
-          )}
-          {/* jw*/}
-          {modalData.stan_jw >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/whiskey_retro.jpg"
-                className={classes.stan__img}
-              ></img>
-              {checkQuantity(modalData.stan_jw)}{" "}
-            </div>
-          )}
-          {/* jd*/}
-          {modalData.stan_jd >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/whiskey_gold.jpg"
-                className={classes.stan__img}
-              ></img>
-              {checkQuantity(modalData.stan_jd)}
-            </div>
-          )}
-
-          {/* haineken*/}
-          {modalData.stan_haineken >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/piwo_zielone.jpg"
-                className={classes.stan__img}
-              ></img>
-              {checkQuantity(modalData.stan_haineken)}
-            </div>
-          )}
-          {/* tyskie*/}
-          {modalData.stan_tyskie >= 0 && (
-            <div className={classes.stan__display}>
-              <img
-                src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/piwo_brazowe.jpg"
-                className={classes.stan__img}
-              ></img>{" "}
-              {checkQuantity(modalData.stan_tyskie)}
-            </div>
-          )}
-        </div>
-        {/* TECHNOLOGIE */}
-        <div className={classes.technologie__wrapper}>
-          <p className={classes.technologie}>technologie:</p>
-          <div className={classes.technologie__container}>
-            {/* TECHNOLOGIA 1 */}
-            {modalData.technologie === "1" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/uv.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 2 */}
-            {modalData.technologie === "2" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/zywica.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 3 */}
-            {modalData.technologie === "3" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/laser.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/zamowienia.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 4 */}
-            {modalData.technologie === "4" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/prasa.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 5 */}
-            {modalData.technologie === "5" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/uv.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/laser.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 6 */}
-            {modalData.technologie === "6" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/laser.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 7  */}
-            {modalData.technologie === "7" && (
-              <div className={classes.technologie__container}>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/prasa.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/rozmiary.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </div>
-            )}
-            {/* TECHNOLOGIA 8 */}
-            {modalData.technologie === "8" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/prasa.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/rozmiary.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 10 */}
-            {modalData.technologie === "10" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/kartonik.webp"
-                ></img>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* TECHNOLOGIA 11 */}
-            {modalData.technologie === "11" && (
-              <>
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/cmyk.webp"
-                ></img>
-
-                <img
-                  className={classes.tech__img}
-                  src="/images/Technologie/grafika.webp"
-                ></img>
-              </>
-            )}
-            {/* CHECK FOR PLOMIEN PROPERTIES */}
-            {modalData.plomien === "1" && (
-              <img
-                className={classes.tech__img}
-                src="/images/Technologie/plomien1.webp"
-              ></img>
-            )}
-            {modalData.plomien === "2" && (
-              <img
-                className={classes.tech__img}
-                src="/images/Technologie/plomien2.webp"
-              ></img>
-            )}
-            {modalData.plomien_regulowany === "1" && (
-              <img
-                className={classes.tech__img}
-                src="/images/Technologie/regulowany1.webp"
-              ></img>
-            )}
-            {modalData.plomien_regulowany === "2" && (
-              <img
-                className={classes.tech__img}
-                src="/images/Technologie/regulowany2.webp"
-              ></img>
-            )}
-            {/* CHECK FOR CUSTOM SIZE*/}
-            {modalData.dowolny_ksztalt === true && (
-              <img
-                className={classes.tech__img}
-                src="/images/Technologie/dowolny.webp"
-              ></img>
-            )}
-          </div>
-        </div>
       </div>
 
+      {/* TECHNOLOGIE */}
+      <div className={classes.technologie__wrapper}>
+        <p className={classes.technologie}>technologie:</p>
+        <div className={classes.technologie__container}>
+          {/* TECHNOLOGIA 1 */}
+          {modalData.technologie === "1" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/uv.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 2 */}
+          {modalData.technologie === "2" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/zywica.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 3 */}
+          {modalData.technologie === "3" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/laser.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/zamowienia.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 4 */}
+          {modalData.technologie === "4" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/prasa.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 5 */}
+          {modalData.technologie === "5" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/uv.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/laser.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 6 */}
+          {modalData.technologie === "6" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/laser.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 7  */}
+          {modalData.technologie === "7" && (
+            <div className={classes.technologie__container}>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/prasa.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/rozmiary.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </div>
+          )}
+          {/* TECHNOLOGIA 8 */}
+          {modalData.technologie === "8" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/prasa.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/rozmiary.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 10 */}
+          {modalData.technologie === "10" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/kartonik.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* TECHNOLOGIA 11 */}
+          {modalData.technologie === "11" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
+          {/* CHECK FOR PLOMIEN PROPERTIES */}
+          {modalData.plomien === "1" && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/plomien1.webp"
+            ></img>
+          )}
+          {modalData.plomien === "2" && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/plomien2.webp"
+            ></img>
+          )}
+          {modalData.plomien_regulowany === "1" && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/regulowany1.webp"
+            ></img>
+          )}
+          {modalData.plomien_regulowany === "2" && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/regulowany2.webp"
+            ></img>
+          )}
+          {/* CHECK FOR CUSTOM SIZE*/}
+          {modalData.dowolny_ksztalt === true && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/dowolny.webp"
+            ></img>
+          )}
+          {/* CHECK IF PRODUCT IS SOLD IN SET (ZESTAW)*/}
+          {modalData.zestaw === true && (
+            <img
+              className={classes.tech__img}
+              src="/images/Technologie/zestaw.webp"
+            ></img>
+          )}
+        </div>
+      </div>
+      <div className={classes.dodatkowyStan__container}>
+        {/* DODATKOWE STANY MAGAZYNOWE  */}
+        {/* MAGNES OTWIERACZ BUTELKA*/}
+        {/* malibu */}
+        {modalData.stan_malibu >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/rum_biały.jpg"
+              className={classes.stan__img}
+            ></img>
+            {checkQuantity(modalData.stan_malibu)}
+          </div>
+        )}
+        {/* cream*/}
+        {modalData.stan_crem >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/advocat_mire.jpg"
+              className={classes.stan__img}
+            ></img>
+            {checkQuantity(modalData.stan_crem)}
+          </div>
+        )}
+        {/* wino*/}
+        {modalData.stan_wino >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/wino.jpg"
+              className={classes.stan__img}
+            ></img>
+            {checkQuantity(modalData.stan_wino)}
+          </div>
+        )}
+        {/* jw*/}
+        {modalData.stan_jw >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/whiskey_retro.jpg"
+              className={classes.stan__img}
+            ></img>
+            {checkQuantity(modalData.stan_jw)}{" "}
+          </div>
+        )}
+        {/* jd*/}
+        {modalData.stan_jd >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/whiskey_gold.jpg"
+              className={classes.stan__img}
+            ></img>
+            {checkQuantity(modalData.stan_jd)}
+          </div>
+        )}
+
+        {/* haineken*/}
+        {modalData.stan_haineken >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/piwo_zielone.jpg"
+              className={classes.stan__img}
+            ></img>
+            {checkQuantity(modalData.stan_haineken)}
+          </div>
+        )}
+        {/* tyskie*/}
+        {modalData.stan_tyskie >= 0 && (
+          <div className={classes.stan__display}>
+            <img
+              src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/piwo_brazowe.jpg"
+              className={classes.stan__img}
+            ></img>{" "}
+            {checkQuantity(modalData.stan_tyskie)}
+          </div>
+        )}
+      </div>
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         {" "}

@@ -2,7 +2,7 @@ import React from "react";
 import classes from "../styles/politykaPrywatnosci.module.css";
 const polityka_prywatnosci = () => {
   return (
-    <main className={classes.main}>
+    <main className="main__page_layout">
       <h1 className={classes.h1}>Polityka Prywatnosci</h1>
       <div>
         <p className={classes.text}>

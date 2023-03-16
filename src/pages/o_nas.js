@@ -3,7 +3,7 @@ import React from "react";
 import classes from "../styles/oNas.module.css";
 const o_nas = () => {
   return (
-    <main className={classes.main}>
+    <main className="main__page_layout">
       <PageHeading
         heading={"O nas"}
         subHeading={"Krótka historia naszej firmy"}
