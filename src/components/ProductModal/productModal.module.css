@@ -242,6 +242,14 @@
 .uwaga {
   font-size: var(--fs-uwaga);
 }
+.forms {
+  padding: 1rem 0;
+  font-family: var(--ff-heading);
+}
+.form__link {
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent);
+}
 /* MEDIA QUEIES */
 @media (min-width: 500px) {
   .modal {
