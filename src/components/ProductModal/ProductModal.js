@@ -487,7 +487,7 @@ const ProductModal = () => {
       </div>
       {modalData.formularz && (
         <div className={classes.forms}>
-          Formularz Zamowien Dostępny{" "}
+          Formularz Zamówień Dostępny{" "}
           <a
             href={modalData.formularz}
             target="_blank"
