@@ -130,7 +130,9 @@ const ProductModal = () => {
                 <p className={classes.zestaw__opis_span}>
                   Produkt dostępny również w zestawie :
                 </p>{" "}
-                {modalData.opis_zestaw} {"="}{" "}
+                {modalData.opis_zestaw}{" "}
+                {modalData.opis_zestaw_2 && <p>{modalData.opis_zestaw_2}</p>}
+                {"Razem :" + " "}
                 <span className={classes.zestaw__opis_span}>
                   {modalData.zestaw_total} sztuki.
                 </span>
