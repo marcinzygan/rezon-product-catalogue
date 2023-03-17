@@ -107,14 +107,6 @@ const ProductModal = () => {
               {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
           </div>
-          {modalData.zestaw && (
-            <div className={classes.cena}>
-              Cena za zestaw:{" "}
-              <span className={classes.modal__span}>
-                {modalData.cena_zestaw} zł brutto .
-              </span>
-            </div>
-          )}
           {/* STAN MAGAZYNOWY PRODUKTU  */}
           {modalData.stan_magazynowy >= 0 && (
             <div className={classes.stan__display}>
@@ -130,23 +122,42 @@ const ProductModal = () => {
                 <p className={classes.zestaw__opis_span}>
                   Produkt dostępny również w zestawie :
                 </p>{" "}
-                {modalData.opis_zestaw} {"="}{" "}
-                <span className={classes.zestaw__opis_span}>
-                  {modalData.zestaw_total} sztuki.
-                </span>
-                <p>Do zestawu dołączamy stojak / ekspozytor.</p>
-              </div>
-              <div className={classes.zestaw__opis}>
-                <p className={classes.uwaga}>
-                  <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
-                  Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
-                  sprzedawanym towarem, są własnością sprzedawcy. W przypadku
-                  umieszczenia na firmowym stojaku innego towaru niż zakupiony w
-                  firmie Rezon, stojak należy zwrócić do sprzedawcy, lub
-                  zapłacić jego równowartość w wysokości 500 zł netto, a także
-                  za każdy haczyk 1,5 zł netto.
+                {modalData.opis_zestaw}{" "}
+                {modalData.opis_zestaw_2 && <p>{modalData.opis_zestaw_2}</p>}
+                <p className={classes.cena + " " + classes.zestaw_total_cena}>
+                  {"Razem :" + " "}
+                  <span className={classes.modal__span}>
+                    {modalData.zestaw_total} sztuki.
+                  </span>
                 </p>
+                {modalData.zestaw && (
+                  <div className={classes.cena}>
+                    Cena za zestaw:{" "}
+                    <span className={classes.modal__span}>
+                      {modalData.cena_zestaw} zł brutto .
+                    </span>
+                  </div>
+                )}
               </div>
+              {modalData.stojak === true && (
+                <>
+                  <p className={classes.ekspozytor + " " + classes.modal__opis}>
+                    Do zestawu dołączamy stojak / ekspozytor.
+                  </p>
+
+                  <div className={classes.zestaw__opis}>
+                    <p className={classes.uwaga}>
+                      <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
+                      Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
+                      sprzedawanym towarem, są własnością sprzedawcy. W
+                      przypadku umieszczenia na firmowym stojaku innego towaru
+                      niż zakupiony w firmie Rezon, stojak należy zwrócić do
+                      sprzedawcy, lub zapłacić jego równowartość w wysokości 500
+                      zł netto, a także za każdy haczyk 1,5 zł netto.
+                    </p>
+                  </div>
+                </>
+              )}
             </>
           )}
         </div>
@@ -390,8 +401,8 @@ const ProductModal = () => {
               src="/images/Technologie/dowolny.webp"
             ></img>
           )}
-          {/* CHECK IF PRODUCT IS SOLD IN SET (ZESTAW)*/}
-          {modalData.zestaw === true && (
+          {/* CHECK IF PRODUCT GETS STAND (STOJAK , EKSPOZYTOR)*/}
+          {modalData.stojak === true && (
             <img
               className={classes.tech__img}
               src="/images/Technologie/zestaw.webp"
