@@ -230,6 +230,12 @@
   font-weight: var(--fw-bold);
   padding-bottom: 0.5rem;
 }
+.zestaw_total_cena {
+  padding-top: 1rem;
+}
+.ekspozytor {
+  padding-top: 1rem;
+}
 .uwaga {
   font-size: var(--fs-uwaga);
 }

@@ -107,14 +107,6 @@ const ProductModal = () => {
               {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
             </span>
           </div>
-          {modalData.zestaw && (
-            <div className={classes.cena}>
-              Cena za zestaw:{" "}
-              <span className={classes.modal__span}>
-                {modalData.cena_zestaw} zł brutto .
-              </span>
-            </div>
-          )}
           {/* STAN MAGAZYNOWY PRODUKTU  */}
           {modalData.stan_magazynowy >= 0 && (
             <div className={classes.stan__display}>
@@ -132,11 +124,23 @@ const ProductModal = () => {
                 </p>{" "}
                 {modalData.opis_zestaw}{" "}
                 {modalData.opis_zestaw_2 && <p>{modalData.opis_zestaw_2}</p>}
-                {"Razem :" + " "}
-                <span className={classes.zestaw__opis_span}>
-                  {modalData.zestaw_total} sztuki.
-                </span>
-                <p>Do zestawu dołączamy stojak / ekspozytor.</p>
+                <p className={classes.cena + " " + classes.zestaw_total_cena}>
+                  {"Razem :" + " "}
+                  <span className={classes.modal__span}>
+                    {modalData.zestaw_total} sztuki.
+                  </span>
+                </p>
+                {modalData.zestaw && (
+                  <div className={classes.cena}>
+                    Cena za zestaw:{" "}
+                    <span className={classes.modal__span}>
+                      {modalData.cena_zestaw} zł brutto .
+                    </span>
+                  </div>
+                )}
+                <p className={classes.ekspozytor}>
+                  Do zestawu dołączamy stojak / ekspozytor.
+                </p>
               </div>
               <div className={classes.zestaw__opis}>
                 <p className={classes.uwaga}>
