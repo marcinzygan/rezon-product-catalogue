@@ -485,6 +485,18 @@ const ProductModal = () => {
           </div>
         )}
       </div>
+      {modalData.formularz && (
+        <div className={classes.forms}>
+          Formularz Zamowien Dostępny{" "}
+          <a
+            href={modalData.formularz}
+            target="_blank"
+            className={classes.form__link}
+          >
+            TUTAJ
+          </a>
+        </div>
+      )}
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         {" "}
