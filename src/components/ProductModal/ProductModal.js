@@ -138,21 +138,26 @@ const ProductModal = () => {
                     </span>
                   </div>
                 )}
-                <p className={classes.ekspozytor}>
-                  Do zestawu dołączamy stojak / ekspozytor.
-                </p>
               </div>
-              <div className={classes.zestaw__opis}>
-                <p className={classes.uwaga}>
-                  <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
-                  Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
-                  sprzedawanym towarem, są własnością sprzedawcy. W przypadku
-                  umieszczenia na firmowym stojaku innego towaru niż zakupiony w
-                  firmie Rezon, stojak należy zwrócić do sprzedawcy, lub
-                  zapłacić jego równowartość w wysokości 500 zł netto, a także
-                  za każdy haczyk 1,5 zł netto.
-                </p>
-              </div>
+              {modalData.stojak === true && (
+                <>
+                  <p className={classes.ekspozytor + " " + classes.modal__opis}>
+                    Do zestawu dołączamy stojak / ekspozytor.
+                  </p>
+
+                  <div className={classes.zestaw__opis}>
+                    <p className={classes.uwaga}>
+                      <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
+                      Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
+                      sprzedawanym towarem, są własnością sprzedawcy. W
+                      przypadku umieszczenia na firmowym stojaku innego towaru
+                      niż zakupiony w firmie Rezon, stojak należy zwrócić do
+                      sprzedawcy, lub zapłacić jego równowartość w wysokości 500
+                      zł netto, a także za każdy haczyk 1,5 zł netto.
+                    </p>
+                  </div>
+                </>
+              )}
             </>
           )}
         </div>
@@ -396,8 +401,8 @@ const ProductModal = () => {
               src="/images/Technologie/dowolny.webp"
             ></img>
           )}
-          {/* CHECK IF PRODUCT IS SOLD IN SET (ZESTAW)*/}
-          {modalData.zestaw === true && (
+          {/* CHECK IF PRODUCT GETS STAND (STOJAK , EKSPOZYTOR)*/}
+          {modalData.stojak === true && (
             <img
               className={classes.tech__img}
               src="/images/Technologie/zestaw.webp"
