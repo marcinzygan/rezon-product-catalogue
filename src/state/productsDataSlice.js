@@ -28,6 +28,12 @@ const productsDataSlice = createSlice({
     filterProducts: (state, data) => {
       if (data.payload === "wszystkie") {
         state.productCards = productsData;
+      } else if (data.payload === "zestawy") {
+        state.productCards = state.originalData;
+        const filteredProducts = state.productCards.filter(
+          (card) => card.zestaw === true
+        );
+        state.productCards = [...filteredProducts];
       } else {
         state.productCards = state.originalData;
         const filteredProducts = state.productCards.filter(

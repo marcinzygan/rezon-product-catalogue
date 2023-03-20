@@ -53,6 +53,7 @@ const FilterMenu = () => {
         </option>
         <option value="upominki biznesowe">Upominki Biznesowe</option>
         <option value="sublimacja">Sublimacja</option>
+        <option value="zestawy">Zestawy</option>
       </select>
     </div>
   );
