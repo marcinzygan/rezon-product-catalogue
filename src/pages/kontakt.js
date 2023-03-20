@@ -7,9 +7,6 @@ const kontakt = () => {
     <main className="main__page_layout">
       <PageHeading heading={"Kontakt"} subHeading={"Jak możemy pomóc ?"} />
       <GoogleMap />
-      <div>
-        formularz zamowien <a href="/pdf01.pdf">TUTAJ</a>
-      </div>
     </main>
   );
 };
