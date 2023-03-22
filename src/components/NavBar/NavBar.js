@@ -13,12 +13,14 @@ const NavBar = () => {
     <nav className={classes.nav__container} id="home">
       <div className={classes.nav}>
         <div className={classes.next__img}>
-          <Image
-            fill
-            className={classes.next__logo}
-            src={"/logo.png"}
-            alt={"rezon company logo"}
-          />
+          <a href="/">
+            <Image
+              fill
+              className={classes.next__logo}
+              src={"/logo.png"}
+              alt={"rezon company logo"}
+            />
+          </a>
         </div>
         {/* <div className={classes.menuDetails__wrapper}>
           <div className={classes.company__details_container}>
