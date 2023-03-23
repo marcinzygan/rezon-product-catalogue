@@ -45,6 +45,7 @@
   height: 100px;
   padding: 1rem;
   cursor: pointer;
+  color: var(--clr-gray);
 }
 /* MEDIA QUERIES */
 @media (min-width: 500px) {
