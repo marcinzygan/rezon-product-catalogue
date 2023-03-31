@@ -78,7 +78,7 @@ img {
   width: 100%;
 }
 main {
-  padding: 1rem;
+  padding: 2.5rem;
 }
 .iconify {
   color: rgb(247, 181, 0);
@@ -98,7 +98,7 @@ main {
 .nav__open {
   transform: translateX(0%) !important;
 }
-@media (min-width: 400px) {
+@media (min-width: 350px) {
   main {
     padding: 3rem;
   }
