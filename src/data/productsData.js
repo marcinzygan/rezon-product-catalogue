@@ -2129,7 +2129,7 @@ export const productsData = [
     identyfikator: "CZAPKA KAPITAŃSKA",
     opis: "Czapka kapitańska z imieniem dziewczynki lub chłopca.  Imiona na paskach, klient kupuje czapkę i doczepiany zostaje pasek z odpowiednim imieniem lub napisem „KAPITAN”. Możliwe wykonanie dowolnego \nnapisu / białej grafiki na pasku.",
     cena: "12,50 zł (czapka) 2,50zł (pasek)",
-    zestaw: true,
+    zestaw: false,
     stojak: true,
     opis_zestaw:
       "60 imion dziewczęcych + 60 imion chłopięcych x 3 sztuki z imienia",
