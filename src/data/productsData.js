@@ -3884,4 +3884,4 @@ export const productsData = [
     wymiary: "",
   },
 ];
-// 210
+// 2100
