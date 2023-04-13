@@ -1572,7 +1572,7 @@ export const productsData = [
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
-    stan_magazynowy: 760,
+    stan_magazynowy: 0,
     stan_optymalny: 10000,
     stan_zamowiony: 15000,
     wymiary: "9,00 cm x 4,50 cm",
@@ -2128,7 +2128,7 @@ export const productsData = [
     indeks_pc: "DK27-002 (CZAPKA) PASEK KAPITAN",
     identyfikator: "CZAPKA KAPITAŃSKA",
     opis: "Czapka kapitańska z imieniem dziewczynki lub chłopca.  Imiona na paskach, klient kupuje czapkę i doczepiany zostaje pasek z odpowiednim imieniem lub napisem „KAPITAN”. Możliwe wykonanie dowolnego \nnapisu / białej grafiki na pasku.",
-    cena: "12,50 zł (czapka) 2,50zł (pasek)",
+    cena: "16,00 zł (czapka) 2,50zł (pasek)",
     zestaw: false,
     stojak: true,
     opis_zestaw:

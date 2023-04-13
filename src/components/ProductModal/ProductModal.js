@@ -101,12 +101,16 @@ const ProductModal = () => {
               {modalData.cena} zł / sztukę
             </span>
           </div>
-          <div className={classes.cena}>
-            Cena netto:{" "}
-            <span className={classes.modal__span}>
-              {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
-            </span>
-          </div>
+          {typeof modalData.cena === "string" ? (
+            ""
+          ) : (
+            <div className={classes.cena}>
+              Cena netto:{" "}
+              <span className={classes.modal__span}>
+                {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
+              </span>
+            </div>
+          )}
           {/* STAN MAGAZYNOWY PRODUKTU  */}
           {modalData.stan_magazynowy >= 0 && (
             <div className={classes.stan__display}>
