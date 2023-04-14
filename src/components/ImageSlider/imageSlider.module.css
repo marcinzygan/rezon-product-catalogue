@@ -29,6 +29,7 @@
   display: none;
 }
 .minImage {
+  object-fit: contain;
   width: 90px;
   height: 90px;
   cursor: pointer;

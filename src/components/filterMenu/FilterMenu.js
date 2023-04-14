@@ -42,9 +42,7 @@ const FilterMenu = () => {
         <option value="czapki i nakrycia głowy">Czapki i Nakrycia głowy</option>
         <option value="bransoletki">Bransoletki</option>
         <option value="tekstylia">Tekstylia</option>
-        <option value="ramki do zdjec i termometry">
-          Ramki do Zdjec i Termometry
-        </option>
+        <option value="ozdoby domowe">Ozdoby Domowe</option>
         <option value="akcesoria podrozne">Akcesoria Podrozne</option>
         <option value="dziecięce">Dziecięce</option>
         <option value="do auta">Do Auta</option>

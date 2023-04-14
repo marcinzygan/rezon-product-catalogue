@@ -68,8 +68,8 @@ const CategoryCard = (props) => {
           className={classes.category__svg}
         ></img>
       )}
-      {/* Ramki do Zdjec */}
-      {props.category === "ramki do zdjec i termometry" && (
+      {/* Ozdoby Domowe */}
+      {props.category === "ozdoby domowe" && (
         <img
           src=".\images\Pictograms\Ozdoby.svg"
           alt={props.category}
