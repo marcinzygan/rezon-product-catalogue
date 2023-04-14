@@ -3883,5 +3883,32 @@ export const productsData = [
     stan_zamowiony: 20260,
     wymiary: "",
   },
+  {
+    id: 211,
+    category: "sublimacja",
+    image: "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
+    slider_images: [
+      "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
+      "/images/Sublimacja/sub_zestaw_dorosli_2.jpg",
+    ],
+    indeks_pc: "KUBEK SUB",
+    identyfikator: "KUBEK SUB ZESTAW",
+    opis: "Kubek ceramiczny, biały z nazwą miejscowości, zdjęciami oraz imieniem.",
+    cena: 12,
+    zestaw: true,
+    stojak: true,
+    opis_zestaw: "78 imion damskich i 6 haseł x 2 sztuki = 168 sztuki",
+    opis_zestaw_2: "78 imion męskich i 6 haseł x 2 sztuki = 168 sztuki",
+    zestaw_total: 336,
+    cena_zestaw: 4032,
+    formularz: "/formularze/dorośli1.pdf",
+    technologie: "10",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: 13536,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
+    wymiary: "10,00 cm x 12,00 cm",
+  },
 ];
-// 2100
+// 211
