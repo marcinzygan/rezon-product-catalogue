@@ -4,22 +4,25 @@ import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "@/state/modalSlice";
 import { openSlider } from "@/state/imageSliderSlice";
-
 import Image from "next/image";
+
 import {
   addToFavorites,
   removeFromFavorites,
   setFavId,
   removeFavId,
 } from "@/state/productsDataSlice";
+
 const ProductCard = (card) => {
   const dispatch = useDispatch();
+
   // State for id's of Favorite items
   const favId = useSelector((state) => state.data.favId);
 
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
   function openModalAction(card) {
     return (dispatch) => {
+      history.pushState({ page: 1 }, "main", "/");
       dispatch(openModal(card));
       dispatch(openSlider(card));
     };

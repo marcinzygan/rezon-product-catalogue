@@ -13,7 +13,7 @@ const SearchNavigation = () => {
   const numberOfFavorites = useSelector(
     (state) => state.data.numberOfFavorites
   );
-  console.log(favorites);
+  // console.log(favorites);
   return (
     <div className={classes.search__nav_wrapper}>
       <div className={classes.search__nav}>
