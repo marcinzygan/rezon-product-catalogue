@@ -5,19 +5,30 @@ import { useDispatch, useSelector } from "react-redux";
 import { Icon } from "@iconify/react";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import { closeSlider } from "@/state/imageSliderSlice";
-
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
   const sliderLength = useSelector((state) => state.slider.sliderLength);
   const dispatch = useDispatch();
+  const router = useRouter();
 
   // FUNCTION TO DISPATCH MULTIPLE ACTIONS
   function closeModalAction() {
     return (dispatch) => {
+      // router.back("/");
       dispatch(closeModal());
       dispatch(closeSlider());
     };
   }
+  // UseEffect to close modal with browser back button
+  useEffect(() => {
+    window.onpopstate = () => {
+      // router.push("/");
+      dispatch(closeModal());
+      dispatch(closeSlider());
+    };
+  }, [router]);
   // FUNCTION TO CHECK ALL STORAGE LEVELS
   function checkQuantity(stan_magazynowy) {
     // check for HighQuantity
