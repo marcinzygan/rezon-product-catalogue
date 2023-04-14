@@ -154,6 +154,18 @@ const ProductModal = () => {
                   </div>
                 )}
               </div>
+              {modalData.katalog && (
+                <div className={classes.forms}>
+                  Katalog Dostępnych Wzorów{" "}
+                  <a
+                    href={modalData.katalog}
+                    target="_blank"
+                    className={classes.form__link}
+                  >
+                    TUTAJ
+                  </a>
+                </div>
+              )}
               {modalData.stojak === true && (
                 <>
                   <p className={classes.ekspozytor + " " + classes.modal__opis}>
@@ -500,6 +512,7 @@ const ProductModal = () => {
           </div>
         )}
       </div>
+
       {modalData.formularz && (
         <div className={classes.forms}>
           Formularz Zamówień Dostępny{" "}
