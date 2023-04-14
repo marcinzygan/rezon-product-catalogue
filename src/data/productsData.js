@@ -1859,6 +1859,11 @@ export const productsData = [
     identyfikator: "KUBEK CERAMICZNY WIELOKOLOROWY",
     opis: "Kubek ceramiczny z wygrawerowanym metodą laserową nazwą miejscowości lub hasłem. Produkt dostępny w 6 kolorach: jasno fioletowy - niebieski, ciemno fioletowy - różowy, czarno - czerwony, czarno - ciemno niebieski, jasno niebieski - czerwony, czarno - grafitowo szary. Kolor graweru: biały.",
     cena: 12,
+    zestaw: true,
+    stojak: true,
+    opis_zestaw: "",
+    zestaw_total: 192,
+    cena_zestaw: 3888,
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2531,15 +2536,15 @@ export const productsData = [
     stan_zamowiony: 0,
     wymiary: "30,50 cm x 30,50 cm",
   },
-  ////////// RAMKI DO ZDJĘĆ //////////////
+  ////////// OZDOBY DOMOWE //////////////
   {
     id: "K-09",
     displayCategory: true,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
   },
   {
     id: 138,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/01.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/01.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2556,7 +2561,7 @@ export const productsData = [
   },
   {
     id: 139,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/03.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/03.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2573,7 +2578,7 @@ export const productsData = [
   },
   {
     id: 140,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/04.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/04.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2590,7 +2595,7 @@ export const productsData = [
   },
   {
     id: 141,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/02.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/02.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2607,7 +2612,7 @@ export const productsData = [
   },
   {
     id: 142,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/05.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/05.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2624,7 +2629,7 @@ export const productsData = [
   },
   {
     id: 143,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/06.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/06.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2641,7 +2646,7 @@ export const productsData = [
   },
   {
     id: 144,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/07.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/07.jpg"],
     indeks_pc: "RAMKA FOTO",
@@ -2658,7 +2663,7 @@ export const productsData = [
   },
   {
     id: 145,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/ramka_mala_4.webp",
     slider_images: ["/images/Ramki_na_zdjęcia/ramka_mala_4.webp"],
     indeks_pc: "RAMKA FOTO",
@@ -2675,7 +2680,7 @@ export const productsData = [
   },
   {
     id: 146,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/08.jpg",
     slider_images: ["/images/Ramki_na_zdjęcia/08.jpg"],
     indeks_pc: "DK41-TERMOMETR",
@@ -2692,7 +2697,7 @@ export const productsData = [
   },
   {
     id: 147,
-    category: "ramki do zdjec i termometry",
+    category: "ozdoby domowe",
     image: "/images/Ramki_na_zdjęcia/zaw_serce.webp",
     slider_images: ["/images/Ramki_na_zdjęcia/zaw_serce.webp"],
     indeks_pc: "ZAW SERCE",
