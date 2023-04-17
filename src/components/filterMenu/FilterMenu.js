@@ -2,7 +2,6 @@ import clasess from "./filterMenu.module.css";
 import React from "react";
 import { useDispatch } from "react-redux";
 import { filterProducts } from "@/state/productsDataSlice";
-import { setPage } from "@/state/paginationSlice";
 import { setIsSearchActive } from "@/state/productSearchSlice";
 
 const FilterMenu = () => {
