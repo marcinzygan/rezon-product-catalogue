@@ -3,7 +3,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { useDispatch, useSelector } from "react-redux";
 import { openModal } from "@/state/modalSlice";
-import { openSlider } from "@/state/imageSliderSlice";
+import { openSlider, setNumOfMiniImagesSeen } from "@/state/imageSliderSlice";
 import Image from "next/image";
 
 import {
@@ -15,7 +15,10 @@ import {
 
 const ProductCard = (card) => {
   const dispatch = useDispatch();
-
+  const miniSliderPage = useSelector((state) => state.slider.miniSliderPage);
+  const miniImagesPerPage = useSelector(
+    (state) => state.slider.miniImagesPerPage
+  );
   // State for id's of Favorite items
   const favId = useSelector((state) => state.data.favId);
 
@@ -25,6 +28,7 @@ const ProductCard = (card) => {
       history.pushState({ page: 1 }, "main", "/");
       dispatch(openModal(card));
       dispatch(openSlider(card));
+      dispatch(setNumOfMiniImagesSeen(miniSliderPage * miniImagesPerPage));
     };
   }
   // add favorites action

@@ -2707,6 +2707,8 @@ export const productsData = [
       "/images/Zestawy/Zaw_Serce/02.jpg",
       "/images/Zestawy/Zaw_Serce/03.jpg",
       "/images/Zestawy/Zaw_Serce/04.jpg",
+      "/images/Zestawy/Zaw_Serce/04.jpg",
+      // "/images/Zestawy/Zaw_Serce/04.jpg",
     ],
     indeks_pc: "ZAW SERCE",
     identyfikator: "ZAW SERCE",

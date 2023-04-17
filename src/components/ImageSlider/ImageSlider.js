@@ -34,13 +34,15 @@ const ImageSlider = (props) => {
         ></img>
       );
     });
-    // LOGIC TO DISPLAY 5 MINI IMAGES ONLY
+    // LOGIC TO DISPLAY 4 MINI IMAGES ONLY
 
     const miniImagesPerPage = 4;
     const miniImagesSeen = miniSliderPage * miniImagesPerPage;
 
     // console.log("miniimagesseen ", miniImagesSeen);
     const numberOfMiniPages = Math.ceil(minImages.length / miniImagesPerPage);
+    console.log(numberOfMiniPages, "number of mini pages");
+    // console.log(minImages.length, "mini images lenght");
     // console.log("numOFpAGES", numberOfMiniPages);
     const displayMiniImages = minImages.slice(
       miniImagesSeen - 4,
@@ -88,7 +90,7 @@ const ImageSlider = (props) => {
             <Icon
               icon="ic:round-keyboard-arrow-left"
               className={classes.slider__icon}
-              onClick={() => dispatch(prevPageAction(numberOfMiniPages))}
+              onClick={() => dispatch(prevPageAction(miniImagesSeen))}
             />
 
             {allImages}

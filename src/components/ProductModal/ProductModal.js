@@ -10,6 +10,7 @@ import { useRouter } from "next/router";
 const ProductModal = () => {
   const modalData = useSelector((state) => state.modal.modalContent);
   const sliderLength = useSelector((state) => state.slider.sliderLength);
+
   const dispatch = useDispatch();
   const router = useRouter();
 
