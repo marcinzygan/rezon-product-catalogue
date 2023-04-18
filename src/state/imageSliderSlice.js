@@ -52,7 +52,7 @@ const imageSliderSlice = createSlice({
       const numberOfMiniPages = Math.ceil(
         state.sliderLength / state.miniImagesPerPage
       );
-      console.log(numberOfMiniPages, "number of mini pages");
+      // console.log(numberOfMiniPages, "number of mini pages");
       if (state.currentSlide === state.sliderLength - 1) {
         state.miniSliderPage = numberOfMiniPages;
       }
@@ -62,10 +62,10 @@ const imageSliderSlice = createSlice({
       if (state.currentSlide === 3) {
         state.miniSliderPage = 1;
       }
-      console.log(data.payload, "miniImagesSeen");
-      console.log(state.currentSlide, "current slide");
-      console.log(state.sliderLength, "slider lenght");
-      console.log(state.miniSliderPage, "miniSlider  page");
+      // console.log(data.payload, "miniImagesSeen");
+      // console.log(state.currentSlide, "current slide");
+      // console.log(state.sliderLength, "slider lenght");
+      // console.log(state.miniSliderPage, "miniSlider  page");
     },
   },
 });
