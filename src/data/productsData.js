@@ -3859,7 +3859,7 @@ export const productsData = [
     stan_zamowiony: 20260,
     wymiary: "",
   },
-  ////////////////////// ZESTAWY
+  ////////////////////// ZESTAWY //////////////////
   {
     id: 211,
     category: "sublimacja",
@@ -3998,7 +3998,7 @@ export const productsData = [
     stan_magazynowy: 2500,
     stan_optymalny: 3000,
     stan_zamowiony: 0,
-    wymiary: "6,50 cm x 6,80 cm",
+    wymiary: "50 cm x 10 cm",
   },
 ];
 // 215
