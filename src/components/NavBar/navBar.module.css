@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: flex-start;
   background-color: #d3e0fc79;
-  padding: 1rem;
+  padding: 1rem 2.5rem;
   gap: 2rem;
   /* min-height: 120px; */
 }
@@ -62,7 +62,7 @@
     transition: all 0.5s ease-in-out;
     background-color: var(--clr-white);
     opacity: 0.999;
-    z-index: 1000;
+    z-index: 1001;
     transform: translateX(+150%);
   }
 }
@@ -154,6 +154,11 @@
   transform: scale(1.1);
 } */
 /* MEDIA */
+@media (min-width: 400px) {
+  .nav {
+    padding: 1rem 3rem;
+  }
+}
 @media (min-width: 400px) {
   .next__img {
     height: 40px;

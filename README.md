@@ -1,17 +1,19 @@
 👋 Hi, I’m @marcinzygan
 
-# This is Next.js App an online product catalouge for Rezon.eu"
+# This is Commercial Next.js App : an online product catalouge for Rezon.eu"
 
 - I've been asked to prepare an online cataloge for my current employer.
 - The idea is to showcase about 200 products , including title , image , description , price and technology used .
 - This project will use redux as state managment .
-- The data for this project was taken from excel file and parsed to json object and saved in a file . In the future API will be built.
+- The data for this project was taken from excel file and parsed to json. In the future this project will be integrated with another app (PC Buisness) to update storage levels , to manage orders.
 
 # To do:
 
-- fix slider bug when moving to prevSlide
+- add shopping cart , abillity to add , remove and update products , calculate price for individual product and total price .
+- update productCard and productModal to display add to cart icon.
+- finish Contact section , add layout , styles , contact form.
 - add abillity to swipe the slider images on mobile devices .
-- add products to favourites with local storage .
+-
 
 # Features implemented :
 
@@ -34,6 +36,8 @@
 - added logic for searchBar to get input value .
 - add all CSS styling and media queries for mobile , tablet and desktop devices.
 - added logic to search all products by entered value.
+- add products to favourites with local storage .
+- added abillity to close opened modal with browser back button on mobile and desktop.
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
