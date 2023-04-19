@@ -9,6 +9,7 @@
 
 # To do:
 
+- fix scroll position after search or chosen category.
 - add shopping cart , abillity to add , remove and update products , calculate price for individual product and total price .
 - update productCard and productModal to display add to cart icon.
 - finish Contact section , add layout , styles , contact form.
