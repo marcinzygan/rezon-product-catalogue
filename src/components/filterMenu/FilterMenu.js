@@ -16,6 +16,7 @@ const FilterMenu = () => {
     // dispatch(setPage(1));
     dispatch(filterProducts(filterOption));
     dispatch(setIsSearchActive());
+    window.scrollTo(0, 0);
     // CHANGE SELECT OPTION TO DEFAULT AFTER 2 SEC
     setTimeout(() => {
       e.target.value = "DEFAULT";
