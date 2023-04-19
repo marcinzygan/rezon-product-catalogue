@@ -14,7 +14,6 @@
 - update productCard and productModal to display add to cart icon.
 - finish Contact section , add layout , styles , contact form.
 - add abillity to swipe the slider images on mobile devices .
--
 
 # Features implemented :
 
