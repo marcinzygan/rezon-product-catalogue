@@ -24,6 +24,7 @@ const SearchBar = () => {
     dispatch(filterSearch(productCards));
     console.log(searchInput.search);
     dispatch(clearInput());
+    window.scrollTo(0, 0);
   };
 
   //   Function to handle input change that is getting event
