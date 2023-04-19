@@ -25,6 +25,7 @@ const SearchBar = () => {
     console.log(searchInput.search);
     dispatch(clearInput());
     window.scrollTo(0, 0);
+    event.target[0].blur();
   };
 
   //   Function to handle input change that is getting event
