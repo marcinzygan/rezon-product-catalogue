@@ -190,7 +190,20 @@ const ProductModal = () => {
               </a>
             </div>
           )}
+          {modalData.formularz && (
+            <div className={classes.forms}>
+              Formularz Zamówień Dostępny{" "}
+              <a
+                href={modalData.formularz}
+                target="_blank"
+                className={classes.form__link}
+              >
+                TUTAJ
+              </a>
+            </div>
+          )}
         </div>
+
         {/* IMAGE SLIDER */}
 
         <div className={classes.slider__container}>
@@ -516,18 +529,6 @@ const ProductModal = () => {
         )}
       </div>
 
-      {modalData.formularz && (
-        <div className={classes.forms}>
-          Formularz Zamówień Dostępny{" "}
-          <a
-            href={modalData.formularz}
-            target="_blank"
-            className={classes.form__link}
-          >
-            TUTAJ
-          </a>
-        </div>
-      )}
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         {" "}
