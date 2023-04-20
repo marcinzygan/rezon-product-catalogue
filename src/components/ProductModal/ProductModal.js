@@ -165,12 +165,13 @@ const ProductModal = () => {
                   <div className={classes.zestaw__opis}>
                     <p className={classes.uwaga}>
                       <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
-                      Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
-                      sprzedawanym towarem, są własnością sprzedawcy. W
-                      przypadku umieszczenia na firmowym stojaku innego towaru
-                      niż zakupiony w firmie Rezon, stojak należy zwrócić do
-                      sprzedawcy, lub zapłacić jego równowartość w wysokości 500
-                      zł netto, a także za każdy haczyk 1,5 zł netto.
+                      Stojak Ekspozycyjny - Oddany w odpłatny Depozyt - Kaucję.
+                      Na Stojaku mogą znajdować się wyłącznie produkty zakupione
+                      w firmie REZON i przeznaczone do sprzedaży na danym
+                      stojaku. Zwrot depozytu nastąpi po oddaniu kompletnego
+                      stojaka. (Wszystkie elementy składowe). Stojak może
+                      posiadać ślady normalnego użytkowania i eksploatacji. CENA
+                      : 300 ZŁ BRUTTO
                     </p>
                   </div>
                 </>
