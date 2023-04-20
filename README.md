@@ -9,11 +9,15 @@
 
 # To do:
 
-- fix scroll position after search or chosen category.
+-
 - add shopping cart , abillity to add , remove and update products , calculate price for individual product and total price .
 - update productCard and productModal to display add to cart icon.
 - finish Contact section , add layout , styles , contact form.
 - add abillity to swipe the slider images on mobile devices .
+
+# Fixed
+
+- fix scroll position after search or chosen category.
 
 # Features implemented :
 
@@ -38,6 +42,7 @@
 - added logic to search all products by entered value.
 - add products to favourites with local storage .
 - added abillity to close opened modal with browser back button on mobile and desktop.
+- added mobile keybord hide after search query
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
