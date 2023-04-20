@@ -155,18 +155,7 @@ const ProductModal = () => {
                   </div>
                 )}
               </div>
-              {modalData.katalog && (
-                <div className={classes.forms}>
-                  Katalog Dostępnych Wzorów{" "}
-                  <a
-                    href={modalData.katalog}
-                    target="_blank"
-                    className={classes.form__link}
-                  >
-                    TUTAJ
-                  </a>
-                </div>
-              )}
+
               {modalData.stojak === true && (
                 <>
                   <p className={classes.ekspozytor + " " + classes.modal__opis}>
@@ -176,19 +165,45 @@ const ProductModal = () => {
                   <div className={classes.zestaw__opis}>
                     <p className={classes.uwaga}>
                       <span className={classes.zestaw__opis_span}>Uwaga:</span>{" "}
-                      Stojaki i ekspozytory które udostępnia firma Rezon wraz ze
-                      sprzedawanym towarem, są własnością sprzedawcy. W
-                      przypadku umieszczenia na firmowym stojaku innego towaru
-                      niż zakupiony w firmie Rezon, stojak należy zwrócić do
-                      sprzedawcy, lub zapłacić jego równowartość w wysokości 500
-                      zł netto, a także za każdy haczyk 1,5 zł netto.
+                      Stojak Ekspozycyjny - Oddany w odpłatny Depozyt - Kaucję.
+                      Na Stojaku mogą znajdować się wyłącznie produkty zakupione
+                      w firmie REZON i przeznaczone do sprzedaży na danym
+                      stojaku. Zwrot depozytu nastąpi po oddaniu kompletnego
+                      stojaka. (Wszystkie elementy składowe). Stojak może
+                      posiadać ślady normalnego użytkowania i eksploatacji. CENA
+                      : 300 ZŁ BRUTTO
                     </p>
                   </div>
                 </>
               )}
             </>
+          )}{" "}
+          {modalData.katalog && (
+            <div className={classes.forms}>
+              Katalog Dostępnych Wzorów{" "}
+              <a
+                href={modalData.katalog}
+                target="_blank"
+                className={classes.form__link}
+              >
+                TUTAJ
+              </a>
+            </div>
+          )}
+          {modalData.formularz && (
+            <div className={classes.forms}>
+              Formularz Zamówień Dostępny{" "}
+              <a
+                href={modalData.formularz}
+                target="_blank"
+                className={classes.form__link}
+              >
+                TUTAJ
+              </a>
+            </div>
           )}
         </div>
+
         {/* IMAGE SLIDER */}
 
         <div className={classes.slider__container}>
@@ -514,18 +529,6 @@ const ProductModal = () => {
         )}
       </div>
 
-      {modalData.formularz && (
-        <div className={classes.forms}>
-          Formularz Zamówień Dostępny{" "}
-          <a
-            href={modalData.formularz}
-            target="_blank"
-            className={classes.form__link}
-          >
-            TUTAJ
-          </a>
-        </div>
-      )}
       {/* Modal Footer */}
       <div className={classes.modal__footer}>
         {" "}
