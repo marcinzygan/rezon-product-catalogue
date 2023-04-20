@@ -10,6 +10,7 @@ export const productsData = [
     opis: "Magnes wykonany z wyciętego akrylu w kształcie dowolnym. Możliwe nadrukowanie grafiki na powstałym kształcie.",
     dowolny_ksztalt: true,
     cena: 4.5,
+    katalog: "/kat",
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -1409,6 +1410,7 @@ export const productsData = [
     zestaw_total: 504,
     cena_zestaw: 2772,
     formularz: "/formularze/dorośli1.pdf",
+    katalog: "/katalogi/katalog_magnes_otwieracz_butelka_hasła.pdf",
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2420,6 +2422,7 @@ export const productsData = [
       "mix 168 grafik po 3 pary / (14 Serii Tematycznych - 1 Seria to 12 różnych sztuk)",
     zestaw_total: 504,
     cena_zestaw: 2772,
+    katalog: "/katalogi/katalog_skarpety_hasła.pdf",
     technologie: "8",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2463,6 +2466,7 @@ export const productsData = [
     identyfikator: "OPAKOWANIE NA BUTELKĘ BAWEŁNIANE",
     opis: "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z bawełny z aplikacją.",
     cena: 5,
+    katalog: "/katalogi/katalog_opakowanie_na_butelke.pdf",
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2480,6 +2484,7 @@ export const productsData = [
     identyfikator: "OPAKOWANIE NA BUTELKĘ LNIANE",
     opis: "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z lnu z aplikacją.",
     cena: 4.5,
+    katalog: "/katalogi/katalog_opakowanie_na_butelke.pdf",
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2497,6 +2502,7 @@ export const productsData = [
     identyfikator: "OPAKOWANIE NA BUTELKĘ Z ORGANZY",
     opis: "Opakowanie prezentowe na butelkę, produkt  dostępny w wielu wzorach pasujących na różnorodne okazje. Produkt wykonany z organzy z aplikacją, dostępny w 4 kolorach.",
     cena: 3.5,
+    katalog: "/katalogi/katalog_opakowanie_na_butelke.pdf",
     technologie: "4",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -4001,4 +4007,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-// 215
+/// 215
