@@ -4043,7 +4043,7 @@ export const productsData = [
     zestaw_total: "42 lub 21",
     cena_zestaw: "W zależności od wybranego zestawu / ",
     katalog: "/katalogi/katalog_tuby.pdf",
-    formularz: null,
+    formularz: "/formularze/tuby.pdf",
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
