@@ -143,7 +143,7 @@ const ProductModal = () => {
                 <p className={classes.cena + " " + classes.zestaw_total_cena}>
                   {"Razem :" + " "}
                   <span className={classes.modal__span}>
-                    {modalData.zestaw_total} sztuki.
+                    {modalData.zestaw_total} sztuk.
                   </span>
                 </p>
                 {modalData.zestaw && (
