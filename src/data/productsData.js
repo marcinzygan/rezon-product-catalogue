@@ -3663,6 +3663,7 @@ export const productsData = [
     identyfikator: "KUBEK SUB BIAŁY",
     opis: "Kubek ceramiczny z możliwością wykonania dowolnej grafiki lub hasła w pełnym kolorze. Kubek dostępny w kolorze białym.",
     cena: 12,
+    katalog: "/katalogi/katalog_dzień_mamy_kubek_sub_2023 .pdf",
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
