@@ -3957,7 +3957,7 @@ export const productsData = [
     opis_zestaw_2: "78 imion męskich i 6 haseł x 2 sztuki = 168 sztuki",
     zestaw_total: 336,
     cena_zestaw: 4032,
-    formularz: "/formularze/dzieci1.pdf",
+    formularz: "/formularze/kubek_sub_dzieci.pdf",
     technologie: "10",
     ilość_opakowanie: "",
     ilość_karton: "",
