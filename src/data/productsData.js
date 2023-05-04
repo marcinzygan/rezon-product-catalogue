@@ -3953,10 +3953,10 @@ export const productsData = [
     cena: 12,
     zestaw: true,
     stojak: true,
-    opis_zestaw: "84 imion damskich i 4 haseł x 2 sztuki = 176 sztuki",
+    opis_zestaw: "77 imion damskich i 7 haseł x 2 sztuki = 168 sztuki",
     opis_zestaw_2:
-      "84 imion męskich i 4 haseł x 2 sztuki = 176 sztuki , Na zestaw składają się 2 stojaki (imiona dla chłopców i dla dziewczynek)",
-    zestaw_total: 352,
+      "77 imion męskich i 7 haseł x 2 sztuki = 168 sztuki , Na zestaw składają się 2 stojaki (imiona dla chłopców i dla dziewczynek)",
+    zestaw_total: 336,
     cena_zestaw: 4032,
     formularz: "/formularze/kubek_sub_dzieci.pdf",
     technologie: "10",
