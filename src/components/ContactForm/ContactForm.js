@@ -83,11 +83,7 @@ export default function ContactForm() {
         name="message"
         className={classes.form__input + " " + classes.form__textarea}
       />
-      <input
-        type="submit"
-        value="Wyślij"
-        className={"btn" + " " + classes.form__btn}
-      />
+      <input type="submit" value="Wyślij" className={classes.form__btn} />
       <div
         className={
           !emailSent
@@ -115,7 +111,7 @@ export default function ContactForm() {
           Postaramy się odpowiedzieć najszybciej jak to możliwe. <br></br>
           Miłego Dnia !
         </p>
-        <p className={classes.email__alert_message}>Comptrends.eu</p>
+        <p className={classes.email__alert_message}>Rezon.eu</p>
       </div>
     </form>
   );
