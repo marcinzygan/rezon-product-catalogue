@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   max-width: 600px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -38,7 +39,7 @@
   height: 100%;
   display: none;
   border: 1px solid var(--clr-accent);
-  background-color: var(--clr-dark);
+  background-color: var(--clr-white);
 }
 .email__message_visible {
   display: block;
@@ -55,6 +56,7 @@
 }
 .email__alert_message {
   padding: 1rem;
+  font-family: var(--ff-regular);
   font-size: var(--fs-text);
   line-height: 1.4;
 }
@@ -68,13 +70,15 @@
   font-family: var(--ff-heading);
   font-weight: var(--fw-bold);
   color: var(--clr-accent);
+  cursor: pointer;
 }
 .close__message_icon {
-  color: var(--clr-accentSecond);
+  color: var(--clr-accent);
   display: block;
   margin-left: auto;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
+  cursor: pointer;
 }
 /* MEDIA QUERIES */
 

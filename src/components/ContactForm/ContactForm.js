@@ -13,7 +13,7 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_jad3tmk",
+        "service_w7r7sek",
         "template_sbvr0m7",
         form.current,
         "UkxeEriq9CJHF2olx"
