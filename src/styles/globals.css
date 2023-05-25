@@ -98,6 +98,17 @@ main {
 .nav__open {
   transform: translateX(0%) !important;
 }
+.info {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-h1);
+  padding: 2rem;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 350px) {
   main {
     padding: 3rem;
