@@ -5,7 +5,8 @@ const Layout = (props) => {
   return (
     <>
       <NavBar />
-      <div className="app__layout">{props.children}</div>
+      {/* <div>{props.children}</div> */}
+      <div className="info">Aktualizacja danych. Przepraszamy!</div>
       <Footer />
     </>
   );
