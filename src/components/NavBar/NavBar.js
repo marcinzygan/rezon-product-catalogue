@@ -46,7 +46,7 @@ const NavBar = () => {
         <ul id="nav__list" className={classes.nav__list}>
           <li className={classes.nav__li}>
             <a className={classes.nav__link} href="/">
-              Strona Główna
+              Katalog Produktów
             </a>
           </li>
           <li className={classes.nav__li}>
