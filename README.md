@@ -9,11 +9,9 @@
 
 # To do:
 
--
-- add shopping cart , abillity to add , remove and update products , calculate price for individual product and total price .
-- update productCard and productModal to display add to cart icon.
-- finish Contact section , add layout , styles , contact form.
+- Build API for productData .
 - add abillity to swipe the slider images on mobile devices .
+- Finish about section
 
 # Fixed
 
@@ -43,6 +41,7 @@
 - add products to favourites with local storage .
 - added abillity to close opened modal with browser back button on mobile and desktop.
 - added mobile keybord hide after search query
+- added Contact section , layout , styles , contact form , EmailJS service for contact form.
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 
