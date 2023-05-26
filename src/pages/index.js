@@ -70,6 +70,10 @@ export default function Home() {
         <meta name="description" content="Katalog Online Rezon.eu" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="google-site-verification"
+          content="ZS0520bmJbQk1Qtmx8tQ-4dFDOi3SMZtSmTiGZBK2a8"
+        />
       </Head>
       <SearchNavigation />
       {/* <div className={classes.filter__menu}>
