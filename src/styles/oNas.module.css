@@ -9,6 +9,9 @@
   text-align: center;
   padding-bottom: 3rem;
 }
+.h4__txt {
+  padding-bottom: 0.9rem;
+}
 .text {
   font-family: var(--ff-rebular);
   font-size: var(--fs-text);
@@ -18,6 +21,29 @@
 }
 .text__span {
   font-weight: var(--fw-bold);
+}
+.marki__wrapper {
+  width: 100%;
+}
+.section__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 36rem;
+  margin: 0 auto;
+}
+.logo__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
 @media (min-width: 1000px) {
   /* .main {
