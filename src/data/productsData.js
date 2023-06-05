@@ -822,8 +822,8 @@ export const productsData = [
   {
     id: 216,
     category: "magnesy",
-    image: "/images/magnesy/050.jpg",
-    slider_images: ["/images/magnesy/050.jpg"],
+    image: "/images/magnesy/MAGNES_FOLIA_1.jpg",
+    slider_images: ["/images/magnesy/MAGNES_FOLIA_1.jpg"],
     indeks_pc: "MAGNES FOLIA 1",
     identyfikator: "MAGNES FOLIA 1",
     opis: "Barwny magnes wykonany w technologii full color. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
@@ -840,8 +840,8 @@ export const productsData = [
   {
     id: 217,
     category: "magnesy",
-    image: "/images/magnesy/050.jpg",
-    slider_images: ["/images/magnesy/050.jpg"],
+    image: "/images/magnesy/MAGNES_FOLIA_2.jpg",
+    slider_images: ["/images/magnesy/MAGNES_FOLIA_2.jpg"],
     indeks_pc: "MAGNES FOLIA 2",
     identyfikator: "MAGNES FOLIA 2",
     opis: "Barwny magnes wykonany w technologii full color. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. ",
