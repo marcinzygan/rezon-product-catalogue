@@ -1416,7 +1416,7 @@ export const productsData = [
     zestaw: false,
     stojak: false,
     formularz: null,
-    technologie: "4",
+    technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
     stan_magazynowy: 6000,
