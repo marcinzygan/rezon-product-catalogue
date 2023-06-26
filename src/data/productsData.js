@@ -820,13 +820,13 @@ export const productsData = [
     wymiary: "8,00 cm x 5,50 cm",
   },
   {
-    id: 216,
+    id: 218,
     category: "magnesy",
     image: "/images/magnesy/MAGNES_FOLIA_1.jpg",
     slider_images: ["/images/magnesy/MAGNES_FOLIA_1.jpg"],
     indeks_pc: "MAGNES FOLIA 1",
     identyfikator: "MAGNES FOLIA 1",
-    opis: "Barwny magnes wykonany w technologii full color w dowolnym kształcie. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka. Magnes wykonany",
+    opis: "Barwny magnes wykonany w technologii full color w dowolnym kształcie. Posiada miejsce na wykonanie grafiki ze wzorem. Ciekawa i elegancka pamiątka.",
     dowolny_ksztalt: true,
     cena: 2.5,
     technologie: "11",
@@ -4111,4 +4111,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 216
+/// 218
