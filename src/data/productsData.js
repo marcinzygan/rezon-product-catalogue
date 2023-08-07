@@ -3504,7 +3504,7 @@ export const productsData = [
     indeks_pc: "DK29-039",
     identyfikator: "ZAPALNICZKA BENZYNOWA",
     opis: "Otwierana zapalniczka benzynowa do napełniania benzyną. Zdobienie na produkcie stylizowane na motyw retro z imieniem męskim. Produkt zapakowany w profilowanym opakowaniu i kartce.",
-    cena: 10,
+    cena: 12,
     zestaw: true,
     stojak: true,
     opis_zestaw: "78 imion męskich i 6 haseł x 3 sztuki",
