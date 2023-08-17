@@ -3725,8 +3725,14 @@ export const productsData = [
   {
     id: 223,
     category: "zapalniczki i popielniczki",
-    image: "/images/Zapalniczki_i_Popielniczki/U-70HC.png",
-    slider_images: ["/images/Zapalniczki_i_Popielniczki/U-70HC.png"],
+    image: "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc.jpg",
+      "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc_red.jpg",
+      "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc_blue.jpg",
+      "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc_black.jpg",
+      "/images/Zapalniczki_i_Popielniczki/u70hc/u70hc_silver.jpg",
+    ],
     indeks_pc: "U70-HC",
     identyfikator: "ZAPALNICZKA U70-HC",
     opis: "Zapalniczka z żarowym płomieniem jet. Dostępna w czterech kolorach: Czerwony , Czarny , Niebieski i Srebrny",
