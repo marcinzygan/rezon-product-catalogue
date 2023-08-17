@@ -3722,6 +3722,23 @@ export const productsData = [
     stan_zamowiony: 0,
     wymiary: "",
   },
+  {
+    id: 223,
+    category: "zapalniczki i popielniczki",
+    image: "/images/Zapalniczki_i_Popielniczki/U-70HC.png",
+    slider_images: ["/images/Zapalniczki_i_Popielniczki/U-70HC.png"],
+    indeks_pc: "U70-HC",
+    identyfikator: "ZAPALNICZKA U70-HC",
+    opis: "Zapalniczka z żarowym płomieniem jet. Dostępna w czterech kolorach: Czerwony , Czarny , Niebieski i Srebrny",
+    cena: 10,
+    technologie: "1",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: 2000,
+    stan_optymalny: 2000,
+    stan_zamowiony: 1560,
+    wymiary: "",
+  },
   ///////// UPOMINKI BIZNESOWE //////////////
   { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
   {
@@ -4212,4 +4229,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 222
+/// 223
