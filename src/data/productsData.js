@@ -3705,8 +3705,16 @@ export const productsData = [
   {
     id: 188,
     category: "zapalniczki i popielniczki",
-    image: "/images/Zapalniczki_i_Popielniczki/jet.webp",
-    slider_images: ["/images/Zapalniczki_i_Popielniczki/jet.webp"],
+    image: "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet.webp",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_blue.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_red.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_silver.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_grey.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_black.jpg",
+    ],
     indeks_pc: "ZAPALNICZKA JET MIX GUMA",
     identyfikator: "ZAPALNICZKA JET MIX GUMA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia.",
@@ -3720,7 +3728,7 @@ export const productsData = [
     stan_magazynowy: null,
     stan_optymalny: null,
     stan_zamowiony: 0,
-    wymiary: "",
+    wymiary: "65 x 38 x 16 mm",
   },
   {
     id: 223,
@@ -3743,7 +3751,7 @@ export const productsData = [
     stan_magazynowy: 2000,
     stan_optymalny: 2000,
     stan_zamowiony: 1560,
-    wymiary: "",
+    wymiary: "74 × 32 × 16 mm",
   },
   ///////// UPOMINKI BIZNESOWE //////////////
   { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
