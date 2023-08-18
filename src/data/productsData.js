@@ -3720,7 +3720,7 @@ export const productsData = [
     stan_magazynowy: null,
     stan_optymalny: null,
     stan_zamowiony: 0,
-    wymiary: "",
+    wymiary: "65 x 38 x 16 mm",
   },
   {
     id: 223,
