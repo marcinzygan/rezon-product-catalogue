@@ -3743,7 +3743,7 @@ export const productsData = [
     stan_magazynowy: 2000,
     stan_optymalny: 2000,
     stan_zamowiony: 1560,
-    wymiary: "",
+    wymiary: "74 × 32 × 16 mm",
   },
   ///////// UPOMINKI BIZNESOWE //////////////
   { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
