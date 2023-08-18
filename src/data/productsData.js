@@ -3705,8 +3705,16 @@ export const productsData = [
   {
     id: 188,
     category: "zapalniczki i popielniczki",
-    image: "/images/Zapalniczki_i_Popielniczki/jet.webp",
-    slider_images: ["/images/Zapalniczki_i_Popielniczki/jet.webp"],
+    image: "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet.webp",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_blue.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_red.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_silver.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_grey.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_mix_guma/jet_mix_guma_black.jpg",
+    ],
     indeks_pc: "ZAPALNICZKA JET MIX GUMA",
     identyfikator: "ZAPALNICZKA JET MIX GUMA",
     opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia.",
