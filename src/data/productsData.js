@@ -2852,7 +2852,6 @@ export const productsData = [
       "/images/Zestawy/Zaw_Serce/03.jpg",
       "/images/Zestawy/Zaw_Serce/04.jpg",
       "/images/Zestawy/Zaw_Serce/04.jpg",
-      // "/images/Zestawy/Zaw_Serce/04.jpg",
     ],
     indeks_pc: "ZAW SERCE",
     identyfikator: "ZAW SERCE",
@@ -4105,6 +4104,11 @@ export const productsData = [
     wymiary: "",
   },
   ////////////////////// ZESTAWY //////////////////
+  {
+    id: "K-20",
+    displayCategory: true,
+    category: "zestawy",
+  },
   {
     id: 211,
     category: "sublimacja",
