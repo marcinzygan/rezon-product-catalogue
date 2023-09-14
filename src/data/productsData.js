@@ -2382,6 +2382,7 @@ export const productsData = [
     opis: "Bransoletka wykonana ze skóry, sznurka i elementów metalowych oraz szklanego elementu na którym wykonano grafikę. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
     formularz: "/formularze/dzieci1.pdf",
+    katalog: "/katalogi/katalog_bransoletka_szkło_hasła.pdf",
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2400,6 +2401,7 @@ export const productsData = [
     opis: "Bransoletka wykonana ze skóry, sznurka i elementów metalowych oraz szklanego elementu na którym wykonano grafikę. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 4,
     formularz: "/formularze/dzieci1.pdf",
+    katalog: "/katalogi/katalog_bransoletka_szkło_hasła.pdf",
     technologie: "1",
     ilość_opakowanie: "",
     ilość_karton: "",
@@ -2850,7 +2852,6 @@ export const productsData = [
       "/images/Zestawy/Zaw_Serce/03.jpg",
       "/images/Zestawy/Zaw_Serce/04.jpg",
       "/images/Zestawy/Zaw_Serce/04.jpg",
-      // "/images/Zestawy/Zaw_Serce/04.jpg",
     ],
     indeks_pc: "ZAW SERCE",
     identyfikator: "ZAW SERCE",
@@ -4103,6 +4104,11 @@ export const productsData = [
     wymiary: "",
   },
   ////////////////////// ZESTAWY //////////////////
+  {
+    id: "K-20",
+    displayCategory: true,
+    category: "zestawy",
+  },
   {
     id: 211,
     category: "sublimacja",

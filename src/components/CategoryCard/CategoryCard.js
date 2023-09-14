@@ -124,6 +124,15 @@ const CategoryCard = (props) => {
           className={classes.category__svg}
         ></img>
       )}
+      {/* Zestawy */}
+      {props.category === "zestawy" && (
+        <img
+          src=".\images\Pictograms\Zestawy.svg"
+          alt={props.category}
+          className={classes.category__svg}
+        ></img>
+      )}
+
       <p className={classes.category__name}>{props.category}</p>
     </div>
   );
