@@ -2438,7 +2438,7 @@ export const productsData = [
     id: 224,
     category: "bransoletki",
     image: "/images/Bransoletki/09.jpg",
-    slider_images: ["/images/Bransoletki/09.jpg"],
+    slider_images: ["/images/Bransoletki/09.jpg", "/images/Bransoletki/10.jpg"],
     indeks_pc: "DK37 020A1",
     identyfikator: "DK37 020A1",
     opis: "Bransoletka dziecięca na gumce. Dostępna w 6 kolorach ze wzorem I ❤ , oraz miejscem na grawer.",
