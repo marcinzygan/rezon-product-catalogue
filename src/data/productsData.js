@@ -2434,6 +2434,30 @@ export const productsData = [
     stan_zamowiony: 0,
     wymiary: "Średnica  min. 5,50 cm Średnica  max. 10,00 cm",
   },
+  {
+    id: 224,
+    category: "bransoletki",
+    image: "/images/Bransoletki/09.jpg",
+    slider_images: ["/images/Bransoletki/09.jpg"],
+    indeks_pc: "DK37 0A1",
+    identyfikator: "DK7 0A1",
+    opis: "Bransoletka dziecięca na gumce. Dostępna w 6 kolorach ze wzorem I ❤ , oraz miejscem na grawer.",
+    cena: 2.5,
+    zestaw: false,
+    stojak: false,
+    opis_zestaw: null,
+    zestaw_total: null,
+    cena_zestaw: null,
+    katalog: null,
+    formularz: null,
+    technologie: "3",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: 6500,
+    stan_optymalny: 6500,
+    stan_zamowiony: 0,
+    wymiary: "8 cm x 5 cm",
+  },
   { id: "K-08", displayCategory: true, category: "tekstylia" },
   ///////////// TEKSTYLIA //////////////////
   {
@@ -4252,4 +4276,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 223
+/// 224
