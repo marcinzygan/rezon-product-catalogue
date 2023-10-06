@@ -2440,7 +2440,7 @@ export const productsData = [
     image: "/images/Bransoletki/09.jpg",
     slider_images: ["/images/Bransoletki/09.jpg"],
     indeks_pc: "DK37 0A1",
-    identyfikator: "DK7 0A1",
+    identyfikator: "DK37 0A1",
     opis: "Bransoletka dziecięca na gumce. Dostępna w 6 kolorach ze wzorem I ❤ , oraz miejscem na grawer.",
     cena: 2.5,
     zestaw: false,
