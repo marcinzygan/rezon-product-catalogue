@@ -1016,12 +1016,12 @@ export const productsData = [
     image: "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
     slider_images: [
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/02.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/03.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/04.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/05.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/06.jpg",
       "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/07.jpg",
-      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/08.jpg",
     ],
     indeks_pc: "DK18-014",
     identyfikator: "BRELOK METALOWY GRAWEROWANY",
