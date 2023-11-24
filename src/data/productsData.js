@@ -1013,11 +1013,19 @@ export const productsData = [
   {
     id: 54,
     category: "breloki",
-    image: "/images/Breloki/02.jpg",
-    slider_images: ["/images/Breloki/02.jpg"],
+    image: "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
+    slider_images: [
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/01.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/03.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/04.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/05.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/06.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/07.jpg",
+      "/images/Breloki/BRELOK_METALOWY_GRAWEROWANY/08.jpg",
+    ],
     indeks_pc: "DK18-014",
     identyfikator: "BRELOK METALOWY GRAWEROWANY",
-    opis: "Brelok metalowy z wygrawerowanym metodą laserową imieniem, znakiem zodiaku lub grupa krwi. Kolory breloków : czerwony, czarny. Produkt zapakowany na stylowej kartce w woreczku.",
+    opis: "Brelok metalowy z wygrawerowanym metodą laserową imieniem, znakiem zodiaku lub grupa krwi. Kolory breloków : czerwony, czarny, oraz kolory ombre. Produkt zapakowany na stylowej kartce w woreczku.",
     cena: 5,
     zestaw: true,
     stojak: true,
@@ -3950,10 +3958,10 @@ export const productsData = [
     wymiary: "Etui 8,00 cm x 11,50 cm Brelok 9,50 cm x 4,00 cm",
   },
   /////////////// SUBLIMACJA ////////////////
-  { id: "K-14", displayCategory: true, category: "sublimacja" },
+  // { id: "K-14", displayCategory: true, category: "kubki i podkładki" },
   {
     id: 194,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/01.jpg",
     slider_images: ["/images/Sublimacja/01.jpg"],
     indeks_pc: "KUBEK SUB",
@@ -3971,7 +3979,7 @@ export const productsData = [
   },
   {
     id: 195,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/kubek_sub_czarny.webp",
     slider_images: ["/images/Sublimacja/kubek_sub_czarny.webp"],
     indeks_pc: "KUBEK SUB",
@@ -3988,7 +3996,7 @@ export const productsData = [
   },
   {
     id: 196,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/kubek_sub_czerwony.webp",
     slider_images: ["/images/Sublimacja/kubek_sub_czerwony.webp"],
     indeks_pc: "KUBEK SUB",
@@ -4005,7 +4013,7 @@ export const productsData = [
   },
   {
     id: 197,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/kubek_sub_niebieski.webp",
     slider_images: ["/images/Sublimacja/kubek_sub_niebieski.webp"],
     indeks_pc: "KUBEK SUB",
@@ -4022,7 +4030,7 @@ export const productsData = [
   },
   {
     id: 198,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/02.jpg",
     slider_images: ["/images/Sublimacja/02.jpg"],
     indeks_pc: "FILIŻANKA SUB",
@@ -4040,7 +4048,7 @@ export const productsData = [
   },
   {
     id: 199,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/03.jpg",
     slider_images: ["/images/Sublimacja/03.jpg"],
     indeks_pc: "SZKLANKA M SUB",
@@ -4057,7 +4065,7 @@ export const productsData = [
   },
   {
     id: 200,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/04.jpg",
     slider_images: ["/images/Sublimacja/04.jpg"],
     indeks_pc: "KUBEK M SUB",
@@ -4074,7 +4082,7 @@ export const productsData = [
   },
   {
     id: 201,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/05.jpg",
     slider_images: ["/images/Sublimacja/05.jpg"],
     indeks_pc: "KIELISZEK C SUB",
@@ -4091,7 +4099,7 @@ export const productsData = [
   },
   {
     id: 202,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/06.jpg",
     slider_images: ["/images/Sublimacja/06.jpg"],
     indeks_pc: "KIELISZEK M SUB",
@@ -4108,7 +4116,7 @@ export const productsData = [
   },
   {
     id: 203,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/07.jpg",
     slider_images: ["/images/Sublimacja/07.jpg"],
     indeks_pc: "KUFEL SUB",
@@ -4125,7 +4133,7 @@ export const productsData = [
   },
   {
     id: 204,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/08.jpg",
     slider_images: ["/images/Sublimacja/08.jpg"],
     indeks_pc: "SKARBONKA SUB",
@@ -4142,7 +4150,7 @@ export const productsData = [
   },
   {
     id: 205,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/09.jpg",
     slider_images: ["/images/Sublimacja/09.jpg"],
     indeks_pc: "NAPARSTEK SUB",
@@ -4159,7 +4167,7 @@ export const productsData = [
   },
   {
     id: 206,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/podkladka_sub.webp",
     slider_images: ["/images/Sublimacja/podkladka_sub.webp"],
     indeks_pc: "PODKŁADKA SUB",
@@ -4176,7 +4184,7 @@ export const productsData = [
   },
   {
     id: 207,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/szklanka_kwadrat_sub.webp",
     slider_images: ["/images/Sublimacja/szklanka_kwadrat_sub.webp"],
     indeks_pc: "SZKLANKA KWADRAT SUB",
@@ -4193,7 +4201,7 @@ export const productsData = [
   },
   {
     id: 208,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/kieliszek_kwadrat_sub.webp",
     slider_images: ["/images/Sublimacja/kieliszek_kwadrat_sub.webp"],
     indeks_pc: "KIELISZEK KWADRAT SUB",
@@ -4216,7 +4224,7 @@ export const productsData = [
   },
   {
     id: 211,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
     slider_images: [
       "/images/Sublimacja/sub_zestaw_dorosli_1.jpg",
@@ -4243,7 +4251,7 @@ export const productsData = [
   },
   {
     id: 212,
-    category: "sublimacja",
+    category: "kubki i podkładki",
     image: "/images/Sublimacja/sub_zestaw_dzieci_1.jpg",
     slider_images: [
       "/images/Sublimacja/sub_zestaw_dzieci_1.jpg",
