@@ -991,6 +991,27 @@ export const productsData = [
     stan_zamowiony: "",
     wymiary: "11 cm x 7.3 cm",
   },
+  {
+    id: 228,
+    category: "magnesy",
+    image: "/images/magnesy/hdf_zywica1.jpg",
+    slider_images: [
+      "/images/magnesy/hdf_zywica1.jpg",
+      "/images/magnesy/hdf_zywica2.jpg",
+    ],
+    indeks_pc: "HDF ŻYWICA",
+    identyfikator: "MAGNES HDF ŻYWICA",
+    opis: "Drewniany magnes z nazwą miejscowości. Magnes wykonany w technologii full color. Magnes pokryty jest żywicą.",
+    cena: 4.5,
+    dowolny_ksztalt: true,
+    technologie: "5",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: 4000,
+    stan_optymalny: 4000,
+    stan_zamowiony: "",
+    wymiary: "",
+  },
   ////////////////////////BRELOKI //////////////////////////////////////////
   { id: "K-02", displayCategory: true, category: "breloki" },
   {
@@ -4365,4 +4386,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 227
+/// 228
