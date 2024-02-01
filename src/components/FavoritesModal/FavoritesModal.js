@@ -14,7 +14,7 @@ const FavoritesModal = () => {
   React.useEffect(() => {
     dispatch(setIsSSR());
   }, []);
-  console.log(modalFavorites);
+  // console.log(modalFavorites);
   {
     return (
       <div className={classes.modal} id="favorites">

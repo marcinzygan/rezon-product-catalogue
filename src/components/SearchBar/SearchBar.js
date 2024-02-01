@@ -20,9 +20,9 @@ const SearchBar = () => {
     const { name, value } = event.target;
 
     dispatch(setSearchInput({ name, value }));
-    console.log(searchInput.search, "getting search");
+    // console.log(searchInput.search, "getting search");
     dispatch(filterSearch(productCards));
-    console.log(searchInput.search);
+    // console.log(searchInput.search);
     dispatch(clearInput());
     window.scrollTo(0, 0);
     event.target[0].blur();
@@ -51,10 +51,6 @@ const SearchBar = () => {
           onClick={getSearch}
           icon="ph:magnifying-glass"
         />
-        {/* <Icon
-          icon="fa:search"
-         
-        /> */}
       </div>
     </form>
   );

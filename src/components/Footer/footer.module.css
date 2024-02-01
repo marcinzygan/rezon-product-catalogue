@@ -1,7 +1,5 @@
 .footer {
-  /* background-color: var(--clr-accent); */
   margin-top: 2rem;
-  /* padding: 2rem; */
 }
 .footer::before {
   display: block;
@@ -76,7 +74,6 @@
 }
 .footer__link {
   font-family: var(--ff-regular);
-  /* text-decoration: none; */
   cursor: pointer;
   color: var(--clr-black);
 }
@@ -95,7 +92,6 @@
   display: block;
   height: 60px;
   width: 120px;
-  /* object-fit: cover; */
 }
 .footer__date_container {
   display: flex;

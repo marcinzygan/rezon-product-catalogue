@@ -11,7 +11,8 @@
 
 - Build API for productData .
 - add abillity to swipe the slider images on mobile devices .
-- Finish about section
+
+# To Fix:
 
 # Fixed
 
@@ -42,6 +43,7 @@
 - added abillity to close opened modal with browser back button on mobile and desktop.
 - added mobile keybord hide after search query
 - added Contact section , layout , styles , contact form , EmailJS service for contact form.
+- added about section
 
 # 📫 Find me on <a href="https://marcin-zygan.com">marcin-zygan.com</a>
 

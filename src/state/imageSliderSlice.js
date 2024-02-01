@@ -40,7 +40,7 @@ const imageSliderSlice = createSlice({
       state.miniImagesSeen = data.payload;
     },
     nextMiniSlide: (state, data) => {
-      console.log(data.payload);
+      // console.log(data.payload);
       if (state.currentSlide === data.payload) {
         state.miniSliderPage = state.miniSliderPage + 1;
       }

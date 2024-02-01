@@ -93,8 +93,6 @@ const ProductModal = () => {
 
       <div className={classes.moddal__grid_container}>
         {/* PRODUCT INFO */}
-
-        {/* <div className={classes.details__container}> */}
         <div className={classes.modal__info_container}>
           {/* Product Name */}
           <div className={classes.modal__name}>

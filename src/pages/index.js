@@ -19,7 +19,6 @@ export default function Home() {
         const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
         // console.log(favorites);
         dispatch(setFavProducts(favorites));
-        // console.log("useEffec");
       } catch (e) {}
     }, [dispatch]);
   }
@@ -76,22 +75,9 @@ export default function Home() {
         />
       </Head>
       <SearchNavigation />
-      {/* <div className={classes.filter__menu}>
-        <SearchBar />
-        <FilterMenu />
-      </div> */}
+
       <main className={classes.cards__container} id="cards">
         {isSearchActive ? searchProducts : allProducts}
-        {/* {displaySearchProducts.map((card) => {
-          return card.identyfikator && <ProductCard key={card.id} {...card} />;
-        })} */}
-        {/* {productCards.map((card) => {
-          if (card.displayCategory === true) {
-            return <CategoryCard key={card.id} category={card.category} />;
-          } else {
-            return <ProductCard key={card.id} {...card} />;
-          }
-        })} */}
       </main>
 
       {/* <PaginationMenu numberOfPages={numberOfPages} /> */}

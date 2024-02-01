@@ -109,13 +109,6 @@ const ProductCard = (card) => {
               alt={card.identyfikator}
             />
           )}
-          {/* {card.stan_magazynowy === 0 && (
-          <img
-            className={classes.brak__produktu}
-            src="/images/brak_produktu.svg"
-            alt={card.identyfikator}
-          />
-        )} */}
           {/* PRODUKT STAN MAGAZYNOWY */}
           {/* brak danych */}
           {noQuantity()}
@@ -125,9 +118,6 @@ const ProductCard = (card) => {
           {midQuantity()}
           {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
           {lowQuantity()}
-          <div
-          // className={`${classes.card__details} ${classes.card__details_light}`}
-          ></div>
           <div
             className={
               card.stan_magazynowy === 0
@@ -178,7 +168,6 @@ const ProductCard = (card) => {
             <span className={classes.card__details_span}> Kod: </span>
             {card.indeks_pc}{" "}
           </div>
-          {/* <span className={classes.card__details_wymiary}>{card.wymiary}</span> */}
         </div>
       </div>
     </>
