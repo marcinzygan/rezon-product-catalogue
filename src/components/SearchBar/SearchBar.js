@@ -51,10 +51,6 @@ const SearchBar = () => {
           onClick={getSearch}
           icon="ph:magnifying-glass"
         />
-        {/* <Icon
-          icon="fa:search"
-         
-        /> */}
       </div>
     </form>
   );
