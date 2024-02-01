@@ -12,7 +12,6 @@ const FilterMenu = () => {
     e.preventDefault();
 
     const filterOption = e.target.value;
-    console.log(filterOption);
     // dispatch(setPage(1));
     dispatch(filterProducts(filterOption));
     dispatch(setIsSearchActive());

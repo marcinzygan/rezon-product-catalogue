@@ -7,8 +7,6 @@
   height: 100%;
   visibility: hidden;
   overflow-x: auto;
-  /* overflow: visible !important; */
-  /* padding: 2rem; */
   z-index: 1002;
 }
 
@@ -28,9 +26,6 @@
   display: block;
   width: 35px;
   height: 35px;
-  /* position: absolute;
-  bottom: 0;
-  right: 0; */
   margin-left: auto;
   margin-top: 2rem;
   cursor: pointer;
@@ -41,11 +36,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
-  /* padding: 1rem; */
 }
 @media (min-width: 400px) {
   .favorites__container {
-    /* padding: 3rem; */
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
@@ -57,7 +50,6 @@
   .favorites__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /* padding: 3.5rem; */
   }
 }
 @media (min-width: 1600px) {
