@@ -14,12 +14,12 @@ const productSearchSlice = createSlice({
   initialState,
   reducers: {
     setSearchInput: (state, data) => {
-      console.log(data.payload);
+      // console.log(data.payload);
 
       const { name, value } = data.payload;
 
       state.searchInput = { ...state.searchInput, [name]: value };
-      console.log(state.searchInput);
+      // console.log(state.searchInput);
     },
     clearInput: (state, data) => {
       state.searchInput.search = "";
@@ -44,7 +44,7 @@ const productSearchSlice = createSlice({
         state.searchDataProducts,
         state.searchInput.search
       );
-      console.log(displaySearch);
+      // console.log(displaySearch);
       state.displaySearchProducts = displaySearch;
     },
   },
