@@ -3205,7 +3205,7 @@ export const productsData = [
     technologie: "6",
     ilość_opakowanie: "",
     ilość_karton: "",
-    stan_magazynowy: 600,
+    stan_magazynowy: 0,
     stan_optymalny: 700,
     stan_zamowiony: 0,
     wymiary: "7,00 cm x 7,00 cm x 7,00 cm",
