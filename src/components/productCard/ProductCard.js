@@ -136,7 +136,28 @@ const ProductCard = (card) => {
                 : classes.img__wrapper
             }
           >
-            <Image
+            {!card.image ? (
+              <Image
+                fill
+                className={classes.img}
+                src={"/images/brak_zdjecia.jpg"}
+                alt={card.identyfikator}
+                sizes="(max-width: 768px) 200vw,
+            (max-width: 1200px) 50vw,
+            33vw"
+              />
+            ) : (
+              <Image
+                fill
+                className={classes.img}
+                src={card.image}
+                alt={card.identyfikator}
+                sizes="(max-width: 768px) 200vw,
+          (max-width: 1200px) 50vw,
+          33vw"
+              />
+            )}
+            {/* <Image
               fill
               className={classes.img}
               src={card.image}
@@ -144,7 +165,7 @@ const ProductCard = (card) => {
               sizes="(max-width: 768px) 200vw,
               (max-width: 1200px) 50vw,
               33vw"
-            />
+            /> */}
           </div>
           <div className={classes.image__overlay}>
             <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
