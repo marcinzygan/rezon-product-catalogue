@@ -3655,7 +3655,7 @@ export const productsData = [
     slider_images: ["/images/Akcesoria_podróżne/PIERSIOWKA_3.jpg"],
     indeks_pc: "DK42-045A3",
     identyfikator: "PIERSIÓWKA 3",
-    opis: "Metalowa piersiówka wykonana ze stali nierdzewnej.Pojemność 235 ml. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
+    opis: "Metalowa piersiówka wykonana ze stali nierdzewnej.Pojemność 235 ml. Na produkcie umieszczona jest naklejka ze wzorem pokryta żywicą. Produkt zapakowany w woreczek.",
     cena: 17.5,
     technologie: "2",
     ilość_opakowanie: "",
