@@ -2400,8 +2400,8 @@ export const productsData = [
   {
     id: 250,
     category: "otwieracze",
-    image: "",
-    slider_images: [""],
+    image: "/images/Otwieracze/otwieracz_metal_kufel.jpg",
+    slider_images: ["/images/Otwieracze/otwieracz_metal_kufel.jpg"],
     indeks_pc: "",
     identyfikator: "OTWIERACZ METAL KUFEL",
     opis: "Metalowy otwieracz do butelek w kształcie kufla. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
