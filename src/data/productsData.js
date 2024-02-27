@@ -2271,11 +2271,14 @@ export const productsData = [
   {
     id: 234,
     category: "otwieracze",
-    image: "",
-    slider_images: [""],
+    image: "/images/Otwieracze/korkociag_drewno1.jpg",
+    slider_images: [
+      "/images/Otwieracze/korkociag_drewno1.jpg",
+      "/images/Otwieracze/korkociag_drewno2.jpg",
+    ],
     indeks_pc: "DK42-009A",
     identyfikator: "KORKOCIĄG DREWNO",
-    opis: "Drewniany otwieracz do butelek posiadający korkociąg. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
+    opis: "Drewniany otwieracz do butelek posiadający korkociąg oraz ostrze. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
     cena: 7,
     technologie: "3",
     ilość_opakowanie: "",
@@ -2289,8 +2292,8 @@ export const productsData = [
   {
     id: 236,
     category: "otwieracze",
-    image: "",
-    slider_images: [""],
+    image: "/images/Otwieracze/otwieracz_drewno.jpg",
+    slider_images: ["/images/Otwieracze/otwieracz_drewno.jpg"],
     indeks_pc: "DK42-009C",
     identyfikator: "OTWIERACZ DREWNO",
     opis: "Drewniany otwieracz do butelek. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
@@ -2397,8 +2400,8 @@ export const productsData = [
   {
     id: 250,
     category: "otwieracze",
-    image: "",
-    slider_images: [""],
+    image: "/images/Otwieracze/otwieracz_metal_kufel.jpg",
+    slider_images: ["/images/Otwieracze/otwieracz_metal_kufel.jpg"],
     indeks_pc: "",
     identyfikator: "OTWIERACZ METAL KUFEL",
     opis: "Metalowy otwieracz do butelek w kształcie kufla. Na produkcie umieszczona jest naklejka ze wzorem. Naklejka pokryta żywicą. Produkt zapakowany w woreczek.",
@@ -3907,8 +3910,11 @@ export const productsData = [
   {
     id: 235,
     category: "akcesoria podrozne",
-    image: "",
-    slider_images: [""],
+    image: "/images/Akcesoria_podróżne/scyzoryk_drewno1.jpg",
+    slider_images: [
+      "/images/Akcesoria_podróżne/scyzoryk_drewno1.jpg",
+      "/images/Akcesoria_podróżne/scyzoryk_drewno2.jpg",
+    ],
     indeks_pc: "DK42-009B",
     identyfikator: "SCYZORYK DREWNO",
     opis: "Drewniany scyzoryk wielofukcyjny z pięcioma narzędziami. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
