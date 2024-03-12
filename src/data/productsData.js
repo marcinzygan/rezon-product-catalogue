@@ -4480,6 +4480,45 @@ export const productsData = [
     stan_zamowiony: 1560,
     wymiary: "74 × 32 × 16 mm",
   },
+  {
+    id: 261,
+    category: "zapalniczki i popielniczki",
+    image: "/images/Zapalniczki_i_Popielniczki/jet_ombre2.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/jet_ombre1.jpg",
+      "/images/Zapalniczki_i_Popielniczki/jet_ombre2.jpg",
+    ],
+    indeks_pc: "ZAPALNICZKA JET OMBRE",
+    identyfikator: "ZAPALNICZKA JET OMBRE",
+    opis: "Zapalniczka z żarowym płomieniem jet. Dostępna w pięciu kolorach",
+    cena: 10,
+    technologie: "1",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: 4000,
+    stan_optymalny: 4000,
+    stan_zamowiony: 0,
+    wymiary: "74 × 32 × 16 mm",
+  },
+  {
+    id: 262,
+    category: "zapalniczki i popielniczki",
+    image: "/images/Zapalniczki_i_Popielniczki/guma_ombre.jpg",
+    slider_images: ["/images/Zapalniczki_i_Popielniczki/guma_ombre.jpg"],
+    indeks_pc: "ZAPALNICZKA GUMA OMBRE",
+    identyfikator: "ZAPALNICZKA GUMA OMBRE",
+    opis: "Zapalniczka gazowa z żarowym płomieniem z możliwością wielokrotnego napełnienia. Dostępna w pięciu kolorach.",
+    cena: 3.5,
+    technologie: "1",
+    plomien: "2",
+    plomien_regulowany: "2",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: 10000,
+    stan_optymalny: 10000,
+    stan_zamowiony: 0,
+    wymiary: "",
+  },
   ///////// UPOMINKI BIZNESOWE //////////////
   { id: "K-13", displayCategory: true, category: "upominki biznesowe" },
   {
@@ -4975,4 +5014,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 260
+/// 262
