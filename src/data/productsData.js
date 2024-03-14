@@ -1891,7 +1891,7 @@ export const productsData = [
     indeks_pc: "KORKOCIĄG-2",
     identyfikator: "KORKOCIĄG OTWIERACZ",
     opis: "Plastikowy korkociąg  z otwieraczem do butelek. Możliwe wykonanie dowolnej grafiki ze wzorem. Produkt zapakowany w stylowym woreczk",
-    cena: 7,
+    cena: 7.5,
     technologie: "2",
     ilość_opakowanie: "",
     ilość_karton: "",
