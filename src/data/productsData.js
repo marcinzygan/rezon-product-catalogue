@@ -1607,7 +1607,7 @@ export const productsData = [
     indeks_pc: "BRELOK SERCE MEŁE",
     identyfikator: "BRELOK SERCE MAŁE",
     opis: "Brelok z akrylu w kształcie serca z imieniem dziewczynki. Produkt dostępny w 3 kolorach, zapakowany na stylowej kartce w woreczku.",
-    cena: 4.5,
+    cena: 3.5,
     // zestaw: true,
     // stojak: true,
     // opis_zestaw: "78 imiona dziewczęce i 6 haseł x 3 sztuki",
