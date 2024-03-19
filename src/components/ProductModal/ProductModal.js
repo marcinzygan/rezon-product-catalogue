@@ -269,6 +269,19 @@ const ProductModal = () => {
               ></img>
             </>
           )}
+          {/* TECHNOLOGIA 2.1 */}
+          {modalData.technologie === "2.1" && (
+            <>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/cmyk.webp"
+              ></img>
+              <img
+                className={classes.tech__img}
+                src="/images/Technologie/grafika.webp"
+              ></img>
+            </>
+          )}
           {/* TECHNOLOGIA 3 */}
           {modalData.technologie === "3" && (
             <>
