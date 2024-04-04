@@ -3259,7 +3259,7 @@ export const productsData = [
     stan_magazynowy: 0,
     stan_optymalny: 1000,
     stan_zamowiony: 0,
-    wymiary: "15.5 cm x 1.7 cm",
+    wymiary: "14.5 cm x 1 cm",
     nowosc: true,
   },
   { id: "K-06", displayCategory: true, category: "czapki i nakrycia głowy" },
