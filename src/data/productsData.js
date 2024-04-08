@@ -5070,8 +5070,10 @@ export const productsData = [
   {
     id: 274,
     category: "zapalniczki i popielniczki",
-    image: "",
-    slider_images: [""],
+    image: "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kwadrat.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kwadrat.jpg",
+    ],
     indeks_pc: "DK42-057S",
     identyfikator: "POPIELNICZKA METAL KWADRAT",
     opis: "Metalowa popielniczka w kształcie kwadratu. Na popielniczce umieszczona jest naklejka ze wzorem.",
@@ -5082,14 +5084,17 @@ export const productsData = [
     stan_magazynowy: 0,
     stan_optymalny: 10000,
     stan_zamowiony: 0,
-    wymiary: "",
+    wymiary: "11 cm x 9cm",
     nowosc: true,
   },
   {
     id: 275,
     category: "zapalniczki i popielniczki",
-    image: "",
-    slider_images: [""],
+    image:
+      "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_srednia.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_srednia.jpg",
+    ],
     indeks_pc: "DK42-057M",
     identyfikator: "POPIELNICZKA METAL KOŁO ŚREDNIA",
     opis: "Metalowa popielniczka w kształcie koła. Na popielniczce umieszczona jest naklejka ze wzorem.",
@@ -5100,14 +5105,17 @@ export const productsData = [
     stan_magazynowy: 0,
     stan_optymalny: 10000,
     stan_zamowiony: 0,
-    wymiary: "",
+    wymiary: "11 cm x 7.5cm",
     nowosc: true,
   },
   {
     id: 276,
     category: "zapalniczki i popielniczki",
-    image: "",
-    slider_images: [""],
+    image:
+      "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_duza.jpg",
+    slider_images: [
+      "/images/Zapalniczki_i_Popielniczki/popielniczka_metal_kolo_duza.jpg",
+    ],
     indeks_pc: "DK42-057L",
     identyfikator: "POPIELNICZKA METAL KOŁO DUŻA",
     opis: "Metalowa popielniczka w kształcie koła. Na popielniczce umieszczona jest naklejka ze wzorem.",
@@ -5118,7 +5126,7 @@ export const productsData = [
     stan_magazynowy: 0,
     stan_optymalny: 10000,
     stan_zamowiony: 0,
-    wymiary: "",
+    wymiary: "11 cm x 9cm",
     nowosc: true,
   },
   ///////// UPOMINKI BIZNESOWE //////////////
