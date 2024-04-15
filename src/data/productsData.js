@@ -5474,4 +5474,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 279
+/// 285
