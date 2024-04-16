@@ -2423,7 +2423,7 @@ export const productsData = [
     indeks_pc: "DK42-009A",
     identyfikator: "KORKOCIĄG DREWNO",
     opis: "Drewniany otwieracz do butelek posiadający korkociąg oraz ostrze. Na produkcie znakowanie wykonane laserowo. Produkt zapakowany w woreczek.",
-    cena: 7,
+    cena: 8,
     technologie: "3",
     ilość_opakowanie: "",
     ilość_karton: "",
