@@ -176,7 +176,8 @@ const handlowcy = () => {
           </p>
           <p className={classes.icon__container}>
             <Icon icon="ph:globe" className={classes.icon} />
-            Region: woj. łódzkie, woj. śląskie, woj. małopolskie
+            Region: woj. łódzkie, woj. śląskie, woj. małopolskie, woj. lubuskie,
+            woj. dolnośląskie, woj. opolskie
           </p>
         </div>
       </div>
