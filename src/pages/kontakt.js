@@ -25,8 +25,9 @@ const kontakt = () => {
               <strong>e-mail : </strong>
               hurtownia@rezon.eu
               <br></br>
-              <br></br>Hurtownia czynna jest od poniedziałku do piątku w godz.
-              od 7:00 do 15:00
+              <br></br>Hurtownia czynna jest od:<br></br>
+              Poniedziałku do Piątku: 7:00 - 16:00
+              <br></br> Sobota: 8:00 - 13:00
             </p>
           </div>
           <GoogleMap />
