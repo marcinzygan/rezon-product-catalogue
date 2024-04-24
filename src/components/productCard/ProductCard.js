@@ -137,24 +137,24 @@ const ProductCard = (card) => {
             }
           >
             {!card.image ? (
-              <Image
-                fill
+              <img
+                // fill
                 className={classes.img}
                 src={"/images/brak_zdjecia.jpg"}
                 alt={card.identyfikator}
-                sizes="(max-width: 768px) 200vw,
-            (max-width: 1200px) 50vw,
-            33vw"
+                //     sizes="(max-width: 768px) 200vw,
+                // (max-width: 1200px) 50vw,
+                // 33vw"
               />
             ) : (
-              <Image
-                fill
+              <img
+                // fill
                 className={classes.img}
                 src={card.image}
                 alt={card.identyfikator}
-                sizes="(max-width: 768px) 200vw,
-          (max-width: 1200px) 50vw,
-          33vw"
+                //       sizes="(max-width: 768px) 200vw,
+                // (max-width: 1200px) 50vw,
+                // 33vw"
               />
             )}
             {/* <Image
