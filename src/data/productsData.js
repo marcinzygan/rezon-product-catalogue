@@ -3998,6 +3998,30 @@ export const productsData = [
     stan_zamowiony: 0,
     wymiary: "30,50 cm x 30,50 cm",
   },
+  {
+    id: 292,
+    category: "tekstylia",
+    image: "/images/Tekstylia/worek1.jpg",
+    slider_images: [
+      "/images/Tekstylia/worek1.jpg",
+      "/images/Tekstylia/worek2.jpg",
+      "/images/Tekstylia/worek3.jpg",
+      "/images/Tekstylia/worek4.jpg",
+      "/images/Tekstylia/worek5.jpg",
+      "/images/Tekstylia/worek6.jpg",
+    ],
+    indeks_pc: "DK39-WOREK2",
+    identyfikator: "WOREK SPORTOWY",
+    opis: "Worek został wykonany w całości z wysokiej jakości poliestru, który jest wytrzymały i odporny na zużycie. Na worku umieszczamy grafikę metodą sublimacji cieplnej. Produkt dostępny w wielu wariantach kolorystycznych.",
+    cena: 7.5,
+    technologie: "8",
+    ilość_opakowanie: "",
+    ilość_karton: "",
+    stan_magazynowy: null,
+    stan_optymalny: null,
+    stan_zamowiony: 0,
+    wymiary: "34 cm x 41 cm",
+  },
   ////////// OZDOBY DOMOWE //////////////
   {
     id: "K-09",
@@ -5582,4 +5606,4 @@ export const productsData = [
     wymiary: "50 cm x 10 cm",
   },
 ];
-/// 291
+/// 292
