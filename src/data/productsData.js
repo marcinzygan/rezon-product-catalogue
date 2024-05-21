@@ -3869,7 +3869,7 @@ export const productsData = [
     zestaw: true,
     stojak: true,
     opis_zestaw:
-      "mix 168 grafik po 3 pary / (14 Serii Tematycznych - 1 Seria to 12 różnych sztuk)",
+      "mix 168 grafik po 3 pary / (15 Serii Tematycznych - 1 Seria to 12 różnych sztuk)",
     zestaw_total: 504,
     cena_zestaw: 2772,
     katalog: "/katalogi/katalog_skarpety_hasła.pdf",
