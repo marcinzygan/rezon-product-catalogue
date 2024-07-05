@@ -2670,7 +2670,7 @@ export const productsData = [
     indeks_pc: "DK37-001A",
     identyfikator: "KUBEK CERAMICZNY WIELOKOLOROWY",
     opis: "Kubek ceramiczny z wygrawerowanym metodą laserową nazwą miejscowości lub hasłem. Produkt dostępny w 6 kolorach: jasno fioletowy - niebieski, ciemno fioletowy - różowy, czarno - czerwony, czarno - ciemno niebieski, jasno niebieski - czerwony, czarno - grafitowo szary. Kolor graweru: biały.",
-    cena: 12,
+    cena: 10,
     zestaw: true,
     stojak: true,
     opis_zestaw: "Kubki ceramiczne do wyboru mix haseł i kolorów",
