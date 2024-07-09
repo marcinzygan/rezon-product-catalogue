@@ -1,14 +1,23 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { productsData } from "../data/productsData.js";
 
 const initialState = {
   searchInput: { search: "" },
-  originalSearchProducts: productsData,
-  searchDataProducts: productsData,
+  originalSearchProducts: [],
+  searchDataProducts: [],
   displaySearchProducts: [],
   isSearchActive: false,
 };
-
+export const fetchProductsData = createAsyncThunk(
+  "serch/fetchProductsData",
+  async () => {
+    const response = await fetch(
+      "https://rezon-api.vercel.app/api/v1/products"
+    );
+    const jsonData = await response.json();
+    return jsonData;
+  }
+);
 const productSearchSlice = createSlice({
   name: "search",
   initialState,
@@ -47,6 +56,20 @@ const productSearchSlice = createSlice({
       // console.log(displaySearch);
       state.displaySearchProducts = displaySearch;
     },
+  },
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchProductsData.pending, (state) => {
+        state.loading = true;
+      })
+      .addCase(fetchProductsData.fulfilled, (state, action) => {
+        state.originalSearchProducts = action.payload.data.products;
+        state.searchDataProducts = action.payload.data.products;
+      })
+      .addCase(fetchProductsData.rejected, (state, action) => {
+        state.loading = false;
+        state.error = action.error.message;
+      });
   },
 });
 

@@ -14,6 +14,7 @@ const SearchBar = () => {
   const searchInput = useSelector((state) => state.search.searchInput);
   // Get state for all Products
   const productCards = useSelector((state) => state.data.productCards);
+
   // FUNCTION TO SEARCH
   const getSearch = function (event) {
     event.preventDefault();
@@ -25,7 +26,7 @@ const SearchBar = () => {
     // console.log(searchInput.search);
     dispatch(clearInput());
     window.scrollTo(0, 0);
-    event.target[0].blur();
+    // event.target[0].blur();
   };
 
   //   Function to handle input change that is getting event
