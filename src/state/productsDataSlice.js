@@ -14,16 +14,11 @@ const initialState = {
       : [],
 };
 
-export const fetchUserData = createAsyncThunk(
-  "data/fetchUserData",
-  async () => {
-    const response = await fetch(
-      "https://rezon-api.vercel.app/api/v1/products"
-    );
-    const jsonData = await response.json();
-    return jsonData;
-  }
-);
+export const fetchData = createAsyncThunk("data/fetchData", async () => {
+  const response = await fetch("https://rezon-api.vercel.app/api/v1/products");
+  const jsonData = await response.json();
+  return jsonData;
+});
 
 const productsDataSlice = createSlice({
   name: "data",
@@ -108,15 +103,15 @@ const productsDataSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      .addCase(fetchUserData.pending, (state) => {
+      .addCase(fetchData.pending, (state) => {
         state.loading = true;
       })
-      .addCase(fetchUserData.fulfilled, (state, action) => {
+      .addCase(fetchData.fulfilled, (state, action) => {
         state.loading = false;
         state.originalData = action.payload.data.products;
         state.productCards = action.payload.data.products;
       })
-      .addCase(fetchUserData.rejected, (state, action) => {
+      .addCase(fetchData.rejected, (state, action) => {
         state.loading = false;
         state.error = action.error.message;
       });
