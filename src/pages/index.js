@@ -6,7 +6,7 @@ import ProductCard from "@/components/productCard/ProductCard";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
-import { setData, fetchUserData } from "@/state/productsDataSlice";
+import { setData, fetchData } from "@/state/productsDataSlice";
 import { fetchProductsData } from "@/state/productSearchSlice";
 import FavoritesModal from "@/components/FavoritesModal/FavoritesModal";
 
@@ -34,7 +34,7 @@ export default function Home() {
   if (typeof window !== "undefined") {
     React.useEffect(() => {
       dispatch(setData());
-      dispatch(fetchUserData());
+      dispatch(fetchData());
       dispatch(fetchProductsData());
     }, [dispatch]);
   }
