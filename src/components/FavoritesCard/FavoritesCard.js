@@ -27,22 +27,22 @@ const ProductCard = (card) => {
   // add favorites action
   function addFavAction(card) {
     return (dispatch) => {
-      dispatch(setFavId(card.id));
-      dispatch(addToFavorites(card.id));
+      dispatch(setFavId(card._id));
+      dispatch(addToFavorites(card._id));
     };
   }
   // remove favorites action
   function removeFavAction(card) {
     return (dispatch) => {
-      dispatch(removeFavId(card.id));
-      dispatch(removeFromFavorites(card.id));
+      dispatch(removeFavId(card._id));
+      dispatch(removeFromFavorites(card._id));
     };
   }
   //function for High storage levels
   function highQuantity() {
     if (
-      card.stan_magazynowy >= card.stan_optymalny ||
-      card.stan_magazynowy >= (card.stan_optymalny * 80) / 100
+      card.stock >= card.stock_optimal ||
+      card.stock >= (card.stock_optimal * 80) / 100
     ) {
       return (
         <img
@@ -56,8 +56,8 @@ const ProductCard = (card) => {
   // function for Mid storage levels
   function midQuantity() {
     if (
-      card.stan_magazynowy < (card.stan_optymalny * 80) / 100 &&
-      card.stan_magazynowy >= (card.stan_optymalny * 50) / 100
+      card.stock < (card.stock_optimal * 80) / 100 &&
+      card.stock >= (card.stock_optimal * 50) / 100
     ) {
       return (
         <img
@@ -69,19 +69,19 @@ const ProductCard = (card) => {
     return null;
   }
   function noQuantity() {
-    if (card.stan_magazynowy === null) {
+    if (card.stock === null) {
       return <></>;
     }
   }
   // function for low storage levels
   function lowQuantity() {
-    if (card.stan_magazynowy === 0) {
+    if (card.stock === 0) {
       return (
         <div className={classes.dostepnosc}>
           <div className={classes.brak__produktu}>BRAK PRODUKTU</div>
         </div>
       );
-    } else if (card.stan_magazynowy < (card.stan_optymalny * 50) / 100) {
+    } else if (card.stock < (card.stock_optimal * 50) / 100) {
       return (
         <img
           src="/images/mala_dostepnosc.svg"
@@ -112,15 +112,15 @@ const ProductCard = (card) => {
           {/* PRODUKT STAN MAGAZYNOWY */}
           {/* brak danych */}
           {noQuantity()}
-          {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
+          {/* produkt dostepny . >= od stock_optimal  lub wiekszy od 80% stanu optymalnego*/}
           {highQuantity()}
-          {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
+          {/* Srednia dostepnosc produktu. stock  < 80% && >= 50%  stock_optimal   */}
           {midQuantity()}
-          {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
+          {/* Mala dostepnosc produktu. stock  < 50% stock_optimal  */}
           {lowQuantity()}
           <div
             className={
-              card.stan_magazynowy === 0
+              card.stock === 0
                 ? classes.img__wrapper + " " + classes.brak__produktu_img
                 : classes.img__wrapper
             }
@@ -128,8 +128,8 @@ const ProductCard = (card) => {
             <Image
               fill
               className={classes.img}
-              src={card.image}
-              alt={card.identyfikator}
+              src={card.imageCover}
+              alt={card.name}
               sizes="(max-width: 768px) 200vw,
               (max-width: 1200px) 50vw,
               33vw"
@@ -144,9 +144,9 @@ const ProductCard = (card) => {
           </div>
         </div>
         <div className={classes.card__details}>
-          <div className={classes.card__name}>{card.identyfikator}</div>
+          <div className={classes.card__name}>{card.name}</div>
 
-          {!favId.includes(card.id) ? (
+          {!favId.includes(card._id) ? (
             <Icon
               icon="fa6-solid:heart-circle-plus"
               className={classes.icon}
@@ -166,7 +166,7 @@ const ProductCard = (card) => {
         >
           <div>
             <span className={classes.card__details_span}> Kod: </span>
-            {card.indeks_pc}{" "}
+            {card.pc_id}{" "}
           </div>
         </div>
       </div>

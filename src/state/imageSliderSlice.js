@@ -13,7 +13,7 @@ const imageSliderSlice = createSlice({
   initialState,
   reducers: {
     openSlider: (state, data) => {
-      state.sliderLength = data.payload.slider_images.length;
+      state.sliderLength = data.payload.images.length;
     },
     closeSlider: (state) => {
       state.sliderLength = 0;

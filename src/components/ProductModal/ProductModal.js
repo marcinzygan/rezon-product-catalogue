@@ -31,15 +31,13 @@ const ProductModal = () => {
     };
   }, [router]);
   // FUNCTION TO CHECK ALL STORAGE LEVELS
-  function checkQuantity(stan_magazynowy) {
+  function checkQuantity(stock) {
     // check for HighQuantity
     if (
-      (stan_magazynowy !== 0 &&
-        stan_magazynowy !== null &&
-        stan_magazynowy >= modalData.stan_optymalny) ||
-      (stan_magazynowy !== 0 &&
-        stan_magazynowy !== null &&
-        stan_magazynowy >= (modalData.stan_optymalny * 80) / 100)
+      (stock !== 0 && stock !== null && stock >= modalData.stock_optimal) ||
+      (stock !== 0 &&
+        stock !== null &&
+        stock >= (modalData.stock_optimal * 80) / 100)
     ) {
       return (
         <img
@@ -49,8 +47,8 @@ const ProductModal = () => {
       );
       // check for MidQuantity
     } else if (
-      stan_magazynowy < (modalData.stan_optymalny * 80) / 100 &&
-      stan_magazynowy >= (modalData.stan_optymalny * 50) / 100
+      stock < (modalData.stock_optimal * 80) / 100 &&
+      stock >= (modalData.stock_optimal * 50) / 100
     ) {
       return (
         <img
@@ -59,10 +57,7 @@ const ProductModal = () => {
         ></img>
       );
       // check for LowQuantity
-    } else if (
-      stan_magazynowy < (modalData.stan_optymalny * 50) / 100 &&
-      stan_magazynowy !== 0
-    ) {
+    } else if (stock < (modalData.stock_optimal * 50) / 100 && stock !== 0) {
       return (
         <img
           src="/images/mala_dostepnosc.svg"
@@ -70,7 +65,7 @@ const ProductModal = () => {
         ></img>
       );
       //check for noQuantity
-    } else if (stan_magazynowy === 0) {
+    } else if (stock === 0) {
       return (
         <img
           src="/images/brak_dostepnosci.svg"
@@ -96,65 +91,69 @@ const ProductModal = () => {
         <div className={classes.modal__info_container}>
           {/* Product Name */}
           <div className={classes.modal__name}>
-            {modalData.identyfikator}{" "}
+            {modalData.name}{" "}
             <div className={classes.favorite__icon_container}></div>
           </div>
           {/* Product code */}
           <div className={classes.modal__kod}>
             Kod Produktu:{" "}
-            <span className={classes.modal__span}>{modalData.indeks_pc}</span>
+            <span className={classes.modal__span}>{modalData.pc_id}</span>
           </div>
           {/* Product price */}
           <div className={classes.cena}>
             Cena brutto:{" "}
             <span className={classes.modal__span}>
-              {modalData.cena} zł / sztukę
+              {modalData.price} zł / sztukę
             </span>
           </div>
-          {typeof modalData.cena === "string" ? (
+          {typeof modalData.price === "string" ? (
             ""
           ) : (
             <div className={classes.cena}>
               Cena netto:{" "}
               <span className={classes.modal__span}>
-                {(modalData.cena / 1.23).toFixed(2)} zł / sztukę
+                {(modalData.price / 1.23).toFixed(2)} zł / sztukę
               </span>
             </div>
           )}
           {/* STAN MAGAZYNOWY PRODUKTU  */}
-          {modalData.stan_magazynowy >= 0 && (
+          {modalData.stock >= 0 && (
             <div className={classes.stan__display}>
-              {checkQuantity(modalData.stan_magazynowy)}
+              {checkQuantity(modalData.stock)}
             </div>
           )}
           {/* PRODUCT TXT */}
-          <div className={classes.modal__opis}>{modalData.opis}</div>{" "}
+          <div className={classes.modal__opis}>
+            {modalData.description}
+          </div>{" "}
           {/* CHECK IF PRODUCT IS SOLD IN SET */}
-          {modalData.zestaw && (
+          {modalData.compilation && (
             <>
               <div className={classes.modal__opis}>
                 <p className={classes.zestaw__opis_span}>
                   Produkt dostępny również w zestawie :
                 </p>{" "}
-                {modalData.opis_zestaw}{" "}
-                {modalData.opis_zestaw_2 && <p>{modalData.opis_zestaw_2}</p>}
+                {modalData.compilation_description}{" "}
+                {modalData.compilation_description_2 && (
+                  <p>{modalData.opis_zestaw_2}</p>
+                )}
                 <p className={classes.cena + " " + classes.zestaw_total_cena}>
                   {"Razem :" + " "}
                   <span className={classes.modal__span}>
-                    {modalData.zestaw_total} sztuk.
+                    {modalData.compilation_quantityTotal} sztuk.
                   </span>
                 </p>
                 {modalData.zestaw && (
                   <div className={classes.cena}>
                     Cena za zestaw:{" "}
                     <span className={classes.modal__span}>
-                      {modalData.cena_zestaw} zł brutto .
+                      {modalData.compilation_price} zł brutto .
                     </span>
                   </div>
                 )}
               </div>
 
-              {modalData.stojak === true && (
+              {modalData.stand === true && (
                 <>
                   <p className={classes.ekspozytor + " " + classes.modal__opis}>
                     Do zestawu dołączamy stojak / ekspozytor.
@@ -176,11 +175,11 @@ const ProductModal = () => {
               )}
             </>
           )}{" "}
-          {modalData.katalog && (
+          {modalData.catalogue && (
             <div className={classes.forms}>
               Katalog Dostępnych Wzorów{" "}
               <a
-                href={modalData.katalog}
+                href={modalData.catalogue}
                 target="_blank"
                 className={classes.form__link}
               >
@@ -188,7 +187,7 @@ const ProductModal = () => {
               </a>
             </div>
           )}
-          {modalData.formularz && (
+          {modalData.form && (
             <div className={classes.forms}>
               Formularz Zamówień Dostępny{" "}
               <a
@@ -206,7 +205,7 @@ const ProductModal = () => {
 
         <div className={classes.slider__container}>
           {/* IF storage lvl of product === 0 display overlay on image  */}
-          {modalData.stan_magazynowy === 0 && (
+          {modalData.stock === 0 && (
             <div className={classes.brak__produktu}>BRAK PRODUKTU</div>
           )}
           {/* IF there is any images in data display slider  */}
@@ -214,19 +213,17 @@ const ProductModal = () => {
             // display noProduct class if storage lvl === 0
             <div
               className={
-                modalData.stan_magazynowy === 0
-                  ? classes.noProduct__overlay
-                  : ""
+                modalData.stock === 0 ? classes.noProduct__overlay : ""
               }
             >
               {" "}
-              <ImageSlider images={modalData.slider_images} />
+              <ImageSlider images={modalData.images} />
             </div>
           )}
 
           <div className={classes.modal__wymiary}>
             Wymiary:{" "}
-            <span className={classes.modal__span}>{modalData.wymiary}</span>
+            <span className={classes.modal__span}>{modalData.dimensions}</span>
           </div>
         </div>
       </div>
@@ -236,7 +233,7 @@ const ProductModal = () => {
         <p className={classes.technologie}>technologie:</p>
         <div className={classes.technologie__container}>
           {/* TECHNOLOGIA 1 */}
-          {modalData.technologie === "1" && (
+          {modalData.technology === 1 && (
             <>
               <img
                 className={classes.tech__img}
@@ -253,7 +250,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 2 */}
-          {modalData.technologie === "2" && (
+          {modalData.technology === 2 && (
             <>
               <img
                 className={classes.tech__img}
@@ -270,7 +267,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 2.1 */}
-          {modalData.technologie === "2.1" && (
+          {modalData.technology === 2.1 && (
             <>
               <img
                 className={classes.tech__img}
@@ -283,7 +280,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 3 */}
-          {modalData.technologie === "3" && (
+          {modalData.technology === 3 && (
             <>
               <img
                 className={classes.tech__img}
@@ -300,7 +297,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 4 */}
-          {modalData.technologie === "4" && (
+          {modalData.technology === 4 && (
             <>
               <img
                 className={classes.tech__img}
@@ -317,7 +314,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 5 */}
-          {modalData.technologie === "5" && (
+          {modalData.technology === 5 && (
             <>
               <img
                 className={classes.tech__img}
@@ -338,7 +335,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 6 */}
-          {modalData.technologie === "6" && (
+          {modalData.technology === 6 && (
             <>
               <img
                 className={classes.tech__img}
@@ -351,7 +348,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 7  */}
-          {modalData.technologie === "7" && (
+          {modalData.technology === 7 && (
             <div className={classes.technologie__container}>
               <img
                 className={classes.tech__img}
@@ -372,7 +369,7 @@ const ProductModal = () => {
             </div>
           )}
           {/* TECHNOLOGIA 8 */}
-          {modalData.technologie === "8" && (
+          {modalData.technology === 8 && (
             <>
               <img
                 className={classes.tech__img}
@@ -393,7 +390,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 10 */}
-          {modalData.technologie === "10" && (
+          {modalData.technology === 10 && (
             <>
               <img
                 className={classes.tech__img}
@@ -410,7 +407,7 @@ const ProductModal = () => {
             </>
           )}
           {/* TECHNOLOGIA 11 */}
-          {modalData.technologie === "11" && (
+          {modalData.technology === 11 && (
             <>
               <img
                 className={classes.tech__img}
@@ -423,6 +420,7 @@ const ProductModal = () => {
               ></img>
             </>
           )}
+          {/* TO DO */}
           {/* CHECK FOR PLOMIEN PROPERTIES */}
           {modalData.plomien === "1" && (
             <img
@@ -449,14 +447,14 @@ const ProductModal = () => {
             ></img>
           )}
           {/* CHECK FOR CUSTOM SIZE*/}
-          {modalData.dowolny_ksztalt === true && (
+          {modalData.custom_shape === true && (
             <img
               className={classes.tech__img}
               src="/images/Technologie/dowolny.webp"
             ></img>
           )}
           {/* CHECK IF PRODUCT GETS STAND (STOJAK , EKSPOZYTOR)*/}
-          {modalData.stojak === true && (
+          {modalData.stand === true && (
             <img
               className={classes.tech__img}
               src="/images/Technologie/zestaw.webp"
@@ -468,7 +466,8 @@ const ProductModal = () => {
         {/* DODATKOWE STANY MAGAZYNOWE  */}
         {/* MAGNES OTWIERACZ BUTELKA*/}
         {/* malibu */}
-        {modalData.stan_malibu >= 0 && (
+        {/* TO DO */}
+        {modalData.stock_additional >= 0 && (
           <div className={classes.stan__display}>
             <img
               src="/images/Otwieracze/MAGNES_OTWIERACZ_BUTELKA/rum_biały.jpg"

@@ -6,7 +6,8 @@ import ProductCard from "@/components/productCard/ProductCard";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
-import { setData } from "@/state/productsDataSlice";
+import { setData, fetchUserData } from "@/state/productsDataSlice";
+import { fetchProductsData } from "@/state/productSearchSlice";
 import FavoritesModal from "@/components/FavoritesModal/FavoritesModal";
 
 export default function Home() {
@@ -33,6 +34,8 @@ export default function Home() {
   if (typeof window !== "undefined") {
     React.useEffect(() => {
       dispatch(setData());
+      dispatch(fetchUserData());
+      dispatch(fetchProductsData());
     }, [dispatch]);
   }
 
@@ -46,18 +49,18 @@ export default function Home() {
   // DISPLAY ALL PRODUCTS
   const allProducts = productCards.map((card) => {
     if (card.displayCategory === true) {
-      return <CategoryCard key={card.id} category={card.category} />;
+      return <CategoryCard key={card._id} category={card.category} />;
     } else {
-      return <ProductCard key={card.id} {...card} />;
+      return <ProductCard key={card._id} {...card} />;
     }
   });
 
   // DISPLAY FILTER BY SEARCH PRODUCTS
   const searchProducts = displaySearchProducts.map((card) => {
     if (card.displayCategory === true) {
-      return <CategoryCard key={card.id} category={card.category} />;
+      return <CategoryCard key={card._id} category={card.category} />;
     } else {
-      return <ProductCard key={card.id} {...card} />;
+      return <ProductCard key={card._id} {...card} />;
     }
   });
 

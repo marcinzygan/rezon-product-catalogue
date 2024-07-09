@@ -32,7 +32,7 @@ const FavoritesModal = () => {
 
             <div className={classes.favorites__container}>
               {modalFavorites.map((item) => (
-                <FavoritesCard key={item.id} {...item} />
+                <FavoritesCard key={item._id} {...item} />
               ))}
             </div>
             <Icon
