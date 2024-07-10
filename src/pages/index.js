@@ -6,19 +6,28 @@ import ProductCard from "@/components/productCard/ProductCard";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
-import { setData, fetchData } from "@/state/productsDataSlice";
+import { setData, fetchData, fetchCategories } from "@/state/productsDataSlice";
 import { fetchProductsData } from "@/state/productSearchSlice";
 import FavoritesModal from "@/components/FavoritesModal/FavoritesModal";
+import Loading from "@/components/Loading/Loading";
 
 export default function Home() {
   const dispatch = useDispatch();
+
+  const productCards = useSelector((state) => state.data.productCards);
+  const categories = useSelector((state) => state.data.categories);
+  const loading = useSelector((state) => state.data.loading);
+  const displaySearchProducts = useSelector(
+    (state) => state.search.displaySearchProducts
+  );
+  const isSearchActive = useSelector((state) => state.search.isSearchActive);
 
   // USE EFFECT TO FETCH LOCAL STORAGE
   if (typeof window !== "undefined") {
     React.useEffect(() => {
       try {
         const favorites = JSON.parse(localStorage.getItem("Favorites")) || [];
-        // console.log(favorites);
+
         dispatch(setFavProducts(favorites));
       } catch (e) {}
     }, [dispatch]);
@@ -33,33 +42,36 @@ export default function Home() {
   }
   if (typeof window !== "undefined") {
     React.useEffect(() => {
-      dispatch(setData());
-      dispatch(fetchData());
-      dispatch(fetchProductsData());
+      try {
+        dispatch(fetchCategories());
+        dispatch(fetchProductsData());
+        dispatch(setData());
+        dispatch(fetchData());
+      } catch (error) {
+        console.log(error);
+      }
     }, [dispatch]);
   }
 
-  //
-  const productCards = useSelector((state) => state.data.productCards);
-  const displaySearchProducts = useSelector(
-    (state) => state.search.displaySearchProducts
-  );
-  const isSearchActive = useSelector((state) => state.search.isSearchActive);
-
   // DISPLAY ALL PRODUCTS
   const allProducts = productCards.map((card) => {
+    // DISPLAY CATEGORIES
     if (card.displayCategory === true) {
       return <CategoryCard key={card._id} category={card.category} />;
-    } else {
+    }
+    // DISPLAY PRODUCTS
+    if (card.active === true) {
       return <ProductCard key={card._id} {...card} />;
     }
   });
 
   // DISPLAY FILTER BY SEARCH PRODUCTS
   const searchProducts = displaySearchProducts.map((card) => {
-    if (card.displayCategory === true) {
-      return <CategoryCard key={card._id} category={card.category} />;
-    } else {
+    // if (card.displayCategory === true) {
+    //   return <CategoryCard key={card._id} category={card.category} />;
+    // }
+
+    if (card.active === true) {
       return <ProductCard key={card._id} {...card} />;
     }
   });
@@ -78,10 +90,13 @@ export default function Home() {
         />
       </Head>
       <SearchNavigation />
-
-      <main className={classes.cards__container} id="cards">
-        {isSearchActive ? searchProducts : allProducts}
-      </main>
+      {loading ? (
+        <Loading message={"Ładuje Dane"} />
+      ) : (
+        <main className={classes.cards__container} id="cards">
+          {isSearchActive ? searchProducts : allProducts}
+        </main>
+      )}
 
       {/* <PaginationMenu numberOfPages={numberOfPages} /> */}
 

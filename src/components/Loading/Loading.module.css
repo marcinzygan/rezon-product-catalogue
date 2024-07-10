@@ -1,0 +1,14 @@
+.wrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.message {
+  padding-top: 4rem;
+  font-size: var(--fs-h1);
+  color: var(--clr-black);
+  font-family: var(--ff-heading);
+}
