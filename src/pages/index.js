@@ -6,16 +6,16 @@ import ProductCard from "@/components/productCard/ProductCard";
 import CategoryCard from "@/components/CategoryCard/CategoryCard";
 import ProductModal from "@/components/ProductModal/ProductModal";
 import SearchNavigation from "@/components/SearchNavigation/SearchNavigation";
-import { setData, fetchData, fetchCategories } from "@/state/productsDataSlice";
-import { fetchProductsData } from "@/state/productSearchSlice";
+import { setFavoritesData, fetchData } from "@/state/productsDataSlice";
+import { fetchSearchData } from "@/state/productSearchSlice";
 import FavoritesModal from "@/components/FavoritesModal/FavoritesModal";
 import Loading from "@/components/Loading/Loading";
 
 export default function Home() {
   const dispatch = useDispatch();
 
+  // State
   const productCards = useSelector((state) => state.data.productCards);
-  const categories = useSelector((state) => state.data.categories);
   const loading = useSelector((state) => state.data.loading);
   const displaySearchProducts = useSelector(
     (state) => state.search.displaySearchProducts
@@ -43,10 +43,9 @@ export default function Home() {
   if (typeof window !== "undefined") {
     React.useEffect(() => {
       try {
-        dispatch(fetchCategories());
-        dispatch(fetchProductsData());
-        dispatch(setData());
+        dispatch(setFavoritesData());
         dispatch(fetchData());
+        dispatch(fetchSearchData());
       } catch (error) {
         console.log(error);
       }
@@ -67,10 +66,6 @@ export default function Home() {
 
   // DISPLAY FILTER BY SEARCH PRODUCTS
   const searchProducts = displaySearchProducts.map((card) => {
-    // if (card.displayCategory === true) {
-    //   return <CategoryCard key={card._id} category={card.category} />;
-    // }
-
     if (card.active === true) {
       return <ProductCard key={card._id} {...card} />;
     }

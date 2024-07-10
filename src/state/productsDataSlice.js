@@ -1,11 +1,8 @@
-import { createAsyncThunk, createSlice, current } from "@reduxjs/toolkit";
-// import { productsData } from "../data/productsData.js";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  data: [],
   originalData: [],
   productCards: [],
-  categories: [],
   numberOfFavorites: 0,
   favId: [],
   isSSR: true,
@@ -20,16 +17,6 @@ export const fetchData = createAsyncThunk("data/fetchData", async () => {
   const jsonData = await response.json();
   return jsonData;
 });
-export const fetchCategories = createAsyncThunk(
-  "data/fetchCategories",
-  async () => {
-    const response = await fetch(
-      "https://rezon-api.vercel.app/api/v1/products/categories"
-    );
-    const jsonData = await response.json();
-    return jsonData;
-  }
-);
 
 const productsDataSlice = createSlice({
   name: "data",
@@ -89,9 +76,7 @@ const productsDataSlice = createSlice({
       state.favId.push(data.payload);
     },
     //SET DATA ON APP LOAD
-    setData: (state, data) => {
-      // Update isFav property on productCards
-
+    setFavoritesData: (state) => {
       //Check if there is any Favourites products and update the isFav to true
       const findFavState = state.originalData.map((item) =>
         state.favoriteProducts.find((card) => card._id === item._id)
@@ -109,7 +94,7 @@ const productsDataSlice = createSlice({
       state.numberOfFavorites = state.favoriteProducts.length;
     },
 
-    setIsSSR: (state, data) => {
+    setIsSSR: (state) => {
       state.isSSR = false;
     },
   },
@@ -127,14 +112,6 @@ const productsDataSlice = createSlice({
         state.loading = false;
         state.error = action.error.message;
       });
-
-    builder
-      .addCase(fetchCategories.fulfilled, (state, action) => {
-        state.categories = action.payload.data.categories;
-      })
-      .addCase(fetchCategories.rejected, (state, action) => {
-        state.error = action.error.message;
-      });
   },
 });
 export const {
@@ -142,10 +119,9 @@ export const {
   addToFavorites,
   removeFromFavorites,
   setFavProducts,
-  setData,
+  setFavoritesData,
   setFavId,
   removeFavId,
   setIsSSR,
-  setFirstItemsOfCategory,
 } = productsDataSlice.actions;
 export default productsDataSlice.reducer;
