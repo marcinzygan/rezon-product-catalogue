@@ -1,8 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-// import { productsData } from "../data/productsData.js";
 
 const initialState = {
-  data: [],
   originalData: [],
   productCards: [],
   numberOfFavorites: 0,
@@ -78,9 +76,7 @@ const productsDataSlice = createSlice({
       state.favId.push(data.payload);
     },
     //SET DATA ON APP LOAD
-    setData: (state, data) => {
-      // Update isFav property on productCards
-
+    setFavoritesData: (state) => {
       //Check if there is any Favourites products and update the isFav to true
       const findFavState = state.originalData.map((item) =>
         state.favoriteProducts.find((card) => card._id === item._id)
@@ -97,7 +93,8 @@ const productsDataSlice = createSlice({
       //set Num of Favorites
       state.numberOfFavorites = state.favoriteProducts.length;
     },
-    setIsSSR: (state, data) => {
+
+    setIsSSR: (state) => {
       state.isSSR = false;
     },
   },
@@ -122,7 +119,7 @@ export const {
   addToFavorites,
   removeFromFavorites,
   setFavProducts,
-  setData,
+  setFavoritesData,
   setFavId,
   removeFavId,
   setIsSSR,

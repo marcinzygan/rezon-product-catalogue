@@ -8,7 +8,7 @@ const initialState = {
   displaySearchProducts: [],
   isSearchActive: false,
 };
-export const fetchProductsData = createAsyncThunk(
+export const fetchSearchData = createAsyncThunk(
   "serch/fetchProductsData",
   async () => {
     const response = await fetch(
@@ -30,13 +30,13 @@ const productSearchSlice = createSlice({
       state.searchInput = { ...state.searchInput, [name]: value };
       // console.log(state.searchInput);
     },
-    clearInput: (state, data) => {
+    clearInput: (state) => {
       state.searchInput.search = "";
     },
-    setIsSearchActive: (state, data) => {
+    setIsSearchActive: (state) => {
       state.isSearchActive = false;
     },
-    filterSearch: (state, data) => {
+    filterSearch: (state) => {
       // console.log(searchData);
 
       function filterByValue(array, string) {
@@ -59,14 +59,14 @@ const productSearchSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder
-      .addCase(fetchProductsData.pending, (state) => {
+      .addCase(fetchSearchData.pending, (state) => {
         state.loading = true;
       })
-      .addCase(fetchProductsData.fulfilled, (state, action) => {
+      .addCase(fetchSearchData.fulfilled, (state, action) => {
         state.originalSearchProducts = action.payload.data.products;
         state.searchDataProducts = action.payload.data.products;
       })
-      .addCase(fetchProductsData.rejected, (state, action) => {
+      .addCase(fetchSearchData.rejected, (state, action) => {
         state.loading = false;
         state.error = action.error.message;
       });

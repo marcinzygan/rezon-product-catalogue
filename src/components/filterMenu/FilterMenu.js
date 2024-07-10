@@ -33,23 +33,23 @@ const FilterMenu = () => {
           Wybierz Kategorię
         </option>
         <option value="wszystkie">Wszystkie</option>
-        <option value="magnesy">Magnesy</option>
-        <option value="breloki">Breloki</option>
-        <option value="otwieracze">Otwieracze</option>
-        <option value="kubki i podkładki">Kubki i Podkładki</option>
-        <option value="długopisy">Długopisy</option>
-        <option value="czapki i nakrycia głowy">Czapki i Nakrycia głowy</option>
+        <option value="akcesoria podrozne">Akcesoria Podrozne</option>
         <option value="bransoletki">Bransoletki</option>
+        <option value="breloki">Breloki</option>
+        <option value="czapki i nakrycia głowy">Czapki i Nakrycia głowy</option>
+        <option value="do auta">Do Auta</option>
+        <option value="dziecięce">Dziecięce</option>
+        <option value="długopisy">Długopisy</option>
+        <option value="kubki i podkładki">Kubki i Podkładki</option>
+        <option value="magnesy">Magnesy</option>
+        <option value="otwieracze">Otwieracze</option>
         <option value="tekstylia">Tekstylia</option>
         <option value="ozdoby domowe">Ozdoby Domowe</option>
-        <option value="akcesoria podrozne">Akcesoria Podrozne</option>
-        <option value="dziecięce">Dziecięce</option>
-        <option value="do auta">Do Auta</option>
+        <option value="upominki biznesowe">Upominki Biznesowe</option>
+        {/* <option value="sublimacja">Sublimacja</option> */}{" "}
         <option value="zapalniczki i popielniczki">
           Zapalniczki i Popielniczki
         </option>
-        <option value="upominki biznesowe">Upominki Biznesowe</option>
-        {/* <option value="sublimacja">Sublimacja</option> */}
         <option value="zestawy">Zestawy</option>
       </select>
     </div>
