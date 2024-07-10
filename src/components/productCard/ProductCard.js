@@ -113,7 +113,7 @@ const ProductCard = (card) => {
           onClick={() => dispatch(openModalAction(card))}
         >
           {/* STORAGE LEVELS */} {/* PRODUKT NOWOSC */}
-          {card.nowosc === true && (
+          {card.new === true && (
             <img
               className={classes.nowosc}
               src="/images/nowosc.png"
