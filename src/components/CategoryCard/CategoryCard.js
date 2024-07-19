@@ -77,7 +77,7 @@ const CategoryCard = (props) => {
         ></img>
       )}
       {/* Akcesoria Podróżne */}
-      {props.category === "akcesoria podrozne" && (
+      {props.category === "akcesoria podróżne" && (
         <img
           src=".\images\Pictograms\Akcesoria.svg"
           alt={props.category}

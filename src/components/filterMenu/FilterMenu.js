@@ -33,7 +33,7 @@ const FilterMenu = () => {
           Wybierz Kategorię
         </option>
         <option value="wszystkie">Wszystkie</option>
-        <option value="akcesoria podrozne">Akcesoria Podrozne</option>
+        <option value="akcesoria podróżne">Akcesoria Podróżne</option>
         <option value="bransoletki">Bransoletki</option>
         <option value="breloki">Breloki</option>
         <option value="czapki i nakrycia głowy">Czapki i Nakrycia głowy</option>
