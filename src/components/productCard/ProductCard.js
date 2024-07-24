@@ -104,60 +104,63 @@ const ProductCard = (card) => {
   }
 
   // JSX RETURN
+
   return (
     <>
-      {/* Send modal data to modalSlice */}
-      <div className={classes.card}>
-        <div
-          className={classes.card__header}
-          onClick={() => dispatch(openModalAction(card))}
-        >
-          {/* STORAGE LEVELS */} {/* PRODUKT NOWOSC */}
-          {card.new === true && (
-            <img
-              className={classes.nowosc}
-              src="/images/nowosc.png"
-              alt={card.name}
-            />
-          )}
-          {/* PRODUKT STAN MAGAZYNOWY */}
-          {/* brak danych */}
-          {noQuantity()}
-          {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
-          {highQuantity()}
-          {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
-          {midQuantity()}
-          {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
-          {lowQuantity()}
-          <div
-            className={
-              card.stock === 0
-                ? classes.img__wrapper + " " + classes.brak__produktu_img
-                : classes.img__wrapper
-            }
-          >
-            {!card.imageCover ? (
-              <Image
-                fill
-                className={classes.img}
-                src={"/images/brak_zdjecia.jpg"}
-                alt={card.name}
-                sizes="(max-width: 768px) 200vw,
+      {card.active && (
+        <>
+          {/* Send modal data to modalSlice */}
+          <div className={classes.card}>
+            <div
+              className={classes.card__header}
+              onClick={() => dispatch(openModalAction(card))}
+            >
+              {/* STORAGE LEVELS */} {/* PRODUKT NOWOSC */}
+              {card.new === true && (
+                <img
+                  className={classes.nowosc}
+                  src="/images/nowosc.png"
+                  alt={card.name}
+                />
+              )}
+              {/* PRODUKT STAN MAGAZYNOWY */}
+              {/* brak danych */}
+              {noQuantity()}
+              {/* produkt dostepny . >= od stan_optymalny  lub wiekszy od 80% stanu optymalnego*/}
+              {highQuantity()}
+              {/* Srednia dostepnosc produktu. stan_magazynowy  < 80% && >= 50%  stan_optymalny   */}
+              {midQuantity()}
+              {/* Mala dostepnosc produktu. stan_magazynowy  < 50% stan_optymalny  */}
+              {lowQuantity()}
+              <div
+                className={
+                  card.stock === 0
+                    ? classes.img__wrapper + " " + classes.brak__produktu_img
+                    : classes.img__wrapper
+                }
+              >
+                {!card.imageCover ? (
+                  <Image
+                    fill
+                    className={classes.img}
+                    src={"/images/brak_zdjecia.jpg"}
+                    alt={card.name}
+                    sizes="(max-width: 768px) 200vw,
             (max-width: 1200px) 50vw,
             33vw"
-              />
-            ) : (
-              <Image
-                fill
-                className={classes.img}
-                src={card.imageCover}
-                alt={card.name}
-                sizes="(max-width: 768px) 200vw,
+                  />
+                ) : (
+                  <Image
+                    fill
+                    className={classes.img}
+                    src={card.imageCover}
+                    alt={card.name}
+                    sizes="(max-width: 768px) 200vw,
           (max-width: 1200px) 50vw,
           33vw"
-              />
-            )}
-            {/* <Image
+                  />
+                )}
+                {/* <Image
               fill
               className={classes.img}
               src={card.image}
@@ -166,45 +169,49 @@ const ProductCard = (card) => {
               (max-width: 1200px) 50vw,
               33vw"
             /> */}
-          </div>
-          <div className={classes.image__overlay}>
-            <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
-            <Icon
-              icon="ph:magnifying-glass-bold"
-              className={classes.overlay__icon}
-            />
-          </div>
-        </div>
-        <div className={classes.card__details}>
-          <div className={classes.card__name}>{card.name}</div>
+              </div>
+              <div className={classes.image__overlay}>
+                <p className={classes.overlay__read_more}>Czytaj Więcej: </p>
+                <Icon
+                  icon="ph:magnifying-glass-bold"
+                  className={classes.overlay__icon}
+                />
+              </div>
+            </div>
+            <div className={classes.card__details}>
+              <div className={classes.card__name}>{card.name}</div>
 
-          {!favId.includes(card._id) ? (
-            <Icon
-              icon="fa6-solid:heart-circle-plus"
-              className={classes.icon}
-              onClick={() => dispatch(addFavAction(card))}
-            />
-          ) : (
-            <Icon
-              icon="fa:heart"
-              className={classes.icon + " " + classes.icon__remove}
-              onClick={() => dispatch(removeFavAction(card))}
-            />
-          )}
-        </div>
+              {!favId.includes(card._id) ? (
+                <Icon
+                  icon="fa6-solid:heart-circle-plus"
+                  className={classes.icon}
+                  onClick={() => dispatch(addFavAction(card))}
+                />
+              ) : (
+                <Icon
+                  icon="fa:heart"
+                  className={classes.icon + " " + classes.icon__remove}
+                  onClick={() => dispatch(removeFavAction(card))}
+                />
+              )}
+            </div>
 
-        <div
-          className={`${classes.card__details} ${classes.card__details_light}`}
-        >
-          <div>
-            Kod:{" "}
-            <span className={classes.card__details_span}>{card.pc_id} </span>
+            <div
+              className={`${classes.card__details} ${classes.card__details_light}`}
+            >
+              <div>
+                Kod:{" "}
+                <span className={classes.card__details_span}>
+                  {card.pc_id}{" "}
+                </span>
+              </div>
+              <span className={classes.card__details_wymiary}>
+                {card.dimensions}
+              </span>
+            </div>
           </div>
-          <span className={classes.card__details_wymiary}>
-            {card.dimensions}
-          </span>
-        </div>
-      </div>
+        </>
+      )}
     </>
   );
 };
