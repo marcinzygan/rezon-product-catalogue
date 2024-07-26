@@ -40,7 +40,7 @@ const FilterMenu = () => {
         <option value="do auta">Do Auta</option>
         <option value="dziecięce">Dziecięce</option>
         <option value="długopisy">Długopisy</option>
-        <option value="kubki i podkładki">Kubki i Podkładki</option>
+        <option value="ceramika i szkło">Ceramika i Szkło</option>
         <option value="magnesy">Magnesy</option>
         <option value="otwieracze">Otwieracze</option>
         <option value="tekstylia">Tekstylia</option>

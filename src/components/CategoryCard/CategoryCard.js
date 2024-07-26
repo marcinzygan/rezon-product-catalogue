@@ -7,7 +7,7 @@ const CategoryCard = (props) => {
       {/* Magnesy */}
       {props.category === "magnesy" && (
         <img
-          src=".\images\Pictograms\Masnesy.svg"
+          src=".\images\pictograms\masnesy.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -15,7 +15,7 @@ const CategoryCard = (props) => {
       {/* Breloki */}
       {props.category === "breloki" && (
         <img
-          src=".\images\Pictograms\Breloki.svg"
+          src=".\images\pictograms\breloki.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -23,15 +23,15 @@ const CategoryCard = (props) => {
       {/* Otwieracze */}
       {props.category === "otwieracze" && (
         <img
-          src=".\images\Pictograms\Otwieracze.svg"
+          src=".\images\pictograms\otwieracze.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
       )}
-      {/* Kubki i Podkadki */}
-      {props.category === "kubki i podkładki" && (
+      {/* Ceramika i Szkło */}
+      {props.category === "ceramika i szkło" && (
         <img
-          src=".\images\Pictograms\Kubki.svg"
+          src=".\images\pictograms\kubki i podkładki.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -39,7 +39,7 @@ const CategoryCard = (props) => {
       {/* Długopisy */}
       {props.category === "długopisy" && (
         <img
-          src=".\images\Pictograms\Długopisy.svg"
+          src=".\images\pictograms\długopisy.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -47,7 +47,7 @@ const CategoryCard = (props) => {
       {/* Czapki i Nakrycia Głowy */}
       {props.category === "czapki i nakrycia głowy" && (
         <img
-          src=".\images\Pictograms\Nakrycia.svg"
+          src=".\images\pictograms\czapki i nakrycia głowy.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -55,7 +55,7 @@ const CategoryCard = (props) => {
       {/* Bransoletki */}
       {props.category === "bransoletki" && (
         <img
-          src=".\images\Pictograms\Bransoletki.svg"
+          src=".\images\pictograms\bransoletki.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -63,7 +63,7 @@ const CategoryCard = (props) => {
       {/* Tekstylia */}
       {props.category === "tekstylia" && (
         <img
-          src=".\images\Pictograms\Tekstylia.svg"
+          src=".\images\pictograms\tekstylia.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -71,7 +71,7 @@ const CategoryCard = (props) => {
       {/* Ozdoby Domowe */}
       {props.category === "ozdoby domowe" && (
         <img
-          src=".\images\Pictograms\Ozdoby.svg"
+          src=".\images\pictograms\ozdoby.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -79,7 +79,7 @@ const CategoryCard = (props) => {
       {/* Akcesoria Podróżne */}
       {props.category === "akcesoria podróżne" && (
         <img
-          src=".\images\Pictograms\Akcesoria.svg"
+          src=".\images\pictograms\akcesoria podróżne.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -87,7 +87,7 @@ const CategoryCard = (props) => {
       {/* Dziecięce */}
       {props.category === "dziecięce" && (
         <img
-          src=".\images\Pictograms\Dzieciece.svg"
+          src=".\images\pictograms\dziecięce.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -95,7 +95,7 @@ const CategoryCard = (props) => {
       {/* Do Auta */}
       {props.category === "do auta" && (
         <img
-          src=".\images\Pictograms\DoAuta.svg"
+          src=".\images\pictograms\do auta.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -103,7 +103,7 @@ const CategoryCard = (props) => {
       {/* Zapalniczki */}
       {props.category === "zapalniczki i popielniczki" && (
         <img
-          src=".\images\Pictograms\Zapalniczki.svg"
+          src=".\images\pictograms\zapalniczki i popielniczki.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -111,7 +111,7 @@ const CategoryCard = (props) => {
       {/* Upominki Biznesowe */}
       {props.category === "upominki biznesowe" && (
         <img
-          src=".\images\Pictograms\Upominki.svg"
+          src=".\images\pictograms\upominki biznesowe.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -119,7 +119,7 @@ const CategoryCard = (props) => {
       {/* Sublimacja */}
       {props.category === "sublimacja" && (
         <img
-          src=".\images\Pictograms\Sublimacja.svg"
+          src=".\images\pictograms\Sublimacja.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
@@ -127,7 +127,7 @@ const CategoryCard = (props) => {
       {/* Zestawy */}
       {props.category === "zestawy" && (
         <img
-          src=".\images\Pictograms\Zestawy.svg"
+          src=".\images\pictograms\zestawy.svg"
           alt={props.category}
           className={classes.category__svg}
         ></img>
