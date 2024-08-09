@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import React from "react";
 import classes from "./footer.module.css";
+import Link from "next/link";
 const Footer = () => {
   // Dynamic date Display
   const date = new Date().getFullYear();
@@ -102,6 +103,9 @@ const Footer = () => {
       <div className={classes.footer__date_container}>
         <p className={classes.footer__date}>{date}</p>
         <p className={classes.footer__copy_name}>© Rezon.eu</p>
+        <p className={classes.developer__details}>
+          Website by:<Link href="https://zygandesign.com">ZyganDesign</Link>
+        </p>
       </div>
 
       <a id="arrow" className={classes.top__arrow} href="#home">

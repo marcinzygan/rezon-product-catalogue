@@ -115,6 +115,12 @@
   height: 30px;
   color: var(--clr-accent);
 }
+.developer__details {
+  font-size: 0.8rem;
+}
+.developer__details > a {
+  color: var(--clr-accent);
+}
 @media (min-width: 800px) {
   .details__wrapper {
     flex-direction: row;
