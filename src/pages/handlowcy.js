@@ -111,10 +111,29 @@ const handlowcy = () => {
           </p>
           <p className={classes.icon__container}>
             <Icon icon="ph:globe" className={classes.icon} />
-            Region: Oferta dla hoteli, ośrodków i firm
+            Oferta dla hoteli, ośrodków i firm. Region: Pomorze
           </p>
         </div>
         {/* 6 */}
+        <div className={classes.personal__details_container}>
+          <p className={classes.name}>Estera Giemza</p>
+          <p className={classes.icon__container}>
+            <Icon
+              icon="material-symbols:phone-in-talk-watchface-indicator"
+              className={classes.icon}
+            />{" "}
+            Tel : +48 694 945 537{" "}
+          </p>
+          <p className={classes.icon__container}>
+            <Icon icon="ic:baseline-email" className={classes.icon} />
+            E-mail: estera.giemza@rezon.eu
+          </p>
+          <p className={classes.icon__container}>
+            <Icon icon="ph:globe" className={classes.icon} />
+            Oferta dla hoteli, ośrodków i firm. Region: Centrum, Południe
+          </p>
+        </div>
+        {/* 7 */}
         <div className={classes.personal__details_container}>
           <p className={classes.name}>Daniel Możdżyński</p>
           <p className={classes.icon__container}>
