@@ -26,8 +26,14 @@ const kontakt = () => {
               hurtownia@rezon.eu
               <br></br>
               <br></br>Hurtownia czynna jest od:<br></br>
-              Poniedziałku do Piątku: 7:00 - 16:00
-              <br></br> Sobota: 8:00 - 13:00
+              Poniedziałek - Piątek: 7:00 - 15:00
+              <br></br>
+              <br></br>
+              (od maja - do sierpnia):
+              <br></br>
+              Poniedziałek - Piątek: 7:00 - 16:00
+              <br></br>
+              Sobota: 7:00 - 13:00
             </p>
           </div>
           <GoogleMap />
