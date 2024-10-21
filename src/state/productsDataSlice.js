@@ -13,12 +13,7 @@ const initialState = {
 };
 
 export const fetchData = createAsyncThunk("data/fetchData", async () => {
-  const response = await fetch("https://rezon-api.vercel.app/api/v1/products", {
-    headers: {
-      "Content-type": "application/json",
-      "Access-Control-Allow-Origin": "*",
-    },
-  });
+  const response = await fetch("https://rezon-api.vercel.app/api/v1/products");
   const jsonData = await response.json();
   return jsonData;
 });
